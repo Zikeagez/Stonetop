@@ -1,1 +1,0 @@
-![[Orc Traits.base]]

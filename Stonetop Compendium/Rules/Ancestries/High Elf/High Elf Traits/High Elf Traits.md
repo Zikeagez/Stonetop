@@ -1,1 +1,0 @@
-![[High Elf Traits.base]]

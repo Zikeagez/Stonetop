@@ -1,1 +1,0 @@
-You have 3 ancestry points to spend on the following traits. (_Quick Build:_ Beyondsight, Psionic Gift with Psionic Bolt.)
