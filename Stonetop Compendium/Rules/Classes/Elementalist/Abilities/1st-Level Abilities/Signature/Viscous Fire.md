@@ -1,0 +1,71 @@
+---
+ability_type: Signature
+action_type: Main action
+class: elementalist
+distance: Ranged 10
+feature_type: ability
+file_basename: Viscous Fire
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: A jet of heavy fire erupts where you strike.
+item_id: viscous-fire
+item_index: '11'
+item_name: Viscous Fire
+keywords:
+- Fire
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:viscous-fire
+scdc:
+- 1.1.1:11.3.9.1:11
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Viscous Fire
+flavor: A jet of heavy fire erupts where you strike.
+keywords:
+  - Fire
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: elementalist
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Viscous Fire
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: A jet of heavy fire erupts where you strike.
+  item_id: viscous-fire
+  item_index: "11"
+  item_name: Viscous Fire
+  keywords:
+    - Fire
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:viscous-fire
+  scdc:
+    - 1.1.1:11.3.9.1:11
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 + R fire damage; push 2
+    tier2: 5 + R fire damage; push 3
+    tier3: 7 + R fire damage; push 4
+```

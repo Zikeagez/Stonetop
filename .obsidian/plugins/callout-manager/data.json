@@ -1,0 +1,46 @@
+{
+  "callouts": {
+    "custom": [
+      "Treasure",
+      "Read This",
+      "Character",
+      "aaa"
+    ],
+    "settings": {
+      "Treasure": [
+        {
+          "changes": {
+            "icon": "lucide-badge-dollar-sign",
+            "color": "0, 117, 2"
+          }
+        }
+      ],
+      "help": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        }
+      ],
+      "Character": [
+        {
+          "changes": {
+            "icon": "lucide-user"
+          }
+        }
+      ],
+      "aaa": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

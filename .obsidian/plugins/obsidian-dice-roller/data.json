@@ -1,0 +1,131 @@
+{
+  "position": "RIGHT",
+  "showFudgeIcon": false,
+  "rollLinksForTags": false,
+  "copyContentButton": true,
+  "customFormulas": [],
+  "displayFormulaForMod": true,
+  "displayResultsInline": false,
+  "displayFormulaAfter": false,
+  "escapeDiceMod": true,
+  "signed": false,
+  "displayLookupRoll": true,
+  "formulas": {},
+  "defaultRoll": 1,
+  "defaultFace": 100,
+  "renderer": true,
+  "renderAllDice": true,
+  "addToView": false,
+  "renderTime": 0,
+  "colorfulDice": true,
+  "scaler": 0.8,
+  "diceColor": "#640c61",
+  "textColor": "#ffffff",
+  "textFont": "Arial",
+  "showLeafOnStartup": true,
+  "narrativeSymbolSet": "Genesys",
+  "displayAsSymbols": false,
+  "displayAsEmbed": true,
+  "round": "None",
+  "initialDisplay": "Roll",
+  "icons": [
+    {
+      "id": "dice-roller-d4",
+      "shape": "Triangle",
+      "formula": "d4",
+      "text": "4"
+    },
+    {
+      "id": "dice-roller-d6",
+      "shape": "Square",
+      "formula": "d6",
+      "text": "6"
+    },
+    {
+      "id": "dice-roller-d8",
+      "shape": "Diamond",
+      "formula": "d8",
+      "text": "8"
+    },
+    {
+      "id": "dice-roller-d10",
+      "shape": "Diamond",
+      "formula": "d10",
+      "text": "10"
+    },
+    {
+      "id": "dice-roller-d12",
+      "shape": "Dodecahedron",
+      "formula": "d12",
+      "text": "12"
+    },
+    {
+      "id": "dice-roller-d20",
+      "shape": "Icosahedron",
+      "formula": "d20",
+      "text": "20"
+    },
+    {
+      "id": "dice-roller-d100",
+      "shape": "Circle",
+      "formula": "d%",
+      "text": "%"
+    }
+  ],
+  "showRenderNotice": true,
+  "diceModTemplateFolders": {},
+  "replaceDiceModInLivePreview": true,
+  "version": "11.4.2",
+  "viewResults": [
+    {
+      "result": "8",
+      "original": "1d8",
+      "resultText": "1d8\n[8]",
+      "timestamp": 1747356202609,
+      "id": "adPMIvhPTRt0"
+    },
+    {
+      "result": "4",
+      "original": "1d8",
+      "resultText": "1d8\n[4]",
+      "timestamp": 1747356212473,
+      "id": "RSo1HrD_jXJf"
+    },
+    {
+      "result": "7",
+      "original": "1d8",
+      "resultText": "1d8\n[7]",
+      "timestamp": 1747356216171,
+      "id": "_E7Ze40-UH71"
+    },
+    {
+      "result": "3",
+      "original": "1d8",
+      "resultText": "1d8\n[3]",
+      "timestamp": 1747356223310,
+      "id": "lb16bcWGTkQx"
+    },
+    {
+      "result": "1",
+      "original": "1d8",
+      "resultText": "1d8\n[1]",
+      "timestamp": 1747356232924,
+      "id": "i3L2fef8dTud"
+    },
+    {
+      "result": "6",
+      "original": "1d8",
+      "resultText": "1d8\n[6]",
+      "timestamp": 1747356242747,
+      "id": "XKZOhIvfJN4o"
+    },
+    {
+      "result": "1",
+      "original": "1d8",
+      "resultText": "1d8\n[1]",
+      "timestamp": 1747356276491,
+      "id": "ux2B9MGlKo0F"
+    }
+  ],
+  "showDice": true
+}

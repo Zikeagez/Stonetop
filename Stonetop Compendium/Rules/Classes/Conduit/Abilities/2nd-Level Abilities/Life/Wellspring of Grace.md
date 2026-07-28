@@ -1,0 +1,71 @@
+---
+action_type: Main action
+class: conduit
+cost: 5 Piety
+cost_amount: 5
+cost_resource: Piety
+distance: 3 aura
+feature_type: ability
+file_basename: Wellspring of Grace
+file_dpath: Abilities/Conduit/2nd-Level Features
+flavor: A holy light is emitted from your body, healing your allies.
+item_id: wellspring-of-grace-5-piety
+item_index: 08
+item_name: Wellspring of Grace (5 Piety)
+keywords:
+- Area
+- Magic
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace
+scdc:
+- 1.1.1:11.3.8.5:08
+source: mcdm.heroes.v1
+subclass: Life
+target: Each ally in the area
+type: feature/ability/conduit/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Wellspring of Grace
+cost: 5 Piety
+flavor: A holy light is emitted from your body, healing your allies.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 3 aura
+target: Each ally in the area
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 5 Piety
+  cost_amount: 5
+  cost_resource: Piety
+  distance: 3 aura
+  feature_type: ability
+  file_basename: Wellspring of Grace
+  file_dpath: Abilities/Conduit/2nd-Level Features
+  flavor: A holy light is emitted from your body, healing your allies.
+  item_id: wellspring-of-grace-5-piety
+  item_index: 8
+  item_name: Wellspring of Grace (5 Piety)
+  keywords:
+    - Area
+    - Magic
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace
+  scdc:
+    - 1.1.1:11.3.8.5:08
+  source: mcdm.heroes.v1
+  subclass: Life
+  target: Each ally in the area
+  type: feature/ability/conduit/2nd-level-feature
+effects:
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, whenever a target
+      starts their turn in the area, they can spend a Recovery.
+```

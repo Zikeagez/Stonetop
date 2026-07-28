@@ -1,0 +1,65 @@
+---
+action_type: Maneuver
+class: tactician
+cost: 5 Focus
+cost_amount: 5
+cost_resource: Focus
+distance: Ranged 10
+feature_type: ability
+file_basename: Now
+file_dpath: Abilities/Tactician/1st-Level Features
+flavor: Your allies wait for your command—then unleash death!
+item_id: now-5-focus
+item_index: 08
+item_name: Now! (5 Focus)
+keywords:
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:now
+scdc:
+- 1.1.1:11.3.4.1:08
+source: mcdm.heroes.v1
+target: Three allies
+type: feature/ability/tactician/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Now!
+cost: 5 Focus
+flavor: Your allies wait for your command—then unleash death!
+keywords:
+  - Ranged
+usage: Maneuver
+distance: Ranged 10
+target: Three allies
+metadata:
+  action_type: Maneuver
+  class: tactician
+  cost: 5 Focus
+  cost_amount: 5
+  cost_resource: Focus
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Now
+  file_dpath: Abilities/Tactician/1st-Level Features
+  flavor: Your allies wait for your command—then unleash death!
+  item_id: now-5-focus
+  item_index: 8
+  item_name: Now! (5 Focus)
+  keywords:
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:now
+  scdc:
+    - 1.1.1:11.3.4.1:08
+  source: mcdm.heroes.v1
+  target: Three allies
+  type: feature/ability/tactician/1st-level-feature
+effects:
+  - name: Effect
+    effect: Each target can make a free strike.
+```

@@ -1,0 +1,193 @@
+.hft-toolbar {
+    position: fixed;
+    bottom: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    max-width: 92vw;
+    padding: 6px 10px;
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 10px;
+    box-shadow: var(--shadow-s, 0 2px 8px rgba(0, 0, 0, 0.25));
+    z-index: 50;
+}
+
+.hft-toolbar.hft-hidden {
+    display: none;
+}
+
+.hft-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3px;
+}
+
+.hft-group:not(:last-child)::after {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: var(--background-modifier-border);
+    margin: 0 5px;
+}
+
+.hft-btn {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text-normal);
+    box-shadow: none;
+}
+
+.hft-btn:hover {
+    background: var(--background-modifier-hover);
+    border-color: var(--background-modifier-border);
+}
+
+.hft-a {
+    font-weight: 700;
+}
+
+.hft-swatch {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+}
+
+.hft-b { font-weight: 700; }
+.hft-omega { font-weight: 700; }
+.hft-i { font-style: italic; }
+.hft-u { text-decoration: underline; }
+.hft-s { text-decoration: line-through; }
+
+.hft-sep {
+    width: 1px;
+    height: 20px;
+    background: var(--background-modifier-border);
+    margin: 0 5px;
+}
+
+.hft-hidden-color {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hft-caret {
+    width: 14px;
+    font-size: 9px;
+    color: var(--text-muted);
+}
+
+.hft-select {
+    height: 26px;
+    font-size: 12px;
+    padding: 0 4px;
+}
+
+/* Image embeds aligned via the alias keyword: ![[img.png|center|300]].
+   Post-1.12.4, Obsidian's core stylesheet locks embed margins in Live
+   Preview (.cm-content > * sets margin with priority), so the editor
+   rules move the embed with a transform, which that lock does not cover.
+   Reading mode is aligned through plain margins. */
+.markdown-source-view.mod-cm6 .cm-content .internal-embed.image-embed[alt^="center"] {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.markdown-source-view.mod-cm6 .cm-content .internal-embed.image-embed[alt^="right"] {
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.markdown-rendered .internal-embed.image-embed[alt^="center"],
+.markdown-rendered img[alt^="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.markdown-rendered .internal-embed.image-embed[alt^="right"],
+.markdown-rendered img[alt^="right"] {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Symbol picker modal */
+.hft-symbol-search {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.hft-symbol-group {
+    margin-bottom: 4px;
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+}
+
+.hft-symbol-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 14px;
+}
+
+.hft-symbol {
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 1;
+    color: var(--text-normal);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.hft-symbol:hover {
+    background: var(--background-modifier-hover);
+}
+
+.hft-symbol-empty {
+    color: var(--text-muted);
+}
+
+/* Settings tab: preset rows are name + value + (picker) + delete */
+.hft-setting-row .setting-item-info {
+    display: none;
+}
+
+.hft-setting-row .setting-item-control {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.hft-setting-row input.hft-setting-value {
+    flex-grow: 1;
+    font-family: var(--font-monospace);
+}

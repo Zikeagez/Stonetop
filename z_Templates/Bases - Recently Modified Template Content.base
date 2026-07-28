@@ -1,0 +1,21 @@
+formulas:
+  Folder Path: file.path
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - or:
+            - file.path.contains("z_Templates")
+            - file.path.contains("0. DM Screen")
+            - file.path.contains("z_Assets")
+    order:
+      - file.name
+      - file.mtime
+      - formula.Folder Path
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.mtime: 231

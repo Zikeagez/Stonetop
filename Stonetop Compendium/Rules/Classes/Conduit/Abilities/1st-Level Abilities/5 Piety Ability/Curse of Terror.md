@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: conduit
+cost: 5 Piety
+cost_amount: 5
+cost_resource: Piety
+distance: Ranged 10
+feature_type: ability
+file_basename: Curse of Terror
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: Fear of divine judgment overwhelms your foe.
+item_id: curse-of-terror-5-piety
+item_index: '07'
+item_name: Curse of Terror (5 Piety)
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:curse-of-terror
+scdc:
+- 1.1.1:11.3.8.1:07
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Curse of Terror
+cost: 5 Piety
+flavor: Fear of divine judgment overwhelms your foe.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 5 Piety
+  cost_amount: 5
+  cost_resource: Piety
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Curse of Terror
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: Fear of divine judgment overwhelms your foe.
+  item_id: curse-of-terror-5-piety
+  item_index: "07"
+  item_name: Curse of Terror (5 Piety)
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:curse-of-terror
+  scdc:
+    - 1.1.1:11.3.8.1:07
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 6 + I holy damage; I < WEAK, frightened (save ends)
+    tier2: 9 + I holy damage; I < AVERAGE, frightened (save ends)
+    tier3: 13 + I holy damage; I < STRONG, frightened (save ends)
+```

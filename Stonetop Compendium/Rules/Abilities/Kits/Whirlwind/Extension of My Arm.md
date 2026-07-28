@@ -1,0 +1,65 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 3
+file_basename: Extension of My Arm
+file_dpath: Abilities/Kits/Whirlwind
+flavor: When you draw your whip back after an attack, your enemy is drawn ever closer.
+item_id: extension-of-my-arm
+item_index: '01'
+item_name: Extension of My Arm
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
+scdc:
+- 1.1.1:14.9:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/whirlwind
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Extension of My Arm
+flavor: When you draw your whip back after an attack, your enemy is drawn ever closer.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 3
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 3
+  file_basename: Extension of My Arm
+  file_dpath: Abilities/Kits/Whirlwind
+  flavor: When you draw your whip back after an attack, your enemy is drawn ever
+    closer.
+  item_id: extension-of-my-arm
+  item_index: "01"
+  item_name: Extension of My Arm
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
+  scdc:
+    - 1.1.1:14.9:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/whirlwind
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 4 + M or A damage; vertical pull 1
+    tier2: 7 + M or A damage; vertical pull 2
+    tier3: 10 + M or A damage; vertical pull 3
+```

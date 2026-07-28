@@ -1,0 +1,43 @@
+---
+action_type: feature
+class: 'null'
+feature_type: subtrait
+file_basename: Entropic Adaptability
+file_dpath: Features/Null/2nd-Level Features/2nd-Level Tradition Feature
+item_id: entropic-adaptability
+item_index: '05'
+item_name: Entropic Adaptability
+level: 2
+scc:
+- mcdm.heroes.v1:feature.subtrait.null.2nd-level-feature:entropic-adaptability
+scdc:
+- 1.1.1:11.2.6.2:05
+source: mcdm.heroes.v1
+type: feature/subtrait/null/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Entropic Adaptability
+metadata:
+  action_type: feature
+  class: "null"
+  feature_type: subtrait
+  file_basename: Entropic Adaptability
+  file_dpath: Features/Null/2nd-Level Features/2nd-Level Tradition Feature
+  item_id: entropic-adaptability
+  item_index: "05"
+  item_name: Entropic Adaptability
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.null.2nd-level-feature:entropic-adaptability
+  scdc:
+    - 1.1.1:11.2.6.2:05
+  source: mcdm.heroes.v1
+  type: feature/subtrait/null/2nd-level-feature
+effects:
+  - effect: You have cold immunity equal to twice your Intuition score.
+      Additionally, you ignore difficult terrain related to cold and ice, and
+      you can automatically climb at full speed while moving.
+```

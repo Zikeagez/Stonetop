@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: fury
+cost: 9 Ferocity
+cost_amount: 9
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Pounce
+file_dpath: Abilities/Fury/6th-Level Features
+flavor: You strike at the target like the ultimate predator you are.
+item_id: pounce-9-ferocity
+item_index: '03'
+item_name: Pounce (9 Ferocity)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce
+scdc:
+- 1.1.1:11.3.5.3:03
+source: mcdm.heroes.v1
+subclass: Stormwight
+target: One creature
+type: feature/ability/fury/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Pounce
+cost: 9 Ferocity
+flavor: You strike at the target like the ultimate predator you are.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 9 Ferocity
+  cost_amount: 9
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Pounce
+  file_dpath: Abilities/Fury/6th-Level Features
+  flavor: You strike at the target like the ultimate predator you are.
+  item_id: pounce-9-ferocity
+  item_index: "03"
+  item_name: Pounce (9 Ferocity)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce
+  scdc:
+    - 1.1.1:11.3.5.3:03
+  source: mcdm.heroes.v1
+  subclass: Stormwight
+  target: One creature
+  type: feature/ability/fury/6th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 8 damage; M < WEAK, grabbed
+    tier2: 13 damage; M < AVERAGE, grabbed
+    tier3: 17 damage; M < STRONG, grabbed
+  - name: Effect
+    effect: You can shift up to 4 squares, bringing the target with you. While
+      grabbed this way, the target takes damage equal to twice your Might score
+      at the start of each of your turns.
+```

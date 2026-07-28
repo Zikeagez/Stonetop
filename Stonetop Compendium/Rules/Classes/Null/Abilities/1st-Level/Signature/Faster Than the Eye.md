@@ -1,0 +1,74 @@
+---
+ability_type: Signature
+action_type: Main action
+class: 'null'
+distance: Melee 1
+feature_type: ability
+file_basename: Faster Than the Eye
+file_dpath: Abilities/Null/1st-Level Features
+flavor: You strike so quickly that your hands become a blur.
+item_id: faster-than-the-eye
+item_index: '04'
+item_name: Faster Than the Eye
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:faster-than-the-eye
+scdc:
+- 1.1.1:11.3.6.1:04
+source: mcdm.heroes.v1
+target: Two creatures or objects
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Faster Than the Eye
+flavor: You strike so quickly that your hands become a blur.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: Two creatures or objects
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: "null"
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Faster Than the Eye
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: You strike so quickly that your hands become a blur.
+  item_id: faster-than-the-eye
+  item_index: "04"
+  item_name: Faster Than the Eye
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:faster-than-the-eye
+  scdc:
+    - 1.1.1:11.3.6.1:04
+  source: mcdm.heroes.v1
+  target: Two creatures or objects
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 4 damage
+    tier2: 5 damage
+    tier3: 7 damage
+  - name: Effect
+    effect: You can deal damage equal to your Agility score to one creature or
+      object adjacent to you.
+```

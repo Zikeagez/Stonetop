@@ -1,0 +1,80 @@
+---
+action_type: Maneuver
+class: 'null'
+cost: 11 Discipline
+cost_amount: 11
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Heat Drain
+file_dpath: Abilities/Null/9th-Level Features
+flavor: You drain all the heat from the target.
+item_id: heat-drain-11-discipline
+item_index: '05'
+item_name: Heat Drain (11 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain
+scdc:
+- 1.1.1:11.3.6.7:05
+source: mcdm.heroes.v1
+subclass: Cryokinetic
+target: One creature
+type: feature/ability/null/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Heat Drain
+cost: 11 Discipline
+flavor: You drain all the heat from the target.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+usage: Maneuver
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Maneuver
+  class: "null"
+  cost: 11 Discipline
+  cost_amount: 11
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Heat Drain
+  file_dpath: Abilities/Null/9th-Level Features
+  flavor: You drain all the heat from the target.
+  item_id: heat-drain-11-discipline
+  item_index: "05"
+  item_name: Heat Drain (11 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain
+  scdc:
+    - 1.1.1:11.3.6.7:05
+  source: mcdm.heroes.v1
+  subclass: Cryokinetic
+  target: One creature
+  type: feature/ability/null/9th-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 8 + I cold damage; M < WEAK, restrained (save ends)
+    tier2: 11 + I cold damage; M < AVERAGE, restrained (save ends)
+    tier3: 15 + I cold damage; M < STRONG, restrained (save ends)
+  - name: Effect
+    effect: While restrained this way, the target takes cold damage equal to your
+      Intuition score at the start of each of your turns. Additionally, whenever
+      the target damages another creature while restrained this way, any potency
+      associated with the damage is reduced by 2.
+```

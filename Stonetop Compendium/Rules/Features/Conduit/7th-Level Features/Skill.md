@@ -1,0 +1,41 @@
+---
+action_type: feature
+class: conduit
+feature_type: trait
+file_basename: Skill
+file_dpath: Features/Conduit/7th-Level Features
+item_id: skill
+item_index: '02'
+item_name: Skill
+level: 7
+scc:
+- mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:skill
+scdc:
+- 1.1.1:11.1.8.9:02
+source: mcdm.heroes.v1
+type: feature/trait/conduit/7th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Skill
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: trait
+  file_basename: Skill
+  file_dpath: Features/Conduit/7th-Level Features
+  item_id: skill
+  item_index: "02"
+  item_name: Skill
+  level: 7
+  scc:
+    - mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:skill
+  scdc:
+    - 1.1.1:11.1.8.9:02
+  source: mcdm.heroes.v1
+  type: feature/trait/conduit/7th-level-feature
+effects:
+  - effect: You gain one skill of your choice.
+```

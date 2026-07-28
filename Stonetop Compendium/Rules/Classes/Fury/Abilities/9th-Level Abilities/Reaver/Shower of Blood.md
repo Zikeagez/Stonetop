@@ -1,0 +1,84 @@
+---
+action_type: Main action
+class: fury
+cost: 11 Ferocity
+cost_amount: 11
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Shower of Blood
+file_dpath: Abilities/Fury/9th-Level Features
+flavor: You shock your foes with the brutality of your strike, resetting the balance
+  of combat.
+item_id: shower-of-blood-11-ferocity
+item_index: '03'
+item_name: Shower of Blood (11 Ferocity)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood
+scdc:
+- 1.1.1:11.3.5.7:03
+source: mcdm.heroes.v1
+subclass: Reaver
+target: One creature
+type: feature/ability/fury/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Shower of Blood
+cost: 11 Ferocity
+flavor: You shock your foes with the brutality of your strike, resetting the
+  balance of combat.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Shower of Blood
+  file_dpath: Abilities/Fury/9th-Level Features
+  flavor: You shock your foes with the brutality of your strike, resetting the
+    balance of combat.
+  item_id: shower-of-blood-11-ferocity
+  item_index: "03"
+  item_name: Shower of Blood (11 Ferocity)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood
+  scdc:
+    - 1.1.1:11.3.5.7:03
+  source: mcdm.heroes.v1
+  subclass: Reaver
+  target: One creature
+  type: feature/ability/fury/9th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 12 + M damage
+    tier2: 18 + M damage
+    tier3: 24 + M damage
+  - name: Effect
+    effect: Each enemy within 5 squares of you is distracted until the end of the
+      round. While a creature is distracted this way, they can't take triggered
+      actions or free triggered actions, ability rolls made against them gain an
+      edge, and their characteristic scores are considered 1 lower for the
+      purpose of resisting potencies.
+```

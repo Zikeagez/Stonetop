@@ -1,0 +1,1777 @@
+{
+  "monsters": [
+    [
+      "Elite Aapoph Serpentfolk",
+      {
+        "columns": 2,
+        "forcecolumns": true,
+        "layout": "Basic Pathfinder 2e Layout",
+        "token": "<STATBLOCK-WIKI-LINK>modules/pf2e-tokens-bestiaries/portraits/humanoid/darklands/aapoph-serpentfolk.webp| <STATBLOCK-WIKI-LINK>",
+        "source": "Pathfinder Monster Core",
+        "name": "Elite Aapoph Serpentfolk",
+        "level": "Creature 4",
+        "rare_03": "<STATBLOCK-WIKI-LINK>Uncommon<STATBLOCK-WIKI-LINK>",
+        "alignment": "",
+        "size": "Medium",
+        "trait_01": "<STATBLOCK-WIKI-LINK>humanoid<STATBLOCK-WIKI-LINK>",
+        "trait_02": "<STATBLOCK-WIKI-LINK>mutant<STATBLOCK-WIKI-LINK>",
+        "trait_03": "<STATBLOCK-WIKI-LINK>serpentfolk<STATBLOCK-WIKI-LINK>",
+        "modifier": 8,
+        "perception": [
+          {
+            "name": "Perception",
+            "desc": "+10; Darkvision, Scent (Imprecise) 30 Feet"
+          }
+        ],
+        "languages": "Aklo, Sakvroth; Telepathy 100 feet",
+        "skills": [
+          {
+            "name": "Skills",
+            "desc": "Acrobatics: +9, Athletics: +13, Intimidation: +8"
+          }
+        ],
+        "abilityMods": [
+          4,
+          2,
+          3,
+          -1,
+          1,
+          -1
+        ],
+        "speed": "25 feet",
+        "sourcebook": "_Pathfinder Monster Core_",
+        "ac": 20,
+        "armorclass": [
+          {
+            "name": "AC",
+            "desc": "20; __Fort__ +12, __Ref__ +9, __Will__ +8; +2 status to will saves vs. mental"
+          }
+        ],
+        "hp": 75,
+        "health": [
+          {
+            "name": ""
+          },
+          {
+            "name": "HP",
+            "desc": "75; __Resistances__ poison 5"
+          }
+        ],
+        "abilities_top": [
+          {
+            "name": ""
+          },
+          {
+            "name": "Items",
+            "desc": "<STATBLOCK-WIKI-LINK>Equipment/Scimitar|Scimitar<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Telepathy|Telepathy 100 feet<STATBLOCK-WIKI-LINK>",
+            "desc": " (aura,magical,mental) A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would."
+          }
+        ],
+        "abilities_mid": [
+          {
+            "name": ""
+          },
+          {
+            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Reactive Strike|Reactive Strike<STATBLOCK-WIKI-LINK>",
+            "desc": "`pf2:r`  **Trigger** A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.\n* * *\n\n**Effect** The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike."
+          }
+        ],
+        "attacks": [
+          {
+            "name": ""
+          },
+          {
+            "name": "**Melee** `pf2:1` Scimitar",
+            "desc": "+11 (forceful, sweep)\n__Damage__  1d6 + 8 slashing"
+          },
+          {
+            "name": "**Melee** `pf2:1` Fangs",
+            "desc": "+11 ()\n__Damage__  1d8 + 8 piercing plus *serpentfolk-venom*"
+          },
+          {
+            "name": "**Melee** `pf2:1` Tail",
+            "desc": "+11 (agile)\n__Damage__  1d6 + 8 bludgeoning plus *Knockdown*"
+          },
+          {
+            "name": "Serpentfolk Venom",
+            "desc": " (poison) **Saving Throw** `DC 22 Fortitude check`\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 + 2 poison damage and <STATBLOCK-WIKI-LINK>Conditions/Enfeebled|Enfeebled 1<STATBLOCK-WIKI-LINK> (1 round)\n\n**Stage 2** 2d4 + 2 poison damage and enfeebled 1 (1 round)"
+          },
+          {
+            "name": "Slithering Attack",
+            "desc": "`pf2:1`  The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
+          },
+          {
+            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Knockdown|Knockdown<STATBLOCK-WIKI-LINK>",
+            "desc": "`pf2:1`  **Requirements** The monster's last action was a successful Strike that lists Knockdown in its damage entry\n* * *\n\n**Effect** The monster attempts to <STATBLOCK-WIKI-LINK>Actions/trip|trip<STATBLOCK-WIKI-LINK> the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty."
+          }
+        ]
+      }
+    ]
+  ],
+  "defaultLayouts": {
+    "basic-bnb-familiar-layout": {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "aabbab5bb92a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "image",
+              "id": "a80b9a1a791b",
+              "properties": [
+                "Token"
+              ],
+              "fallback": "-",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "19788a293819",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "bb98085bdbab",
+              "properties": [
+                "Name"
+              ],
+              "fallback": "Unknown",
+              "conditioned": false,
+              "size": 1
+            },
+            {
+              "type": "property",
+              "id": "f97b886ba819",
+              "properties": [
+                "Type"
+              ],
+              "fallback": "Unknown",
+              "display": "",
+              "conditioned": true,
+              "markdown": true,
+              "dice": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "c81968abe80b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "4809ea49d92a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "48f93a487988",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "4dc7e12b6c6c",
+                      "properties": [
+                        "MovementType"
+                      ],
+                      "fallback": "-",
+                      "display": " ",
+                      "conditioned": true,
+                      "callback": "const Move = monster.MovementType;\nconst Types = ['move', 'flight', 'swim', 'burrow', 'teleport', 'leap', 'hover', 'climb',];\nconst Symbols = ['⭇', '󡔂', '󡔄', '󡔆', '󡔃', '󡔁', '󡔀', '󡔅',];\n\nlet Output = '';\nfor (let i = 0; i < Types.length; i++) {\n  for (let j = 0; j <= 10; j++) {\n    if (Move.includes(`${Types[i]} ${j}`)) {\n      Output += `${Symbols[i]} ${j} Square${j > 1 ? 's' : ''}\\n`;\n    }\n  }\n}\n\nreturn Output.trim();",
+                      "markdown": false,
+                      "hasRule": false
+                    },
+                    {
+                      "type": "inline",
+                      "id": "294ad96ad9ba",
+                      "properties": [],
+                      "nested": [
+                        {
+                          "type": "property",
+                          "id": "4a3beb0948e9",
+                          "properties": [
+                            "Health"
+                          ],
+                          "fallback": "-",
+                          "display": "Health:",
+                          "conditioned": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "7ac8d84999bb",
+                          "properties": [
+                            "Regen"
+                          ],
+                          "fallback": "-",
+                          "display": "HP Regen:",
+                          "conditioned": true,
+                          "dice": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "ea8b1b5bfb4a",
+                          "properties": [
+                            "Shield"
+                          ],
+                          "fallback": "",
+                          "display": "Shield:",
+                          "conditioned": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "596b79ab7b6a",
+                          "properties": [
+                            "Charge"
+                          ],
+                          "fallback": "-",
+                          "display": "SH Charge:",
+                          "conditioned": true,
+                          "dice": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "f8aa6b4a396a",
+                          "properties": [
+                            "Armor"
+                          ],
+                          "fallback": "-",
+                          "display": "Armor:",
+                          "conditioned": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "8a2a6a691918",
+                          "properties": [
+                            "Repair"
+                          ],
+                          "fallback": "-",
+                          "display": "AR Repair:",
+                          "conditioned": true,
+                          "dice": true
+                        },
+                        {
+                          "type": "property",
+                          "id": "2b5b9b0b689b",
+                          "properties": [
+                            "Traits"
+                          ],
+                          "fallback": "-",
+                          "conditioned": true,
+                          "display": "Traits:"
+                        }
+                      ],
+                      "cls": "familiar-tams"
+                    }
+                  ],
+                  "cls": ""
+                }
+              ],
+              "hasRule": false,
+              "cls": "move-shat"
+            },
+            {
+              "type": "table",
+              "id": "cb4bdb99abdb",
+              "properties": [
+                "Abilityscore"
+              ],
+              "headers": [
+                "ACC",
+                "DMG",
+                "SPD",
+                "MST"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true
+            },
+            {
+              "type": "property",
+              "id": "494b58086a5a",
+              "properties": [
+                "Damage"
+              ],
+              "fallback": "-",
+              "display": "Damage:",
+              "conditioned": true,
+              "dice": true,
+              "hasRule": true
+            }
+          ],
+          "hasRule": false,
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "eaa94ab86ba9",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "3a4a88da394a",
+              "properties": [
+                "Weapon"
+              ],
+              "fallback": "N/A",
+              "markdown": true,
+              "display": "Weapon:",
+              "dice": true,
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "5a8b7b08b8ca",
+              "properties": [
+                "Special"
+              ],
+              "fallback": "N/A",
+              "display": "Special:",
+              "markdown": true,
+              "hasRule": false,
+              "dice": true,
+              "conditioned": true
+            },
+            {
+              "type": "traits",
+              "id": "b9da9b7a6958",
+              "properties": [
+                "SuperSpecial"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true
+            }
+          ],
+          "hasRule": true,
+          "conditioned": true
+        },
+        {
+          "type": "group",
+          "id": "799ada4bc8c9",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "5a2bdb7819b8",
+              "properties": [
+                "Hit-Crit"
+              ],
+              "headers": [
+                "2-7",
+                "8-15",
+                "16+"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true
+            },
+            {
+              "type": "traits",
+              "id": "ea68aaba0819",
+              "properties": [
+                "Actions"
+              ],
+              "fallback": "-",
+              "heading": "Actions",
+              "conditioned": true,
+              "markdown": true,
+              "dice": true
+            },
+            {
+              "type": "traits",
+              "id": "d979ba0a69da",
+              "properties": [
+                "Skills"
+              ],
+              "fallback": "-",
+              "headingProp": false,
+              "heading": "Skills",
+              "conditioned": true,
+              "markdown": true,
+              "dice": true
+            }
+          ],
+          "conditioned": false,
+          "hasRule": true
+        },
+        {
+          "type": "image",
+          "id": "999b68298919",
+          "properties": [
+            "Image"
+          ],
+          "fallback": "-",
+          "conditioned": true
+        }
+      ],
+      "id": "basic-bnb-familiar-layout",
+      "name": "Basic BnB Familiar Layout",
+      "edited": false,
+      "removed": true
+    },
+    "basic-bnb-bestiary-layout": {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "0a58d8280a7b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "image",
+              "id": "48db7bfb6809",
+              "properties": [
+                "Token"
+              ],
+              "fallback": "-",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "b8e9ea5a5b68",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "7a3a6b3ad9d9",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "0a982a598818",
+                  "properties": [
+                    "Name"
+                  ],
+                  "size": 1,
+                  "fallback": "-"
+                },
+                {
+                  "type": "property",
+                  "id": "cb1a28885afb",
+                  "properties": [
+                    "Type"
+                  ],
+                  "fallback": "Unknown.",
+                  "conditioned": false,
+                  "display": " "
+                }
+              ]
+            },
+            {
+              "type": "subheading",
+              "id": "4b3848590a48",
+              "properties": [
+                "TitleOfMob",
+                "FlavorText",
+                "TypeOfBoss"
+              ],
+              "separator": " , ",
+              "fallback": "-",
+              "conditioned": true
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "fb98fb48f93a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "3898c8ea0bf9",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "a8980a09e92a",
+                  "properties": [
+                    "BadassRank"
+                  ],
+                  "fallback": " ",
+                  "conditioned": false,
+                  "display": " "
+                },
+                {
+                  "type": "property",
+                  "id": "c83a18fb2ac9",
+                  "properties": [
+                    "MovementType"
+                  ],
+                  "fallback": " ",
+                  "display": " ",
+                  "callback": "const Move = monster.MovementType;\nconst Types = ['move', 'flight', 'swim', 'burrow', 'teleport', 'leap', 'hover', 'climb',];\nconst Symbols = ['⭇', '󡔂', '󡔄', '󡔆', '󡔃', '󡔁', '󡔀', '󡔅',];\n\nlet Output = '';\nfor (let i = 0; i < Types.length; i++) {\n  for (let j = 0; j <= 10; j++) {\n    if (Move.includes(`${Types[i]} ${j}`)) {\n      Output += `${Symbols[i]} ${j} Square${j > 1 ? 's' : ''}\\n`;\n    }\n  }\n}\n\nreturn Output.trim();"
+                },
+                {
+                  "type": "inline",
+                  "id": "59e8dad80b6b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "d8d98b8b6bfa",
+                      "properties": [
+                        "Health"
+                      ],
+                      "fallback": "Dead",
+                      "conditioned": true,
+                      "display": "Health:"
+                    },
+                    {
+                      "type": "property",
+                      "id": "c969ebe85aca",
+                      "properties": [
+                        "Shield"
+                      ],
+                      "fallback": "N/A",
+                      "display": "Shield:",
+                      "conditioned": true
+                    },
+                    {
+                      "type": "property",
+                      "id": "b95a6a68e89b",
+                      "properties": [
+                        "Armor"
+                      ],
+                      "fallback": "N/A",
+                      "conditioned": true,
+                      "display": "Armor:"
+                    },
+                    {
+                      "type": "property",
+                      "id": "cb4a68db0ad8",
+                      "properties": [
+                        "Traits"
+                      ],
+                      "fallback": "N/A",
+                      "display": "Traits:",
+                      "conditioned": true,
+                      "markdown": true
+                    }
+                  ],
+                  "cls": "shat"
+                }
+              ],
+              "cls": "bomshat"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "2a99795abbb8",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "1a4aaa3b78e9",
+              "properties": [
+                "Weapon"
+              ],
+              "fallback": "N/A",
+              "conditioned": false,
+              "dice": true,
+              "display": "Weapon:"
+            },
+            {
+              "type": "property",
+              "id": "4a8b3ae86bb8",
+              "properties": [
+                "Special"
+              ],
+              "fallback": "-",
+              "display": "Special:",
+              "dice": true,
+              "markdown": true
+            },
+            {
+              "type": "property",
+              "id": "d85b69696908",
+              "properties": [
+                "SuperSpecial"
+              ],
+              "fallback": "-",
+              "display": "Additional Effects:",
+              "conditioned": true,
+              "markdown": true,
+              "dice": true,
+              "hasRule": true
+            }
+          ],
+          "hasRule": false
+        },
+        {
+          "type": "group",
+          "id": "8ae89989a83b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "cb28b8484afa",
+              "properties": [
+                "Actions"
+              ],
+              "fallback": "-",
+              "heading": "Actions",
+              "conditioned": true,
+              "hasRule": false,
+              "markdown": true,
+              "dice": true
+            },
+            {
+              "type": "traits",
+              "id": "5beae9c80838",
+              "properties": [
+                "Mayhem"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "heading": "󡔱 Mayhem",
+              "dice": true,
+              "markdown": true
+            },
+            {
+              "type": "traits",
+              "id": "ea6b78db3b59",
+              "properties": [
+                "Loot"
+              ],
+              "fallback": "-",
+              "heading": "Loot",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true
+            }
+          ],
+          "hasRule": false,
+          "cls": ""
+        },
+        {
+          "type": "group",
+          "id": "283a2b39ca3a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "8a78b8393819",
+              "properties": [
+                "Image"
+              ],
+              "text": null,
+              "fallback": "-",
+              "heading": "",
+              "conditioned": true
+            },
+            {
+              "type": "image",
+              "id": "2b09ea3958fa",
+              "properties": [
+                "Image"
+              ],
+              "fallback": "-",
+              "conditioned": true
+            }
+          ],
+          "cls": "biggies"
+        }
+      ],
+      "id": "basic-bnb-bestiary-layout",
+      "name": "Basic BnB Bestiary Layout",
+      "edited": false,
+      "removed": true
+    },
+    "basic-13th-age-monster-block": {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "2a9b58ba0ab8",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "c89a2ae859f8",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "Creature"
+            },
+            {
+              "type": "image",
+              "id": "e83a48f858b8",
+              "properties": [
+                "image"
+              ],
+              "fallback": "TILE ART",
+              "conditioned": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "fabb0b884838",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "5b7bc86b6919",
+              "properties": [
+                "flavor_text"
+              ],
+              "text": null,
+              "fallback": "-",
+              "conditioned": true,
+              "markdown": true,
+              "hasRule": false
+            }
+          ],
+          "cls": "flavor-text",
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "1a6999887a69",
+          "properties": [],
+          "nested": [
+            {
+              "type": "javascript",
+              "id": "d958f898e9fa",
+              "conditioned": false,
+              "code": "var base_string = `${monster.level} level ${monster.role}`;\n\nif (monster.size) {\n    base_string = `${monster.size} ${base_string}`;\n}\n\nconst monster_strength = document.createElement(\"p\");\nmonster_strength.innerHTML = base_string;\nmonster_strength.classList.add(\"monster-strength\");\n\nif (monster.type) {\n    const type = `[${monster.type}]`;\n    const type_block = document.createElement(\"span\");\n    type_block.classList.add(\"type\");\n    type_block.innerText = type;\n\n    monster_strength.append(type_block)\n}\n\nreturn monster_strength;"
+            },
+            {
+              "type": "property",
+              "id": "780809c90898",
+              "properties": [
+                "initiative"
+              ],
+              "fallback": "+0",
+              "display": "Initiative: ",
+              "markdown": true
+            },
+            {
+              "type": "property",
+              "id": "88eb4a6aea0b",
+              "properties": [
+                "vulnerability"
+              ],
+              "fallback": "-",
+              "display": "Vulnerability: ",
+              "conditioned": true,
+              "markdown": true
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "999bb81b7aab",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "996ab9d9a86a",
+              "properties": [
+                "actions"
+              ],
+              "fallback": "-",
+              "markdown": true,
+              "hasRule": true
+            },
+            {
+              "type": "traits",
+              "id": "69ca5b7a3898",
+              "properties": [
+                "traits"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "markdown": true,
+              "hasRule": true
+            },
+            {
+              "type": "traits",
+              "id": "c8794b580948",
+              "properties": [
+                "triggered_actions"
+              ],
+              "fallback": "-",
+              "headingProp": false,
+              "heading": "Triggered Abilities",
+              "conditioned": true,
+              "markdown": true,
+              "hasRule": true
+            },
+            {
+              "type": "traits",
+              "id": "aa1a3a2abb19",
+              "properties": [
+                "nastier_traits"
+              ],
+              "fallback": "-",
+              "headingProp": false,
+              "heading": "Nastier Specials",
+              "conditioned": true,
+              "subheadingText": "",
+              "markdown": true,
+              "hasRule": true
+            }
+          ],
+          "hasRule": false,
+          "cls": "abilities"
+        },
+        {
+          "type": "group",
+          "id": "8a7969a96a48",
+          "properties": [],
+          "nested": [
+            {
+              "type": "javascript",
+              "id": "f99b8b1bf908",
+              "conditioned": false,
+              "code": "const getStatLine = (statName, statValue) => {\n    const statLine = document.createElement(\"div\");\n    const statClass = `${statName.toLowerCase()}-block`;\n    statLine.classList.add(\"defense-line\");\n    statLine.classList.add(statClass);\n\n    const statNameBlock = document.createElement(\"span\");\n    statNameBlock.classList.add(\"defense-name\");\n    statNameBlock.innerText = statName.toUpperCase();\n\n    const statValueBlock = document.createElement(\"span\");\n    statValueBlock.classList.add(\"defense-value\");\n\n    if (statName === \"HP\" && monster.mook !== undefined) {\n        statValue = `${statValue} (mook)`;\n    }\n\n    statValueBlock.innerText = statValue;\n\n    statLine.append(statNameBlock);\n    statLine.append(statValueBlock);\n\n    return statLine;\n}\n\nconst statFullBlock = document.createElement(\"div\");\nstatFullBlock.classList.add(\"defense-block\");\nstatFullBlock.append(getStatLine(\"AC\", monster.ac));\nstatFullBlock.append(getStatLine(\"PD\", monster.pd));\nstatFullBlock.append(getStatLine(\"MD\", monster.md));\nstatFullBlock.append(getStatLine(\"HP\", monster.hp));\n\nreturn statFullBlock;\n"
+            },
+            {
+              "type": "property",
+              "id": "6aa9684a08db",
+              "properties": [
+                "mook"
+              ],
+              "fallback": "-",
+              "display": "Mook",
+              "conditioned": true,
+              "callback": "return `Kill one _${monster.name}_ for every ${monster.hp} damage dealt to the mob`",
+              "markdown": true
+            }
+          ],
+          "cls": "monster-stats"
+        },
+        {
+          "type": "group",
+          "id": "a96bcabad818",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "4a0b6a59385a",
+              "properties": [
+                "description"
+              ],
+              "text": null,
+              "conditioned": true,
+              "fallback": "-",
+              "markdown": true
+            }
+          ],
+          "cls": "monster-description"
+        }
+      ],
+      "name": "Basic 13th Age Monster Layout",
+      "id": "basic-13th-age-monster-block",
+      "removed": true
+    },
+    "path-2e-block": {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "e9b8483aeafa",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "2b596a6919fb",
+              "properties": [
+                "name"
+              ],
+              "fallback": "-",
+              "markdown": true,
+              "dice": false,
+              "conditioned": true,
+              "display": " "
+            },
+            {
+              "type": "property",
+              "id": "98389a48f808",
+              "properties": [
+                "level"
+              ],
+              "fallback": "-",
+              "display": " ",
+              "conditioned": true,
+              "markdown": true,
+              "dice": false
+            },
+            {
+              "type": "group",
+              "id": "291a3ae83918",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "action",
+                  "id": "e809da8a8ad9",
+                  "icon": "sword",
+                  "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
+                },
+                {
+                  "type": "action",
+                  "id": "0b8a88780bab",
+                  "icon": "plus-with-circle",
+                  "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
+                }
+              ]
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "4b3a6809a938",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "289a4b787968",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "694a3888b859",
+                  "properties": [
+                    "rare_01"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "590a88988ae8",
+                  "properties": [
+                    "rare_02"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "9a9be808699a",
+                  "properties": [
+                    "rare_03"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "2988db1a685a",
+                  "properties": [
+                    "rare_04"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "ba891ba8cbeb",
+                  "properties": [
+                    "alignment"
+                  ],
+                  "fallback": " ",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "ebf9883938a8",
+                  "properties": [
+                    "size"
+                  ],
+                  "fallback": " ",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "dabaf9e9fb68",
+                  "properties": [
+                    "trait_01"
+                  ],
+                  "fallback": " ",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "e81a6aeadbf9",
+                  "properties": [
+                    "trait_02"
+                  ],
+                  "fallback": " ",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "fa7919caabbb",
+                  "properties": [
+                    "trait_03"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": " ",
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "58c9c8580b68",
+                  "properties": [
+                    "trait_04"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": " ",
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "da894a7b8849",
+                  "properties": [
+                    "trait_05"
+                  ],
+                  "fallback": "-",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "fb6b4b6bab49",
+                  "properties": [
+                    "trait_06"
+                  ],
+                  "fallback": "-",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                },
+                {
+                  "type": "property",
+                  "id": "480a5bfafb88",
+                  "properties": [
+                    "trait_07"
+                  ],
+                  "fallback": "-",
+                  "display": " ",
+                  "conditioned": true,
+                  "markdown": true
+                }
+              ],
+              "hasRule": true,
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "5999ea79ca3b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "9a9af9fbe959",
+              "properties": [
+                "perception"
+              ],
+              "fallback": "-",
+              "heading": " ",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "headingProp": true
+            },
+            {
+              "type": "property",
+              "id": "ba28f9384918",
+              "properties": [
+                "languages"
+              ],
+              "fallback": "-",
+              "display": "Language",
+              "conditioned": true,
+              "markdown": true
+            },
+            {
+              "type": "traits",
+              "id": "a8f8187b89fb",
+              "properties": [
+                "skills"
+              ],
+              "fallback": "-",
+              "markdown": true,
+              "dice": true,
+              "conditioned": true,
+              "heading": " "
+            },
+            {
+              "type": "table",
+              "id": "b82b0a1a9969",
+              "properties": [
+                "abilityMods"
+              ],
+              "headers": [
+                "Str",
+                "Dex",
+                "Con",
+                "Int",
+                "Wis",
+                "Cha"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true
+            },
+            {
+              "type": "traits",
+              "id": "e96ba9d8a80a",
+              "properties": [
+                "abilities_top"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "heading": "  ",
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "faaa08993a98",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "68ca69891bea",
+              "properties": [
+                "armorclass"
+              ],
+              "fallback": "-",
+              "heading": "",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true
+            },
+            {
+              "type": "traits",
+              "id": "9b1998e9a8da",
+              "properties": [
+                "health"
+              ],
+              "fallback": "-",
+              "heading": "",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true
+            },
+            {
+              "type": "traits",
+              "id": "ca2bf968987b",
+              "properties": [
+                "abilities_mid"
+              ],
+              "fallback": "-",
+              "heading": "",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "cbeabaf93b58",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "0b4809ba0b29",
+              "properties": [
+                "speed"
+              ],
+              "fallback": "-",
+              "display": "Speed",
+              "conditioned": true,
+              "markdown": true,
+              "dice": false
+            },
+            {
+              "type": "traits",
+              "id": "882bc9aa0898",
+              "properties": [
+                "attacks"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "headingProp": false,
+              "heading": ""
+            },
+            {
+              "type": "traits",
+              "id": "6919b8996939",
+              "properties": [
+                "spellcasting"
+              ],
+              "fallback": "-",
+              "heading": " ",
+              "markdown": true,
+              "dice": true,
+              "conditioned": true
+            },
+            {
+              "type": "traits",
+              "id": "aacb399a3b58",
+              "properties": [
+                "abilities_bot"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "text",
+          "id": "1b195a894b58",
+          "properties": [
+            "token"
+          ],
+          "text": null,
+          "fallback": "",
+          "heading": "Show to Players",
+          "conditioned": true,
+          "markdown": true
+        },
+        {
+          "type": "image",
+          "id": "1bba89582b29",
+          "properties": [
+            "token"
+          ],
+          "fallback": "",
+          "conditioned": true,
+          "hasRule": true
+        },
+        {
+          "type": "property",
+          "id": "88e97a485b79",
+          "properties": [
+            "sourcebook"
+          ],
+          "fallback": "-",
+          "conditioned": true,
+          "markdown": true,
+          "dice": false,
+          "display": " Source:"
+        }
+      ],
+      "name": "Basic Pathfinder 2e Layout",
+      "id": "path-2e-block",
+      "version": 2,
+      "diceParsing": [
+        {
+          "regex": "\\((\\d+d\\d+(?:\\s*[+-]\\s*\\d+)?)\\)",
+          "parser": "const [, text] = matches;\nreturn [\"(\", { text }, \")\"];",
+          "id": "faa8eb5bf839",
+          "desc": "(1d8+3)"
+        },
+        {
+          "regex": "(\\w+?) ([+-])(\\d+)",
+          "parser": "let [, initial, sign, number] = matches;\nlet mult = 1;\nif (sign === \"-\") {\n    mult = -1;\n}\nlet text;\nif (!isNaN(Number(number))) {\n    text = `1d20+${mult * Number(number)}`;\n}\nreturn [original, \" (\", { text }, \")\"];",
+          "id": "d958e93a5bd8",
+          "desc": "longsword +15"
+        }
+      ],
+      "edited": true
+    }
+  },
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "e9b8483aeafa",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "2b596a6919fb",
+              "properties": [
+                "name"
+              ],
+              "fallback": "-",
+              "markdown": true,
+              "dice": false,
+              "conditioned": true,
+              "display": " "
+            },
+            {
+              "type": "ifelse",
+              "id": "badbdb298988",
+              "conditions": [
+                {
+                  "nested": [
+                    {
+                      "type": "group",
+                      "id": "990a4a988ae8",
+                      "properties": [],
+                      "nested": [
+                        {
+                          "type": "inline",
+                          "id": "499aea6a9aca",
+                          "properties": [],
+                          "nested": [
+                            {
+                              "type": "action",
+                              "id": "8a6a7a499b78",
+                              "icon": "sword",
+                              "callback": "(async() => {\n  if (!InitiativeTracker.plugin.view) {\n    await InitiativeTracker.plugin.addTrackerView();\n  }\n  InitiativeTracker.newEncounter({\n    roll: true,\n    creatures: [monster]\n  });\n  if (InitiativeTracker.plugin.view) {\n    InitiativeTracker.plugin\n      .app\n      .workspace\n      .revealLeaf(InitiativeTracker.plugin.view.leaf);\n  }\n})();"
+                            },
+                            {
+                              "type": "action",
+                              "id": "fbea380b09b9",
+                              "icon": "plus-with-circle",
+                              "callback": "(async() => {\n  if (!InitiativeTracker.plugin.view) {\n    await InitiativeTracker.plugin.addTrackerView();\n  }\n  InitiativeTracker.addCreatures([monster]);\n  if (InitiativeTracker.plugin.view) {\n    InitiativeTracker.plugin\n      .app\n      .workspace\n      .revealLeaf(InitiativeTracker.plugin.view.leaf);\n  }\n})();"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "condition": "return plugin.app.plugins.enabledPlugins.has(\"initiative-tracker\");\n"
+                }
+              ]
+            },
+            {
+              "type": "property",
+              "id": "98389a48f808",
+              "properties": [
+                "level"
+              ],
+              "fallback": "-",
+              "display": " ",
+              "conditioned": true,
+              "markdown": true,
+              "dice": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "4b3a6809a938",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "0979a989583a",
+              "properties": [],
+              "fallback": "-",
+              "callback": "const traits = []\nif (monster.rarity && monster.rarity.toLowerCase() !== \"common\") {\n  traits.push(`<span class=\"rarity ${monster.rarity.toLowerCase()}\">${monster.rarity}</span>`);\n}\n\nif (monster.alignment) {\n  traits.push(`<span class=alignment>${monster.alignment}</span>`);\n}\nif (monster.size) {\n  traits.push(`<span class=size>${monster.size}</span>`);\n}\n\nif (monster.traits) {\n  traits.push(...monster.traits);\n}\n\nreturn traits ? (\"- \" + traits.join(\"\\n- \")) : \"\";",
+              "conditioned": true,
+              "display": ""
+            }
+          ],
+          "hasRule": true,
+          "cls": "pf2e-traits"
+        },
+        {
+          "type": "group",
+          "id": "5999ea79ca3b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "881859197838",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "4ad9f92ab8f8",
+                  "properties": [
+                    "modifier"
+                  ],
+                  "fallback": "-",
+                  "display": "Perception",
+                  "conditioned": false,
+                  "dice": false,
+                  "diceCallback": "const num = (property < 0 ? \"-\" : \"+\") + Math.abs(property);\nreturn [num, \" (\", { text: \"1d20\"+num }, \")\"];",
+                  "callback": "return (monster.modifier < 0 ? \"-\" : \"+\") + Math.abs(monster.modifier);"
+                },
+                {
+                  "type": "property",
+                  "id": "8bd82998dadb",
+                  "properties": [
+                    "senses"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": ""
+                }
+              ],
+              "cls": "oneline",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "ba28f9384918",
+              "properties": [
+                "languages"
+              ],
+              "fallback": "-",
+              "display": "Language",
+              "conditioned": true,
+              "markdown": true
+            },
+            {
+              "type": "saves",
+              "id": "6a2b78099b0b",
+              "properties": [
+                "skills"
+              ],
+              "fallback": "-",
+              "display": "Skills",
+              "conditioned": true,
+              "dice": true,
+              "callback": "const keys = [...Object.keys(property)];\nconst name = keys.shift();\n\nif (name === \"note\") {\n  return {note: property.note};\n}\n\nvar note;\nvar stats = [];\nfor (const key of keys) {\n  if (key === \"note\") {\n    note = property[key];\n  } else {\n    const sign = property[key] < 0 ? \"-\" : \"+\";\n    const num = Math.abs(property[key]);\n    stats.push(`(${sign}${num} ${key})`);\n  }\n}\n\nif (stats.length == 0 && !note) {\n  return property;\n}\n\nstats.unshift(\n  (property[name] < 0 ? \"-\" : \"+\") +\n  Math.abs(property[name]));\nconst parts = [stats.join(\" \")];\nif (note) {\n  parts.push(note);\n}\nreturn {[name]: parts.join(\", \")};"
+            },
+            {
+              "type": "saves",
+              "id": "b82b0a1a9969",
+              "properties": [
+                "attributes"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "display": ""
+            },
+            {
+              "type": "property",
+              "id": "1b6a98ba4888",
+              "properties": [
+                "items"
+              ],
+              "fallback": "-",
+              "display": "Items",
+              "conditioned": true
+            },
+            {
+              "type": "traits",
+              "id": "e96ba9d8a80a",
+              "properties": [
+                "abilities_top"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "heading": "  ",
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "faaa08993a98",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "3a5ab84a2b89",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "cb6a7809aa2b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "6b0b0bda0a7a",
+                      "properties": [
+                        "ac"
+                      ],
+                      "fallback": "-",
+                      "display": "AC"
+                    },
+                    {
+                      "type": "property",
+                      "id": "0908aaab3b1b",
+                      "properties": [
+                        "acNote"
+                      ],
+                      "fallback": "-",
+                      "conditioned": true,
+                      "display": ""
+                    }
+                  ],
+                  "cls": "withnote",
+                  "conditioned": true
+                },
+                {
+                  "type": "saves",
+                  "id": "9999386a58ea",
+                  "properties": [
+                    "saves"
+                  ],
+                  "fallback": "-",
+                  "dice": true,
+                  "display": "",
+                  "conditioned": true,
+                  "callback": "const keys = [...Object.keys(property)];\nconst name = keys.shift();\n\nif (name === \"note\") {\n  return {note: property.note};\n}\n\nvar note;\nvar stats = [];\nfor (const key of keys) {\n  if (key === \"note\") {\n    note = property[key];\n  } else {\n    const sign = property[key] < 0 ? \"-\" : \"+\";\n    const num = Math.abs(property[key]);\n    stats.push(`(${sign}${num} ${key})`);\n  }\n}\n\nif (stats.length == 0 && !note) {\n  return property;\n}\n\nstats.unshift(\n  (property[name] < 0 ? \"-\" : \"+\") +\n  Math.abs(property[name]));\nconst parts = [stats.join(\" \")];\nif (note) {\n  parts.push(note);\n}\nreturn {[name]: parts.join(\", \")};"
+                }
+              ],
+              "cls": "oneline",
+              "conditioned": true
+            },
+            {
+              "type": "inline",
+              "id": "ea29d9ea5aa8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "39584be95ae9",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "bb6989092939",
+                      "properties": [
+                        "hp"
+                      ],
+                      "fallback": "-",
+                      "display": "HP"
+                    },
+                    {
+                      "type": "property",
+                      "id": "b9fa1a89c8d9",
+                      "properties": [
+                        "hpNote"
+                      ],
+                      "fallback": "-",
+                      "doNotAddClass": false,
+                      "conditioned": true,
+                      "display": ""
+                    }
+                  ],
+                  "cls": "withnote",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "4bbaa9380a9b",
+                  "properties": [
+                    "hardness"
+                  ],
+                  "fallback": "-",
+                  "display": "Hardness",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "0a8ac8d96bba",
+                  "properties": [
+                    "immunities"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": "Immunities"
+                },
+                {
+                  "type": "property",
+                  "id": "78689b6b6b79",
+                  "properties": [
+                    "weaknesses"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": "Weaknesses"
+                },
+                {
+                  "type": "property",
+                  "id": "8b7a3b89fa59",
+                  "properties": [
+                    "resistances"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "display": "Resistances"
+                }
+              ],
+              "cls": "oneline",
+              "conditioned": true
+            },
+            {
+              "type": "traits",
+              "id": "ca2bf968987b",
+              "properties": [
+                "abilities_mid"
+              ],
+              "fallback": "-",
+              "heading": "",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "cbeabaf93b58",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "0b4809ba0b29",
+              "properties": [
+                "speed"
+              ],
+              "fallback": "-",
+              "display": "Speed",
+              "conditioned": true,
+              "markdown": true,
+              "dice": false
+            },
+            {
+              "type": "traits",
+              "id": "882bc9aa0898",
+              "properties": [
+                "attacks"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "headingProp": false,
+              "heading": "",
+              "callback": "var s = \"\";\nif (property.bonus) {\n  s += (property.bonus < 0 ? \"-\" : \"+\") + Math.abs(property.bonus);\n}\nif (property.desc) {\n  s += \" \" + property.desc\n}\nif (property.damage) {\n  s += \", __Damage__ \" + property.damage\n}\nreturn s"
+            },
+            {
+              "type": "traits",
+              "id": "faeafb7b6b1b",
+              "properties": [
+                "spellcasting"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true
+            },
+            {
+              "type": "traits",
+              "id": "aacb399a3b58",
+              "properties": [
+                "abilities_bot"
+              ],
+              "fallback": "-",
+              "conditioned": true,
+              "dice": true,
+              "markdown": true,
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "text",
+          "id": "1b195a894b58",
+          "properties": [
+            "token"
+          ],
+          "text": null,
+          "fallback": "",
+          "heading": "Show to Players",
+          "conditioned": true,
+          "markdown": true
+        },
+        {
+          "type": "image",
+          "id": "1bba89582b29",
+          "properties": [
+            "token"
+          ],
+          "fallback": "",
+          "conditioned": true,
+          "hasRule": true
+        },
+        {
+          "type": "property",
+          "id": "88e97a485b79",
+          "properties": [
+            "sourcebook"
+          ],
+          "fallback": "-",
+          "conditioned": true,
+          "markdown": true,
+          "dice": false,
+          "display": " Source:"
+        }
+      ],
+      "name": "Pathfinder 2e Creature Layout Copy",
+      "id": "69ea4b288b78"
+    }
+  ],
+  "default": "b8ab3ae89a0a",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 3
+  },
+  "paths": [
+    "2. Mechanics/Bestiary"
+  ],
+  "autoParse": true,
+  "disableSRD": true,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

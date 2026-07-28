@@ -1,0 +1,76 @@
+---
+ability_type: Signature
+action_type: Main action
+class: talent
+distance: Melee 2
+feature_type: ability
+file_basename: Spirit Sword
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: You form a blade of mind energy and stab your target, invigorating yourself.
+item_id: spirit-sword
+item_index: 08
+item_name: Spirit Sword
+keywords:
+- Animapathy
+- Melee
+- Psionic
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:spirit-sword
+scdc:
+- 1.1.1:11.3.1.1:08
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Spirit Sword
+flavor: You form a blade of mind energy and stab your target, invigorating yourself.
+keywords:
+  - Animapathy
+  - Melee
+  - Psionic
+  - Strike
+usage: Main action
+distance: Melee 2
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: talent
+  distance: Melee 2
+  feature_type: ability
+  file_basename: Spirit Sword
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: You form a blade of mind energy and stab your target, invigorating yourself.
+  item_id: spirit-sword
+  item_index: 8
+  item_name: Spirit Sword
+  keywords:
+    - Animapathy
+    - Melee
+    - Psionic
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:spirit-sword
+  scdc:
+    - 1.1.1:11.3.1.1:08
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 3 + P damage
+    tier2: 6 + P damage
+    tier3: 9 + P damage
+  - name: Effect
+    effect: You gain 1 surge.
+  - name: Strained
+    effect: The target takes an extra 3 damage. You also take 3 damage that can't be
+      reduced in any way.
+```

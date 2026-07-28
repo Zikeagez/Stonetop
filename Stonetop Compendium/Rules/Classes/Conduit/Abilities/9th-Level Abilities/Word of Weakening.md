@@ -1,0 +1,77 @@
+---
+action_type: Main action
+class: conduit
+cost: 11 Piety
+cost_amount: 11
+cost_resource: Piety
+distance: Ranged 10
+feature_type: ability
+file_basename: Word of Weakening
+file_dpath: Abilities/Conduit/9th-Level Features
+flavor: You utter a divine word that makes a foe brittle.
+item_id: word-of-weakening-11-piety
+item_index: '06'
+item_name: Word of Weakening (11 Piety)
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening
+scdc:
+- 1.1.1:11.3.8.7:06
+source: mcdm.heroes.v1
+subclass: Knowledge
+target: One creature or object
+type: feature/ability/conduit/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Word of Weakening
+cost: 11 Piety
+flavor: You utter a divine word that makes a foe brittle.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 11 Piety
+  cost_amount: 11
+  cost_resource: Piety
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Word of Weakening
+  file_dpath: Abilities/Conduit/9th-Level Features
+  flavor: You utter a divine word that makes a foe brittle.
+  item_id: word-of-weakening-11-piety
+  item_index: "06"
+  item_name: Word of Weakening (11 Piety)
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening
+  scdc:
+    - 1.1.1:11.3.8.7:06
+  source: mcdm.heroes.v1
+  subclass: Knowledge
+  target: One creature or object
+  type: feature/ability/conduit/9th-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 10 + I corruption damage; A < WEAK, weakened (save ends)
+    tier2: 15 + I corruption damage; A < AVERAGE, weakened (save ends)
+    tier3: 21 + I corruption damage; A < STRONG, weakened (save ends)
+  - name: Effect
+    effect: While weakened this way, the target has damage weakness 10.
+```

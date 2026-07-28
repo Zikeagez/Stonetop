@@ -1,0 +1,68 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1
+file_basename: Pain for Pain
+file_dpath: Abilities/Kits/Mountain
+flavor: An enemy who tagged you will pay for that.
+item_id: pain-for-pain
+item_index: '01'
+item_name: Pain for Pain
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
+scdc:
+- 1.1.1:14.18:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/mountain
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Pain for Pain
+flavor: An enemy who tagged you will pay for that.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1
+  file_basename: Pain for Pain
+  file_dpath: Abilities/Kits/Mountain
+  flavor: An enemy who tagged you will pay for that.
+  item_id: pain-for-pain
+  item_index: "01"
+  item_name: Pain for Pain
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
+  scdc:
+    - 1.1.1:14.18:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/mountain
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 3 + M or A damage
+    tier2: 5 + M or A damage
+    tier3: 13 + M or A damage
+  - name: Effect
+    effect: If the target dealt damage to you since the end of your last turn, this
+      strike deals additional damage equal to your Might or Agility score (your
+      choice).
+```

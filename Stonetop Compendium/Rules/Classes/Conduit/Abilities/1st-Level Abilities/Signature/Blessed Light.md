@@ -1,0 +1,74 @@
+---
+ability_type: Signature
+action_type: Main action
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Blessed Light
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: Burning radiance falls upon your foe, transferring some of their energy to
+  a nearby ally.
+item_id: blessed-light
+item_index: 09
+item_name: Blessed Light
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:blessed-light
+scdc:
+- 1.1.1:11.3.8.1:09
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Blessed Light
+flavor: Burning radiance falls upon your foe, transferring some of their energy
+  to a nearby ally.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Blessed Light
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: Burning radiance falls upon your foe, transferring some of their energy
+    to a nearby ally.
+  item_id: blessed-light
+  item_index: 9
+  item_name: Blessed Light
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:blessed-light
+  scdc:
+    - 1.1.1:11.3.8.1:09
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 3 + I holy damage
+    tier2: 5 + I holy damage
+    tier3: 8 + I holy damage
+  - name: Effect
+    effect: One ally within distance gains a number of surges equal to the tier
+      outcome of your power roll.
+```

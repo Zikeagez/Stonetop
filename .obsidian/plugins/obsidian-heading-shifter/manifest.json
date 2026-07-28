@@ -1,0 +1,15 @@
+{
+	"id": "obsidian-heading-shifter",
+	"name": "Heading Shifter",
+	"version": "1.12.1",
+	"minAppVersion": "1.12.0",
+	"description": "Easily Shift and Change markdown headings.",
+	"author": "kasahala",
+	"authorUrl": "https://github.com/k4a-l",
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://buymeacoffee.com/kasahala",
+		"GitHub Sponsor": "https://github.com/sponsors/k4a-l",
+		"PayPal": "https://www.paypal.com/paypalme/k4al"
+	},
+	"isDesktopOnly": false
+}

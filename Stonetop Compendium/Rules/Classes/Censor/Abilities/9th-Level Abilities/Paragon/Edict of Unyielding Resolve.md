@@ -1,0 +1,71 @@
+---
+action_type: Maneuver
+class: censor
+cost: 11 Wrath
+cost_amount: 11
+cost_resource: Wrath
+distance: 2 aura
+feature_type: ability
+file_basename: Edict of Unyielding Resolve
+file_dpath: Abilities/Censor/9th-Level Features
+flavor: You and your allies are clad in shimmering armor.
+item_id: edict-of-unyielding-resolve-11-wrath
+item_index: '04'
+item_name: Edict of Unyielding Resolve (11 Wrath)
+keywords:
+- Area
+- Magic
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve
+scdc:
+- 1.1.1:11.3.7.7:04
+source: mcdm.heroes.v1
+subclass: Paragon
+target: Self and each ally in the area
+type: feature/ability/censor/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Edict of Unyielding Resolve
+cost: 11 Wrath
+flavor: You and your allies are clad in shimmering armor.
+keywords:
+  - Area
+  - Magic
+usage: Maneuver
+distance: 2 aura
+target: Self and each ally in the area
+metadata:
+  action_type: Maneuver
+  class: censor
+  cost: 11 Wrath
+  cost_amount: 11
+  cost_resource: Wrath
+  distance: 2 aura
+  feature_type: ability
+  file_basename: Edict of Unyielding Resolve
+  file_dpath: Abilities/Censor/9th-Level Features
+  flavor: You and your allies are clad in shimmering armor.
+  item_id: edict-of-unyielding-resolve-11-wrath
+  item_index: "04"
+  item_name: Edict of Unyielding Resolve (11 Wrath)
+  keywords:
+    - Area
+    - Magic
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve
+  scdc:
+    - 1.1.1:11.3.7.7:04
+  source: mcdm.heroes.v1
+  subclass: Paragon
+  target: Self and each ally in the area
+  type: feature/ability/censor/9th-level-feature
+effects:
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each target who
+      starts their turn in the area gains 10 temporary Stamina.
+```

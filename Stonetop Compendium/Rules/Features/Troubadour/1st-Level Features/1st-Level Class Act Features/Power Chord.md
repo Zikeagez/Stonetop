@@ -1,0 +1,57 @@
+---
+action_type: feature
+class: troubadour
+feature_type: subtrait
+file_basename: Power Chord
+file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+item_id: power-chord
+item_index: '02'
+item_name: Power Chord
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:power-chord
+scdc:
+- 1.1.1:11.2.3.8:02
+source: mcdm.heroes.v1
+type: feature/subtrait/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Power Chord
+metadata:
+  action_type: feature
+  class: troubadour
+  feature_type: subtrait
+  file_basename: Power Chord
+  file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+  item_id: power-chord
+  item_index: "02"
+  item_name: Power Chord
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:power-chord
+  scdc:
+    - 1.1.1:11.2.3.8:02
+  source: mcdm.heroes.v1
+  type: feature/subtrait/troubadour/1st-level-feature
+effects:
+  - effect: You have the following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Power Chord
+        flavor: Your instrument rings true and your music blows everyone away.
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 2 burst
+        target: Each enemy in the area
+        effects:
+          - roll: Power Roll + Presence
+            tier1: Push 1
+            tier2: Push 2
+            tier3: Push 3
+```

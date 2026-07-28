@@ -1,0 +1,87 @@
+---
+action_type: Maneuver
+class: talent
+cost: 9 Clarity
+cost_amount: 9
+cost_resource: Clarity
+distance: Ranged 10
+feature_type: ability
+file_basename: Synaptic Dissipation
+file_dpath: Abilities/Talent/6th-Level Features
+flavor: You manipulate your enemies' minds and make them wonder if you were ever really
+  there in the first place.
+item_id: synaptic-dissipation-9-clarity
+item_index: '01'
+item_name: Synaptic Dissipation (9 Clarity)
+keywords:
+- Psionic
+- Ranged
+- Strike
+- Telepathy
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation
+scdc:
+- 1.1.1:11.3.1.3:01
+source: mcdm.heroes.v1
+subclass: Telepathy
+target: Special
+type: feature/ability/talent/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Synaptic Dissipation
+cost: 9 Clarity
+flavor: You manipulate your enemies' minds and make them wonder if you were ever
+  really there in the first place.
+keywords:
+  - Psionic
+  - Ranged
+  - Strike
+  - Telepathy
+usage: Maneuver
+distance: Ranged 10
+target: Special
+metadata:
+  action_type: Maneuver
+  class: talent
+  cost: 9 Clarity
+  cost_amount: 9
+  cost_resource: Clarity
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Synaptic Dissipation
+  file_dpath: Abilities/Talent/6th-Level Features
+  flavor: You manipulate your enemies' minds and make them wonder if you were ever
+    really there in the first place.
+  item_id: synaptic-dissipation-9-clarity
+  item_index: "01"
+  item_name: Synaptic Dissipation (9 Clarity)
+  keywords:
+    - Psionic
+    - Ranged
+    - Strike
+    - Telepathy
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation
+  scdc:
+    - 1.1.1:11.3.1.3:01
+  source: mcdm.heroes.v1
+  subclass: Telepathy
+  target: Special
+  type: feature/ability/talent/6th-level-feature
+effects:
+  - name: Effect
+    effect: You target a number of creatures with this ability determined by the
+      outcome of your power roll. You and your allies are invisible to each
+      target until the start of your next turn.
+  - roll: Power Roll + Reason
+    tier1: Two creatures
+    tier2: Three creatures
+    tier3: Five creatures
+  - name: Strained
+    effect: The effect ends early if you take damage from an enemy's ability.
+```

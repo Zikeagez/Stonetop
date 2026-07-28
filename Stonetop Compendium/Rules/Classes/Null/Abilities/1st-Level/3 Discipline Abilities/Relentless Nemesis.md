@@ -1,0 +1,80 @@
+---
+action_type: Main action
+class: 'null'
+cost: 3 Discipline
+cost_amount: 3
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Relentless Nemesis
+file_dpath: Abilities/Null/1st-Level Features
+flavor: You strike, and for the next few moments, your enemy can't escape you.
+item_id: relentless-nemesis-3-discipline
+item_index: '03'
+item_name: Relentless Nemesis (3 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis
+scdc:
+- 1.1.1:11.3.6.1:03
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Relentless Nemesis
+cost: 3 Discipline
+flavor: You strike, and for the next few moments, your enemy can't escape you.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 3 Discipline
+  cost_amount: 3
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Relentless Nemesis
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: You strike, and for the next few moments, your enemy can't escape you.
+  item_id: relentless-nemesis-3-discipline
+  item_index: "03"
+  item_name: Relentless Nemesis (3 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis
+  scdc:
+    - 1.1.1:11.3.6.1:03
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 6 + A damage
+    tier2: 8 + A damage
+    tier3: 12 + A damage
+  - name: Effect
+    effect: Until the start of your next turn, whenever the target finishes moving
+      or being force moved, you can use a free triggered action to shift up to
+      your speed. You must end this shift adjacent to the target.
+```

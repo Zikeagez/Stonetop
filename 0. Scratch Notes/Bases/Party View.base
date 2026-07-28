@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Party
+    filters:
+      and:
+        - file.inFolder("0. The Party")
+        - or:
+            - file.folder == "0. The Party/Warden of Iron"
+    order:
+      - file.name
+      - Race
+      - Gender
+      - Class
+      - level
+    image: note.image
+    cardSize: 160
+    imageAspectRatio: 1.65

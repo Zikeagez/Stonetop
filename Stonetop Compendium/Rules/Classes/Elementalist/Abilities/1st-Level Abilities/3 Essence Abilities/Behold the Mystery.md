@@ -1,0 +1,79 @@
+---
+action_type: Main action
+class: elementalist
+cost: 3 Essence
+cost_amount: 3
+cost_resource: Essence
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Behold the Mystery
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: You open a rift into the void to harry your foes.
+item_id: behold-the-mystery-3-essence
+item_index: '17'
+item_name: Behold the Mystery (3 Essence)
+keywords:
+- Area
+- Magic
+- Ranged
+- Void
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery
+scdc:
+- 1.1.1:11.3.9.1:17
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Behold the Mystery
+cost: 3 Essence
+flavor: You open a rift into the void to harry your foes.
+keywords:
+  - Area
+  - Magic
+  - Ranged
+  - Void
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 3 Essence
+  cost_amount: 3
+  cost_resource: Essence
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Behold the Mystery
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: You open a rift into the void to harry your foes.
+  item_id: behold-the-mystery-3-essence
+  item_index: "17"
+  item_name: Behold the Mystery (3 Essence)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+    - Void
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery
+  scdc:
+    - 1.1.1:11.3.9.1:17
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 psychic damage
+    tier2: 4 psychic damage
+    tier3: 6 psychic damage
+  - name: Persistent 1
+    effect: At the start of your turn, you can use a maneuver to use this ability
+      again without spending essence.
+```

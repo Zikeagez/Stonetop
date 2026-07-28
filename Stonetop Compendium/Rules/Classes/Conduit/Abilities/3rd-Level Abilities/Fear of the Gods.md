@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: conduit
+cost: 7 Piety
+cost_amount: 7
+cost_resource: Piety
+distance: 5 cube within 10
+feature_type: ability
+file_basename: Fear of the Gods
+file_dpath: Abilities/Conduit/3rd-Level Features
+flavor: Your divine magic makes a creature appear as what your enemies fear most.
+item_id: fear-of-the-gods-7-piety
+item_index: '03'
+item_name: Fear of the Gods (7 Piety)
+keywords:
+- Area
+- Magic
+- Ranged
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:fear-of-the-gods
+scdc:
+- 1.1.1:11.3.8.6:03
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/conduit/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Fear of the Gods
+cost: 7 Piety
+flavor: Your divine magic makes a creature appear as what your enemies fear most.
+keywords:
+  - Area
+  - Magic
+  - Ranged
+usage: Main action
+distance: 5 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 7 Piety
+  cost_amount: 7
+  cost_resource: Piety
+  distance: 5 cube within 10
+  feature_type: ability
+  file_basename: Fear of the Gods
+  file_dpath: Abilities/Conduit/3rd-Level Features
+  flavor: Your divine magic makes a creature appear as what your enemies fear most.
+  item_id: fear-of-the-gods-7-piety
+  item_index: "03"
+  item_name: Fear of the Gods (7 Piety)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:fear-of-the-gods
+  scdc:
+    - 1.1.1:11.3.8.6:03
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/conduit/3rd-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 6 psychic damage; I < WEAK, frightened (save ends)
+    tier2: 9 psychic damage; I < AVERAGE, frightened (save ends)
+    tier3: 13 psychic damage; I < STRONG, frightened (save ends)
+  - name: Effect
+    effect: Each target is frightened of you or a creature you choose within distance.
+```

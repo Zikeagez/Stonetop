@@ -1,0 +1,23 @@
+filters:
+  and:
+    - ancestryTrait == "Yes"
+    - file.path.contains("ds compendium/rules/ancestries/")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - ancestry == ["High Elf"]
+    order:
+      - file.name
+      - ancestry
+      - type
+      - cost
+      - description
+    sort:
+      - property: type
+        direction: DESC
+      - property: cost
+        direction: ASC
+    columnSize:
+      note.ancestry: 124

@@ -1,0 +1,85 @@
+---
+action_type: Main action
+class: tactician
+cost: 11 Focus
+cost_amount: 11
+cost_resource: Focus
+distance: Melee 1
+feature_type: ability
+file_basename: No Escape
+file_dpath: Abilities/Tactician/9th-Level Features
+flavor: Nothing will stop you from reaching your foe.
+item_id: no-escape-11-focus
+item_index: '03'
+item_name: No Escape (11 Focus)
+keywords:
+- Charge
+- Melee
+- Strike
+- Weapon
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape
+scdc:
+- 1.1.1:11.3.4.7:03
+source: mcdm.heroes.v1
+subclass: Vanguard
+target: One creature
+type: feature/ability/tactician/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: No Escape
+cost: 11 Focus
+flavor: Nothing will stop you from reaching your foe.
+keywords:
+  - Charge
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: tactician
+  cost: 11 Focus
+  cost_amount: 11
+  cost_resource: Focus
+  distance: Melee 1
+  feature_type: ability
+  file_basename: No Escape
+  file_dpath: Abilities/Tactician/9th-Level Features
+  flavor: Nothing will stop you from reaching your foe.
+  item_id: no-escape-11-focus
+  item_index: "03"
+  item_name: No Escape (11 Focus)
+  keywords:
+    - Charge
+    - Melee
+    - Strike
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape
+  scdc:
+    - 1.1.1:11.3.4.7:03
+  source: mcdm.heroes.v1
+  subclass: Vanguard
+  target: One creature
+  type: feature/ability/tactician/9th-level-feature
+effects:
+  - name: Effect
+    effect: You mark the target.
+  - roll: Power Roll + Might
+    tier1: 11 + M damage
+    tier2: 16 + M damage
+    tier3: 21 + M damage
+  - name: Effect
+    effect: If you use this ability as part of the Charge main action, enemies'
+      spaces don't count as difficult terrain for your movement. Additionally,
+      if you move through any creature's space, you can slide that creature 1
+      square out of the path of your charge.
+```

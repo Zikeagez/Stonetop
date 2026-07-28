@@ -1,0 +1,42 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: Prayer of Destruction
+file_dpath: Features/Conduit/1st-Level Features/Prayer
+item_id: prayer-of-destruction
+item_index: '14'
+item_name: Prayer of Destruction
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:prayer-of-destruction
+scdc:
+- 1.1.1:11.2.8.3:14
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Prayer of Destruction
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: Prayer of Destruction
+  file_dpath: Features/Conduit/1st-Level Features/Prayer
+  item_id: prayer-of-destruction
+  item_index: "14"
+  item_name: Prayer of Destruction
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:prayer-of-destruction
+  scdc:
+    - 1.1.1:11.2.8.3:14
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/1st-level-feature
+effects:
+  - effect: Your god infuses wrath within your being. You gain a +1 bonus to rolled
+      damage with magic abilities.
+```

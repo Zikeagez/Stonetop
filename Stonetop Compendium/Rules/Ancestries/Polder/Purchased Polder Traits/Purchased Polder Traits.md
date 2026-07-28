@@ -1,0 +1,1 @@
+You have 4 ancestry points to spend on the following traits. (_Quick Build:_ Corruption Immunity, Fearless, Graceful Retreat.)

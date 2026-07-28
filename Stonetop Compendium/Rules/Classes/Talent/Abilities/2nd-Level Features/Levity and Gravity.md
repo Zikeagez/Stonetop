@@ -1,0 +1,83 @@
+---
+action_type: Main action
+class: talent
+cost: 5 Clarity
+cost_amount: 5
+cost_resource: Clarity
+distance: Ranged 10
+feature_type: ability
+file_basename: Levity and Gravity
+file_dpath: Abilities/Talent/2nd-Level Features
+flavor: You raise the target slightly into the air, then smother them against the
+  ground.
+item_id: levity-and-gravity-5-clarity
+item_index: '01'
+item_name: Levity and Gravity (5 Clarity)
+keywords:
+- Psionic
+- Ranged
+- Strike
+- Telekinesis
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity
+scdc:
+- 1.1.1:11.3.1.5:01
+source: mcdm.heroes.v1
+subclass: Telekinesis
+target: One creature or object
+type: feature/ability/talent/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Levity and Gravity
+cost: 5 Clarity
+flavor: You raise the target slightly into the air, then smother them against
+  the ground.
+keywords:
+  - Psionic
+  - Ranged
+  - Strike
+  - Telekinesis
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: talent
+  cost: 5 Clarity
+  cost_amount: 5
+  cost_resource: Clarity
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Levity and Gravity
+  file_dpath: Abilities/Talent/2nd-Level Features
+  flavor: You raise the target slightly into the air, then smother them against
+    the ground.
+  item_id: levity-and-gravity-5-clarity
+  item_index: "01"
+  item_name: Levity and Gravity (5 Clarity)
+  keywords:
+    - Psionic
+    - Ranged
+    - Strike
+    - Telekinesis
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity
+  scdc:
+    - 1.1.1:11.3.1.5:01
+  source: mcdm.heroes.v1
+  subclass: Telekinesis
+  target: One creature or object
+  type: feature/ability/talent/2nd-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 6 + R damage; M < WEAK, prone
+    tier2: 10 + R damage; M < AVERAGE, prone
+    tier3: 14 + R damage; M < STRONG, prone and can't stand (save ends)
+  - name: Strained
+    effect: You take half the damage the target takes.
+```

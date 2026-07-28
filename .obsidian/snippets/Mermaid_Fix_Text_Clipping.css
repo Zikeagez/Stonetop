@@ -1,0 +1,21 @@
+/* Ensure label text is not clipped */
+.markdown-preview-view .mermaid .label,
+.markdown-preview-view .mermaid .label-container,
+.markdown-preview-view .mermaid foreignObject,
+.markdown-preview-view .mermaid .node {
+  overflow: visible !important;
+  white-space: normal !important;
+}
+
+/* Allow rectangles (nodes) to resize based on content */
+.markdown-preview-view .mermaid .node rect {
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Ensure long text wraps inside foreignObject */
+.markdown-preview-view .mermaid foreignObject > div {
+  white-space: normal !important;
+  overflow: visible !important;
+  width: max-content !important;
+}

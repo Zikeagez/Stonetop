@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: elementalist
+cost: 7 Essence
+cost_amount: 7
+cost_resource: Essence
+distance: 3 aura
+feature_type: ability
+file_basename: Swarm of Spirits
+file_dpath: Abilities/Elementalist/3rd-Level Features
+flavor: Guardian animal spirits surround you to harry your foes and bolster your allies.
+item_id: swarm-of-spirits-7-essence
+item_index: '04'
+item_name: Swarm of Spirits (7 Essence)
+keywords:
+- Area
+- Green
+- Magic
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:swarm-of-spirits
+scdc:
+- 1.1.1:11.3.9.6:04
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Swarm of Spirits
+cost: 7 Essence
+flavor: Guardian animal spirits surround you to harry your foes and bolster your
+  allies.
+keywords:
+  - Area
+  - Green
+  - Magic
+usage: Main action
+distance: 3 aura
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 7 Essence
+  cost_amount: 7
+  cost_resource: Essence
+  distance: 3 aura
+  feature_type: ability
+  file_basename: Swarm of Spirits
+  file_dpath: Abilities/Elementalist/3rd-Level Features
+  flavor: Guardian animal spirits surround you to harry your foes and bolster your
+    allies.
+  item_id: swarm-of-spirits-7-essence
+  item_index: "04"
+  item_name: Swarm of Spirits (7 Essence)
+  keywords:
+    - Area
+    - Green
+    - Magic
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:swarm-of-spirits
+  scdc:
+    - 1.1.1:11.3.9.6:04
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/3rd-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 3 damage
+    tier2: 6 damage
+    tier3: 9 damage
+  - name: Effect
+    effect: Until the end of your next turn, each ally in the area has each of their
+      characteristic scores treated as 1 higher for the purpose of resisting
+      potencies, and has a +1 bonus to saving throws.
+  - name: Persistent 1
+    effect: You make the power roll again to target each enemy in the area without
+      spending essence, and the effect lasts until the start of your next turn.
+```

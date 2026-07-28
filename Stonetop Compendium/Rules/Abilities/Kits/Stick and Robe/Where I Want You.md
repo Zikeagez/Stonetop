@@ -1,0 +1,64 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 2
+file_basename: Where I Want You
+file_dpath: Abilities/Kits/Stick and Robe
+flavor: When your stick speaks, your enemy moves.
+item_id: where-i-want-you
+item_index: '01'
+item_name: Where I Want You
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
+scdc:
+- 1.1.1:14.21:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/stick-and-robe
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Where I Want You
+flavor: When your stick speaks, your enemy moves.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 2
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 2
+  file_basename: Where I Want You
+  file_dpath: Abilities/Kits/Stick and Robe
+  flavor: When your stick speaks, your enemy moves.
+  item_id: where-i-want-you
+  item_index: "01"
+  item_name: Where I Want You
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
+  scdc:
+    - 1.1.1:14.21:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/stick-and-robe
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 4 + M or A damage
+    tier2: 7 + M or A damage; slide 1
+    tier3: 10 + M or A damage; slide 3
+```

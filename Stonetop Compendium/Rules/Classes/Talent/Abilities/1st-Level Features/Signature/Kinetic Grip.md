@@ -1,0 +1,70 @@
+---
+ability_type: Signature
+action_type: Main action
+class: talent
+distance: Ranged 10
+feature_type: ability
+file_basename: Kinetic Grip
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: You lift and hurl your foe away from you.
+item_id: kinetic-grip
+item_index: '01'
+item_name: Kinetic Grip
+keywords:
+- Psionic
+- Ranged
+- Telekinesis
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-grip
+scdc:
+- 1.1.1:11.3.1.1:01
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Kinetic Grip
+flavor: You lift and hurl your foe away from you.
+keywords:
+  - Psionic
+  - Ranged
+  - Telekinesis
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Kinetic Grip
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: You lift and hurl your foe away from you.
+  item_id: kinetic-grip
+  item_index: "01"
+  item_name: Kinetic Grip
+  keywords:
+    - Psionic
+    - Ranged
+    - Telekinesis
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-grip
+  scdc:
+    - 1.1.1:11.3.1.1:01
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: Slide 2 + R
+    tier2: Slide 4 + R
+    tier3: Slide 6 + R; prone
+  - name: Strained
+    effect: You must vertical push the target instead of sliding them.
+```

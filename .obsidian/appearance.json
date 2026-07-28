@@ -1,0 +1,30 @@
+{
+  "accentColor": "#5e129b",
+  "cssTheme": "ITS Theme",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "Disable Canvas Grid",
+    "S - Encoded Icons",
+    "my-mb-button",
+    "TabsInObsidian - MaxH480",
+    "TabsInObsidian - MaxH",
+    "Mermaid_Fix_Text_Clipping",
+    "Paper Texture",
+    "mycustom",
+    "nb-mb-css",
+    "Override Heading Font",
+    "tgg-mb-css",
+    "slid-mb-css",
+    "SailKite - TabsInObsidian",
+    "Custom Body Font",
+    "S - Encoded Fonts",
+    "MyFonts",
+    "FantasyFonts",
+    "dnd5e-compendium"
+  ],
+  "baseFontSize": 15,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "theme": "obsidian",
+  "textFontFamily": "Adobe Caslon Pro"
+}

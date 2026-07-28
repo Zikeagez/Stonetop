@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: troubadour
+cost: 3 Drama
+cost_amount: 3
+cost_resource: Drama
+distance: Melee 1 or ranged 10
+feature_type: ability
+file_basename: Harsh Critic
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: Just one bad review will ruin their day.
+item_id: harsh-critic-3-drama
+item_index: '20'
+item_name: Harsh Critic (3 Drama)
+keywords:
+- Magic
+- Melee
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harsh-critic
+scdc:
+- 1.1.1:11.3.3.1:20
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Harsh Critic
+cost: 3 Drama
+flavor: Just one bad review will ruin their day.
+keywords:
+  - Magic
+  - Melee
+  - Ranged
+  - Strike
+usage: Main action
+distance: Melee 1 or ranged 10
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 3 Drama
+  cost_amount: 3
+  cost_resource: Drama
+  distance: Melee 1 or ranged 10
+  feature_type: ability
+  file_basename: Harsh Critic
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: Just one bad review will ruin their day.
+  item_id: harsh-critic-3-drama
+  item_index: "20"
+  item_name: Harsh Critic (3 Drama)
+  keywords:
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harsh-critic
+  scdc:
+    - 1.1.1:11.3.3.1:20
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 7 + P sonic damage
+    tier2: 10 + P sonic damage
+    tier3: 13 + P sonic damage
+  - name: Effect
+    effect: The first time the target uses an ability before the start of your next
+      turn, any effects from the ability's tier outcomes other than damage are
+      negated for all targets. Ability effects that always happen regardless of
+      the power roll work as usual.
+```

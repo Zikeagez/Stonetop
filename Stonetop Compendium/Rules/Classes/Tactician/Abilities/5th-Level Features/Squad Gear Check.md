@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: tactician
+cost: 9 Focus
+cost_amount: 9
+cost_resource: Focus
+distance: Melee 1
+feature_type: ability
+file_basename: Squad Gear Check
+file_dpath: Abilities/Tactician/5th-Level Features
+flavor: You distract a foe while your allies secure their defensive gear.
+item_id: squad-gear-check-9-focus
+item_index: '01'
+item_name: Squad! Gear Check! (9 Focus)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-gear-check
+scdc:
+- 1.1.1:11.3.4.4:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/tactician/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Squad! Gear Check!
+cost: 9 Focus
+flavor: You distract a foe while your allies secure their defensive gear.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: tactician
+  cost: 9 Focus
+  cost_amount: 9
+  cost_resource: Focus
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Squad Gear Check
+  file_dpath: Abilities/Tactician/5th-Level Features
+  flavor: You distract a foe while your allies secure their defensive gear.
+  item_id: squad-gear-check-9-focus
+  item_index: "01"
+  item_name: Squad! Gear Check! (9 Focus)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-gear-check
+  scdc:
+    - 1.1.1:11.3.4.4:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/tactician/5th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 9 + M damage
+    tier2: 13 + M damage
+    tier3: 18 + M damage
+  - name: Effect
+    effect: You and each ally adjacent to the target gain 10 temporary Stamina.
+```

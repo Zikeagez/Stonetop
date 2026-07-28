@@ -1,0 +1,81 @@
+---
+ability_type: Signature
+action_type: Main action
+class: talent
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Incinerate
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: The air erupts into a column of smokeless flame.
+item_id: incinerate
+item_index: '10'
+item_name: Incinerate
+keywords:
+- Area
+- Fire
+- Psionic
+- Pyrokinesis
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:incinerate
+scdc:
+- 1.1.1:11.3.1.1:10
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Incinerate
+flavor: The air erupts into a column of smokeless flame.
+keywords:
+  - Area
+  - Fire
+  - Psionic
+  - Pyrokinesis
+  - Ranged
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: talent
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Incinerate
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: The air erupts into a column of smokeless flame.
+  item_id: incinerate
+  item_index: "10"
+  item_name: Incinerate
+  keywords:
+    - Area
+    - Fire
+    - Psionic
+    - Pyrokinesis
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:incinerate
+  scdc:
+    - 1.1.1:11.3.1.1:10
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 fire damage
+    tier2: 4 fire damage
+    tier3: 6 fire damage
+  - name: Effect
+    effect: A column of fire remains in the area until the start of your next turn.
+      Each enemy who enters the area for the first time in a combat round or
+      starts their turn there takes 2 fire damage.
+  - name: Strained
+    effect: The size of the cube increases by 2, but the fire disappears at the end
+      of your turn.
+```

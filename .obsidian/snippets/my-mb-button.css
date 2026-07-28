@@ -1,0 +1,13 @@
+.my-mb-button-down .mb-button-inner {
+    color: rgb(205, 32, 44) !important;
+    font-size:17px;
+    padding-right: 2px !important;
+    padding-left: 3px !important;
+}
+
+.my-mb-button-up .mb-button-inner {
+    color: rgb(0, 128, 0) !important;
+    font-size:17px;
+    padding-right: 3px !important;
+    padding-left: 2px !important;
+}

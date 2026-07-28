@@ -1,0 +1,67 @@
+---
+action_type: Triggered
+class: shadow
+distance: Self
+feature_type: ability
+file_basename: Defensive Roll
+file_dpath: Abilities/Shadow/1st-Level Features
+flavor: When an enemy attacks, you roll with the impact to reduce the harm.
+item_id: defensive-roll
+item_index: '13'
+item_name: Defensive Roll
+keywords:
+- '-'
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:defensive-roll
+scdc:
+- 1.1.1:11.3.2.1:13
+source: mcdm.heroes.v1
+subclass: Caustic Alchemy
+target: Self
+type: feature/ability/shadow/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Defensive Roll
+flavor: When an enemy attacks, you roll with the impact to reduce the harm.
+keywords:
+  - "-"
+usage: Triggered
+distance: Self
+target: Self
+trigger: Another creature damages you.
+metadata:
+  action_type: Triggered
+  class: shadow
+  distance: Self
+  feature_type: ability
+  file_basename: Defensive Roll
+  file_dpath: Abilities/Shadow/1st-Level Features
+  flavor: When an enemy attacks, you roll with the impact to reduce the harm.
+  item_id: defensive-roll
+  item_index: "13"
+  item_name: Defensive Roll
+  keywords:
+    - "-"
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:defensive-roll
+  scdc:
+    - 1.1.1:11.3.2.1:13
+  source: mcdm.heroes.v1
+  subclass: Caustic Alchemy
+  target: Self
+  type: feature/ability/shadow/1st-level-feature
+effects:
+  - name: Effect
+    effect: You take half the triggering damage, then can shift up to 2 squares
+      after the triggering effect resolves. If you end this shift with
+      concealment or cover, you can use the Hide maneuver even if you are
+      observed.
+  - cost: Spend 1 Insight
+    effect: The potency of any effects associated with the damage are reduced by 1
+      for you.
+```

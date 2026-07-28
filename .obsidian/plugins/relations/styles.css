@@ -1,0 +1,718 @@
+/* === side-panel view === */
+.relations-root {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.relations-toolbar {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	padding: 6px 10px;
+	border-bottom: 1px solid var(--background-modifier-border);
+	flex: 0 0 auto;
+	flex-wrap: wrap;
+}
+
+.relations-toolbar button {
+	padding: 4px 10px;
+	font-size: 12px;
+}
+
+.relations-mode-toggle {
+	display: inline-flex;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.relations-mode-toggle button {
+	border: none;
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	padding: 4px 10px;
+	font-size: 12px;
+	cursor: pointer;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.relations-mode-toggle button.is-active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+/* Standalone toolbar buttons (Family tree, Refresh, Fit) — use is-active for the toggleable ones. */
+.relations-toolbar button.is-active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.relations-depth-wrap {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 12px;
+	color: var(--text-muted);
+}
+
+.relations-depth-wrap input[type="number"] {
+	width: 50px;
+	padding: 2px 4px;
+	font-size: 12px;
+}
+
+.relations-subtitle {
+	padding: 4px 12px;
+	font-size: 11px;
+	color: var(--text-muted);
+	border-bottom: 1px solid var(--background-modifier-border);
+	flex: 0 0 auto;
+}
+
+.relations-canvas {
+	flex: 1 1 auto;
+	width: 100%;
+	min-height: 200px;
+	position: relative;
+	background: var(--background-primary);
+}
+
+.relations-empty {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 360px;
+	text-align: center;
+	color: var(--text-muted);
+	padding: 14px 18px;
+	border: 1px dashed var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-secondary);
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.relations-legend {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	padding: 8px 12px;
+	border-top: 1px solid var(--background-modifier-border);
+	font-size: 12px;
+	color: var(--text-muted);
+	flex: 0 0 auto;
+}
+
+.relations-legend.is-hidden { display: none; }
+
+.relations-legend-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+/* A grouped cluster: its title followed by the group's items, wrapping as a
+   unit. A subtle left divider sets each group apart on the legend strip. */
+.relations-legend-group {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px;
+	padding-left: 12px;
+	border-left: 1px solid var(--background-modifier-border);
+}
+
+.relations-legend-group-title {
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+/* ---------------------------------------------------------------------------
+   Type filter panel — used by the side-panel view and code-block embeds.
+   --------------------------------------------------------------------------- */
+.relations-filter-panel {
+	padding: 8px 12px;
+	border-top: 1px solid var(--background-modifier-border);
+	font-size: 12px;
+	max-height: 240px;
+	overflow-y: auto;
+	flex: 0 0 auto;
+}
+
+.relations-filter-panel.is-hidden { display: none; }
+
+.relations-filter-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.relations-filter-title {
+	font-weight: 600;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: 11px;
+}
+
+.relations-filter-actions { display: flex; gap: 4px; }
+
+.relations-filter-action {
+	font-size: 11px;
+	padding: 2px 8px;
+	cursor: pointer;
+}
+
+.relations-filter-row {
+	display: flex;
+	align-items: center;
+	padding: 2px 0;
+}
+
+.relations-filter-row.is-child { padding-left: 22px; }
+
+.relations-filter-label {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.relations-filter-cb { cursor: pointer; }
+
+.relations-filter-swatch {
+	display: inline-block;
+	width: 16px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: var(--swatch-color, #888888);
+	flex: 0 0 auto;
+}
+
+.relations-filter-swatch.is-dashed {
+	background-image: repeating-linear-gradient(to right, var(--swatch-color, #888) 0 3px, transparent 3px 6px);
+	background-color: transparent;
+}
+
+.relations-filter-swatch.is-dotted {
+	background-image: repeating-linear-gradient(to right, var(--swatch-color, #888) 0 1.5px, transparent 1.5px 5px);
+	background-color: transparent;
+}
+
+.relations-filter-swatch.is-double {
+	background-image: linear-gradient(var(--swatch-color, #888), var(--swatch-color, #888)),
+		linear-gradient(var(--swatch-color, #888), var(--swatch-color, #888));
+	background-size: 100% 1.5px;
+	background-position: top, bottom;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.relations-filter-name { color: var(--text-normal); }
+
+.relations-filter-group { margin-top: 2px; }
+
+.relations-filter-grouphead {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 2px 0;
+}
+
+.relations-filter-chevron {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	color: var(--text-muted);
+}
+
+.relations-filter-chevron svg { width: 14px; height: 14px; }
+
+.relations-filter-groupname {
+	font-weight: 600;
+	color: var(--text-normal);
+	cursor: pointer;
+}
+
+.relations-filter-count {
+	color: var(--text-muted);
+	font-size: 11px;
+	margin-left: auto;
+}
+
+.relations-filter-children.is-hidden { display: none; }
+
+/* Embed filter: a toggle button above a (reused) filter panel. */
+.relations-embed-filter { margin-top: 6px; }
+
+.relations-filter-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	font-size: 11px;
+	padding: 2px 8px;
+	cursor: pointer;
+}
+
+.relations-filter-toggle.is-active {
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.relations-filter-toggle svg { width: 14px; height: 14px; }
+
+.relations-embed-filter .relations-filter-panel { border-top: none; padding: 6px 0; }
+
+.relations-legend-swatch {
+	display: inline-block;
+	width: 18px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: var(--swatch-color, #888888);
+	position: relative;
+}
+
+/* Dashed swatch — small dashes, transparent background, top border carries the dashes. */
+.relations-legend-swatch.is-dashed {
+	background-color: transparent;
+	height: 0;
+	border-top: 3px dashed var(--swatch-color, #888888);
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 0;
+}
+
+.relations-legend-swatch.is-dotted {
+	background-color: transparent;
+	height: 0;
+	border-top: 3px dotted var(--swatch-color, #888888);
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 0;
+}
+
+/* Double-line swatch: top + bottom borders, transparent middle. */
+.relations-legend-swatch.is-double {
+	background-color: transparent;
+	height: 4px;
+	border-top: 1.5px solid var(--swatch-color, #888888);
+	border-bottom: 1.5px solid var(--swatch-color, #888888);
+	border-radius: 0;
+}
+
+/* === embedded code blocks ===
+   IMPORTANT: explicit width AND height — Cytoscape needs concrete dimensions when it
+   mounts. Using `display: flex` with column direction ensures the canvas takes most
+   space and the optional legend strip slots in below it without breaking layout.
+
+   Float behaviour: we deliberately do NOT set `clear: both`. ITS infoboxes use
+   `float: right` (or left) and the typical user intent is for the graph to flow in
+   the column *next to* the floated infobox — heading on the left, infobox on the
+   right, graph filling the leftover column. Letting the embed wrap naturally is the
+   right behaviour.
+
+   The `min-width` safeguard handles the edge case where the floated infobox is so
+   wide there's almost no room left — in that case browsers automatically push the
+   embed below the float rather than rendering it in a tiny squashed column.
+
+   `contain: layout` makes the embed a block formatting context, which prevents
+   neighbouring floats from intruding into its margin or padding. */
+.relations-embed {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: auto;
+	min-width: 280px;
+	contain: layout;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-primary);
+	overflow: hidden;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+
+.relations-embed.is-mini {
+	height: 160px;
+	min-height: 160px;
+}
+
+.relations-embed.is-small {
+	height: 320px;
+	min-height: 320px;
+}
+
+.relations-embed.is-large {
+	height: 600px;
+	min-height: 600px;
+}
+
+/* Inside any callout (ITS infobox, fas-infobox, plain callouts, etc.) the wrapper's
+   own border, background, and margin would compete with the callout's chrome. Strip
+   them, and tighten the margin so the block doesn't push surrounding callout content
+   around. */
+.relations-embed.in-callout {
+	border: none;
+	background: transparent;
+	margin: 4px 0;
+	border-radius: 4px;
+}
+
+/* In an infobox callout the column is narrow — small/large here would overflow.
+   Force these down to a sensible column-friendly height. The user can still get more
+   space by setting an explicit size: large outside the callout. */
+.relations-embed.in-callout.is-mini {
+	height: 140px;
+	min-height: 140px;
+}
+.relations-embed.in-callout.is-small {
+	height: 220px;
+	min-height: 220px;
+}
+.relations-embed.in-callout.is-large {
+	height: 320px;
+	min-height: 320px;
+}
+
+.relations-embed-canvas {
+	display: block;
+	width: 100%;
+	flex: 1 1 auto;
+	min-height: 0;
+	position: relative;
+}
+
+/* Legend inside an embed — slimmer than the side-panel legend. */
+.relations-embed > .relations-legend {
+	flex: 0 0 auto;
+	padding: 6px 10px;
+	font-size: 11px;
+	gap: 10px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.relations-embed.in-callout > .relations-legend {
+	border-top: 1px dashed var(--background-modifier-border);
+	padding: 4px 6px;
+	font-size: 10px;
+}
+
+.relations-embed .relations-empty {
+	font-size: 12px;
+	max-width: 280px;
+}
+
+.relations-embed.is-mini .relations-empty {
+	font-size: 11px;
+	max-width: 200px;
+	padding: 8px 10px;
+}
+
+/* === settings table === */
+.relations-types-header,
+.relations-types-row {
+	display: grid;
+	grid-template-columns: 1fr 0.7fr 50px 50px 50px 50px 50px 90px 32px;
+	gap: 8px;
+	align-items: center;
+	padding: 4px 0;
+}
+
+.relations-types-header {
+	font-size: 11px;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	border-bottom: 1px solid var(--background-modifier-border);
+	padding-bottom: 6px;
+	margin-bottom: 4px;
+}
+
+.relations-types-header-cell { text-align: center; }
+.relations-types-header-name { text-align: left; }
+
+.relations-types-name {
+	width: 100%;
+	padding: 4px 8px;
+	font-size: 13px;
+}
+
+.relations-types-color {
+	width: 40px;
+	height: 24px;
+	padding: 0;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	cursor: pointer;
+	background: transparent;
+	justify-self: center;
+}
+
+.relations-types-cb { justify-self: center; }
+
+.relations-types-linestyle {
+	width: 100%;
+	padding: 3px 4px;
+	font-size: 12px;
+	background: var(--background-primary);
+	color: var(--text-normal);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+}
+
+.relations-types-remove {
+	background: transparent;
+	border: none;
+	color: var(--text-muted);
+	cursor: pointer;
+	font-size: 14px;
+	padding: 2px 6px;
+	box-shadow: none;
+}
+
+.relations-types-remove:hover { color: var(--text-error); }
+
+.relations-help-pre {
+	background: var(--background-secondary);
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 12px;
+	overflow-x: auto;
+}
+
+/* Lock controls — sit in the top-right corner of an embedded graph. The group
+   holds the lock/save button and (when locked) a reset button side by side. */
+.relations-lock-group {
+	position: absolute;
+	top: 6px;
+	right: 34px;
+	z-index: 5;
+	display: flex;
+	gap: 4px;
+}
+
+.relations-lock-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	padding: 0;
+	border-radius: 6px;
+	border: 1px solid var(--background-modifier-border);
+	background-color: var(--background-secondary);
+	color: var(--text-muted);
+	opacity: 0;
+	cursor: pointer;
+	transition: opacity 120ms ease, color 120ms ease, background-color 120ms ease;
+}
+
+/* Reveal on hover of the graph, or keep visible when locked. */
+.relations-embed:hover .relations-lock-btn,
+.relations-lock-btn.is-locked {
+	opacity: 1;
+}
+
+/* The reset button only matters when locked; hide it entirely otherwise so it
+   doesn't show up on hover of an unlocked graph. */
+.relations-reset-btn.is-hidden {
+	display: none;
+}
+
+.relations-lock-btn:hover {
+	color: var(--text-normal);
+	background-color: var(--background-modifier-hover);
+}
+
+.relations-lock-btn.is-locked {
+	color: var(--interactive-accent);
+	border-color: var(--interactive-accent);
+}
+
+/* Reset button stays neutral-coloured even when the graph is locked — it's a
+   destructive-ish action, so we don't want it accented like the save button. */
+.relations-reset-btn.is-locked {
+	color: var(--text-muted);
+	border-color: var(--background-modifier-border);
+}
+
+.relations-reset-btn:hover {
+	color: var(--text-error);
+}
+
+.relations-lock-btn .svg-icon {
+	width: 16px;
+	height: 16px;
+}
+
+/* Inline edge label editor — appears at the double-click point when the user
+   adds or changes a label on a relationship line. Absolutely-positioned inside
+   the embed container so it tracks with scroll/resize, centered on the click. */
+.relations-edge-label-editor {
+	z-index: 10;
+	padding: 4px 8px;
+	min-width: 140px;
+	max-width: 240px;
+	font-size: 13px;
+	color: var(--text-normal);
+	background-color: var(--background-primary);
+	border: 1px solid var(--interactive-accent);
+	border-radius: 4px;
+	outline: none;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.relations-edge-label-editor::placeholder {
+	color: var(--text-faint);
+}
+
+/* -----------------------------------------------------------------------
+ * Classes below replace inline-style assignments that previously lived in
+ * the TS source. Moved here per Obsidian's plugin lint rule
+ * `no-static-styles-assignment`. Dynamic per-frame values (positions,
+ * transforms with computed scale factors) remain in JS via template
+ * literals — those don't violate the lint rule and can't be expressed
+ * statically anyway.
+ * --------------------------------------------------------------------- */
+
+/* Toolbar spacer that pushes subsequent buttons to the right. */
+.relations-spacer {
+	flex: 1;
+}
+
+/* Cytoscape container needs to be positioned for the badge overlay to
+ * land in the right coordinate space. The plugin adds this class
+ * defensively to the host container before mounting the badge overlay
+ * onto an absolute-positioned child. */
+.relations-cy-container {
+	position: relative;
+}
+
+/* Probe element used to measure label widths offscreen via
+ * getComputedStyle / offsetWidth. Hidden and positioned far off-canvas. */
+.relations-label-probe {
+	position: absolute;
+	visibility: hidden;
+	left: -99999px;
+	top: 0;
+	white-space: nowrap;
+	font-weight: 500;
+}
+
+/* Probe element used to read a CSS variable's resolved color. */
+.relations-color-probe {
+	display: none;
+}
+
+/* Edge-label editor positioned anchor — places the input so that its
+ * centre point lands on the supplied client coordinates. Concrete x/y
+ * are set dynamically via template-literal style assignments at the
+ * call site, which the static-styles lint rule permits. */
+.relations-edge-label-editor {
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+/* Hit-test path overlaid on top of an SVG family-connector route.
+ * Wide invisible stroke catches double-clicks for label editing. */
+.relations-family-connector-hit-path {
+	cursor: pointer;
+	pointer-events: stroke;
+}
+
+/* SVG label-pill <g> overlay for family-connector edge labels. */
+.family-connector-label {
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+/* Node-badge overlay container — absolute layer covering the Cytoscape
+ * canvas, click-through, with a z-index that sits above the canvas but
+ * below the family-connectors SVG label overlay. */
+.relations-node-badges {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	z-index: 5;
+	overflow: hidden;
+}
+
+/* One group per node that has any badge content. Positioned absolutely
+ * at the node's rendered centre; children are placed relative to that
+ * origin. The actual left/top values are set dynamically via template-
+ * literal assignments in node-badges.ts positionGroup(). */
+.relations-node-badge-group {
+	position: absolute;
+	pointer-events: none;
+	left: 0;
+	top: 0;
+}
+
+/* Top-left and top-right corner badges. The position-anchoring CSS
+ * (auto values for left/top vs right/bottom) is class-driven so the
+ * lint rule doesn't catch the literal "auto" assignments that used to
+ * live in JS. transform-origin likewise depends only on the corner,
+ * not zoom, so it's a static class concern. */
+.relations-node-badge {
+	position: absolute;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1;
+	padding: 2px 4px;
+	border-radius: 8px;
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	color: var(--text-normal);
+	white-space: nowrap;
+	visibility: visible;
+}
+
+.relations-node-badge-top-left {
+	left: auto;
+	top: auto;
+	transform-origin: 100% 100%;
+}
+
+.relations-node-badge-top-right {
+	right: auto;
+	top: auto;
+	transform-origin: 0% 100%;
+}
+
+.relations-node-badge-bottom-left {
+	left: auto;
+	bottom: auto;
+	transform-origin: 100% 0%;
+}
+
+.relations-node-badge-bottom-right {
+	right: auto;
+	bottom: auto;
+	transform-origin: 0% 0%;
+}
+
+.relations-node-subtext {
+	position: absolute;
+	display: block;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 1.2;
+	padding: 2px 6px;
+	border-radius: 4px;
+	background: var(--background-primary);
+	color: var(--text-muted);
+	white-space: nowrap;
+	transform-origin: 50% 0%;
+}
+
+/* Bullet list inside a settings help block, slight top margin so it
+ * doesn't crowd the preceding paragraph. */
+.relations-help-list {
+	margin-top: 4px;
+}

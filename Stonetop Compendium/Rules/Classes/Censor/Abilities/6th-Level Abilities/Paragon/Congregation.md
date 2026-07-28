@@ -1,0 +1,83 @@
+---
+action_type: Main action
+class: censor
+cost: 9 Wrath
+cost_amount: 9
+cost_resource: Wrath
+distance: Melee 1
+feature_type: ability
+file_basename: Congregation
+file_dpath: Abilities/Censor/6th-Level Features
+flavor: You focus your allies' wrath on a chosen foe.
+item_id: congregation-9-wrath
+item_index: '04'
+item_name: Congregation (9 Wrath)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation
+scdc:
+- 1.1.1:11.3.7.3:04
+source: mcdm.heroes.v1
+subclass: Paragon
+target: One creature
+type: feature/ability/censor/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Congregation
+cost: 9 Wrath
+flavor: You focus your allies' wrath on a chosen foe.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 9 Wrath
+  cost_amount: 9
+  cost_resource: Wrath
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Congregation
+  file_dpath: Abilities/Censor/6th-Level Features
+  flavor: You focus your allies' wrath on a chosen foe.
+  item_id: congregation-9-wrath
+  item_index: "04"
+  item_name: Congregation (9 Wrath)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation
+  scdc:
+    - 1.1.1:11.3.7.3:04
+  source: mcdm.heroes.v1
+  subclass: Paragon
+  target: One creature
+  type: feature/ability/censor/6th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 8 + M damage; as a free triggered action, one ally within 10 squares of
+      the target can use a strike signature ability against the target
+    tier2: 12 + M damage; as a free triggered action, one ally within 10 squares of
+      the target can use a strike signature ability that gains an edge against
+      the target
+    tier3: 16 + M damage; as a free triggered action, two allies within 10 squares
+      of the target can each use a strike signature ability that gains an edge
+      against the target
+  - name: Effect
+    effect: Each ally can shift up to 2 squares and gains 2 surges before making the
+      strike.
+```

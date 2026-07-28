@@ -1,0 +1,45 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: Light of the Burning Sun
+file_dpath: Features/Conduit/7th-Level Features/7th-Level Domain Feature
+item_id: light-of-the-burning-sun
+item_index: 09
+item_name: Light of the Burning Sun
+level: 7
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.7th-level-feature:light-of-the-burning-sun
+scdc:
+- 1.1.1:11.2.8.2:09
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/7th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Light of the Burning Sun
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: Light of the Burning Sun
+  file_dpath: Features/Conduit/7th-Level Features/7th-Level Domain Feature
+  item_id: light-of-the-burning-sun
+  item_index: 9
+  item_name: Light of the Burning Sun
+  level: 7
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.7th-level-feature:light-of-the-burning-sun
+  scdc:
+    - 1.1.1:11.2.8.2:09
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/7th-level-feature
+effects:
+  - effect: Sun infuses your body. Whenever you use an ability to deal rolled damage
+      to another creature, that ability deals an extra 5 fire damage, or an
+      extra 15 fire damage if the creature is undead. Additionally, you have
+      fire immunity equal to your level, which is added to any other fire
+      immunity you have.
+```

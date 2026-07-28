@@ -1,0 +1,71 @@
+---
+ability_type: Signature
+action_type: Main action
+class: troubadour
+distance: Melee 1
+feature_type: ability
+file_basename: Instigator
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: I didn't do it! What?
+item_id: instigator
+item_index: '24'
+item_name: Instigator
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
+scdc:
+- 1.1.1:11.3.3.1:24
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Instigator
+flavor: I didn't do it! What?
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: troubadour
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Instigator
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: I didn't do it! What?
+  item_id: instigator
+  item_index: "24"
+  item_name: Instigator
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
+  scdc:
+    - 1.1.1:11.3.3.1:24
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 3 + P damage
+    tier2: 6 + P damage
+    tier3: 9 + P damage
+  - name: Effect
+    effect: The target is taunted by you or a willing ally adjacent to you until the
+      end of the target's next turn.
+```

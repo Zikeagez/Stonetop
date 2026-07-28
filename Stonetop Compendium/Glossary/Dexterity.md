@@ -1,0 +1,1 @@
+**Dexterity (DEX):** your grace and fine motor control. Roll +DEX to Let Fly, or to Defy Danger with sped, agility finesse.

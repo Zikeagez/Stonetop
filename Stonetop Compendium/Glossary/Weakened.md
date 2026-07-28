@@ -1,0 +1,1 @@
+**Weakened:** fatigued, tired, sluggish, shaky. Take disadvantage when rolling +STR or +DEX.

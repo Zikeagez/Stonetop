@@ -1,0 +1,51 @@
+{
+  "userAdmonitions": {
+    "treasure": {
+      "type": "treasure",
+      "color": "28, 187, 7",
+      "icon": {
+        "name": "coins",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Treasure",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "statblock": {
+      "type": "statblock",
+      "color": "243, 88, 88",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-swords"
+      },
+      "command": false,
+      "title": "Statblock",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "11.0.0",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.510369"
+}

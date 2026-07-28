@@ -1,0 +1,71 @@
+{
+  "frames": [
+    {
+      "url": "https://chat.openai.com/",
+      "displayName": "ChatGPT",
+      "icon": "bot",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://roll20.net/welcome",
+      "displayName": "Roll20",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://app.roll20.net/characters/sheet/6056415?sheet_shortname=ogl5e",
+      "displayName": "Roll20Naris",
+      "icon": "shield",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://app.roll20.net/editor/character/12871261/-NEEEu6W6mAfka4XVNGl/true?popout=true",
+      "displayName": "Naris",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1NiJuwfywKWqCCoJaWX2rCoi6nxHJx1uf29sVAiMOXRI/edit#gid=0",
+      "displayName": "ObsidianLeafletBounds",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    },
+    {
+      "url": "https://app.roll20.net/editor/character/9752947/-Mzm3Nf7PQqa9yQwm6SV/true?popout=true",
+      "displayName": "Roll20Nym",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
+    }
+  ],
+  "padding": 5
+}

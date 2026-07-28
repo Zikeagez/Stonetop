@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: shadow
+cost: 11 Insight
+cost_amount: 11
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: It Was Me All Along
+file_dpath: Abilities/Shadow/9th-Level Features
+flavor: After everything you've been through together, you twist the blade and make
+  the pain extra personal.
+item_id: it-was-me-all-along-11-insight
+item_index: '03'
+item_name: It Was Me All Along (11 Insight)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along
+scdc:
+- 1.1.1:11.3.2.7:03
+source: mcdm.heroes.v1
+subclass: Harlequin Mask
+target: One creature or object
+type: feature/ability/shadow/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: It Was Me All Along
+cost: 11 Insight
+flavor: After everything you've been through together, you twist the blade and
+  make the pain extra personal.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 11 Insight
+  cost_amount: 11
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: It Was Me All Along
+  file_dpath: Abilities/Shadow/9th-Level Features
+  flavor: After everything you've been through together, you twist the blade and
+    make the pain extra personal.
+  item_id: it-was-me-all-along-11-insight
+  item_index: "03"
+  item_name: It Was Me All Along (11 Insight)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along
+  scdc:
+    - 1.1.1:11.3.2.7:03
+  source: mcdm.heroes.v1
+  subclass: Harlequin Mask
+  target: One creature or object
+  type: feature/ability/shadow/9th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 15 + A damage
+    tier2: 21 + A damage
+    tier3: 28 + A damage
+  - name: Effect
+    effect: If you are disguised as a creature the target knew using your I'm No
+      Threat ability, this ability deals extra damage equal to three times your
+      Agility score.
+```

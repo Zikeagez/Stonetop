@@ -1,0 +1,1137 @@
+{
+  "workspaces": {
+    "Mechanics": {
+      "main": {
+        "id": "3b35b80ee46c884d",
+        "type": "split",
+        "children": [
+          {
+            "id": "35b48bec7ccf530d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2f6c45a76415c5b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "045c8a42c54af4d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d283147d58c9c294",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b674833cb1335afd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f2b4f5f642ea3f1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "ammunition",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "52f0ea4c0b8a393f",
+                "type": "leaf",
+                "state": {
+                  "type": "tenki",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1d29d0d880b12255",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b688330520549f80",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. Dm Screen/DM Player Info.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 401.5062484741211
+      },
+      "right": {
+        "id": "31d1b2fe2d3a88d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "f05a303dc9a30ebd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d93a03fa592a134",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "975e9ddaf8c8c0ec",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "b028327956fbeb7f",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e1d5eebe9d2215c6",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md"
+                  }
+                }
+              },
+              {
+                "id": "03363357af2e0bb2",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-chatgpt",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e5780b3526c79488",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6d69c5baf17c5aea",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7d9e70a26284f07c",
+                "type": "leaf",
+                "state": {
+                  "type": "CALENDARIUM",
+                  "state": {
+                    "calendar": "ID_f809396ad878",
+                    "ephemeral": {
+                      "viewState": 1,
+                      "displaying": {
+                        "year": 1492,
+                        "month": 2,
+                        "day": 15
+                      },
+                      "displayDayNumber": false,
+                      "displayMoons": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d3240580b302e6b0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48c4115660b08692",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-creature-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 506.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-import-json:JSON/CSV Importer": false,
+          "graph:Open graph view": false,
+          "obsidian-custom-frames:Open ChatGPT": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-gallery:Gallery": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "copilot:Copilot Chat": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "fantasy-content-generator:Fantasy Generators": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "calendarium:Open Calendarium": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "2f6c45a76415c5b9",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "0. Dm Screen",
+          "0. Dm Screen/Magic/Schools of Magic",
+          "0. Session Journals/Rime of the Frostmaiden",
+          "0. The Party/The Miscreants of Vallaki",
+          "1. World",
+          "1. World/5e Modules",
+          "1. World/5e Modules/DM. Baldur's Gate - Descent Into Avernus",
+          "1. World/5e Modules/DM. Curse of Strahd",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/1. The Ancient Era (3,000 BU - 0 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/2. The Founding Era (1 BC - 345 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/3. The Era of Blood (346 BC - 351 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/7. Strahd's Awakening (735 BC - Present)",
+          "1. World/5e Modules/DM. Curse of Strahd/NPCs",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes/Session 31-40",
+          "1. World/Forgotten Realms",
+          "1. World/Forgotten Realms/Faerun",
+          "1. World/Forgotten Realms/Faerun/GoldenFields",
+          "1. World/Forgotten Realms/Faerun/Griffon's Nest",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Island of Solstice",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Ten Towns/Bryn Shander",
+          "1. World/NPCs/Avernus NPCs/Baldur's Gate NPCs",
+          "1. World/NPCs/Avernus NPCs/Elturgard NPCs",
+          "1. World/NPCs/Rime NPCs",
+          "1. World/NPCs/Rime NPCs/Ten Towns",
+          "1. World/NPCs/Rime NPCs/Ten Towns/Speakers",
+          "2_Mechanics Gallery/Equipment",
+          "2. Mechanics",
+          "2. Mechanics/Items",
+          "2. Mechanics/Spells/Steinhardt's",
+          "2. Mechanics/Spells/WotC",
+          "IMPORTTEST",
+          "textgenerator/prompts",
+          "textgenerator/prompts/Fantasy Generators",
+          "textgenerator/prompts/trash/huggingface",
+          "z_Templates",
+          "z_Templates/1_Story World Templates/People",
+          "z_Templates/3_Markdown"
+        ]
+      }
+    },
+    "DM Screen": {
+      "main": {
+        "id": "3b35b80ee46c884d",
+        "type": "split",
+        "children": [
+          {
+            "id": "35b48bec7ccf530d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2f6c45a76415c5b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. Dm Screen/0. Dm Screen.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "045c8a42c54af4d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d283147d58c9c294",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b674833cb1335afd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f2b4f5f642ea3f1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "ammunition",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "52f0ea4c0b8a393f",
+                "type": "leaf",
+                "state": {
+                  "type": "tenki",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1d29d0d880b12255",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b688330520549f80",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. Dm Screen/DM Player Info.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 401.5062484741211
+      },
+      "right": {
+        "id": "31d1b2fe2d3a88d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "f05a303dc9a30ebd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d93a03fa592a134",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "0. Dm Screen/0. Dm Screen.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "975e9ddaf8c8c0ec",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "0. Dm Screen/0. Dm Screen.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "b028327956fbeb7f",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e1d5eebe9d2215c6",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "0. Dm Screen/0. Dm Screen.md"
+                  }
+                }
+              },
+              {
+                "id": "03363357af2e0bb2",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-chatgpt",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e5780b3526c79488",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6d69c5baf17c5aea",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7d9e70a26284f07c",
+                "type": "leaf",
+                "state": {
+                  "type": "CALENDARIUM",
+                  "state": {
+                    "calendar": "ID_f809396ad878",
+                    "ephemeral": {
+                      "viewState": 1,
+                      "displaying": {
+                        "year": 1492,
+                        "month": 2,
+                        "day": 15
+                      },
+                      "displayDayNumber": false,
+                      "displayMoons": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d3240580b302e6b0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48c4115660b08692",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-creature-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 506.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-import-json:JSON/CSV Importer": false,
+          "graph:Open graph view": false,
+          "obsidian-custom-frames:Open ChatGPT": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-gallery:Gallery": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "copilot:Copilot Chat": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "fantasy-content-generator:Fantasy Generators": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "calendarium:Open Calendarium": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "2f6c45a76415c5b9",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "0. Dm Screen",
+          "0. Dm Screen/Magic/Schools of Magic",
+          "0. Session Journals/Rime of the Frostmaiden",
+          "0. The Party/The Miscreants of Vallaki",
+          "1. World",
+          "1. World/5e Modules",
+          "1. World/5e Modules/DM. Baldur's Gate - Descent Into Avernus",
+          "1. World/5e Modules/DM. Curse of Strahd",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/1. The Ancient Era (3,000 BU - 0 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/2. The Founding Era (1 BC - 345 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/3. The Era of Blood (346 BC - 351 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/7. Strahd's Awakening (735 BC - Present)",
+          "1. World/5e Modules/DM. Curse of Strahd/NPCs",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes/Session 31-40",
+          "1. World/Forgotten Realms",
+          "1. World/Forgotten Realms/Faerun",
+          "1. World/Forgotten Realms/Faerun/GoldenFields",
+          "1. World/Forgotten Realms/Faerun/Griffon's Nest",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Island of Solstice",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Ten Towns/Bryn Shander",
+          "1. World/NPCs/Avernus NPCs/Baldur's Gate NPCs",
+          "1. World/NPCs/Avernus NPCs/Elturgard NPCs",
+          "1. World/NPCs/Rime NPCs",
+          "1. World/NPCs/Rime NPCs/Ten Towns",
+          "1. World/NPCs/Rime NPCs/Ten Towns/Speakers",
+          "2_Mechanics Gallery/Equipment",
+          "2. Mechanics",
+          "2. Mechanics/Items",
+          "2. Mechanics/Spells/Steinhardt's",
+          "2. Mechanics/Spells/WotC",
+          "IMPORTTEST",
+          "textgenerator/prompts",
+          "textgenerator/prompts/Fantasy Generators",
+          "textgenerator/prompts/trash/huggingface",
+          "z_Templates",
+          "z_Templates/1_Story World Templates/People",
+          "z_Templates/3_Markdown"
+        ]
+      }
+    },
+    "Faerun Map": {
+      "main": {
+        "id": "3b35b80ee46c884d",
+        "type": "split",
+        "children": [
+          {
+            "id": "35b48bec7ccf530d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4b5545164cd2b7dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "z_Tutorial examples/Untitled 5.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "2f6c45a76415c5b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "0177627e5d9a3f9e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "z_Templates/3_Markdown/Handlebar Template (5eTools Monster).md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "045c8a42c54af4d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d283147d58c9c294",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b674833cb1335afd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f2b4f5f642ea3f1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "ammunition",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "52f0ea4c0b8a393f",
+                "type": "leaf",
+                "state": {
+                  "type": "tenki",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1d29d0d880b12255",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b688330520549f80",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. Dm Screen/DM Player Info.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 401.5062484741211
+      },
+      "right": {
+        "id": "31d1b2fe2d3a88d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "f05a303dc9a30ebd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d93a03fa592a134",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "975e9ddaf8c8c0ec",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "b028327956fbeb7f",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e1d5eebe9d2215c6",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "1. World/Forgotten Realms/Faerun/Faerun.md"
+                  }
+                }
+              },
+              {
+                "id": "03363357af2e0bb2",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-chatgpt",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e5780b3526c79488",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6d69c5baf17c5aea",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7d9e70a26284f07c",
+                "type": "leaf",
+                "state": {
+                  "type": "CALENDARIUM",
+                  "state": {
+                    "calendar": "ID_f809396ad878",
+                    "ephemeral": {
+                      "viewState": 1,
+                      "displaying": {
+                        "year": 1492,
+                        "month": 2,
+                        "day": 15
+                      },
+                      "displayDayNumber": false,
+                      "displayMoons": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d3240580b302e6b0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48c4115660b08692",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-creature-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 506.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-import-json:JSON/CSV Importer": false,
+          "graph:Open graph view": false,
+          "obsidian-custom-frames:Open ChatGPT": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-gallery:Gallery": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "copilot:Copilot Chat": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "fantasy-content-generator:Fantasy Generators": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "calendarium:Open Calendarium": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "2f6c45a76415c5b9",
+      "workspaces-plus:settings-v1": {}
+    },
+    "CoS Journey Board": {
+      "main": {
+        "id": "3b35b80ee46c884d",
+        "type": "split",
+        "children": [
+          {
+            "id": "35b48bec7ccf530d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2f6c45a76415c5b9",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "1. World/5e Modules/DM. Curse of Strahd/2. The Shadowed Town/CoS Journey - start from Vallaki.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "045c8a42c54af4d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d283147d58c9c294",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b674833cb1335afd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f2b4f5f642ea3f1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "vallaki",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "52f0ea4c0b8a393f",
+                "type": "leaf",
+                "state": {
+                  "type": "tenki",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1d29d0d880b12255",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b688330520549f80",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. Dm Screen/DM Player Info.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 401.5062484741211
+      },
+      "right": {
+        "id": "31d1b2fe2d3a88d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "f05a303dc9a30ebd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5d93a03fa592a134",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "1. World/5e Modules/DM. Curse of Strahd/2. The Shadowed Town/CoS Journey - start from Vallaki.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "975e9ddaf8c8c0ec",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "1. World/5e Modules/DM. Curse of Strahd/2. The Shadowed Town/CoS Journey - start from Vallaki.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "b028327956fbeb7f",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e1d5eebe9d2215c6",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "1. World/5e Modules/DM. Curse of Strahd/2. The Shadowed Town/CoS Journey - start from Vallaki.md"
+                  }
+                }
+              },
+              {
+                "id": "03363357af2e0bb2",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-chatgpt",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e5780b3526c79488",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6d69c5baf17c5aea",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7d9e70a26284f07c",
+                "type": "leaf",
+                "state": {
+                  "type": "CALENDARIUM",
+                  "state": {
+                    "calendar": "ID_f809396ad878",
+                    "ephemeral": {
+                      "viewState": 1,
+                      "displaying": {
+                        "year": 1492,
+                        "month": 2,
+                        "day": 15
+                      },
+                      "displayDayNumber": false,
+                      "displayMoons": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d3240580b302e6b0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48c4115660b08692",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-creature-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 506.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-import-json:JSON/CSV Importer": false,
+          "graph:Open graph view": false,
+          "obsidian-custom-frames:Open ChatGPT": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-gallery:Gallery": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "copilot:Copilot Chat": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "fantasy-content-generator:Fantasy Generators": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "calendarium:Open Calendarium": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "2f6c45a76415c5b9",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "0. Dm Screen",
+          "0. Dm Screen/Magic/Schools of Magic",
+          "0. Session Journals/Rime of the Frostmaiden",
+          "0. The Party/The Miscreants of Vallaki",
+          "1. World",
+          "1. World/5e Modules",
+          "1. World/5e Modules/DM. Curse of Strahd",
+          "1. World/5e Modules/DM. Curse of Strahd/1. Into the Mists",
+          "1. World/5e Modules/DM. Curse of Strahd/2. The Shadowed Town",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/1. The Ancient Era (3,000 BU - 0 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/2. The Founding Era (1 BC - 345 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/3. The Era of Blood (346 BC - 351 BC)",
+          "1. World/5e Modules/DM. Curse of Strahd/History of Barovia/7. Strahd's Awakening (735 BC - Present)",
+          "1. World/5e Modules/DM. Curse of Strahd/NPCs",
+          "1. World/5e Modules/DM. Rime of the Frostmaiden",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes",
+          "1. World/5e Modules/Player. Call of the Netherdeep/Session Notes/Session 31-40",
+          "1. World/Forgotten Realms/Faerun",
+          "1. World/Forgotten Realms/Faerun/GoldenFields",
+          "1. World/Forgotten Realms/Faerun/Griffon's Nest",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Island of Solstice",
+          "1. World/Forgotten Realms/Faerun/Icewind Dale/Ten Towns/Bryn Shander",
+          "1. World/NPCs/Avernus NPCs/Baldur's Gate NPCs",
+          "1. World/NPCs/Avernus NPCs/Elturgard NPCs",
+          "1. World/NPCs/Rime NPCs",
+          "1. World/NPCs/Rime NPCs/Ten Towns",
+          "1. World/NPCs/Rime NPCs/Ten Towns/Speakers",
+          "2_Mechanics Gallery/Equipment",
+          "2. Mechanics/Items",
+          "2. Mechanics/Spells/Steinhardt's",
+          "2. Mechanics/Spells/WotC",
+          "IMPORTTEST",
+          "textgenerator/prompts",
+          "textgenerator/prompts/Fantasy Generators",
+          "textgenerator/prompts/trash/huggingface",
+          "z_Templates/1_Story World Templates/People",
+          "z_Templates/3_Markdown"
+        ]
+      }
+    }
+  },
+  "active": "Faerun Map"
+}

@@ -1,0 +1,77 @@
+---
+action_type: Main action
+class: fury
+cost: 11 Ferocity
+cost_amount: 11
+cost_resource: Ferocity
+distance: 5 cube within 10
+feature_type: ability
+file_basename: Deluge
+file_dpath: Abilities/Fury/9th-Level Features
+flavor: You summon your primordial storm.
+item_id: deluge-11-ferocity
+item_index: '01'
+item_name: Deluge (11 Ferocity)
+keywords:
+- Area
+- Magic
+- Ranged
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge
+scdc:
+- 1.1.1:11.3.5.7:01
+source: mcdm.heroes.v1
+subclass: Stormwight
+target: Each enemy in the area
+type: feature/ability/fury/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Deluge
+cost: 11 Ferocity
+flavor: You summon your primordial storm.
+keywords:
+  - Area
+  - Magic
+  - Ranged
+usage: Main action
+distance: 5 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: 5 cube within 10
+  feature_type: ability
+  file_basename: Deluge
+  file_dpath: Abilities/Fury/9th-Level Features
+  flavor: You summon your primordial storm.
+  item_id: deluge-11-ferocity
+  item_index: "01"
+  item_name: Deluge (11 Ferocity)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge
+  scdc:
+    - 1.1.1:11.3.5.7:01
+  source: mcdm.heroes.v1
+  subclass: Stormwight
+  target: Each enemy in the area
+  type: feature/ability/fury/9th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 7 damage
+    tier2: 10 damage
+    tier3: 15 damage
+  - name: Effect
+    effect: This ability deals your primordial damage type and ignores damage immunity.
+```

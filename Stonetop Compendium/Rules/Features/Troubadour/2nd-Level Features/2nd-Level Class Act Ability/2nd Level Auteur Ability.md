@@ -1,0 +1,83 @@
+---
+action_type: feature
+class: troubadour
+feature_type: subtrait
+file_basename: 2nd Level Auteur Ability
+file_dpath: Features/Troubadour/2nd-Level Features/2nd-Level Class Act Ability
+item_id: 2nd-level-auteur-ability
+item_index: '01'
+item_name: 2nd-Level Auteur Ability
+level: 2
+scc:
+- mcdm.heroes.v1:feature.subtrait.troubadour.2nd-level-feature:2nd-level-auteur-ability
+scdc:
+- 1.1.1:11.2.3.4:01
+source: mcdm.heroes.v1
+type: feature/subtrait/troubadour/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: 2nd-Level Auteur Ability
+metadata:
+  action_type: feature
+  class: troubadour
+  feature_type: subtrait
+  file_basename: 2nd Level Auteur Ability
+  file_dpath: Features/Troubadour/2nd-Level Features/2nd-Level Class Act Ability
+  item_id: 2nd-level-auteur-ability
+  item_index: "01"
+  item_name: 2nd-Level Auteur Ability
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.troubadour.2nd-level-feature:2nd-level-auteur-ability
+  scdc:
+    - 1.1.1:11.2.3.4:01
+  source: mcdm.heroes.v1
+  type: feature/subtrait/troubadour/2nd-level-feature
+effects:
+  - effect: Choose one of the following abilities.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Guest Star
+        cost: 5 Drama
+        flavor: We offered them a percentage of the gross. So they're working for free!
+        keywords:
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: Ranged 10
+        target: Special
+        effects:
+          - name: Effect
+            effect: "A guest star appears to help you during the encounter: either a
+              bystander within distance uplifted by your magic, or a mysterious
+              new hero who appears in an unoccupied space within distance. This
+              guest star is controlled by you, has their own turn, and shares
+              your characteristics. Their Stamina maximum is half yours. They
+              have no abilities other than your melee and ranged free strikes.
+              At the end of the encounter, or when the guest star is reduced to
+              0 Stamina, they retreat or revert to a bystander. The same
+              bystander can't be uplifted this way more than once during an
+              encounter."
+      - type: feature
+        feature_type: ability
+        name: Twist at the End
+        cost: 5 Drama
+        flavor: You didn't see that coming, did you?!
+        keywords:
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: Ranged 10
+        target: One dead enemy
+        effects:
+          - name: Effect
+            effect: A target who is not a leader or solo creature comes back to life with
+              half their Stamina and becomes an ally under the Director's
+              control. The players can work with the Director to determine when
+              the target takes their turn each combat round. At the end of the
+              encounter, the target turns to dust and is blown away.
+```

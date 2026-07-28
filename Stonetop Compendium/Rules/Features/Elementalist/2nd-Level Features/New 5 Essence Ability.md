@@ -1,0 +1,143 @@
+---
+action_type: feature
+class: elementalist
+feature_type: trait
+file_basename: New 5 Essence Ability
+file_dpath: Features/Elementalist/2nd-Level Features
+item_id: new-5-essence-ability
+item_index: '03'
+item_name: New 5-Essence Ability
+level: 2
+scc:
+- mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:new-5-essence-ability
+scdc:
+- 1.1.1:11.1.9.6:03
+source: mcdm.heroes.v1
+type: feature/trait/elementalist/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: New 5-Essence Ability
+metadata:
+  action_type: feature
+  class: elementalist
+  feature_type: trait
+  file_basename: New 5 Essence Ability
+  file_dpath: Features/Elementalist/2nd-Level Features
+  item_id: new-5-essence-ability
+  item_index: "03"
+  item_name: New 5-Essence Ability
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:new-5-essence-ability
+  scdc:
+    - 1.1.1:11.1.9.6:03
+  source: mcdm.heroes.v1
+  type: feature/trait/elementalist/2nd-level-feature
+effects:
+  - effect: Choose one heroic ability from the following options, each of which
+      costs 5 essence to use. Alternatively, you can choose one of the 5-essence
+      abilities you didn't select at 1st level (see 1st-Level Features).
+    features:
+      - type: feature
+        feature_type: ability
+        name: O Flower Aid, O Earth Defend
+        cost: 5 Essence
+        flavor: Revitalizing plants and jagged stones grow, helping allies and hindering
+          foes.
+        keywords:
+          - Area
+          - Earth
+          - Green
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: 3 cube within 10
+        target: Special
+        effects:
+          - name: Effect
+            effect: >-
+              Until the start of your next turn, the area gains the following
+              effects:
+
+              - Once as a free maneuver at the start of your turn, you allow
+              yourself and each ally in the area to spend any number of
+              Recoveries.
+
+              - The area is difficult terrain for enemies.
+
+              - Each enemy who enters the area for the first time in a combat
+              round or starts their turn there takes damage equal to your Reason
+              score.
+          - name: Persistent 1
+            effect: The area remains until the start of your next turn. As a maneuver, you
+              can move the area up to 5 squares. This ability ends if the area
+              is ever not within your line of effect.
+      - type: feature
+        feature_type: ability
+        name: Subvert the Green Within
+        cost: 5 Essence
+        flavor: Fungal spores sprout inside your enemy's brain, allowing you to control
+          their actions.
+        keywords:
+          - Green
+          - Magic
+          - Ranged
+          - Strike
+          - Void
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
+          - name: Effect
+            effect: The target uses their signature ability against a creature of your
+              choice. This signature ability can target the creature even if it
+              usually wouldn't. You then make a power roll against the target of
+              this ability.
+          - roll: Power Roll + Reason
+            tier1: 5 + R poison damage
+            tier2: 9 + R poison damage
+            tier3: 12 + R poison damage
+      - type: feature
+        feature_type: ability
+        name: Translated Through Flame
+        cost: 5 Essence
+        flavor: Your ally disappears, then reappears in a burst of fire.
+        keywords:
+          - Fire
+          - Magic
+          - Ranged
+          - Void
+        usage: Main action
+        distance: Ranged 10
+        target: Self or one ally
+        effects:
+          - name: Effect
+            effect: The target is teleported to another space within distance. Make a power
+              roll that affects each enemy adjacent to the target's new space.
+          - roll: Power Roll + Reason
+            tier1: 3 fire damage
+            tier2: 5 fire damage
+            tier3: 8 fire damage
+      - type: feature
+        feature_type: ability
+        name: Volcano's Embrace
+        cost: 5 Essence
+        flavor: Wrap them up in fire and melting stone.
+        keywords:
+          - Earth
+          - Fire
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
+          - roll: Power Roll + Reason
+            tier1: 5 + R fire damage; A < WEAK, restrained (save ends)
+            tier2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
+            tier3: 12 + R fire damage; A < STRONG, restrained (save ends)
+```

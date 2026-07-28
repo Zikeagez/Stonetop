@@ -1,0 +1,34 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Kits")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "kit"
+    order:
+      - file.name
+      - armor
+      - weapon
+      - signature
+      - stamina
+      - speedbonus
+      - stability
+      - meleedamage
+      - rangedamage
+      - meleedistance
+      - rangedistance
+      - disengage
+    sort: []
+    columnSize:
+      note.armor: 121
+      note.weapon: 137
+      note.signature: 263
+      note.speedbonus: 116
+      note.stability: 87
+      note.meleedamage: 121
+      note.rangedamage: 121
+      note.meleedistance: 127
+      note.rangedistance: 124
+      note.disengage: 96

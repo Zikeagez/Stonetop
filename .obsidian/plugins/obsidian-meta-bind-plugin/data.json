@@ -1,0 +1,525 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": true,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "template-poi-type",
+      "declaration": "INPUT[inlineSelect(option(Encounter), option(Ruins), option(Dungeon), option(Landmark))]"
+    },
+    {
+      "name": "template-person-race",
+      "declaration": "INPUT[inlineSelect(\n  option(Human),\n  option(Elf),\n  option(Dwarf),\n  option(Halfling),\n  option(Gnome),\n  option(Half-Elf),\n  option(Orc),\n  option(Tiefling),\n  option(Leshy),\n  option(Goblin)\n)]"
+    },
+    {
+      "name": "template-person-gender",
+      "declaration": "INPUT[inlineSelect(option(Male), option(Female), option(Other))]"
+    },
+    {
+      "name": "template-group-type",
+      "declaration": "INPUT[inlineSelect(option(Knightly Order), option(Religious Order), option(Magic Academy), option(Artisan Guild), option(Merchant Consortium), option(Criminal Syndicate), option(Mercenary Company), option(Noble House), option(Secret Society or Cult), option(Adventurers’ Guild))]"
+    },
+    {
+      "name": "template-hub-category",
+      "declaration": "INPUT[inlineListSuggester(option(Alchemical), option(Artifact), option(Consumable), option(Cursed), option(Intelligent), option(Invested), option(Magical), option(Relic), option(Rune), option(Snare), option(Stance), option(Talisman), option(Worn))]"
+    },
+    {
+      "name": "template-person-status",
+      "declaration": "INPUT[inlineSelect(option(Alive), option(Dead))]"
+    },
+    {
+      "name": "template-person-age-range",
+      "declaration": "INPUT[inlineSelect(option(Infant), option(Child), option(Teenager), option(Young Adult), option(Adult), option(Elder))]"
+    },
+    {
+      "name": "template-place-category",
+      "declaration": "INPUT[inlineSelect(option(Commerce), option(Agriculture), option(Military), option(Philosophy), option(Industrial), option(Nesting), option(Government))]"
+    },
+    {
+      "name": "template-person-class",
+      "declaration": "INPUT[inlineSelect(option(Artificer), option(Barbarian), option(Bard), option(Cleric), option(Druid), option(Fighter), option(Monk), option(Paladin), option(Ranger), option(Rogue), option(Sorcerer), option(Warlock), option(Wizard))]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "This is a button",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "thisisabutton",
+      "hidden": false,
+      "actions": []
+    },
+    {
+      "label": "⚔️Action Table⚔️",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "actiontable",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "0. Dm Screen/All Actions Table.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "🤺Skill Actions🤺",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "skillactions",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "0. Dm Screen/Skill Actions Board.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "🪓🏹Weapon Traits and Effects",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "weapontraits",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "0. Dm Screen/Weapon Traits and Effects Kanban.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Conditions",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "conditions",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "0. Dm Screen/Conditions Table.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Rules Directory",
+      "icon": "",
+      "style": "default",
+      "class": "button1",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "rules",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "2. Mechanics/Rules/Rules.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Character Creation",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "charcreation",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "2. Mechanics/Basics/Character Creation.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Leveling Up",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "levelup",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "2. Mechanics/Basics/Leveling Up.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Buying Gear",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "buyinggear",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "open",
+          "link": "2. Mechanics/Guides/When and What Gear Do I Buy.md",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "New Session Journal",
+      "icon": "",
+      "style": "default",
+      "class": "button-74",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "sessionjournal",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "createNote",
+          "folderPath": "0. Session Journals",
+          "fileName": "Session X",
+          "openNote": true,
+          "openIfAlreadyExists": true
+        }
+      ]
+    },
+    {
+      "label": "Journal",
+      "hidden": false,
+      "id": "button_journal",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Journal.md",
+          "fileName": "NewJournal",
+          "folderPath": "0. Session Journals",
+          "openNote": true
+        }
+      ],
+      "tooltip": "Create a new Session Journal.",
+      "icon": "plus"
+    },
+    {
+      "label": "Quest",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create a quest. ",
+      "id": "button_quest",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Quest.md",
+          "folderPath": "1. World/Quests",
+          "fileName": "NewQuest",
+          "openNote": true
+        }
+      ],
+      "icon": "plus"
+    },
+    {
+      "label": "Person",
+      "hidden": false,
+      "id": "button_person",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Person.md",
+          "fileName": "NewNPC",
+          "folderPath": "1. World/People",
+          "openNote": true
+        }
+      ],
+      "icon": "plus",
+      "tooltip": "Click here to create a new Person."
+    },
+    {
+      "label": "Hub",
+      "hidden": false,
+      "id": "button_hub",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Hub.md",
+          "fileName": "NewHub",
+          "folderPath": "1. World/Hubs",
+          "openNote": true
+        }
+      ],
+      "icon": "plus",
+      "tooltip": "Click this to create a new social hub."
+    },
+    {
+      "label": "Group",
+      "hidden": false,
+      "id": "button_group",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Group.md",
+          "fileName": "NewGroup",
+          "folderPath": "1. World/Groups",
+          "openNote": true
+        }
+      ],
+      "icon": "plus",
+      "tooltip": "Create new Group"
+    },
+    {
+      "label": "Item",
+      "hidden": false,
+      "id": "button_item",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Item.md",
+          "fileName": "NewItem",
+          "folderPath": "2. Mechanics/Items",
+          "openNote": true
+        }
+      ],
+      "icon": "plus",
+      "tooltip": "Click here to create a new Magic Item"
+    },
+    {
+      "label": "Player",
+      "hidden": false,
+      "id": "button_player",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Player.md",
+          "folderPath": "0. The Party",
+          "fileName": "NewPlayer",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ],
+      "icon": "plus",
+      "tooltip": "Click here to create a new player."
+    },
+    {
+      "label": "Place",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Place. ",
+      "id": "button_place",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Place.md",
+          "folderPath": "1. World/Places",
+          "fileName": "NewPlace",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Point of Interest",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Point of Interest.",
+      "id": "button_pointofinterest",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-PointofInterest.md",
+          "folderPath": "1. World/Point of Interest",
+          "fileName": "NewPointofInterest",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Region",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Region.",
+      "id": "button_region",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Region.md",
+          "folderPath": "1. World/Regions",
+          "fileName": "NewRegion",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Planet",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Planet.",
+      "id": "button_planet",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Planet.md",
+          "folderPath": "1. World/Planets",
+          "fileName": "NewPlanet",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Continent",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Continent.",
+      "id": "button_continent",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Continent.md",
+          "folderPath": "1. World/Continents",
+          "fileName": "NewContinent",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Galaxy",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Galaxy.",
+      "id": "button_galaxy",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Galaxy.md",
+          "folderPath": "1. World/Galaxies",
+          "fileName": "NewGalaxy",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Star System",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Star System..",
+      "id": "button_starsystem",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-Star-System.md",
+          "folderPath": "1. World/Star Systems",
+          "fileName": "NewStarSystem",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "Species",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Click here to create a new Species.",
+      "id": "button_species",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/World Builder Templates/Template-SapientSpecies.md",
+          "folderPath": "1. World/Sapient Species",
+          "fileName": "NewSpecies",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ],
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000
+}

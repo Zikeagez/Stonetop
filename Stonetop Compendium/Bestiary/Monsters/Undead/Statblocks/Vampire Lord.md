@@ -1,0 +1,178 @@
+---
+agility: 5
+ancestry:
+- Undead
+- Vampire
+ev: '36'
+file_basename: Vampire Lord
+file_dpath: Monsters/Undead/Statblocks
+free_strike: 7
+intuition: 1
+item_id: vampire-lord
+item_index: '20'
+item_name: Vampire Lord
+level: 7
+might: 2
+presence: 2
+reason: 1
+roles:
+- Leader
+scc:
+- mcdm.monsters.v1:monster.undead.statblock:vampire-lord
+scdc:
+- 1.1.1:2.8.1:20
+size: 1M
+source: mcdm.monsters.v1
+speed: 12
+stability: 3
+stamina: '200'
+type: monster/undead/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Vampire Lord
+level: 7
+roles:
+  - Leader
+ancestry:
+  - Undead
+  - Vampire
+ev: "36"
+stamina: "200"
+immunities:
+  - Corruption 9
+  - poison 9
+speed: 12
+movement: Climb, hover, teleport
+size: 1M
+stability: 3
+free_strike: 7
+might: 2
+agility: 5
+reason: 1
+intuition: 1
+presence: 2
+features:
+  - type: feature
+    feature_type: ability
+    name: Crimson Embrace
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: One creature
+    effects:
+      - roll: Power Roll + 5
+        tier1: 13 corruption damage; M < 3 bleeding (save ends)
+        tier2: 21 corruption damage; M < 4 bleeding (save ends)
+        tier3: 24 corruption damage; M < 5 bleeding (save ends)
+      - name: Effect
+        effect: The vampire regains Stamina equal to half the damage dealt, and can end
+          one effect on them that can be ended by a saving throw.
+      - cost: 2+ Malice
+        effect: The vampire shifts 3 after striking the last target, and can target one
+          additional creature for every 2 malice spent.
+  - type: feature
+    feature_type: ability
+    name: Arise, My Children
+    icon: 🏹
+    cost: 2 Malice
+    keywords:
+      - Ranged
+    usage: Maneuver
+    distance: Ranged 10
+    target: Special
+    effects:
+      - name: Effect
+        effect: Two blood-starved vampires appear in unoccupied spaces within distance.
+  - type: feature
+    feature_type: ability
+    name: Redirected Charm
+    icon: ❗️
+    cost: 3 Malice
+    keywords:
+      - Magic
+      - Ranged
+    usage: Free triggered action
+    distance: Ranged 5
+    target: One enemy
+    trigger: A creature makes a strike against the vampire.
+    effects:
+      - name: Effect
+        effect: The target becomes the new target of the strike.
+  - type: feature
+    feature_type: trait
+    name: Lord's Bloodthirst
+    icon: ⭐️
+    effects:
+      - effect: The vampire has speed 15 and an edge on power rolls while any creature
+          within 20 squares of them is bleeding. Any bleeding creature within 5
+          squares of the vampire can't hide.
+  - type: feature
+    feature_type: ability
+    name: Let Us Feast!
+    icon: ☠️
+    ability_type: Villain Action 1
+    keywords:
+      - Ranged
+    usage: "-"
+    distance: 20 burst
+    target: Each enemy in the area
+    effects:
+      - name: Effect
+        effect: Each target who has P < 4 is now bleeding (save ends).
+  - type: feature
+    feature_type: ability
+    name: Red Mist Rising
+    icon: ☠️
+    ability_type: Villain Action 2
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 5
+        tier1: 2 damage; M < 3 6 corruption damage
+        tier2: 7 damage; M < 4 6 corruption damage
+        tier3: 10 damage; M < 5 6 corruption damage
+      - name: Effect
+        effect: The vampire turns to mist, filling the area. Until the end of the round,
+          the vampire can't move or be targeted by abilities, but they can use
+          Crimson Embrace against a target in the area. The vampire reforms in
+          an unoccupied space in the area at the end of the round.
+  - type: feature
+    feature_type: ability
+    name: Sacrifice
+    icon: ☠️
+    ability_type: Villain Action 3
+    keywords:
+      - Magic
+      - Ranged
+    usage: "-"
+    distance: Ranged 20
+    target: Each chosen ally
+    effects:
+      - name: Effect
+        effect: Each target is marked for sacrifice. At the end of the round, each
+          target who isn't dead or destroyed takes 50 corruption damage. The
+          vampire then uses the following ability.
+      - effect: |-
+          **Wave of Blood:**
+
+          | **Area, Magic** |                         **-** |
+          | --------------- | ----------------------------: |
+          | **📏 20 burst** | **🎯 Each enemy in the area** |
+      - name: Effect
+        effect: Each target makes a **Might test**. This ability deals an extra 5 damage
+          for each creature killed by the Sacrifice villain action.
+        tier1: 11 corruption damage
+        tier2: 8 corruption damage
+        tier3: 2 corruption damage
+~~~

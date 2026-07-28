@@ -1,0 +1,67 @@
+---
+action_type: feature
+class: conduit
+feature_type: trait
+file_basename: Healing Grace
+file_dpath: Features/Conduit/1st-Level Features
+item_id: healing-grace
+item_index: '05'
+item_name: Healing Grace
+level: 1
+scc:
+- mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:healing-grace
+scdc:
+- 1.1.1:11.1.8.1:05
+source: mcdm.heroes.v1
+type: feature/trait/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Healing Grace
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: trait
+  file_basename: Healing Grace
+  file_dpath: Features/Conduit/1st-Level Features
+  item_id: healing-grace
+  item_index: "05"
+  item_name: Healing Grace
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:healing-grace
+  scdc:
+    - 1.1.1:11.1.8.1:05
+  source: mcdm.heroes.v1
+  type: feature/trait/conduit/1st-level-feature
+effects:
+  - effect: You have the following ability, which you can use once on your turn.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Healing Grace
+        flavor: Your divine energy restores the righteous.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: Self or one ally
+        effects:
+          - name: Effect
+            effect: The target can spend a Recovery.
+          - cost: Spend 1+ Piety
+            effect: >-
+              For each piety spent, choose one of the following enhancements:
+
+              - You can target one additional ally within distance.
+
+              - You can end one effect on a target that is ended by a saving
+              throw or that ends at the end of their turn.
+
+              - A prone target can stand up.
+
+              - A target can spend 1 additional Recovery.
+```

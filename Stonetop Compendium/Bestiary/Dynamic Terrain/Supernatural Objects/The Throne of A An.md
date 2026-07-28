@@ -1,0 +1,141 @@
+---
+file_basename: The Throne of A An
+file_dpath: Dynamic Terrain/Supernatural Objects
+item_id: the-throne-of-aan-level-4-relic-controller
+item_index: '03'
+item_name: The Throne of A'An (Level 4 Relic Controller)
+scc:
+- mcdm.monsters.v1:dynamic-terrain.supernatural-object:the-throne-of-aan-level-4-relic-controller
+scdc:
+- 1.1.1:4.6:03
+source: mcdm.monsters.v1
+type: dynamic-terrain/supernatural-object
+---
+
+~~~ds-featureblock
+type: featureblock
+featureblock_type: Relic Controller
+name: The Throne of A'An
+level: 4
+ev: "24"
+flavor: The throne of A'An, sun god of the Antical Protectorate in what is now
+  Vanigar, retains some of her power from the age before she was slain to end
+  the Age of Suns—and plunge the region into eternal winter.
+stamina: "140"
+size: "2"
+features:
+  - type: feature
+    feature_type: trait
+    name: Deactivate
+    icon: 🌀
+    effects:
+      - effect: The throne of A'An can be deactivated only by the current hierophant of
+          A'An (see **Sitting on the Throne**), who must succeed on a **Presence
+          test** that takes a bane to do so.
+        tier1: The hierophant triggers the **Nova** ability.
+        tier2: The hierophant fails to deactivate the throne.
+        tier3: The throne is deactivated until the end of the encounter.
+  - type: feature
+    feature_type: trait
+    name: Light of the Northern Sun
+    icon: ⭐️
+    effects:
+      - effect: >-
+          In the Age of Suns, there was no darkness and no night. Even among the
+          many suns of that time, the light of A'An was the brightest. The
+          throne of A'An manifests the sun powers of that god, even when no one
+          is seated in it. The following effects always occur within 10 squares
+          of the throne:
+
+
+          - The throne sheds bright light that negates all darkness and
+          concealment, and which prevents creatures from being hidden.
+
+          - Any creature with cold immunity has fire weakness 10.
+
+          - Any creature who uses an ability that deals cold damage takes 11
+          fire damage.
+  - type: feature
+    feature_type: trait
+    name: Sitting on the Throne
+    icon: ⭐️
+    effects:
+      - effect: Only a creature attuned to the throne can sit on it. A creature adjacent
+          to the throne can use a main action to attune to it by succeeding on a
+          **Presence test**.
+        tier1: The creature takes 11 fire damage.
+        tier2: The creature fails to attune to the throne.
+        tier3: The creature attunes to the throne and can sit on it.
+      - effect: >-
+          A creature seated on the throne becomes the hierophant of A'An and
+          gains the following benefits:
+
+
+          - The hierophant and each of their allies within 10 squares of the
+          throne have fire immunity 10.
+
+          - The hierophant and each of their allies within 10 squares of the
+          throne can choose to have their abilities deal fire damage instead of
+          their usual damage.
+
+          - The hierophant has a +5 bonus to stability, and any strike made
+          against them takes a bane unless the attacker is also attuned to the
+          throne.
+
+          - The hierophant can use the **Primordial Flare** and **Solar
+          Accretion** abilities.
+  - type: feature
+    feature_type: ability
+    name: Primordial Flare
+    icon: 🏹
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    usage: Maneuver
+    distance: Ranged 20
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        tier1: 6 fire damage
+        tier2: 11 fire damage
+        tier3: 14 fire damage
+      - name: Effect
+        effect: The target has fire weakness 10 until the start of the hierophant's next
+          turn.
+  - type: feature
+    feature_type: ability
+    name: Solar Accretion
+    icon: ❗️
+    keywords:
+      - Magic
+      - Ranged
+    usage: Free triggered action
+    distance: Ranged 10
+    target: One creature
+    trigger: A target within distance is made winded or is reduced to 0 Stamina by
+      fire damage.
+    effects:
+      - name: Effect
+        effect: If the hierophant is a hero, they gain 3 of their Heroic Resource. If
+          the hierophant is a Director-controlled creature, the Director gains 3
+          Malice.
+  - type: feature
+    feature_type: ability
+    name: Nova
+    icon: ❗️
+    keywords:
+      - Area
+      - Magic
+    usage: Free triggered action
+    distance: 10 burst
+    target: Each creature and object in the area
+    trigger: The throne is destroyed or the hierophant obtains a tier 1 outcome on
+      the test to deactivate it.
+    effects:
+      - name: Effect
+        effect: Each target takes 14 fire damage and the Hierophant gains the Incubator
+          of A'An complication (see the sidebar). If there is no hierophant, one
+          creature within 10 squares of the throne chosen by the Director gains
+          this complication.
+~~~

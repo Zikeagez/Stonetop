@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: fury
+cost: 11 Ferocity
+cost_amount: 11
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Primordial Bane
+file_dpath: Abilities/Fury/9th-Level Features
+flavor: You attune the target to be weaker to a specific element.
+item_id: primordial-bane-11-ferocity
+item_index: '04'
+item_name: Primordial Bane (11 Ferocity)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane
+scdc:
+- 1.1.1:11.3.5.7:04
+source: mcdm.heroes.v1
+subclass: Reaver
+target: One creature
+type: feature/ability/fury/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Primordial Bane
+cost: 11 Ferocity
+flavor: You attune the target to be weaker to a specific element.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Primordial Bane
+  file_dpath: Abilities/Fury/9th-Level Features
+  flavor: You attune the target to be weaker to a specific element.
+  item_id: primordial-bane-11-ferocity
+  item_index: "04"
+  item_name: Primordial Bane (11 Ferocity)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane
+  scdc:
+    - 1.1.1:11.3.5.7:04
+  source: mcdm.heroes.v1
+  subclass: Reaver
+  target: One creature
+  type: feature/ability/fury/9th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 11 + M damage
+    tier2: 16 + M damage
+    tier3: 21 + M damage
+  - name: Effect
+    effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
+      The target loses any damage immunity to the chosen type and gains weakness
+      10 to the chosen type (save ends).
+```

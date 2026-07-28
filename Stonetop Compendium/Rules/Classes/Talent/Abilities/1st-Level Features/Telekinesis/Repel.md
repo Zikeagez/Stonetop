@@ -1,0 +1,69 @@
+---
+action_type: Triggered
+class: talent
+distance: Ranged 10
+feature_type: ability
+file_basename: Repel
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: They aren't going anywhere, but you might!
+item_id: repel
+item_index: '18'
+item_name: Repel
+keywords:
+- Psionic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:repel
+scdc:
+- 1.1.1:11.3.1.1:18
+source: mcdm.heroes.v1
+subclass: Telekinesis
+target: Self or one ally
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Repel
+flavor: They aren't going anywhere, but you might!
+keywords:
+  - Psionic
+  - Ranged
+usage: Triggered
+distance: Ranged 10
+target: Self or one ally
+trigger: The target takes damage or is force moved.
+metadata:
+  action_type: Triggered
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Repel
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: They aren't going anywhere, but you might!
+  item_id: repel
+  item_index: "18"
+  item_name: Repel
+  keywords:
+    - Psionic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:repel
+  scdc:
+    - 1.1.1:11.3.1.1:18
+  source: mcdm.heroes.v1
+  subclass: Telekinesis
+  target: Self or one ally
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - name: Effect
+    effect: The target takes half the triggering damage, or the distance of the
+      triggering forced movement is reduced by a number of squares equal to your
+      Reason score. If the target took damage and was force moved, you choose
+      the effect. If the forced movement is reduced to 0 squares, the target can
+      push the source of the forced movement a number of squares equal to your
+      Reason score.
+```

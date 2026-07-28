@@ -1,0 +1,74 @@
+---
+ability_type: Free Strike
+action_type: Main action
+class: talent
+distance: Ranged 10
+feature_type: ability
+file_basename: Mind Spike
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: A telepathic bolt instantly zaps a creature's brain.
+item_id: mind-spike
+item_index: '21'
+item_name: Mind Spike
+keywords:
+- Psionic
+- Ranged
+- Strike
+- Telepathy
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:mind-spike
+scdc:
+- 1.1.1:11.3.1.1:21
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Mind Spike
+flavor: A telepathic bolt instantly zaps a creature's brain.
+keywords:
+  - Psionic
+  - Ranged
+  - Strike
+  - Telepathy
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  ability_type: Free Strike
+  action_type: Main action
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Mind Spike
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: A telepathic bolt instantly zaps a creature's brain.
+  item_id: mind-spike
+  item_index: "21"
+  item_name: Mind Spike
+  keywords:
+    - Psionic
+    - Ranged
+    - Strike
+    - Telepathy
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:mind-spike
+  scdc:
+    - 1.1.1:11.3.1.1:21
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 + R psychic damage
+    tier2: 4 + R psychic damage
+    tier3: 6 + R psychic damage
+  - name: Strained
+    effect: The target takes an extra 2 psychic damage. You also take 2 psychic
+      damage that can't be reduced in any way.
+```

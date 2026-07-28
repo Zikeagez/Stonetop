@@ -1,0 +1,43 @@
+---
+action_type: feature
+class: troubadour
+feature_type: subtrait
+file_basename: Latest Goss
+file_dpath: Features/Troubadour/4th-Level Features/Zeitgeist
+item_id: latest-goss
+item_index: '03'
+item_name: Latest Goss
+level: 4
+scc:
+- mcdm.heroes.v1:feature.subtrait.troubadour.4th-level-feature:latest-goss
+scdc:
+- 1.1.1:11.2.3.1:03
+source: mcdm.heroes.v1
+type: feature/subtrait/troubadour/4th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Latest Goss
+metadata:
+  action_type: feature
+  class: troubadour
+  feature_type: subtrait
+  file_basename: Latest Goss
+  file_dpath: Features/Troubadour/4th-Level Features/Zeitgeist
+  item_id: latest-goss
+  item_index: "03"
+  item_name: Latest Goss
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.troubadour.4th-level-feature:latest-goss
+  scdc:
+    - 1.1.1:11.2.3.1:03
+  source: mcdm.heroes.v1
+  type: feature/subtrait/troubadour/4th-level-feature
+effects:
+  - effect: You can ask the Director for three rumors regarding the area you're in
+      or an area you plan on entering before your next respite. One of the
+      rumors can be false.
+```

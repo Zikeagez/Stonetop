@@ -1,0 +1,23 @@
+{
+  "soundscape": "CUSTOM_7b0e671f-cb2c-4a00-add3-617c19635c17",
+  "volume": 25,
+  "autoplay": false,
+  "scrollSongTitle": true,
+  "customSoundscapes": [
+    {
+      "id": "7b0e671f-cb2c-4a00-add3-617c19635c17",
+      "name": "King Gizz Mix",
+      "tracks": [
+        {
+          "name": "Gizzard",
+          "id": "https://www.youtube.com/watch?v=sMQBJrGUivw&list=PLVWT4FAZtGt1rG1lJ6X4xvJKZGOV6LmeH"
+        }
+      ]
+    }
+  ],
+  "myMusicIndex": [],
+  "myMusicFolderPath": "",
+  "reindexFrequency": "5",
+  "myMusicShuffle": false,
+  "currentTrackIndex": 0
+}

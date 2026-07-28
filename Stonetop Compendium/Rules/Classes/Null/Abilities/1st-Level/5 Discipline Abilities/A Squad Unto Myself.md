@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: 'null'
+cost: 5 Discipline
+cost_amount: 5
+cost_resource: Discipline
+distance: 2 burst
+feature_type: ability
+file_basename: A Squad Unto Myself
+file_dpath: Abilities/Null/1st-Level Features
+flavor: You move so quickly, it seems as though an army assaulted your foes.
+item_id: a-squad-unto-myself-5-discipline
+item_index: '18'
+item_name: A Squad Unto Myself (5 Discipline)
+keywords:
+- Area
+- Psionic
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:a-squad-unto-myself
+scdc:
+- 1.1.1:11.3.6.1:18
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: A Squad Unto Myself
+cost: 5 Discipline
+flavor: You move so quickly, it seems as though an army assaulted your foes.
+keywords:
+  - Area
+  - Psionic
+  - Weapon
+usage: Main action
+distance: 2 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 5 Discipline
+  cost_amount: 5
+  cost_resource: Discipline
+  distance: 2 burst
+  feature_type: ability
+  file_basename: A Squad Unto Myself
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: You move so quickly, it seems as though an army assaulted your foes.
+  item_id: a-squad-unto-myself-5-discipline
+  item_index: "18"
+  item_name: A Squad Unto Myself (5 Discipline)
+  keywords:
+    - Area
+    - Psionic
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:a-squad-unto-myself
+  scdc:
+    - 1.1.1:11.3.6.1:18
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 6 damage
+    tier2: 9 damage
+    tier3: 13 damage
+  - name: Effect
+    effect: You can take the Disengage move action as a free maneuver before or
+      after you use this ability.
+```

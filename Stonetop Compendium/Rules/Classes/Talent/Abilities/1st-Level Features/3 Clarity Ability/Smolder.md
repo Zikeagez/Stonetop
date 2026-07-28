@@ -1,0 +1,84 @@
+---
+action_type: Main action
+class: talent
+cost: 3 Clarity
+cost_amount: 3
+cost_resource: Clarity
+distance: Ranged 10
+feature_type: ability
+file_basename: Smolder
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: Smoke flows from your enemy like tears as their skin begins to blacken and
+  flake.
+item_id: smolder-3-clarity
+item_index: 09
+item_name: Smolder (3 Clarity)
+keywords:
+- Psionic
+- Pyrokinesis
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder
+scdc:
+- 1.1.1:11.3.1.1:09
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Smolder
+cost: 3 Clarity
+flavor: Smoke flows from your enemy like tears as their skin begins to blacken
+  and flake.
+keywords:
+  - Psionic
+  - Pyrokinesis
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: talent
+  cost: 3 Clarity
+  cost_amount: 3
+  cost_resource: Clarity
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Smolder
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: Smoke flows from your enemy like tears as their skin begins to blacken
+    and flake.
+  item_id: smolder-3-clarity
+  item_index: 9
+  item_name: Smolder (3 Clarity)
+  keywords:
+    - Psionic
+    - Pyrokinesis
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder
+  scdc:
+    - 1.1.1:11.3.1.1:09
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - name: Effect
+    effect: "Choose the damage type and the weakness for this ability from one of
+      the following: acid, corruption, or fire. The target takes damage before
+      this ability imposes any weakness."
+  - roll: Power Roll + Reason
+    tier1: 3 + R damage; R < WEAK, the target has weakness 5 (save ends)
+    tier2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
+    tier3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your
+      Reason score (save ends)
+```

@@ -1,0 +1,78 @@
+---
+action_type: Main action
+class: shadow
+cost: 9 Insight
+cost_amount: 9
+cost_resource: Insight
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: You Talk Too Much
+file_dpath: Abilities/Shadow/5th-Level Features
+flavor: Silence is a virtue. A knife pinning their mouth shut is the next best thing.
+item_id: you-talk-too-much-9-insight
+item_index: '03'
+item_name: You Talk Too Much (9 Insight)
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:you-talk-too-much
+scdc:
+- 1.1.1:11.3.2.4:03
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: You Talk Too Much
+cost: 9 Insight
+flavor: Silence is a virtue. A knife pinning their mouth shut is the next best thing.
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 9 Insight
+  cost_amount: 9
+  cost_resource: Insight
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: You Talk Too Much
+  file_dpath: Abilities/Shadow/5th-Level Features
+  flavor: Silence is a virtue. A knife pinning their mouth shut is the next best thing.
+  item_id: you-talk-too-much-9-insight
+  item_index: "03"
+  item_name: You Talk Too Much (9 Insight)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:you-talk-too-much
+  scdc:
+    - 1.1.1:11.3.2.4:03
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/5th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 10 + A damage; P < WEAK, dazed (save ends)
+    tier2: 15 + A damage; P < AVERAGE, dazed (save ends)
+    tier3: 21 + A damage; P < STRONG, dazed (save ends)
+  - name: Effect
+    effect: The target can't communicate with anyone until the end of the encounter.
+```

@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Cultures")
+views:
+  - type: list
+    name: Table
+    filters:
+      and:
+        - type == "Organization"
+    order:
+      - file.name
+      - skill options
+      - description
+    indentProperties: true

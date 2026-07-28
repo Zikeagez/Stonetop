@@ -1,0 +1,72 @@
+---
+action_type: Maneuver
+class: censor
+cost: 7 Wrath
+cost_amount: 7
+cost_resource: Wrath
+distance: 2 aura
+feature_type: ability
+file_basename: Edict of Stillness
+file_dpath: Abilities/Censor/3rd-Level Features
+flavor: The holy aura you project makes it painful for evil-doers to leave your reach.
+item_id: edict-of-stillness-7-wrath
+item_index: '04'
+item_name: Edict of Stillness (7 Wrath)
+keywords:
+- Area
+- Magic
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-stillness
+scdc:
+- 1.1.1:11.3.7.6:04
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/censor/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Edict of Stillness
+cost: 7 Wrath
+flavor: The holy aura you project makes it painful for evil-doers to leave your reach.
+keywords:
+  - Area
+  - Magic
+usage: Maneuver
+distance: 2 aura
+target: Each enemy in the area
+metadata:
+  action_type: Maneuver
+  class: censor
+  cost: 7 Wrath
+  cost_amount: 7
+  cost_resource: Wrath
+  distance: 2 aura
+  feature_type: ability
+  file_basename: Edict of Stillness
+  file_dpath: Abilities/Censor/3rd-Level Features
+  flavor: The holy aura you project makes it painful for evil-doers to leave your
+    reach.
+  item_id: edict-of-stillness-7-wrath
+  item_index: "04"
+  item_name: Edict of Stillness (7 Wrath)
+  keywords:
+    - Area
+    - Magic
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-stillness
+  scdc:
+    - 1.1.1:11.3.7.6:04
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/censor/3rd-level-feature
+effects:
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, whenever a target
+      moves or is force moved out of the area, they take holy damage equal to
+      twice your Presence score. A target judged by you who moves willingly
+      takes an extra 2d6 holy damage.
+```

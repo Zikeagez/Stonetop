@@ -1,0 +1,78 @@
+---
+action_type: Main action
+class: elementalist
+cost: 7 Essence
+cost_amount: 7
+cost_resource: Essence
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Maw of Earth
+file_dpath: Abilities/Elementalist/3rd-Level Features
+flavor: You open up the ground, spewing out shrapnel of stone and debris.
+item_id: maw-of-earth-7-essence
+item_index: '03'
+item_name: Maw of Earth (7 Essence)
+keywords:
+- Area
+- Earth
+- Magic
+- Ranged
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:maw-of-earth
+scdc:
+- 1.1.1:11.3.9.6:03
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Maw of Earth
+cost: 7 Essence
+flavor: You open up the ground, spewing out shrapnel of stone and debris.
+keywords:
+  - Area
+  - Earth
+  - Magic
+  - Ranged
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 7 Essence
+  cost_amount: 7
+  cost_resource: Essence
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Maw of Earth
+  file_dpath: Abilities/Elementalist/3rd-Level Features
+  flavor: You open up the ground, spewing out shrapnel of stone and debris.
+  item_id: maw-of-earth-7-essence
+  item_index: "03"
+  item_name: Maw of Earth (7 Essence)
+  keywords:
+    - Area
+    - Earth
+    - Magic
+    - Ranged
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:maw-of-earth
+  scdc:
+    - 1.1.1:11.3.9.6:03
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/3rd-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 5 damage
+    tier2: 9 damage
+    tier3: 12 damage
+  - name: Effect
+    effect: The ground in or directly beneath the area drops 3 squares.
+```

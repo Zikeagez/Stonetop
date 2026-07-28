@@ -1,0 +1,125 @@
+---
+action_type: feature
+class: shadow
+feature_type: subtrait
+file_basename: Heroic Abilities
+file_dpath: Features/Shadow/1st-Level Features/Shadow Abilities
+item_id: heroic-abilities
+item_index: '03'
+item_name: Heroic Abilities
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.shadow.1st-level-feature:heroic-abilities
+scdc:
+- 1.1.1:11.2.2.6:03
+source: mcdm.heroes.v1
+type: feature/subtrait/shadow/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Heroic Abilities
+metadata:
+  action_type: feature
+  class: shadow
+  feature_type: subtrait
+  file_basename: Heroic Abilities
+  file_dpath: Features/Shadow/1st-Level Features/Shadow Abilities
+  item_id: heroic-abilities
+  item_index: "03"
+  item_name: Heroic Abilities
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.shadow.1st-level-feature:heroic-abilities
+  scdc:
+    - 1.1.1:11.2.2.6:03
+  source: mcdm.heroes.v1
+  type: feature/subtrait/shadow/1st-level-feature
+effects:
+  - effect: >-
+      A range of heroic abilities define your combat prowess, all of which make
+      use of your insight.
+
+
+      ###### 3-Insight Ability
+
+      Choose one heroic ability from the following options, each of which costs
+      3 insight to use. (*Quick Build:* Get In Get Out.)
+    features:
+      - type: feature
+        feature_type: ability
+        name: Disorienting Strike
+        cost: 3 Insight
+        flavor: Your attack leaves them reeling, allowing you to follow up.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
+          - roll: Power Roll + Agility
+            tier1: 4 + A damage; slide 2
+            tier2: 6 + A damage; slide 3
+            tier3: 10 + A damage; slide 5
+          - name: Effect
+            effect: You can shift into any square the target leaves when you slide them.
+      - type: feature
+        feature_type: ability
+        name: Eviscerate
+        cost: 3 Insight
+        flavor: You leave your foe bleeding out after a devastating attack.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: One creature
+        effects:
+          - roll: Power Roll + Agility
+            tier1: 4 + A damage; A < WEAK, bleeding (save ends)
+            tier2: 6 + A damage; A < AVERAGE, bleeding (save ends)
+            tier3: 10 + A damage; A < STRONG, bleeding (save ends)
+      - type: feature
+        feature_type: ability
+        name: Get In Get Out
+        cost: 3 Insight
+        flavor: Move unexpectedly, strike fast, and be gone!
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
+          - roll: Power Roll + Agility
+            tier1: 5 + A damage
+            tier2: 8 + A damage
+            tier3: 11 + A damage
+          - name: Effect
+            effect: You can shift up to your speed, dividing that movement before or after
+              your strike as desired.
+      - type: feature
+        feature_type: ability
+        name: Two Throats at Once
+        cost: 3 Insight
+        flavor: A bargain.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: Two creatures or objects
+        effects:
+          - roll: Power Roll + Agility
+            tier1: 4 damage
+            tier2: 6 damage
+            tier3: 10 damage
+```

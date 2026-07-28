@@ -1,0 +1,46 @@
+---
+action_type: feature
+class: censor
+feature_type: trait
+file_basename: Censor Order
+file_dpath: Features/Censor/1st-Level Features
+item_id: censor-order
+item_index: '07'
+item_name: Censor Order
+level: 1
+scc:
+- mcdm.heroes.v1:feature.trait.censor.1st-level-feature:censor-order
+scdc:
+- 1.1.1:11.1.7.1:07
+source: mcdm.heroes.v1
+type: feature/trait/censor/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Censor Order
+metadata:
+  action_type: feature
+  class: censor
+  feature_type: trait
+  file_basename: Censor Order
+  file_dpath: Features/Censor/1st-Level Features
+  item_id: censor-order
+  item_index: "07"
+  item_name: Censor Order
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.trait.censor.1st-level-feature:censor-order
+  scdc:
+    - 1.1.1:11.1.7.1:07
+  source: mcdm.heroes.v1
+  type: feature/trait/censor/1st-level-feature
+effects:
+  - effect: Censors are the will of their god made physically manifest, and you act
+      as your god's agent in the world. As you shoulder that responsibility, you
+      choose a censor order from the following options, each of which grants you
+      a skill. (*Quick Build:* Paragon.)
+  - effect: Your censor order is your subclass, and your choice of order determines
+      many of the features you'll gain as you gain new levels.
+```

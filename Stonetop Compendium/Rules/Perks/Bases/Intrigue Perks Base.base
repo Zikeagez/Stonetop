@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Perks")
+views:
+  - type: list
+    name: Table
+    filters:
+      and:
+        - type == "perk/intrigue"
+    order:
+      - file.name
+      - description
+    indentProperties: true
+    markers: none

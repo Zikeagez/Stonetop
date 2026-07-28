@@ -1,0 +1,40 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: War Domain Piety and Effect
+file_dpath: Features/Conduit/1st-Level Features/Piety/Domain Piety And Effects
+item_id: war-domain-piety-and-effect
+item_index: '30'
+item_name: War Domain Piety and Effect
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:war-domain-piety-and-effect
+scdc:
+- 1.1.1:11.2.8.3:30
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: War Domain Piety and Effect
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: War Domain Piety and Effect
+  file_dpath: Features/Conduit/1st-Level Features/Piety/Domain Piety And Effects
+  item_id: war-domain-piety-and-effect
+  item_index: "30"
+  item_name: War Domain Piety and Effect
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:war-domain-piety-and-effect
+  scdc:
+    - 1.1.1:11.2.8.3:30
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/1st-level-feature
+effects: []
+```

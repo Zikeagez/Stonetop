@@ -1,0 +1,68 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1
+file_basename: Lets Dance
+file_dpath: Abilities/Kits/Pugilist
+flavor: Keeping your enemies stumbling around the battlefield is second nature to
+  you.
+item_id: lets-dance
+item_index: '01'
+item_name: Let's Dance
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.pugilist:lets-dance
+scdc:
+- 1.1.1:14.15:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/pugilist
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Let's Dance
+flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1
+  file_basename: Lets Dance
+  file_dpath: Abilities/Kits/Pugilist
+  flavor: Keeping your enemies stumbling around the battlefield is second nature
+    to you.
+  item_id: lets-dance
+  item_index: "01"
+  item_name: Let's Dance
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
+  scdc:
+    - 1.1.1:14.15:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/pugilist
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage; slide 1
+    tier3: 8 + M or A damage; slide 2
+  - name: Effect
+    effect: You can shift into any square the target leaves after you slide them.
+```

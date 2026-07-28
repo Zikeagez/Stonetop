@@ -1,0 +1,59 @@
+---
+action_type: feature
+class: troubadour
+feature_type: subtrait
+file_basename: Star Power
+file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+item_id: star-power
+item_index: '06'
+item_name: Star Power
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:star-power
+scdc:
+- 1.1.1:11.2.3.8:06
+source: mcdm.heroes.v1
+type: feature/subtrait/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Star Power
+metadata:
+  action_type: feature
+  class: troubadour
+  feature_type: subtrait
+  file_basename: Star Power
+  file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+  item_id: star-power
+  item_index: "06"
+  item_name: Star Power
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:star-power
+  scdc:
+    - 1.1.1:11.2.3.8:06
+  source: mcdm.heroes.v1
+  type: feature/subtrait/troubadour/1st-level-feature
+effects:
+  - effect: You have the following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Star Power
+        cost: 1 Drama
+        flavor: Your years of practicing fencing and dancing pay off on the battlefield.
+        keywords:
+          - "-"
+        usage: Maneuver
+        distance: Self
+        target: Self
+        effects:
+          - name: Effect
+            effect: You gain a +2 bonus to speed until the end of your turn. Additionally,
+              the next power roll you make this turn can't have an outcome lower
+              than tier 2.
+          - cost: Spend 1 Drama
+            effect: You gain a +4 bonus to speed instead.
+```

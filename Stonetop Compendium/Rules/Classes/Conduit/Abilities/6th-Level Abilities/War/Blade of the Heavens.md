@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: conduit
+cost: 9 Piety
+cost_amount: 9
+cost_resource: Piety
+distance: Ranged 5
+feature_type: ability
+file_basename: Blade of the Heavens
+file_dpath: Abilities/Conduit/6th-Level Features
+flavor: A greatsword streams down from the sky, threatening to pin your foe.
+item_id: blade-of-the-heavens-9-piety
+item_index: 08
+item_name: Blade of the Heavens (9 Piety)
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens
+scdc:
+- 1.1.1:11.3.8.3:08
+source: mcdm.heroes.v1
+subclass: War
+target: One creature
+type: feature/ability/conduit/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Blade of the Heavens
+cost: 9 Piety
+flavor: A greatsword streams down from the sky, threatening to pin your foe.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 9 Piety
+  cost_amount: 9
+  cost_resource: Piety
+  distance: Ranged 5
+  feature_type: ability
+  file_basename: Blade of the Heavens
+  file_dpath: Abilities/Conduit/6th-Level Features
+  flavor: A greatsword streams down from the sky, threatening to pin your foe.
+  item_id: blade-of-the-heavens-9-piety
+  item_index: 8
+  item_name: Blade of the Heavens (9 Piety)
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens
+  scdc:
+    - 1.1.1:11.3.8.3:08
+  source: mcdm.heroes.v1
+  subclass: War
+  target: One creature
+  type: feature/ability/conduit/6th-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 8 + I damage; A < WEAK, prone and restrained (save ends)
+    tier2: 12 + I damage; A < AVERAGE, prone and restrained (save ends)
+    tier3: 16 + I damage; A < STRONG, prone and restrained (save ends)
+```

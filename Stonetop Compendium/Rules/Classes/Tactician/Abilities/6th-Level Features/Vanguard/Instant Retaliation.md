@@ -1,0 +1,76 @@
+---
+action_type: Free triggered
+class: tactician
+cost: 9 Focus
+cost_amount: 9
+cost_resource: Focus
+distance: Melee 1
+feature_type: ability
+file_basename: Instant Retaliation
+file_dpath: Abilities/Tactician/6th-Level Features
+flavor: You parry with almost supernatural speed.
+item_id: instant-retaliation-9-focus
+item_index: '05'
+item_name: Instant Retaliation (9 Focus)
+keywords:
+- Melee
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation
+scdc:
+- 1.1.1:11.3.4.3:05
+source: mcdm.heroes.v1
+subclass: Vanguard
+target: One ally
+type: feature/ability/tactician/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Instant Retaliation
+cost: 9 Focus
+flavor: You parry with almost supernatural speed.
+keywords:
+  - Melee
+  - Weapon
+usage: Free triggered
+distance: Melee 1
+target: One ally
+trigger: A creature deals damage to the target.
+metadata:
+  action_type: Free triggered
+  class: tactician
+  cost: 9 Focus
+  cost_amount: 9
+  cost_resource: Focus
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Instant Retaliation
+  file_dpath: Abilities/Tactician/6th-Level Features
+  flavor: You parry with almost supernatural speed.
+  item_id: instant-retaliation-9-focus
+  item_index: "05"
+  item_name: Instant Retaliation (9 Focus)
+  keywords:
+    - Melee
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation
+  scdc:
+    - 1.1.1:11.3.4.3:05
+  source: mcdm.heroes.v1
+  subclass: Vanguard
+  target: One ally
+  type: feature/ability/tactician/6th-level-feature
+effects:
+  - name: Effect
+    effect: The target takes half the damage. You then make a power roll against the
+      triggering creature.
+  - roll: Power Roll + Might
+    tier1: A < WEAK, dazed (save ends)
+    tier2: A < AVERAGE, dazed (save ends)
+    tier3: A < STRONG, dazed (save ends)
+```

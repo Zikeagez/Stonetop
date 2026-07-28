@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: shadow
+cost: 3 Insight
+cost_amount: 3
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: Disorienting Strike
+file_dpath: Abilities/Shadow/1st-Level Features
+flavor: Your attack leaves them reeling, allowing you to follow up.
+item_id: disorienting-strike-3-insight
+item_index: '16'
+item_name: Disorienting Strike (3 Insight)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:disorienting-strike
+scdc:
+- 1.1.1:11.3.2.1:16
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Disorienting Strike
+cost: 3 Insight
+flavor: Your attack leaves them reeling, allowing you to follow up.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 3 Insight
+  cost_amount: 3
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Disorienting Strike
+  file_dpath: Abilities/Shadow/1st-Level Features
+  flavor: Your attack leaves them reeling, allowing you to follow up.
+  item_id: disorienting-strike-3-insight
+  item_index: "16"
+  item_name: Disorienting Strike (3 Insight)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:disorienting-strike
+  scdc:
+    - 1.1.1:11.3.2.1:16
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 4 + A damage; slide 2
+    tier2: 6 + A damage; slide 3
+    tier3: 10 + A damage; slide 5
+  - name: Effect
+    effect: You can shift into any square the target leaves when you slide them.
+```

@@ -1,0 +1,84 @@
+---
+action_type: Main action
+class: elementalist
+cost: 9 Essence
+cost_amount: 9
+cost_resource: Essence
+distance: 4 cube within 10
+feature_type: ability
+file_basename: Storm of Sands
+file_dpath: Abilities/Elementalist/5th-Level Features
+flavor: Dirt and debris swirl into a dark, pulsing hurricane.
+item_id: storm-of-sands-9-essence
+item_index: '07'
+item_name: Storm of Sands (9 Essence)
+keywords:
+- Area
+- Earth
+- Magic
+- Ranged
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:storm-of-sands
+scdc:
+- 1.1.1:11.3.9.4:07
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Storm of Sands
+cost: 9 Essence
+flavor: Dirt and debris swirl into a dark, pulsing hurricane.
+keywords:
+  - Area
+  - Earth
+  - Magic
+  - Ranged
+usage: Main action
+distance: 4 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 9 Essence
+  cost_amount: 9
+  cost_resource: Essence
+  distance: 4 cube within 10
+  feature_type: ability
+  file_basename: Storm of Sands
+  file_dpath: Abilities/Elementalist/5th-Level Features
+  flavor: Dirt and debris swirl into a dark, pulsing hurricane.
+  item_id: storm-of-sands-9-essence
+  item_index: "07"
+  item_name: Storm of Sands (9 Essence)
+  keywords:
+    - Area
+    - Earth
+    - Magic
+    - Ranged
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:storm-of-sands
+  scdc:
+    - 1.1.1:11.3.9.4:07
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/5th-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 damage
+    tier2: 5 damage
+    tier3: 7 damage
+  - name: Effect
+    effect: The area lasts until the start of your next turn. It is difficult
+      terrain for enemies, and you and your allies have concealment while in the
+      area.
+  - name: Persistent 1
+    effect: The area remains until the start of your next turn, and you can move it
+      up to 5 squares (no action required). As a maneuver, you can make the
+      power roll again without spending essence.
+```

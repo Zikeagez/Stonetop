@@ -1,0 +1,20 @@
+/* METABIND tgg-mb-css */
+
+.mb-input-wrapper.tgg-mb-css .checkbox-container::after {
+    display: none;
+  }
+  
+  .mb-input-wrapper.tgg-mb-css .checkbox-container::before {
+    background-color: #71c759; /* This is the color of the ::before pseudo-element */
+    display: block; /* Make sure the ::before pseudo-element is visible */
+    border-radius: 0%; /* This makes the ::before pseudo-element a circle */
+    width: 20px; /* Adjust this to fit your needs */
+    height: 20px; /* Adjust this to fit your needs */
+    content: ""; /* This is necessary for the ::before pseudo-element to be visible */
+  }
+  
+  .mb-input-wrapper.tgg-mb-css .checkbox-container.is-enabled::before {
+    opacity: 1;
+    transform: scale(100%);
+    transition: transform 0s;
+  }

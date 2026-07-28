@@ -1,0 +1,5 @@
+Arcana are magical items, places, or lore that can provide power - but only if you spend the time and effort to fully unlock their mysteries. The Seeker starts with a collection of arcana, and anyone can acquire them in play. 
+
+Every arcanum is different. Some spells or abilities that you can learn by studying some scrap of lore, and any number of people could learn the same spell. Some imbue you with magical power. Other arcana are magical objects that you can learn to wield. Still others are magical places that you must return to in order to use their power.
+
+When questions arise about an arcanum (like how it works, what's involved with using it, what it can/can't do, etc. ), talk it out with the GM and the other players. Consider the details described or implied or already established in play, and extrapolate an answer together.

@@ -1,0 +1,71 @@
+---
+ability_type: Signature
+action_type: Main action
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Wither
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: A bolt of holy energy saps the life from a foe.
+item_id: wither
+item_index: '10'
+item_name: Wither
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:wither
+scdc:
+- 1.1.1:11.3.8.1:10
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Wither
+flavor: A bolt of holy energy saps the life from a foe.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Wither
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: A bolt of holy energy saps the life from a foe.
+  item_id: wither
+  item_index: "10"
+  item_name: Wither
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:wither
+  scdc:
+    - 1.1.1:11.3.8.1:10
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 3 + I corruption damage; P < WEAK, the target takes a bane on their next
+      power roll
+    tier2: 5 + I corruption damage; P < AVERAGE, the target takes a bane on their
+      next power roll
+    tier3: 8 + I corruption damage; P < STRONG, the target takes a bane on their
+      next power roll
+```

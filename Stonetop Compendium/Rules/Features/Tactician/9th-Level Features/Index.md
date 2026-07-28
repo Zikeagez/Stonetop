@@ -1,0 +1,14 @@
+---
+title: 📑 Index
+type: index
+---
+
+# Tactician: 9th-Level Features Index
+
+| File Name                                                                                                 | Subclass | Cost | Level | Feature Type | Action Type | Distance | Target |
+| --------------------------------------------------------------------------------------------------------- | -------- | ---- | ----- | ------------ | ----------- | -------- | ------ |
+| [9th Level Doctrine Ability](9th%20Level%20Doctrine%20Ability.md)                                            |          |      | 9     | trait        | feature     |          |        |
+| └── [9th Level Insurgent Abilities](9th%20Level%20Insurgent%20Abilities.md)   |          |      | 9     | subtrait     | feature     |          |        |
+| └── [9th Level Mastermind Abilities](9th%20Level%20Mastermind%20Abilities.md) |          |      | 9     | subtrait     | feature     |          |        |
+| └── [9th Level Vanguard Abilities](9th%20Level%20Vanguard%20Abilities.md)     |          |      | 9     | subtrait     | feature     |          |        |
+| [Grandmaster of Arms](Grandmaster%20of%20Arms.md)                                                            |          |      | 9     | trait        | feature     |          |        |

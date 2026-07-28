@@ -1,0 +1,58 @@
+---
+class: combat
+file_basename: Escape Grab
+file_dpath: Abilities/Common/Maneuvers
+item_id: escape-grab
+item_index: 08
+item_name: Escape Grab
+scc:
+- mcdm.heroes.v1:common-ability.maneuver:escape-grab
+scdc:
+- 1.1.1:15.3:08
+source: mcdm.heroes.v1
+type: common-ability/maneuver
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Escape Grab
+metadata:
+  class: combat
+  file_basename: Escape Grab
+  file_dpath: Abilities/Common/Maneuvers
+  item_id: escape-grab
+  item_index: 8
+  item_name: Escape Grab
+  scc:
+    - mcdm.heroes.v1:common-ability.maneuver:escape-grab
+  scdc:
+    - 1.1.1:15.3:08
+  source: mcdm.heroes.v1
+  type: common-ability/maneuver
+effects:
+  - effect: A creature who is grabbed by another creature, an object, or an effect
+      (see [Grab](#page-287-5) below) can attempt to escape by using the
+      following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Escape Grab
+        keywords:
+          - "-"
+        usage: Maneuver
+        distance: Self
+        target: Self
+        effects:
+          - roll: Power Roll + Might or Agility
+            tier1: No effect.
+            tier2: You can escape the grab, but if you do, a creature who has you grabbed
+              can make a melee free strike against you before you are no longer
+              grabbed.
+            tier3: You are no longer grabbed.
+          - name: Effect
+            effect: You take a bane on this maneuver if your size is smaller than the size
+              of the creature, object, or effect that has you grabbed.
+  - effect: "See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
+      information on the grabbed condition."
+```

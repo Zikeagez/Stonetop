@@ -1,0 +1,80 @@
+---
+action_type: Maneuver
+class: 'null'
+cost: 5 Discipline
+cost_amount: 5
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Impart Force
+file_dpath: Abilities/Null/1st-Level Features
+flavor: A single touch from you, and your enemy flies backward.
+item_id: impart-force-5-discipline
+item_index: '13'
+item_name: Impart Force (5 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force
+scdc:
+- 1.1.1:11.3.6.1:13
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Impart Force
+cost: 5 Discipline
+flavor: A single touch from you, and your enemy flies backward.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Maneuver
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Maneuver
+  class: "null"
+  cost: 5 Discipline
+  cost_amount: 5
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Impart Force
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: A single touch from you, and your enemy flies backward.
+  item_id: impart-force-5-discipline
+  item_index: "13"
+  item_name: Impart Force (5 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force
+  scdc:
+    - 1.1.1:11.3.6.1:13
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: Push 3
+    tier2: Push 5
+    tier3: Push 7
+  - name: Effect
+    effect: An object you target must be your size or smaller. You gain an edge on
+      this ability. Additionally, for each square you push the target, they take
+      1 psychic damage.
+```

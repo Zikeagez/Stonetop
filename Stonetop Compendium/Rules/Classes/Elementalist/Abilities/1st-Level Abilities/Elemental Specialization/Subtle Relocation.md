@@ -1,0 +1,72 @@
+---
+action_type: Triggered
+class: elementalist
+distance: Ranged 10
+feature_type: ability
+file_basename: Subtle Relocation
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: You call on the void to swallow and spit out an ally.
+item_id: subtle-relocation
+item_index: '02'
+item_name: Subtle Relocation
+keywords:
+- Magic
+- Ranged
+- Void
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation
+scdc:
+- 1.1.1:11.3.9.1:02
+source: mcdm.heroes.v1
+subclass: Void
+target: Self or one ally
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Subtle Relocation
+flavor: You call on the void to swallow and spit out an ally.
+keywords:
+  - Magic
+  - Ranged
+  - Void
+usage: Triggered
+distance: Ranged 10
+target: Self or one ally
+trigger: The target starts their turn, moves, or is force moved.
+metadata:
+  action_type: Triggered
+  class: elementalist
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Subtle Relocation
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: You call on the void to swallow and spit out an ally.
+  item_id: subtle-relocation
+  item_index: "02"
+  item_name: Subtle Relocation
+  keywords:
+    - Magic
+    - Ranged
+    - Void
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation
+  scdc:
+    - 1.1.1:11.3.9.1:02
+  source: mcdm.heroes.v1
+  subclass: Void
+  target: Self or one ally
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - name: Effect
+    effect: You teleport the target up to a number of squares equal to your Reason
+      score. If the target moves to trigger this ability, you can teleport them
+      at any point during the move.
+  - cost: Spend 1 Essence
+    effect: You teleport the target up to a number of squares equal to twice your
+      Reason score instead.
+```

@@ -1,0 +1,72 @@
+---
+action_type: Main action
+class: troubadour
+cost: 5 Drama
+cost_amount: 5
+cost_resource: Drama
+distance: 3 burst
+feature_type: ability
+file_basename: Flip the Script
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: You try a different take on events, justifying the new locations everyone
+  ended up in.
+item_id: flip-the-script-5-drama
+item_index: '10'
+item_name: Flip the Script (5 Drama)
+keywords:
+- Area
+- Magic
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:flip-the-script
+scdc:
+- 1.1.1:11.3.3.1:10
+source: mcdm.heroes.v1
+target: Self and each ally in the area
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Flip the Script
+cost: 5 Drama
+flavor: You try a different take on events, justifying the new locations
+  everyone ended up in.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 3 burst
+target: Self and each ally in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 5 Drama
+  cost_amount: 5
+  cost_resource: Drama
+  distance: 3 burst
+  feature_type: ability
+  file_basename: Flip the Script
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: You try a different take on events, justifying the new locations
+    everyone ended up in.
+  item_id: flip-the-script-5-drama
+  item_index: "10"
+  item_name: Flip the Script (5 Drama)
+  keywords:
+    - Area
+    - Magic
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:flip-the-script
+  scdc:
+    - 1.1.1:11.3.3.1:10
+  source: mcdm.heroes.v1
+  target: Self and each ally in the area
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - name: Effect
+    effect: Each target can teleport up to 5 squares. Any teleported target who was
+      slowed is no longer slowed.
+```

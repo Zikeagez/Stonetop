@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Languages")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - vaslorianlang == "yes"
+    order:
+      - file.name
+      - region

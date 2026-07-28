@@ -1,0 +1,177 @@
+---
+agility: 0
+ancestry:
+- Mummy
+- Undead
+ev: '24'
+file_basename: Mummy Lord
+file_dpath: Monsters/Undead/Statblocks
+free_strike: 6
+intuition: 4
+item_id: mummy-lord
+item_index: '26'
+item_name: Mummy Lord
+level: 4
+might: 4
+presence: 2
+reason: 2
+roles:
+- Leader
+scc:
+- mcdm.monsters.v1:monster.undead.statblock:mummy-lord
+scdc:
+- 1.1.1:2.8.1:26
+size: 1M
+source: mcdm.monsters.v1
+speed: 6
+stability: 4
+stamina: '155'
+type: monster/undead/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Mummy Lord
+level: 4
+roles:
+  - Leader
+ancestry:
+  - Mummy
+  - Undead
+ev: "24"
+stamina: "155"
+immunities:
+  - Corruption 6
+  - poison 6
+weaknesses:
+  - Fire 5
+speed: 6
+size: 1M
+stability: 4
+free_strike: 6
+might: 4
+agility: 0
+reason: 2
+intuition: 4
+presence: 2
+features:
+  - type: feature
+    feature_type: ability
+    name: Accursed Slam
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 4
+        tier1: 10 corruption damage; I < 2 bleeding (save ends)
+        tier2: 14 corruption damage; I < 3 bleeding (save ends)
+        tier3: 17 corruption damage; I < 4 bleeding (save ends)
+      - name: Effect
+        effect: While the target is bleeding this way, the potency of any ability used
+          against them increases by 1 for the target.
+  - type: feature
+    feature_type: ability
+    name: Binding Curse
+    icon: 🏹
+    cost: 1 Malice
+    keywords:
+      - Magic
+      - Ranged
+    usage: Main action
+    distance: Ranged 20
+    target: One creature
+    effects:
+      - roll: Power Roll + 4
+        tier1: 7 corruption damage; I < 2 frightened (save ends)
+        tier2: 12 corruption damage; I < 3 frightened (save ends)
+        tier3: 16 corruption damage; I < 4 frightened (save ends)
+      - name: Effect
+        effect: While frightened this way, a target takes 4 psychic damage whenever they
+          use a move action.
+      - cost: 2+ Malice
+        effect: This ability targets one additional target for each 2 Malice spent.
+  - type: feature
+    feature_type: ability
+    name: Summon My Guard
+    icon: ❗️
+    cost: 2 Malice
+    keywords:
+      - Ranged
+    usage: Triggered action
+    distance: Ranged 10
+    target: Special
+    trigger: The mummy lord is made winded for the first time in the encounter.
+    effects:
+      - name: Effect
+        effect: One mummy or four ghoul cravers appear within distance.
+  - type: feature
+    feature_type: trait
+    name: Cursed Transference
+    icon: ⭐️
+    effects:
+      - effect: At the end of each of their turns, the mummy lord can take 10 damage to
+          end one effect on them that can be ended by a saving throw. This
+          damage can't be reduced in any way.
+      - cost: 5 Malice
+        effect: The effect that is ended is transferred to another creature within 10
+          squares.
+  - type: feature
+    feature_type: ability
+    name: Plague of Flies
+    icon: ☠️
+    ability_type: Villain Action 1
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 4
+        tier1: 5 poison damage
+        tier2: 8 poison damage
+        tier3: 10 poison damage
+      - name: Effect
+        effect: Each target takes a bane on their next strike.
+  - type: feature
+    feature_type: ability
+    name: Land's Guardian
+    icon: ☠️
+    ability_type: Villain Action 2
+    keywords:
+      - "-"
+    usage: "-"
+    distance: Self
+    target: Self
+    effects:
+      - name: Effect
+        effect: The mummy lord gains a +2 bonus to speed and can automatically burrow at
+          full speed while moving. They can then use the Dig maneuver. The next
+          time the mummy lord breaches the surface, each enemy within 2 squares
+          of the mummy lord makes an **Agility test**.
+        tier1: Prone and can't stand (EoT)
+        tier2: Prone
+        tier3: No effect
+  - type: feature
+    feature_type: ability
+    name: Unbound Horrors
+    icon: ☠️
+    ability_type: Villain Action 3
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 4
+        tier1: 5 corruption damage; I < 2 frightened (save ends)
+        tier2: 8 corruption damage; I < 3 frightened (save ends)
+        tier3: 10 corruption damage; I < 4 frightened and restrained (save ends)
+~~~

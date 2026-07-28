@@ -1,0 +1,87 @@
+---
+action_type: Main action
+class: talent
+cost: 11 Clarity
+cost_amount: 11
+cost_resource: Clarity
+distance: Ranged 10
+feature_type: ability
+file_basename: Resonant Mind Spike
+file_dpath: Abilities/Talent/9th-Level Features
+flavor: You fire a telepathic bolt empowered by every consciousness within reach directly
+  into your foe's mind.
+item_id: resonant-mind-spike-11-clarity
+item_index: '06'
+item_name: Resonant Mind Spike (11 Clarity)
+keywords:
+- Psionic
+- Ranged
+- Strike
+- Telepathy
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike
+scdc:
+- 1.1.1:11.3.1.7:06
+source: mcdm.heroes.v1
+subclass: Telepathy
+target: One creature
+type: feature/ability/talent/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Resonant Mind Spike
+cost: 11 Clarity
+flavor: You fire a telepathic bolt empowered by every consciousness within reach
+  directly into your foe's mind.
+keywords:
+  - Psionic
+  - Ranged
+  - Strike
+  - Telepathy
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: talent
+  cost: 11 Clarity
+  cost_amount: 11
+  cost_resource: Clarity
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Resonant Mind Spike
+  file_dpath: Abilities/Talent/9th-Level Features
+  flavor: You fire a telepathic bolt empowered by every consciousness within reach
+    directly into your foe's mind.
+  item_id: resonant-mind-spike-11-clarity
+  item_index: "06"
+  item_name: Resonant Mind Spike (11 Clarity)
+  keywords:
+    - Psionic
+    - Ranged
+    - Strike
+    - Telepathy
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike
+  scdc:
+    - 1.1.1:11.3.1.7:06
+  source: mcdm.heroes.v1
+  subclass: Telepathy
+  target: One creature
+  type: feature/ability/talent/9th-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 15 + R psychic damage
+    tier2: 24 + R psychic damage
+    tier3: 28 + R psychic damage
+  - name: Effect
+    effect: This ability ignores cover and concealment.
+  - name: Strained
+    effect: The ability roll scores a critical hit on a natural 17 or higher. You
+      take half the damage the target takes, and you can't reduce this damage in
+      any way.
+```

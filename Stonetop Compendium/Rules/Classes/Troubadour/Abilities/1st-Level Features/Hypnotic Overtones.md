@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: troubadour
+cost: 3 Drama
+cost_amount: 3
+cost_resource: Drama
+distance: 2 burst
+feature_type: ability
+file_basename: Hypnotic Overtones
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
+item_id: hypnotic-overtones-3-drama
+item_index: '13'
+item_name: Hypnotic Overtones (3 Drama)
+keywords:
+- Area
+- Magic
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones
+scdc:
+- 1.1.1:11.3.3.1:13
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Hypnotic Overtones
+cost: 3 Drama
+flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 2 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 3 Drama
+  cost_amount: 3
+  cost_resource: Drama
+  distance: 2 burst
+  feature_type: ability
+  file_basename: Hypnotic Overtones
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: You produce an entrancing note that twists the senses in a spectacular
+    fashion.
+  item_id: hypnotic-overtones-3-drama
+  item_index: "13"
+  item_name: Hypnotic Overtones (3 Drama)
+  keywords:
+    - Area
+    - Magic
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones
+  scdc:
+    - 1.1.1:11.3.3.1:13
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: Slide 1; I < WEAK, dazed (save ends)
+    tier2: Slide 1; I < AVERAGE, dazed (save ends)
+    tier3: Slide 2; I < STRONG, dazed (save ends)
+  - cost: Spend 2+ Drama
+    effect: The size of the burst increases by 1 for every 2 drama spent.
+```

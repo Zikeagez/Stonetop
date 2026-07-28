@@ -1,0 +1,73 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1 or ranged 10
+file_basename: Raiders Awe
+file_dpath: Abilities/Kits/Raider
+flavor: You execute a brutal strike that leaves your foe reeling. (Previously known
+  as "Shock and Awe")
+item_id: raiders-awe
+item_index: '01'
+item_name: Raider's Awe
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.raider:raiders-awe
+scdc:
+- 1.1.1:14.5:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/raider
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Raider's Awe
+flavor: You execute a brutal strike that leaves your foe reeling. (Previously
+  known as "Shock and Awe")
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 10
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1 or ranged 10
+  file_basename: Raiders Awe
+  file_dpath: Abilities/Kits/Raider
+  flavor: You execute a brutal strike that leaves your foe reeling. (Previously
+    known as "Shock and Awe")
+  item_id: raiders-awe
+  item_index: "01"
+  item_name: Raider's Awe
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.raider:raiders-awe
+  scdc:
+    - 1.1.1:14.5:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/raider
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage
+    tier3: 8 + M or A damage
+  - name: Effect
+    effect: The target takes a bane on their next power roll made before the end of
+      their next turn.
+```

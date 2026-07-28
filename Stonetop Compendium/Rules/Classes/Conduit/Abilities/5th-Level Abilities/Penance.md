@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: conduit
+cost: 9 Piety
+cost_amount: 9
+cost_resource: Piety
+distance: 4 cube within 10
+feature_type: ability
+file_basename: Penance
+file_dpath: Abilities/Conduit/5th-Level Features
+flavor: '"If you won''t kneel, the gods will make you."'
+item_id: penance-9-piety
+item_index: '01'
+item_name: Penance (9 Piety)
+keywords:
+- Area
+- Magic
+- Ranged
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:penance
+scdc:
+- 1.1.1:11.3.8.4:01
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/conduit/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Penance
+cost: 9 Piety
+flavor: "\"If you won't kneel, the gods will make you.\""
+keywords:
+  - Area
+  - Magic
+  - Ranged
+usage: Main action
+distance: 4 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 9 Piety
+  cost_amount: 9
+  cost_resource: Piety
+  distance: 4 cube within 10
+  feature_type: ability
+  file_basename: Penance
+  file_dpath: Abilities/Conduit/5th-Level Features
+  flavor: "\"If you won't kneel, the gods will make you.\""
+  item_id: penance-9-piety
+  item_index: "01"
+  item_name: Penance (9 Piety)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:penance
+  scdc:
+    - 1.1.1:11.3.8.4:01
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/conduit/5th-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 4 corruption damage; I < WEAK, prone and can't stand (save ends)
+    tier2: 7 corruption damage; I < AVERAGE, prone and can't stand (save ends)
+    tier3: 11 corruption damage; I < STRONG, prone and can't stand (save ends)
+```

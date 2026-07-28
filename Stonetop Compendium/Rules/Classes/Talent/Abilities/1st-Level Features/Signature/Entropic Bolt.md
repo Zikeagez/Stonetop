@@ -1,0 +1,77 @@
+---
+ability_type: Signature
+action_type: Main action
+class: talent
+distance: Ranged 10
+feature_type: ability
+file_basename: Entropic Bolt
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: You advance an enemy's age for a moment.
+item_id: entropic-bolt
+item_index: '16'
+item_name: Entropic Bolt
+keywords:
+- Chronopathy
+- Psionic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
+scdc:
+- 1.1.1:11.3.1.1:16
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Entropic Bolt
+flavor: You advance an enemy's age for a moment.
+keywords:
+  - Chronopathy
+  - Psionic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Entropic Bolt
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: You advance an enemy's age for a moment.
+  item_id: entropic-bolt
+  item_index: "16"
+  item_name: Entropic Bolt
+  keywords:
+    - Chronopathy
+    - Psionic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
+  scdc:
+    - 1.1.1:11.3.1.1:16
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 2 + P corruption damage; P < WEAK, slowed (save ends)
+    tier2: 3 + P corruption damage; P < AVERAGE, slowed (save ends)
+    tier3: 5 + P corruption damage; P < STRONG, slowed (save ends)
+  - name: Effect
+    effect: The target takes an extra 1 corruption damage for each additional time
+      they are targeted by this ability during the encounter.
+  - name: Strained
+    effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
+      power roll.
+```

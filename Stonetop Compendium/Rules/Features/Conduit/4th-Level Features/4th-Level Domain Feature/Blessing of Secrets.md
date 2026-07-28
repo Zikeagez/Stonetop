@@ -1,0 +1,57 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: Blessing of Secrets
+file_dpath: Features/Conduit/4th-Level Features/4th-Level Domain Feature
+item_id: blessing-of-secrets
+item_index: 08
+item_name: Blessing of Secrets
+level: 4
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.4th-level-feature:blessing-of-secrets
+scdc:
+- 1.1.1:11.2.8.1:08
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/4th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Blessing of Secrets
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: Blessing of Secrets
+  file_dpath: Features/Conduit/4th-Level Features/4th-Level Domain Feature
+  item_id: blessing-of-secrets
+  item_index: 8
+  item_name: Blessing of Secrets
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.4th-level-feature:blessing-of-secrets
+  scdc:
+    - 1.1.1:11.2.8.1:08
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/4th-level-feature
+effects:
+  - effect: You have the following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Blessing of Secrets
+        flavor: You project an illusory aura that makes you and allies harder to notice.
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 3 aura
+        target: Self and each ally in the area
+        effects:
+          - name: Effect
+            effect: Each creature in the area has a double edge on tests made to hide or
+              sneak. The aura lasts until you end it (no action required) or
+              until a target harms or deals damage to a creature or object.
+```

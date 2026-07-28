@@ -1,0 +1,77 @@
+---
+action_type: Main action
+class: fury
+cost: 3 Ferocity
+cost_amount: 3
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Out of the Way
+file_dpath: Abilities/Fury/1st-Level Features
+flavor: Your enemies will clear your path—whether they want to or not.
+item_id: out-of-the-way-3-ferocity
+item_index: '04'
+item_name: Out of the Way! (3 Ferocity)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way
+scdc:
+- 1.1.1:11.3.5.1:04
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/fury/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Out of the Way!
+cost: 3 Ferocity
+flavor: Your enemies will clear your path—whether they want to or not.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 3 Ferocity
+  cost_amount: 3
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Out of the Way
+  file_dpath: Abilities/Fury/1st-Level Features
+  flavor: Your enemies will clear your path—whether they want to or not.
+  item_id: out-of-the-way-3-ferocity
+  item_index: "04"
+  item_name: Out of the Way! (3 Ferocity)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way
+  scdc:
+    - 1.1.1:11.3.5.1:04
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/fury/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 3 + M damage; slide 2
+    tier2: 5 + M damage; slide 3
+    tier3: 8 + M damage; slide 5
+  - name: Effect
+    effect: When you slide the target, you can move into any square they leave. If
+      you take damage from an opportunity attack by moving this way, the target
+      takes the same damage.
+```

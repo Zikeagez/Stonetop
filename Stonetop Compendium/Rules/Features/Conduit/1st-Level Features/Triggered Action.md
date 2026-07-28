@@ -1,0 +1,75 @@
+---
+action_type: feature
+class: conduit
+feature_type: trait
+file_basename: Triggered Action
+file_dpath: Features/Conduit/1st-Level Features
+item_id: triggered-action
+item_index: '04'
+item_name: Triggered Action
+level: 1
+scc:
+- mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:triggered-action
+scdc:
+- 1.1.1:11.1.8.1:04
+source: mcdm.heroes.v1
+type: feature/trait/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Triggered Action
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: trait
+  file_basename: Triggered Action
+  file_dpath: Features/Conduit/1st-Level Features
+  item_id: triggered-action
+  item_index: "04"
+  item_name: Triggered Action
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:triggered-action
+  scdc:
+    - 1.1.1:11.1.8.1:04
+  source: mcdm.heroes.v1
+  type: feature/trait/conduit/1st-level-feature
+effects:
+  - effect: Choose one of the following triggered actions. (*Quick Build:* Word of
+      Guidance.)
+    features:
+      - type: feature
+        feature_type: ability
+        name: Word of Guidance
+        flavor: You invigorate an attacking ally with divine energy.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Triggered
+        distance: Ranged 10
+        target: One ally
+        trigger: The target makes an ability roll for a damage-dealing ability.
+        effects:
+          - name: Effect
+            effect: The power roll gains an edge.
+          - cost: Spend 1 Piety
+            effect: The power roll has a double edge.
+      - type: feature
+        feature_type: ability
+        name: Word of Judgment
+        flavor: Your holy word saps an attacking enemy's strength.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Triggered
+        distance: Ranged 10
+        target: One ally
+        trigger: The target would take damage from an ability that uses a power roll.
+        effects:
+          - name: Effect
+            effect: The power roll takes a bane against the target.
+          - cost: Spend 1 Piety
+            effect: The power roll has a double bane against the target.
+```

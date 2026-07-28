@@ -1,0 +1,84 @@
+---
+action_type: Main action
+class: elementalist
+cost: 3 Essence
+cost_amount: 3
+cost_resource: Essence
+distance: Ranged 10
+feature_type: ability
+file_basename: Invigorating Growth
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: Mushrooms erupt from a foe, sapping their vitality to spread strengthening
+  spores.
+item_id: invigorating-growth-3-essence
+item_index: '23'
+item_name: Invigorating Growth (3 Essence)
+keywords:
+- Green
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth
+scdc:
+- 1.1.1:11.3.9.1:23
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Invigorating Growth
+cost: 3 Essence
+flavor: Mushrooms erupt from a foe, sapping their vitality to spread
+  strengthening spores.
+keywords:
+  - Green
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 3 Essence
+  cost_amount: 3
+  cost_resource: Essence
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Invigorating Growth
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: Mushrooms erupt from a foe, sapping their vitality to spread
+    strengthening spores.
+  item_id: invigorating-growth-3-essence
+  item_index: "23"
+  item_name: Invigorating Growth (3 Essence)
+  keywords:
+    - Green
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth
+  scdc:
+    - 1.1.1:11.3.9.1:23
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 4 + R poison damage
+    tier2: 7 + R poison damage
+    tier3: 11 + R poison damage
+  - name: Effect
+    effect: Mushrooms cover the target's body. While the mushrooms are on the
+      target, you and any ally adjacent to the target gain 1 surge whenever the
+      target takes damage. The mushrooms can be removed by the target or an
+      adjacent creature as a main action.
+```

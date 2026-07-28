@@ -1,0 +1,1 @@
+ **Wisdom (WIS):** your intuition self-control, and awareness. Roll +WIS to Seek Insight, or when you rely on your willpower or senses to Defy Danger.

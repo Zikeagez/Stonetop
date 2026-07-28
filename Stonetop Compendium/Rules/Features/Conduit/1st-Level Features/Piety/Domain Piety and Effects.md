@@ -1,0 +1,67 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: Domain Piety and Effects
+file_dpath: Features/Conduit/1st-Level Features/Piety
+item_id: domain-piety-and-effects
+item_index: '23'
+item_name: Domain Piety and Effects
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:domain-piety-and-effects
+scdc:
+- 1.1.1:11.2.8.3:23
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Domain Piety and Effects
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: Domain Piety and Effects
+  file_dpath: Features/Conduit/1st-Level Features/Piety
+  item_id: domain-piety-and-effects
+  item_index: "23"
+  item_name: Domain Piety and Effects
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:domain-piety-and-effects
+  scdc:
+    - 1.1.1:11.2.8.3:23
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/1st-level-feature
+effects:
+  - effect: >-
+      Your choice of domains provides you with two additional ways to earn piety
+      during combat, as triggered by specific events. You might even have a
+      single event trigger both your piety effects. For example, the Sun domain
+      grants piety when a nearby creature takes fire or holy damage, while the
+      War domain grants piety when a nearby creature takes damage of 10 + your
+      level or higher. If you have both those domains and a nearby creature
+      takes an appropriate amount of fire damage, you gain piety from both your
+      domains.
+
+
+      Additionally, whenever you activate a domain effect by praying for piety,
+      you can choose one of your domains and have that domain's prayer effect
+      take effect immediately.
+
+      ###### Creation Domain Piety and Effect
+  - effect: "###### Death Domain Piety and Effect"
+  - effect: "###### Fate Domain Piety and Effect"
+  - effect: "###### Knowledge Domain Piety and Effect"
+  - effect: "###### Life Domain Piety and Effect"
+  - effect: "###### Love Domain Piety and Effect"
+  - effect: "###### Nature Domain Piety and Effect"
+  - effect: "###### Protection Domain Piety and Effect"
+  - effect: "###### Storm Domain Piety and Effect"
+  - effect: "###### Sun Domain Piety and Effect"
+  - effect: "###### Trickery Domain Piety and Effect"
+  - effect: "###### War Domain Piety and Effect"
+```

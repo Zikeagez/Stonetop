@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Languages")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - deadlanguage == "yes"
+    order:
+      - file.name
+      - ancestry
+      - relatedlanguages
+      - commontopics
+    columnSize:
+      note.relatedlanguages: 214

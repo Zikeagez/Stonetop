@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Conditions")
+views:
+  - type: list
+    name: Table
+    filters:
+      and:
+        - type == "condition"
+    order:
+      - file.name
+      - description
+    indentProperties: true

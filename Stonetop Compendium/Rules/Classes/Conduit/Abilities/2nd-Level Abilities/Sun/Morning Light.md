@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: conduit
+cost: 5 Piety
+cost_amount: 5
+cost_resource: Piety
+distance: 3 burst
+feature_type: ability
+file_basename: Morning Light
+file_dpath: Abilities/Conduit/2nd-Level Features
+flavor: Light shines at your command, burning your foes and blessing your allies.
+item_id: morning-light-5-piety
+item_index: 09
+item_name: Morning Light (5 Piety)
+keywords:
+- Area
+- Magic
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light
+scdc:
+- 1.1.1:11.3.8.5:09
+source: mcdm.heroes.v1
+subclass: Sun
+target: Each enemy in the area
+type: feature/ability/conduit/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Morning Light
+cost: 5 Piety
+flavor: Light shines at your command, burning your foes and blessing your allies.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 3 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 5 Piety
+  cost_amount: 5
+  cost_resource: Piety
+  distance: 3 burst
+  feature_type: ability
+  file_basename: Morning Light
+  file_dpath: Abilities/Conduit/2nd-Level Features
+  flavor: Light shines at your command, burning your foes and blessing your allies.
+  item_id: morning-light-5-piety
+  item_index: 9
+  item_name: Morning Light (5 Piety)
+  keywords:
+    - Area
+    - Magic
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light
+  scdc:
+    - 1.1.1:11.3.8.5:09
+  source: mcdm.heroes.v1
+  subclass: Sun
+  target: Each enemy in the area
+  type: feature/ability/conduit/2nd-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 4 fire damage
+    tier2: 6 fire damage
+    tier3: 10 fire damage
+  - name: Effect
+    effect: Each ally in the area deals fire damage equal to your Intuition score
+      with their next strike made before the end of their next turn.
+```

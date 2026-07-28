@@ -1,0 +1,88 @@
+---
+action_type: Main action
+class: censor
+cost: 5 Wrath
+cost_amount: 5
+cost_resource: Wrath
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: Behold the Face of Justice
+file_dpath: Abilities/Censor/1st-Level Features
+flavor: You attack a foe and your enemies behold a vision of the true nature of your
+  resolve.
+item_id: behold-the-face-of-justice-5-wrath
+item_index: '03'
+item_name: Behold the Face of Justice! (5 Wrath)
+keywords:
+- Magic
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-the-face-of-justice
+scdc:
+- 1.1.1:11.3.7.1:03
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/censor/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Behold the Face of Justice!
+cost: 5 Wrath
+flavor: You attack a foe and your enemies behold a vision of the true nature of
+  your resolve.
+keywords:
+  - Magic
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 5 Wrath
+  cost_amount: 5
+  cost_resource: Wrath
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Behold the Face of Justice
+  file_dpath: Abilities/Censor/1st-Level Features
+  flavor: You attack a foe and your enemies behold a vision of the true nature of
+    your resolve.
+  item_id: behold-the-face-of-justice-5-wrath
+  item_index: "03"
+  item_name: Behold the Face of Justice! (5 Wrath)
+  keywords:
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-the-face-of-justice
+  scdc:
+    - 1.1.1:11.3.7.1:03
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/censor/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 3 + M holy damage; if the target has P < WEAK, each enemy within 2
+      squares of them is frightened of you (save ends)
+    tier2: 5 + M holy damage; if the target has P < AVERAGE, each enemy within 2
+      squares of them is frightened of you (save ends)
+    tier3: 8 + M holy damage; if the target has P < STRONG, each enemy within 2
+      squares of them is frightened of you (save ends)
+  - name: Effect
+    effect: Each enemy frightened this way is pushed up to 2 squares away from the
+      target and takes psychic damage equal to your Presence score.
+```

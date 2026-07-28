@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: censor
+cost: 5 Wrath
+cost_amount: 5
+cost_resource: Wrath
+distance: Melee 1
+feature_type: ability
+file_basename: Arrest
+file_dpath: Abilities/Censor/1st-Level Features
+flavor: '"I got you, you son of a bitch."'
+item_id: arrest-5-wrath
+item_index: '06'
+item_name: Arrest (5 Wrath)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest
+scdc:
+- 1.1.1:11.3.7.1:06
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/censor/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Arrest
+cost: 5 Wrath
+flavor: '"I got you, you son of a bitch."'
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 5 Wrath
+  cost_amount: 5
+  cost_resource: Wrath
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Arrest
+  file_dpath: Abilities/Censor/1st-Level Features
+  flavor: '"I got you, you son of a bitch."'
+  item_id: arrest-5-wrath
+  item_index: "06"
+  item_name: Arrest (5 Wrath)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest
+  scdc:
+    - 1.1.1:11.3.7.1:06
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/censor/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 6 + M holy damage; grabbed
+    tier2: 9 + M holy damage; grabbed
+    tier3: 13 + M holy damage; grabbed
+  - name: Effect
+    effect: If the target makes a strike against a creature while grabbed this way,
+      you can spend 3 wrath to deal holy damage to them equal to your Presence
+      score, then change the target of the strike to another target within the
+      strike's distance.
+```

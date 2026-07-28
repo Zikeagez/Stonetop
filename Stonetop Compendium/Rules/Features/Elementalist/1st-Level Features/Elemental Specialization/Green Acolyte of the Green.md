@@ -1,0 +1,45 @@
+---
+action_type: feature
+class: elementalist
+feature_type: subtrait
+file_basename: Green Acolyte of the Green
+file_dpath: Features/Elementalist/1st-Level Features/Elemental Specialization
+item_id: green-acolyte-of-the-green
+item_index: '20'
+item_name: 'Green: Acolyte of the Green'
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:green-acolyte-of-the-green
+scdc:
+- 1.1.1:11.2.9.7:20
+source: mcdm.heroes.v1
+type: feature/subtrait/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: "Green: Acolyte of the Green"
+metadata:
+  action_type: feature
+  class: elementalist
+  feature_type: subtrait
+  file_basename: Green Acolyte of the Green
+  file_dpath: Features/Elementalist/1st-Level Features/Elemental Specialization
+  item_id: green-acolyte-of-the-green
+  item_index: "20"
+  item_name: "Green: Acolyte of the Green"
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:green-acolyte-of-the-green
+  scdc:
+    - 1.1.1:11.2.9.7:20
+  source: mcdm.heroes.v1
+  type: feature/subtrait/elementalist/1st-level-feature
+effects:
+  - effect: You harness the residual magic from your green spells to bolster
+      yourself and your allies. Whenever you deal damage to one or more
+      creatures using an ability that has the Green and Magic keywords and that
+      costs essence to use (see below), you or one creature within 10 squares of
+      you gains temporary Stamina equal to your Reason score.
+```

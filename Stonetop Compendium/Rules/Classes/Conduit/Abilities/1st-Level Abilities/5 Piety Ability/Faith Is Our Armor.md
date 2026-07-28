@@ -1,0 +1,72 @@
+---
+action_type: Maneuver
+class: conduit
+cost: 5 Piety
+cost_amount: 5
+cost_resource: Piety
+distance: Ranged 10
+feature_type: ability
+file_basename: Faith Is Our Armor
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: The heroes' armor glows with golden light, granting divine protection.
+item_id: faith-is-our-armor-5-piety
+item_index: '03'
+item_name: Faith Is Our Armor (5 Piety)
+keywords:
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faith-is-our-armor
+scdc:
+- 1.1.1:11.3.8.1:03
+source: mcdm.heroes.v1
+target: Four allies
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Faith Is Our Armor
+cost: 5 Piety
+flavor: The heroes' armor glows with golden light, granting divine protection.
+keywords:
+  - Magic
+  - Ranged
+usage: Maneuver
+distance: Ranged 10
+target: Four allies
+metadata:
+  action_type: Maneuver
+  class: conduit
+  cost: 5 Piety
+  cost_amount: 5
+  cost_resource: Piety
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Faith Is Our Armor
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: The heroes' armor glows with golden light, granting divine protection.
+  item_id: faith-is-our-armor-5-piety
+  item_index: "03"
+  item_name: Faith Is Our Armor (5 Piety)
+  keywords:
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faith-is-our-armor
+  scdc:
+    - 1.1.1:11.3.8.1:03
+  source: mcdm.heroes.v1
+  target: Four allies
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - name: Effect
+    effect: You can target yourself instead of one ally with this ability.
+  - roll: Power Roll + Intuition
+    tier1: The target gains 5 temporary Stamina.
+    tier2: The target gains 10 temporary Stamina.
+    tier3: The target gains 15 temporary Stamina.
+```

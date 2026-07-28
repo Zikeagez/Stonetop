@@ -1,0 +1,78 @@
+---
+action_type: Main action
+class: tactician
+cost: 3 Focus
+cost_amount: 3
+cost_resource: Focus
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: Inspiring Strike
+file_dpath: Abilities/Tactician/1st-Level Features
+flavor: Your attack gives an ally hope.
+item_id: inspiring-strike-3-focus
+item_index: '02'
+item_name: Inspiring Strike (3 Focus)
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:inspiring-strike
+scdc:
+- 1.1.1:11.3.4.1:02
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/tactician/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Inspiring Strike
+cost: 3 Focus
+flavor: Your attack gives an ally hope.
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 5
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: tactician
+  cost: 3 Focus
+  cost_amount: 3
+  cost_resource: Focus
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Inspiring Strike
+  file_dpath: Abilities/Tactician/1st-Level Features
+  flavor: Your attack gives an ally hope.
+  item_id: inspiring-strike-3-focus
+  item_index: "02"
+  item_name: Inspiring Strike (3 Focus)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:inspiring-strike
+  scdc:
+    - 1.1.1:11.3.4.1:02
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/tactician/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 3 + M damage; you or one ally within 10 squares of you can spend a Recovery
+    tier2: 5 + M damage; you or one ally within 10 squares of you can spend a Recovery
+    tier3: 8 + M damage; you and one ally within 10 squares of you can spend a
+      Recovery, and each of you gains an edge on the next ability roll you make
+      during the encounter
+```

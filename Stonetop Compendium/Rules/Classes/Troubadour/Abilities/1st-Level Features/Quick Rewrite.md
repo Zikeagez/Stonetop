@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: troubadour
+cost: 3 Drama
+cost_amount: 3
+cost_resource: Drama
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Quick Rewrite
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: You write something unexpected into the scene that hinders your enemy.
+item_id: quick-rewrite-3-drama
+item_index: '01'
+item_name: Quick Rewrite (3 Drama)
+keywords:
+- Area
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:quick-rewrite
+scdc:
+- 1.1.1:11.3.3.1:01
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Quick Rewrite
+cost: 3 Drama
+flavor: You write something unexpected into the scene that hinders your enemy.
+keywords:
+  - Area
+  - Magic
+  - Ranged
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 3 Drama
+  cost_amount: 3
+  cost_resource: Drama
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Quick Rewrite
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: You write something unexpected into the scene that hinders your enemy.
+  item_id: quick-rewrite-3-drama
+  item_index: "01"
+  item_name: Quick Rewrite (3 Drama)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:quick-rewrite
+  scdc:
+    - 1.1.1:11.3.3.1:01
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 4 damage; P < WEAK, slowed (save ends)
+    tier2: 5 damage; P < AVERAGE, slowed (save ends)
+    tier3: 6 damage; P < STRONG, restrained (save ends)
+  - name: Effect
+    effect: The area is difficult terrain for enemies.
+```

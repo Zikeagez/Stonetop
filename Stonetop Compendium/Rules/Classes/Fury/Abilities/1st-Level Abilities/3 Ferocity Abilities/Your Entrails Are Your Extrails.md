@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: fury
+cost: 3 Ferocity
+cost_amount: 3
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Your Entrails Are Your Extrails
+file_dpath: Abilities/Fury/1st-Level Features
+flavor: Hard for them to fight when they're busy holding in their giblets.
+item_id: your-entrails-are-your-extrails-3-ferocity
+item_index: '03'
+item_name: Your Entrails Are Your Extrails! (3 Ferocity)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.fury.1st-level-feature:your-entrails-are-your-extrails
+scdc:
+- 1.1.1:11.3.5.1:03
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/fury/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Your Entrails Are Your Extrails!
+cost: 3 Ferocity
+flavor: Hard for them to fight when they're busy holding in their giblets.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 3 Ferocity
+  cost_amount: 3
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Your Entrails Are Your Extrails
+  file_dpath: Abilities/Fury/1st-Level Features
+  flavor: Hard for them to fight when they're busy holding in their giblets.
+  item_id: your-entrails-are-your-extrails-3-ferocity
+  item_index: "03"
+  item_name: Your Entrails Are Your Extrails! (3 Ferocity)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:your-entrails-are-your-extrails
+  scdc:
+    - 1.1.1:11.3.5.1:03
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/fury/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 3 + M damage; M < WEAK, bleeding (save ends)
+    tier2: 5 + M damage; M < AVERAGE, bleeding (save ends)
+    tier3: 8 + M damage; M < STRONG, bleeding (save ends)
+  - name: Effect
+    effect: While bleeding this way, the target takes damage equal to your Might
+      score at the end of each of your turns.
+```

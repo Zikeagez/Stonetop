@@ -1,0 +1,19 @@
+{
+  "saveWindowLocations": true,
+  "useCustomWindowName": false,
+  "customWindowName": "Second Window",
+  "windows": {
+    "Second Window": {
+      "hosts": {
+        "Chonkuter": {
+          "x": -1928,
+          "y": -5,
+          "width": 1936,
+          "height": 1096,
+          "fullscreen": false,
+          "maximized": true
+        }
+      }
+    }
+  }
+}

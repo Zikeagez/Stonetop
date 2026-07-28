@@ -1,0 +1,13 @@
+{
+  "jsonName": "SpellName",
+  "jsonNamePath": false,
+  "jsonUrl": "",
+  "folderName": "IMPORTTEST",
+  "topField": "",
+  "notePrefix": "",
+  "noteSuffix": "",
+  "handleExistingNote": 0,
+  "forceArray": true,
+  "multipleJSON": false,
+  "uniqueNames": false
+}

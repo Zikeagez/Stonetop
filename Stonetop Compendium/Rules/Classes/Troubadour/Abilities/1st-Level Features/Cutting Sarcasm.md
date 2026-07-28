@@ -1,0 +1,71 @@
+---
+ability_type: Signature
+action_type: Main action
+class: troubadour
+distance: Ranged 10
+feature_type: ability
+file_basename: Cutting Sarcasm
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: There you are, radiating your usual charisma.
+item_id: cutting-sarcasm
+item_index: '02'
+item_name: Cutting Sarcasm
+keywords:
+- Magic
+- Ranged
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:cutting-sarcasm
+scdc:
+- 1.1.1:11.3.3.1:02
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Cutting Sarcasm
+flavor: There you are, radiating your usual charisma.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: troubadour
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Cutting Sarcasm
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: There you are, radiating your usual charisma.
+  item_id: cutting-sarcasm
+  item_index: "02"
+  item_name: Cutting Sarcasm
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:cutting-sarcasm
+  scdc:
+    - 1.1.1:11.3.3.1:02
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 2 + P psychic damage; P < WEAK, bleeding (save ends)
+    tier2: 5 + P psychic damage; P < AVERAGE, bleeding (save ends)
+    tier3: 7 + P psychic damage; P < STRONG, bleeding (save ends)
+```

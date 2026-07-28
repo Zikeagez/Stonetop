@@ -1,0 +1,68 @@
+---
+ability_type: Signature
+action_type: Main action
+class: conduit
+distance: 2 burst
+feature_type: ability
+file_basename: Lightfall
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: A rain of holy light scours your enemies and repositions your allies.
+item_id: lightfall
+item_index: '06'
+item_name: Lightfall
+keywords:
+- Area
+- Magic
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:lightfall
+scdc:
+- 1.1.1:11.3.8.1:06
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Lightfall
+flavor: A rain of holy light scours your enemies and repositions your allies.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 2 burst
+target: Each enemy in the area
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: conduit
+  distance: 2 burst
+  feature_type: ability
+  file_basename: Lightfall
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: A rain of holy light scours your enemies and repositions your allies.
+  item_id: lightfall
+  item_index: "06"
+  item_name: Lightfall
+  keywords:
+    - Area
+    - Magic
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:lightfall
+  scdc:
+    - 1.1.1:11.3.8.1:06
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 2 holy damage
+    tier2: 3 holy damage
+    tier3: 5 holy damage
+  - name: Effect
+    effect: You can teleport yourself and each ally in the area to unoccupied spaces
+      in the area.
+```

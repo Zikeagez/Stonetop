@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: shadow
+cost: 7 Insight
+cost_amount: 7
+cost_resource: Insight
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: Staggering Blow
+file_dpath: Abilities/Shadow/3rd-Level Features
+flavor: There's no recovering from this.
+item_id: staggering-blow-7-insight
+item_index: '01'
+item_name: Staggering Blow (7 Insight)
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:staggering-blow
+scdc:
+- 1.1.1:11.3.2.6:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Staggering Blow
+cost: 7 Insight
+flavor: There's no recovering from this.
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 7 Insight
+  cost_amount: 7
+  cost_resource: Insight
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Staggering Blow
+  file_dpath: Abilities/Shadow/3rd-Level Features
+  flavor: There's no recovering from this.
+  item_id: staggering-blow-7-insight
+  item_index: "01"
+  item_name: Staggering Blow (7 Insight)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:staggering-blow
+  scdc:
+    - 1.1.1:11.3.2.6:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/3rd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 7 + A damage; M < WEAK, slowed (save ends)
+    tier2: 11 + A damage; M < AVERAGE, prone and can't stand (save ends)
+    tier3: 16 + A damage; M < STRONG, prone and can't stand (save ends)
+```

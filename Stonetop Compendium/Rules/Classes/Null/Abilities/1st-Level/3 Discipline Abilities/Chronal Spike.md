@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: 'null'
+cost: 3 Discipline
+cost_amount: 3
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Chronal Spike
+file_dpath: Abilities/Null/1st-Level Features
+flavor: You foresee the best moment to strike, then exploit it.
+item_id: chronal-spike-3-discipline
+item_index: '12'
+item_name: Chronal Spike (3 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike
+scdc:
+- 1.1.1:11.3.6.1:12
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Chronal Spike
+cost: 3 Discipline
+flavor: You foresee the best moment to strike, then exploit it.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 3 Discipline
+  cost_amount: 3
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Chronal Spike
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: You foresee the best moment to strike, then exploit it.
+  item_id: chronal-spike-3-discipline
+  item_index: "12"
+  item_name: Chronal Spike (3 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike
+  scdc:
+    - 1.1.1:11.3.6.1:12
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 7 + A damage
+    tier2: 10 + A damage
+    tier3: 13 + A damage
+  - name: Effect
+    effect: You can shift up to half your speed before or after you make this
+      strike. Additionally, whenever an effect lets you make a free strike or
+      use a signature ability, you can use this ability instead, paying its
+      discipline cost as usual.
+```

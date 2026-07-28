@@ -1,0 +1,42 @@
+---
+action_type: feature
+class: censor
+feature_type: subtrait
+file_basename: Judgment Order Benefit
+file_dpath: Features/Censor/1st-Level Features/Judgment
+item_id: judgment-order-benefit
+item_index: '15'
+item_name: Judgment Order Benefit
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:judgment-order-benefit
+scdc:
+- 1.1.1:11.2.7.8:15
+source: mcdm.heroes.v1
+type: feature/subtrait/censor/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Judgment Order Benefit
+metadata:
+  action_type: feature
+  class: censor
+  feature_type: subtrait
+  file_basename: Judgment Order Benefit
+  file_dpath: Features/Censor/1st-Level Features/Judgment
+  item_id: judgment-order-benefit
+  item_index: "15"
+  item_name: Judgment Order Benefit
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:judgment-order-benefit
+  scdc:
+    - 1.1.1:11.2.7.8:15
+  source: mcdm.heroes.v1
+  type: feature/subtrait/censor/1st-level-feature
+effects:
+  - effect: "The first time on a turn that you use your Judgment ability to judge a
+      creature, you gain the following benefit based on your order:"
+```

@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: fury
+cost: 9 Ferocity
+cost_amount: 9
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Force of Storms
+file_dpath: Abilities/Fury/6th-Level Features
+flavor: You strike an enemy hard enough to be a projectile that knocks a crowd of
+  creatures around.
+item_id: force-of-storms-9-ferocity
+item_index: '02'
+item_name: Force of Storms (9 Ferocity)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms
+scdc:
+- 1.1.1:11.3.5.3:02
+source: mcdm.heroes.v1
+subclass: Berserker
+target: One creature
+type: feature/ability/fury/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Force of Storms
+cost: 9 Ferocity
+flavor: You strike an enemy hard enough to be a projectile that knocks a crowd
+  of creatures around.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 9 Ferocity
+  cost_amount: 9
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Force of Storms
+  file_dpath: Abilities/Fury/6th-Level Features
+  flavor: You strike an enemy hard enough to be a projectile that knocks a crowd
+    of creatures around.
+  item_id: force-of-storms-9-ferocity
+  item_index: "02"
+  item_name: Force of Storms (9 Ferocity)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms
+  scdc:
+    - 1.1.1:11.3.5.3:02
+  source: mcdm.heroes.v1
+  subclass: Berserker
+  target: One creature
+  type: feature/ability/fury/6th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 7 + M damage; push 3
+    tier2: 11 + M damage; push 5
+    tier3: 16 + M damage; push 7
+  - name: Effect
+    effect: When the target ends this forced movement, each creature within 2
+      squares of the target is pushed 3 squares.
+```

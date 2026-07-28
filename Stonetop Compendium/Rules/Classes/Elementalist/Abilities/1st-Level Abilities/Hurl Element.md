@@ -1,0 +1,72 @@
+---
+ability_type: Free Strike
+action_type: Main action
+class: elementalist
+distance: Ranged 10
+feature_type: ability
+file_basename: Hurl Element
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: You cast a ball of elemental energy at a foe.
+item_id: hurl-element
+item_index: '22'
+item_name: Hurl Element
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:hurl-element
+scdc:
+- 1.1.1:11.3.9.1:22
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Hurl Element
+flavor: You cast a ball of elemental energy at a foe.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Free Strike
+  action_type: Main action
+  class: elementalist
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Hurl Element
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: You cast a ball of elemental energy at a foe.
+  item_id: hurl-element
+  item_index: "22"
+  item_name: Hurl Element
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:hurl-element
+  scdc:
+    - 1.1.1:11.3.9.1:22
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 2 + R damage
+    tier2: 4 + R damage
+    tier3: 6 + R damage
+  - name: Effect
+    effect: "When you make this strike, choose the damage type from one of the
+      following options: acid, cold, corruption, fire, lightning, poison, or
+      sonic."
+```

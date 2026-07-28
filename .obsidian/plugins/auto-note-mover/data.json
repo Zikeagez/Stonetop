@@ -1,0 +1,33 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "z_Assets/Images",
+      "tag": "",
+      "pattern": "^Image - "
+    },
+    {
+      "folder": "z_Assets/Maps",
+      "tag": "",
+      "pattern": "^Map -"
+    },
+    {
+      "folder": "z_Assets/NPC",
+      "tag": "",
+      "pattern": "^NPC -"
+    },
+    {
+      "folder": "z_Assets/NPC",
+      "tag": "",
+      "pattern": "^PDF -"
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "z_Templates"
+    }
+  ]
+}

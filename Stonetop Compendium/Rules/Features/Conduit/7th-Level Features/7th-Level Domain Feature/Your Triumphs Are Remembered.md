@@ -1,0 +1,44 @@
+---
+action_type: feature
+class: conduit
+feature_type: subtrait
+file_basename: Your Triumphs Are Remembered
+file_dpath: Features/Conduit/7th-Level Features/7th-Level Domain Feature
+item_id: your-triumphs-are-remembered
+item_index: '03'
+item_name: Your Triumphs Are Remembered
+level: 7
+scc:
+- mcdm.heroes.v1:feature.subtrait.conduit.7th-level-feature:your-triumphs-are-remembered
+scdc:
+- 1.1.1:11.2.8.2:03
+source: mcdm.heroes.v1
+type: feature/subtrait/conduit/7th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Your Triumphs Are Remembered
+metadata:
+  action_type: feature
+  class: conduit
+  feature_type: subtrait
+  file_basename: Your Triumphs Are Remembered
+  file_dpath: Features/Conduit/7th-Level Features/7th-Level Domain Feature
+  item_id: your-triumphs-are-remembered
+  item_index: "03"
+  item_name: Your Triumphs Are Remembered
+  level: 7
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.conduit.7th-level-feature:your-triumphs-are-remembered
+  scdc:
+    - 1.1.1:11.2.8.2:03
+  source: mcdm.heroes.v1
+  type: feature/subtrait/conduit/7th-level-feature
+effects:
+  - effect: The gods allow you and your companions to bask in the glory of past
+      successes. Whenever you finish a respite, you and any other heroes who
+      rested with you regain 1 Victory after your Victories are converted to XP.
+      This Victory isn't converted into XP at the end of a subsequent respite.
+```

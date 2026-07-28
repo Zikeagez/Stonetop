@@ -1,0 +1,65 @@
+---
+action_type: Triggered
+class: talent
+distance: Ranged 10
+feature_type: ability
+file_basename: Again
+file_dpath: Abilities/Talent/1st-Level Features
+flavor: You step back a split second to see if things play out a little differently.
+item_id: again
+item_index: '14'
+item_name: Again
+keywords:
+- Psionic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:again
+scdc:
+- 1.1.1:11.3.1.1:14
+source: mcdm.heroes.v1
+subclass: Chronopathy
+target: Self or one creature
+type: feature/ability/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Again
+flavor: You step back a split second to see if things play out a little differently.
+keywords:
+  - Psionic
+  - Ranged
+usage: Triggered
+distance: Ranged 10
+target: Self or one creature
+trigger: The target makes an ability roll.
+metadata:
+  action_type: Triggered
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Again
+  file_dpath: Abilities/Talent/1st-Level Features
+  flavor: You step back a split second to see if things play out a little differently.
+  item_id: again
+  item_index: "14"
+  item_name: Again
+  keywords:
+    - Psionic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:again
+  scdc:
+    - 1.1.1:11.3.1.1:14
+  source: mcdm.heroes.v1
+  subclass: Chronopathy
+  target: Self or one creature
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - name: Effect
+    effect: You can use this ability after seeing the result of the triggering roll.
+      The target must reroll the power roll and use the new roll.
+```

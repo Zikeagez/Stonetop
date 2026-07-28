@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: shadow
+cost: 9 Insight
+cost_amount: 9
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: Black Ash Eruption
+file_dpath: Abilities/Shadow/6th-Level Features
+flavor: Your attack produces a cloud of black ash that launches an enemy into the
+  air.
+item_id: black-ash-eruption-9-insight
+item_index: '01'
+item_name: Black Ash Eruption (9 Insight)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption
+scdc:
+- 1.1.1:11.3.2.3:01
+source: mcdm.heroes.v1
+subclass: Black Ash
+target: One creature
+type: feature/ability/shadow/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Black Ash Eruption
+cost: 9 Insight
+flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 9 Insight
+  cost_amount: 9
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Black Ash Eruption
+  file_dpath: Abilities/Shadow/6th-Level Features
+  flavor: Your attack produces a cloud of black ash that launches an enemy into
+    the air.
+  item_id: black-ash-eruption-9-insight
+  item_index: "01"
+  item_name: Black Ash Eruption (9 Insight)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption
+  scdc:
+    - 1.1.1:11.3.2.3:01
+  source: mcdm.heroes.v1
+  subclass: Black Ash
+  target: One creature
+  type: feature/ability/shadow/6th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 3 + A damage; vertical push 5
+    tier2: 6 + A damage; vertical push 10
+    tier3: 9 + A damage; vertical push 15
+  - name: Effect
+    effect: A creature force moved by this ability must be moved straight upward.
+```

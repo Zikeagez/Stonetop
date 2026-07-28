@@ -1,0 +1,86 @@
+---
+action_type: Main action
+class: troubadour
+cost: 7 Drama
+cost_amount: 7
+cost_resource: Drama
+distance: Melee 1 or ranged 10
+feature_type: ability
+file_basename: Star Solo
+file_dpath: Abilities/Troubadour/3rd-Level Features
+flavor: Your performance travels and doesn't stop moving until your audience is completely
+  rocked.
+item_id: star-solo-7-drama
+item_index: '01'
+item_name: Star Solo (7 Drama)
+keywords:
+- Magic
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:star-solo
+scdc:
+- 1.1.1:11.3.3.6:01
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/troubadour/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Star Solo
+cost: 7 Drama
+flavor: Your performance travels and doesn't stop moving until your audience is
+  completely rocked.
+keywords:
+  - Magic
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 10
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 7 Drama
+  cost_amount: 7
+  cost_resource: Drama
+  distance: Melee 1 or ranged 10
+  feature_type: ability
+  file_basename: Star Solo
+  file_dpath: Abilities/Troubadour/3rd-Level Features
+  flavor: Your performance travels and doesn't stop moving until your audience is
+    completely rocked.
+  item_id: star-solo-7-drama
+  item_index: "01"
+  item_name: Star Solo (7 Drama)
+  keywords:
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:star-solo
+  scdc:
+    - 1.1.1:11.3.3.6:01
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/troubadour/3rd-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 5 + P damage
+    tier2: 8 + P damage; push 3
+    tier3: 11 + P damage; push 5
+  - name: Effect
+    effect: You can choose to have this ability deal sonic damage. Additionally, you
+      can use this ability against the same target for the next 2 combat rounds
+      without spending drama.
+```

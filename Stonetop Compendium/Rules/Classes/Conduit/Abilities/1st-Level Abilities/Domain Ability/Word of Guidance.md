@@ -1,0 +1,64 @@
+---
+action_type: Triggered
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Word of Guidance
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: You invigorate an attacking ally with divine energy.
+item_id: word-of-guidance
+item_index: '14'
+item_name: Word of Guidance
+keywords:
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-guidance
+scdc:
+- 1.1.1:11.3.8.1:14
+source: mcdm.heroes.v1
+target: One ally
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Word of Guidance
+flavor: You invigorate an attacking ally with divine energy.
+keywords:
+  - Magic
+  - Ranged
+usage: Triggered
+distance: Ranged 10
+target: One ally
+trigger: The target makes an ability roll for a damage-dealing ability.
+metadata:
+  action_type: Triggered
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Word of Guidance
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: You invigorate an attacking ally with divine energy.
+  item_id: word-of-guidance
+  item_index: "14"
+  item_name: Word of Guidance
+  keywords:
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-guidance
+  scdc:
+    - 1.1.1:11.3.8.1:14
+  source: mcdm.heroes.v1
+  target: One ally
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - name: Effect
+    effect: The power roll gains an edge.
+  - cost: Spend 1 Piety
+    effect: The power roll has a double edge.
+```

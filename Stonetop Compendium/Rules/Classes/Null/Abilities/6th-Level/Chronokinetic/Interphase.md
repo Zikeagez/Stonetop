@@ -1,0 +1,67 @@
+---
+action_type: Main action
+class: 'null'
+cost: 9 Discipline
+cost_amount: 9
+cost_resource: Discipline
+distance: Self
+feature_type: ability
+file_basename: Interphase
+file_dpath: Abilities/Null/6th-Level Features
+flavor: You slip into a faster timestream to act more quickly.
+item_id: interphase-9-discipline
+item_index: '05'
+item_name: Interphase (9 Discipline)
+keywords:
+- Psionic
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase
+scdc:
+- 1.1.1:11.3.6.3:05
+source: mcdm.heroes.v1
+subclass: Chronokinetic
+target: Self
+type: feature/ability/null/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Interphase
+cost: 9 Discipline
+flavor: You slip into a faster timestream to act more quickly.
+keywords:
+  - Psionic
+usage: Main action
+distance: Self
+target: Self
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 9 Discipline
+  cost_amount: 9
+  cost_resource: Discipline
+  distance: Self
+  feature_type: ability
+  file_basename: Interphase
+  file_dpath: Abilities/Null/6th-Level Features
+  flavor: You slip into a faster timestream to act more quickly.
+  item_id: interphase-9-discipline
+  item_index: "05"
+  item_name: Interphase (9 Discipline)
+  keywords:
+    - Psionic
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase
+  scdc:
+    - 1.1.1:11.3.6.3:05
+  source: mcdm.heroes.v1
+  subclass: Chronokinetic
+  target: Self
+  type: feature/ability/null/6th-level-feature
+effects:
+  - name: Effect
+    effect: You can use up to three signature abilities, each of which gains an edge.
+```

@@ -1,0 +1,1 @@
+**Constitution (CON):** your stamina, grit, determination, and endurance. Roll +CON to Defend, or to Defy Danger by holding steady or enduring hardship.

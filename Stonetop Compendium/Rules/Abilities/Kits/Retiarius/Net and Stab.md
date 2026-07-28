@@ -1,0 +1,67 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 2
+file_basename: Net and Stab
+file_dpath: Abilities/Kits/Retiarius
+flavor: The well-thrown net that follows your main attack leaves your foes right where
+  you want them.
+item_id: net-and-stab
+item_index: '01'
+item_name: Net and Stab
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
+scdc:
+- 1.1.1:14.2:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/retiarius
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Net and Stab
+flavor: The well-thrown net that follows your main attack leaves your foes right
+  where you want them.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 2
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 2
+  file_basename: Net and Stab
+  file_dpath: Abilities/Kits/Retiarius
+  flavor: The well-thrown net that follows your main attack leaves your foes right
+    where you want them.
+  item_id: net-and-stab
+  item_index: "01"
+  item_name: Net and Stab
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
+  scdc:
+    - 1.1.1:14.2:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/retiarius
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 4 + M or A damage; A < WEAK, slowed (EoT)
+    tier2: 6 + M or A damage; A < AVERAGE, slowed (EoT)
+    tier3: 8 + M or A damage; A < STRONG, restrained (EoT)
+```

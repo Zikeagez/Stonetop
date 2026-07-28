@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "8526744cabb4c975",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f8d5b117c560f16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ff18bc6400dac8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stonetop Book I/Playing the Game.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Playing the Game"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed53ac2f6572b7a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa740ab6a2fa9a64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58b09708f2fd6a62",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d57a56b4b8ca50ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "potency",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a2a4da276230099",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0d0b189d29a8932a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6876e32d39beed37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c5354805a5d85b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stonetop Book I/Playing the Game.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Playing the Game"
+            }
+          },
+          {
+            "id": "bee171d476e1bde7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Stonetop Book I/Playing the Game.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Playing the Game"
+            }
+          },
+          {
+            "id": "92b3c07c889fb74a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5dc0f92395ef3669",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Stonetop Book I/Playing the Game.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Playing the Game"
+            }
+          },
+          {
+            "id": "527e522d5be0921d",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "8127c3306a24dfe0",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9ae0d93bf33af6e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9fb158d2e4127c3",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {
+                "creatureId": null,
+                "creatureName": null
+              },
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 467.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": true,
+      "templater-obsidian:Templater": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "local-backup:Run local backup": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-custom-frames:Open ChatGPT": false,
+      "dbfolder:Create a new database table": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-gallery:Gallery": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "helpmate:HelpMate": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "relations:Open Relations graph": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
+    }
+  },
+  "active": "8ff18bc6400dac8d",
+  "lastOpenFiles": [
+    "Stonetop/README.md",
+    "Stonetop",
+    "z_Assets/Images/Image - Minor Arcana Example.webp",
+    "Stonetop Compendium/Glossary/Your Agenda.md",
+    "Stonetop Compendium/Glossary/Arcana.md",
+    "Stonetop Book I/Playing the Game.md",
+    "Stonetop Compendium/Glossary/Strength.md",
+    "Stonetop Compendium/Glossary/Special Possessions.md",
+    "Stonetop Compendium/Glossary/Miserable.md",
+    "Stonetop Compendium/Glossary/Damage.md",
+    "Stonetop Compendium/Glossary/Hit Points (HP).md",
+    "Stonetop Compendium/Glossary/Armor.md",
+    "z_Assets/Images/Image - Mark XP.webp",
+    "Stonetop Compendium/Rules/Conditions/Base/Conditions Base.base",
+    "Stonetop Compendium/Rules/Conditions/Bleeding.md",
+    "Stonetop Compendium/Glossary/Dazed.md",
+    "Stonetop Compendium/Glossary/Weakened.md",
+    "Stonetop Compendium/Glossary/Debilities.md",
+    "Stonetop Compendium/Glossary/PC vs. PC.md",
+    "Stonetop Compendium/Glossary/Dexterity.md",
+    "Stonetop Compendium/Glossary/Intelligence.md",
+    "Stonetop Compendium/Glossary/Wisdom.md",
+    "Stonetop Compendium/Glossary/Constitution.md",
+    "Stonetop Compendium/Glossary/Charisma.md",
+    "Stonetop Compendium/Glossary/Instinct.md",
+    "Stonetop Book I/Stonetop Book I.md",
+    "Stonetop Compendium/Glossary/Disadvantage.md",
+    "Stonetop Compendium/Glossary/Background.md",
+    "Excalidraw/Varkhesh Flowchart.md",
+    "Stonetop Compendium/Glossary/Fictional Positioning.md",
+    "z_Assets/Images/Image - Disadvantage Example.webp",
+    "z_Assets/Images/Image - Advantage Example.webp",
+    "z_Assets/Images/Image - roll example.webp",
+    "Stonetop Compendium/Moves",
+    "Markwhen/Markwhen 7-27-2026 12.33.20.mw",
+    "Markwhen",
+    "z_Templates/Bases - Recently Modified Template Content.base",
+    "z_Assets/Images/Image - Getting Started.webp",
+    "z_Assets/Images/Image - The Would Be Hero Icon.webp",
+    "z_Assets/Maps/Map - The Setting.webp",
+    "z_Assets/Misc/ImagePlaceholder.jpg",
+    "z_Assets/Placeholder Images/City-20231026224949477.webp",
+    "Stonetop Compendium/Glossary",
+    "z_Assets/20260427-2043-45.8083260.mp4",
+    "Stonetop Compendium/Rules/Classes/Summoner/Abilities/9th-Level Abilities",
+    "Stonetop Compendium/Rules/Classes/Summoner/Summoner Minions/Undead Portfolio/Champion",
+    "DS Compendium/Rules/Ancestries/Polder/Untitled.canvas",
+    "0. Scratch Notes/Character Sheet Elements/Example Sheet/Remy Nox Sheet.canvas",
+    "0. Scratch Notes/Character Sheet Elements/Untitled.canvas"
+  ]
+}

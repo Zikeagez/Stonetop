@@ -1,0 +1,1 @@
+**Charisma (CHA):** your ability to charm and connect with others, and to get a read on what others want. Roll +CHA to Persuade, or to Defy Danger socially.

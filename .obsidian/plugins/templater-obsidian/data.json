@@ -1,0 +1,103 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "z_Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "2. Mechanics/Bestiary",
+      "template": "z_Templates/3_Markdown/Insert Custom Monster (TTRPG Statblock).md"
+    },
+    {
+      "folder": "2. Mechanics/Spells",
+      "template": "z_Templates/1_Story World Templates/Things/Template - Spell.md"
+    },
+    {
+      "folder": "2. Mechanics/Items",
+      "template": "z_Templates/1_Story World Templates/Things/Template - Magic Item.md"
+    },
+    {
+      "folder": "0. Session Journals",
+      "template": "z_Templates/World Builder Templates/Template-Journal.md"
+    },
+    {
+      "folder": "0. The Party",
+      "template": "z_Templates/1_Story World Templates/Template - Player.md"
+    },
+    {
+      "folder": "1. World/Continents",
+      "template": "z_Templates/World Builder Templates/Template-Continent.md"
+    },
+    {
+      "folder": "1. World/Galaxies",
+      "template": "z_Templates/World Builder Templates/Template-Galaxy.md"
+    },
+    {
+      "folder": "1. World/Groups",
+      "template": "z_Templates/World Builder Templates/Template-Group.md"
+    },
+    {
+      "folder": "1. World/Hubs",
+      "template": "z_Templates/World Builder Templates/Template-Hub.md"
+    },
+    {
+      "folder": "1. World/People",
+      "template": "z_Templates/World Builder Templates/Template-Person.md"
+    },
+    {
+      "folder": "1. World/Places",
+      "template": "z_Templates/World Builder Templates/Template-Place.md"
+    },
+    {
+      "folder": "1. World/Planets",
+      "template": "z_Templates/World Builder Templates/Template-Planet.md"
+    },
+    {
+      "folder": "1. World/Point of Interest",
+      "template": "z_Templates/World Builder Templates/Template-PointofInterest.md"
+    },
+    {
+      "folder": "1. World/Quests",
+      "template": "z_Templates/World Builder Templates/Template-Quest.md"
+    },
+    {
+      "folder": "1. World/Regions",
+      "template": "z_Templates/World Builder Templates/Template-Region.md"
+    },
+    {
+      "folder": "1. World/Sapient Species",
+      "template": "z_Templates/World Builder Templates/Template-SapientSpecies.md"
+    },
+    {
+      "folder": "1. World/Star Systems",
+      "template": "z_Templates/World Builder Templates/Template-Star-System.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "enable_ribbon_icon": true
+}

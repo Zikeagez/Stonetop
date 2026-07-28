@@ -1,0 +1,78 @@
+---
+action_type: Main action
+class: troubadour
+cost: 5 Drama
+cost_amount: 5
+cost_resource: Drama
+distance: Melee 1
+feature_type: ability
+file_basename: En Garde
+file_dpath: Abilities/Troubadour/2nd-Level Features
+flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
+item_id: en-garde-5-drama
+item_index: '03'
+item_name: En Garde! (5 Drama)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde
+scdc:
+- 1.1.1:11.3.3.5:03
+source: mcdm.heroes.v1
+subclass: Duelist
+target: One creature
+type: feature/ability/troubadour/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: En Garde!
+cost: 5 Drama
+flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 5 Drama
+  cost_amount: 5
+  cost_resource: Drama
+  distance: Melee 1
+  feature_type: ability
+  file_basename: En Garde
+  file_dpath: Abilities/Troubadour/2nd-Level Features
+  flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
+  item_id: en-garde-5-drama
+  item_index: "03"
+  item_name: En Garde! (5 Drama)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde
+  scdc:
+    - 1.1.1:11.3.3.5:03
+  source: mcdm.heroes.v1
+  subclass: Duelist
+  target: One creature
+  type: feature/ability/troubadour/2nd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 7 + **A** damage
+    tier2: 11 + **A** damage
+    tier3: 16 + **A** damage
+  - name: Effect
+    effect: The target can make a melee free strike against you. If they do, you can
+      make a melee free strike against the target.
+```

@@ -1,0 +1,1 @@
+**Miserable:** greatly distressed, angry, unwell, in pain. Take disadvantage when rolling +CON or +CHA.

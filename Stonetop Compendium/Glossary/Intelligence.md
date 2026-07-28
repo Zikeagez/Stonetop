@@ -1,0 +1,1 @@
+**Intelligence (INT):** your memory, learning, and quick thinking. Roll +INT to Know Things, or to Defy Danger via expertise or with a clever plan.

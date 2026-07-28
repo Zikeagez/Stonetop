@@ -1,0 +1,188 @@
+---
+agility: 3
+ancestry:
+- Devil
+- Infernal
+ev: '32'
+file_basename: Devil High Judge
+file_dpath: Monsters/Devils/Statblocks
+free_strike: 6
+intuition: 1
+item_id: devil-high-judge
+item_index: '03'
+item_name: Devil High Judge
+level: 6
+might: 1
+presence: 2
+reason: 0
+roles:
+- Leader
+scc:
+- mcdm.monsters.v1:monster.devils.statblock:devil-high-judge
+scdc:
+- 1.1.1:2.39.1:03
+size: 1M
+source: mcdm.monsters.v1
+speed: 7
+stability: 2
+stamina: '181'
+type: monster/devils/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Devil High Judge
+level: 6
+roles:
+  - Leader
+ancestry:
+  - Devil
+  - Infernal
+ev: "32"
+stamina: "181"
+immunities:
+  - Fire 5
+speed: 7
+movement: Fly
+size: 1M
+stability: 2
+free_strike: 6
+might: 1
+agility: 3
+reason: 0
+intuition: 1
+presence: 2
+features:
+  - type: feature
+    feature_type: ability
+    name: Infernal Decree
+    icon: 🏹
+    ability_type: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    usage: Main action
+    distance: Ranged 12
+    target: Three creatures or objects
+    effects:
+      - roll: Power Roll + 4
+        tier1: 10 damage; P < 2 the target can't hide (save ends)
+        tier2: 15 damage; P < 3 the target can't hide (save ends)
+        tier3: 19 damage; P < 4 the target can't hide (save ends)
+      - cost: 2 Malice
+        effect: While a target is unable to hide this way, any strike against them made
+          by a devil gains an edge.
+  - type: feature
+    feature_type: ability
+    name: Compel the Jury
+    icon: 🏹
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    usage: Maneuver
+    distance: Ranged 12
+    target: Two creatures
+    effects:
+      - roll: Power Roll + 4
+        tier1: I < 2 the target is charmed (save ends)
+        tier2: I < 3 the target is charmed (save ends)
+        tier3: I < 4 the target is charmed (save ends)
+      - name: Effect
+        effect: While charmed this way, a creature treats the high judge as an ally, and
+          the high judge can spend 1 Malice on their turn to make that creature
+          move up to 3 squares.
+  - type: feature
+    feature_type: ability
+    name: Devilish Suggestion
+    icon: ❗️
+    cost: 2 Malice
+    keywords:
+      - Magic
+      - Ranged
+    usage: Triggered action
+    distance: Ranged 5
+    target: The triggering creature
+    trigger: A creature targets the high judge with a strike.
+    effects:
+      - name: Effect
+        effect: The target makes a **Presence test**.
+        tier1: The target is charmed (save ends).
+        tier2: The high judge chooses a new target for the strike.
+        tier3: The target takes a bane on the strike.
+      - effect: While charmed this way, a creature treats the high judge as an ally, and
+          the high judge can spend 1 Malice on their turn to make that creature
+          move up to 3 squares.
+  - type: feature
+    feature_type: trait
+    name: End Effect
+    icon: ⭐️
+    effects:
+      - effect: At the end of each of their turns, the high judge can take 10 damage to
+          end one effect on them that can be ended by a saving throw. This
+          damage can't be reduced in any way.
+  - type: feature
+    feature_type: trait
+    name: True Name
+    icon: ⭐️
+    effects:
+      - effect: If a creature within 10 squares speaks the high judge's true name, the
+          high judge loses their damage immunities, any nondamaging effects of
+          their signature ability, and their Devilish Suggestion triggered
+          action until the end of the encounter.
+  - type: feature
+    feature_type: ability
+    name: All Rise
+    icon: ☠️
+    ability_type: Villain Action 1
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 3 burst
+    target: Each enemy in the area
+    effects:
+      - name: Effect
+        effect: The target makes a **Presence test**.
+        tier1: 15 psychic damage; the target is charmed (save ends)
+        tier2: 12 psychic damage; the target is charmed (save ends)
+        tier3: 7 psychic damage
+      - effect: While charmed this way, a creature treats the high judge as an ally, and
+          the high judge can spend 1 Malice on their turn to make that creature
+          move up to 3 squares.
+  - type: feature
+    feature_type: ability
+    name: Heed My Decree
+    icon: ☠️
+    ability_type: Villain Action 2
+    keywords:
+      - Area
+    usage: "-"
+    distance: 5 burst
+    target: Self and each ally in the area
+    effects:
+      - name: Effect
+        effect: Each target shifts up to their speed. The high judge can make each
+          creature charmed by All Rise, Compel the Jury, or Devilish Suggestion
+          move up to half that creature's speed.
+  - type: feature
+    feature_type: ability
+    name: Deceptive Stratagem
+    icon: ☠️
+    ability_type: Villain Action 3
+    keywords:
+      - Magic
+      - Ranged
+    usage: "-"
+    distance: Ranged 12
+    target: One creature
+    effects:
+      - name: Effect
+        effect: If the target is an ally or a creature charmed by All Rise, Compel the
+          Jury, or Devilish Suggestion, the high judge and the target teleport
+          to swap places. Each ally within 12 squares of the high judge can then
+          make a free strike against a target of the high judge's choice. Each
+          creature charmed by All Rise, Compel the Jury, or Devilish Suggestion
+          makes a free strike against a target of the high judge's choice.
+~~~

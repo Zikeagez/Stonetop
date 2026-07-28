@@ -1,0 +1,753 @@
+{
+  "players": [
+    {
+      "note": null,
+      "path": null,
+      "name": "Iavis",
+      "level": 6,
+      "hp": 63,
+      "ac": 17,
+      "modifier": 4,
+      "player": true
+    },
+    {
+      "note": null,
+      "path": null,
+      "name": "Ellika",
+      "level": 6,
+      "hp": 40,
+      "ac": 14,
+      "modifier": 3,
+      "player": true
+    },
+    {
+      "note": null,
+      "path": null,
+      "name": "Trell",
+      "level": 6,
+      "hp": 48,
+      "ac": 18,
+      "modifier": 4,
+      "player": true
+    },
+    {
+      "note": null,
+      "path": null,
+      "name": "Vukasin",
+      "level": 6,
+      "hp": 61,
+      "ac": 15,
+      "modifier": 4,
+      "player": true
+    },
+    {
+      "note": null,
+      "path": null,
+      "name": "Temporo",
+      "ac": 15,
+      "hp": 40,
+      "level": 6,
+      "modifier": 4,
+      "player": true
+    },
+    {
+      "name": "Lulu",
+      "level": 6,
+      "hp": 38,
+      "ac": 13,
+      "modifier": 4,
+      "player": true,
+      "note": null,
+      "path": null
+    }
+  ],
+  "parties": [
+    {
+      "name": "Averniads",
+      "players": [
+        "Iavis",
+        "Ellika",
+        "Trell",
+        "Vukasin",
+        "Temporo",
+        "Lulu"
+      ]
+    }
+  ],
+  "defaultParty": "Averniads",
+  "statuses": [
+    {
+      "name": "Blinded",
+      "description": "A blinded creature can’t see and automatically fails any ability check that requires sight.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.",
+      "id": "Blinded",
+      "hasAmount": false
+    },
+    {
+      "name": "Charmed",
+      "id": "Charmed",
+      "description": "A charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or magical Effects.\nThe charmer has advantage on any ability check to interact socially with the creature."
+    },
+    {
+      "name": "Concentrating",
+      "id": "Concentrating",
+      "description": "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\nA creature loses concentration when: it casts another spell that requires concentration, is incapacitated, or dies.\nWhen a creature takes damage, it must make a constitution saving throw with a DC of 10 or half the damage it took, whichever is higher. On a failure, concentration is lost."
+    },
+    {
+      "name": "Deafened",
+      "id": "Deafened",
+      "description": "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "name": "Frightened",
+      "id": "Frightened",
+      "description": "A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.\nThe creature can’t willingly move closer to the source of its fear."
+    },
+    {
+      "name": "Grappled",
+      "id": "Grappled",
+      "description": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the Grappler is incapacitated.\nThe condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell."
+    },
+    {
+      "name": "Incapacitated",
+      "id": "Incapacitated",
+      "description": "An incapacitated creature can’t take Actions or Reactions."
+    },
+    {
+      "name": "Invisible",
+      "id": "Invisible",
+      "description": "An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.\nAttack rolls against the creature have disadvantage, and the creature’s Attack rolls have advantage."
+    },
+    {
+      "name": "Paralyzed",
+      "id": "Paralyzed",
+      "description": "A paralyzed creature is incapacitated and can’t move or speak.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    },
+    {
+      "name": "Petrified",
+      "id": "Petrified",
+      "description": "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\nThe creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nAttack rolls against the creature have advantage.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nThe creature has Resistance to all damage.\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+    },
+    {
+      "name": "Poisoned",
+      "id": "Poisoned",
+      "description": "A poisoned creature has disadvantage on Attack rolls and Ability Checks."
+    },
+    {
+      "name": "Prone",
+      "description": "A prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.\nThe creature has disadvantage on Attack rolls.\nAn Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.",
+      "id": "Prone"
+    },
+    {
+      "name": "Reacted",
+      "id": "Reacted",
+      "description": "A creature, unless otherwise specified, gets one reaction per round of combat.\nA reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s.\nA reaction can be spent to make an opportunity attack, do a readied action, or use an ability that requires a reaction.\nA creature that has already reacted cannot use a reaction until the start of its turn."
+    },
+    {
+      "name": "Restrained",
+      "id": "Restrained",
+      "description": "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.\nThe creature has disadvantage on Dexterity Saving Throws."
+    },
+    {
+      "name": "Stunned",
+      "id": "Stunned",
+      "description": "A stunned creature is incapacitated, can’t move, and can speak only falteringly.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage."
+    },
+    {
+      "name": "Unconscious",
+      "id": "Unconscious",
+      "description": "An unconscious creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    }
+  ],
+  "unconsciousId": "Unconscious",
+  "version": [
+    13,
+    0,
+    21
+  ],
+  "canUseDiceRoll": false,
+  "preferStatblockLink": true,
+  "initiative": "1d20 + %mod%",
+  "modifier": null,
+  "sync": true,
+  "playerMarker": "default",
+  "monsterMarker": "default",
+  "state": {
+    "creatures": [
+      {
+        "name": "Iavis",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 63,
+        "currentMaxHP": 63,
+        "ac": 17,
+        "currentAC": 17,
+        "note": null,
+        "path": null,
+        "id": "ID_faf9b84af94b",
+        "currentHP": 63,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Ellika",
+        "initiative": 0,
+        "static": false,
+        "modifier": 3,
+        "hp": 40,
+        "currentMaxHP": 40,
+        "ac": 14,
+        "currentAC": 14,
+        "note": null,
+        "path": null,
+        "id": "ID_b939eabbdb4a",
+        "currentHP": 40,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Trell",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 48,
+        "currentMaxHP": 48,
+        "ac": 18,
+        "currentAC": 18,
+        "note": null,
+        "path": null,
+        "id": "ID_4bbbab69295b",
+        "currentHP": 48,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Vukasin",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 61,
+        "currentMaxHP": 61,
+        "ac": 15,
+        "currentAC": 15,
+        "note": null,
+        "path": null,
+        "id": "ID_b958988ba90a",
+        "currentHP": 61,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Temporo",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 40,
+        "currentMaxHP": 40,
+        "ac": 15,
+        "currentAC": 15,
+        "note": null,
+        "path": null,
+        "id": "ID_db085be83b99",
+        "currentHP": 40,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Lulu",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 38,
+        "currentMaxHP": 38,
+        "ac": 13,
+        "currentAC": 13,
+        "note": null,
+        "path": null,
+        "id": "ID_a8e8395b4b1a",
+        "currentHP": 38,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 6,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Kank Worker",
+        "initiative": 17,
+        "static": false,
+        "modifier": 5,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Dark Sun Bestiary/Kank Worker.md",
+        "id": "ID_7afab9b9aaf9",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Kank Worker",
+        "initiative": 13,
+        "static": false,
+        "modifier": 5,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Dark Sun Bestiary/Kank Worker.md",
+        "id": "ID_28ea88f91ac8",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Elf Ranger",
+        "initiative": 29,
+        "static": false,
+        "modifier": 10,
+        "hp": 17,
+        "currentMaxHP": 17,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Monster Core/Elf Ranger.md",
+        "id": "ID_1bcbeb5beaeb",
+        "currentHP": 17,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Elf Ranger",
+        "initiative": 22,
+        "static": false,
+        "modifier": 10,
+        "hp": 17,
+        "currentMaxHP": 17,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Monster Core/Elf Ranger.md",
+        "id": "ID_7869087b69fa",
+        "currentHP": 17,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Elf Ranger",
+        "initiative": 22,
+        "static": false,
+        "modifier": 10,
+        "hp": 17,
+        "currentMaxHP": 17,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Monster Core/Elf Ranger.md",
+        "id": "ID_e82a4b680aab",
+        "currentHP": 17,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Elf Ranger",
+        "initiative": 21,
+        "static": false,
+        "modifier": 10,
+        "hp": 17,
+        "currentMaxHP": 17,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "2. Mechanics/Bestiary/Monster Core/Elf Ranger.md",
+        "id": "ID_eb0b99f9f808",
+        "currentHP": 17,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 1",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      },
+      {
+        "name": "Elf Peddler",
+        "initiative": 22,
+        "static": false,
+        "modifier": 8,
+        "hp": 30,
+        "currentMaxHP": 30,
+        "ac": 17,
+        "currentAC": 17,
+        "path": "2. Mechanics/Bestiary/Dark Sun Bestiary/Elf Peddler.md",
+        "id": "ID_e93bba9bf96a",
+        "currentHP": 30,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "Creature 2",
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": true
+      }
+    ],
+    "state": false,
+    "name": "Example",
+    "round": 1,
+    "logFile": "",
+    "rollHP": false
+  },
+  "condense": false,
+  "clamp": true,
+  "autoStatus": true,
+  "beginnerTips": true,
+  "displayDifficulty": true,
+  "encounters": {},
+  "warnedAboutImports": false,
+  "openState": {
+    "battle": true,
+    "party": true,
+    "status": true,
+    "plugin": true,
+    "player": true,
+    "builder": true
+  },
+  "hpOverflow": "ignore",
+  "additiveTemp": false,
+  "rpgSystem": "pathfinder2e",
+  "logging": false,
+  "logFolder": "Combat Log",
+  "resolveTies": "playerFirst",
+  "useLegacy": false,
+  "diplayPlayerHPValues": false,
+  "rollHP": true,
+  "descending": true,
+  "builder": {
+    "showParty": false,
+    "showXP": true,
+    "sidebarIcon": true,
+    "headers": [
+      {
+        "text": "CR",
+        "field": "cr",
+        "type": 1
+      },
+      {
+        "text": "Type",
+        "field": "type",
+        "type": 0
+      },
+      {
+        "text": "Size",
+        "field": "size",
+        "type": 0
+      },
+      {
+        "text": "Alignment",
+        "field": "alignment",
+        "type": 0
+      }
+    ],
+    "filters": {
+      "filters": [
+        {
+          "type": 0,
+          "text": "CR",
+          "fields": [
+            "cr"
+          ],
+          "options": [
+            0,
+            30
+          ],
+          "id": "ID_DEFAULT_CR_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Size",
+          "fields": [
+            "size"
+          ],
+          "options": [
+            "large",
+            "medium",
+            "gargantuan",
+            "small",
+            "huge",
+            "tiny",
+            "trio of two huge fiends and one medium fiend",
+            "large vehicle (500 lb.)",
+            "small or medium",
+            "unknown"
+          ],
+          "id": "ID_DEFAULT_SIZE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Type",
+          "fields": [
+            "type"
+          ],
+          "options": [
+            "giant",
+            "humanoid",
+            "construct",
+            "humanoid (human), curse of strahd",
+            "undead",
+            "construct, curse of strahd",
+            "humanoid (elf), curse of strahd",
+            "undead (shapechanger), curse of strahd",
+            "plant",
+            "undead, curse of strahd",
+            "dragon",
+            "humanoid (human), tyranny of dragons",
+            "giant (cloud giant), tyranny of dragons",
+            "humanoid (high elf), tyranny of dragons",
+            "humanoid (gnome), tyranny of dragons",
+            "humanoid (half-dragon), tyranny of dragons",
+            "humanoid (bullywug), tyranny of dragons",
+            "humanoid (half-black dragon), tyranny of dragons",
+            "humanoid (half-elf), tyranny of dragons",
+            "monstrosity",
+            "elemental",
+            "beast",
+            "fiend",
+            "aberration",
+            "ooze",
+            "fey",
+            "fiend (devil), monster manual",
+            "celestial",
+            "monstrosity, monster manual",
+            "beast, monster manual",
+            "ooze, monster manual",
+            "humanoid (kuo-toa), monster manual",
+            "humanoid (lizardfolk), monster manual",
+            "fiend (shapechanger), monster manual",
+            "humanoid (thri-kreen), monster manual",
+            "monstrosity (shapechanger, yuan-ti), monster manual",
+            "humanoid (dwarf), out of the abyss",
+            "humanoid (derro), out of the abyss",
+            "humanoid (damaran human), out of the abyss",
+            "humanoid (gnome, shapechanger), out of the abyss",
+            "monstrosity, out of the abyss",
+            "undead, lost mine of phandelver",
+            "humanoid (elf), lost mine of phandelver",
+            "humanoid (human), lost mine of phandelver",
+            "humanoid (elf), elemental evil",
+            "humanoid (fire genasi), elemental evil",
+            "humanoid (shield dwarf), elemental evil",
+            "humanoid (human), elemental evil",
+            "humanoid (sahuagin), elemental evil",
+            "elemental, elemental evil",
+            "monstrosity, elemental evil",
+            "humanoid (earth genasi), elemental evil",
+            "humanoid (water genasi), elemental evil",
+            "humanoid (tiefling), elemental evil",
+            "humanoid (halfling), elemental evil",
+            "humanoid (half-elf), elemental evil",
+            "dragon, monster manual",
+            "elemental, storm kings thunder",
+            "humanoid (shield dwarf), storm kings thunder",
+            "humanoid (chondathan human), storm kings thunder",
+            "humanoid (illuskan human), storm kings thunder",
+            "humanoid (turami human), storm kings thunder",
+            "plant, storm kings thunder",
+            "humanoid (shou human), storm kings thunder",
+            "humanoid (damaran human), storm kings thunder",
+            "humanoid (strongheart halfling), storm kings thunder",
+            "humanoid (illuskan humanoid), storm kings thunder",
+            "humanoid (tethyrian human), storm kings thunder",
+            "monstrosity, tales from the yawning portal",
+            "humanoid (human), tales from the yawning portal",
+            "fey, tales from the yawning portal",
+            "undead, tales from the yawning portal",
+            "ooze, tales from the yawning portal",
+            "humanoid (kobold), tales from the yawning portal",
+            "undead, tyranny of dragons",
+            "humanoid (elf), tyranny of dragons",
+            "fiend, tyranny of dragons",
+            "humanoid (any race), volo's guide",
+            "dragon, volo's guide",
+            "dragon, volo's guide, volo's guide",
+            "humanoid (any race), volo's guide, volo's guide",
+            "plant, volo's guide",
+            "magical beast",
+            "jelly",
+            "oni",
+            "vehicle",
+            "vehicle 9000 lb.",
+            "vehicle (3000 lb.)",
+            "vehicle 12000 lb."
+          ],
+          "id": "ID_DEFAULT_TYPE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Alignment",
+          "fields": [
+            "alignment"
+          ],
+          "options": [
+            "chaotic neutral",
+            "chaotic or evil",
+            "unaligned",
+            "chaotic evil",
+            "chaotic good",
+            "neutral evil",
+            "any alignment",
+            "lawful evil",
+            "lawful good",
+            "neutral",
+            "neutral or good",
+            "lawful or evil",
+            "lawful or neutral",
+            "neutral or evil",
+            "chaotic or neutral",
+            "neutral good",
+            "chaotic or good",
+            "lawful neutral",
+            "chaotic or good or neutral (good/evil axis) or evil",
+            "lawful or neutral (law/chaos axis) or chaotic or neutral (good/evil axis) or evil",
+            "lawfull good",
+            "chaotic good neutral (good/evil axis) evil",
+            "lawful neutral (law/chaos axis) chaotic neutral (good/evil axis) evil",
+            "lawful neutral (law/chaos axis) chaotic evil",
+            "neutral (law/chaos axis) or chaotic or good or neutral (good/evil axis) or evil",
+            "lawful or good",
+            "neutral ((any))",
+            "lawful or neutral (law/chaos axis) or chaotic or evil",
+            "lawful or neutral (law/chaos axis) or chaotic or good",
+            "lawful or good or neutral (good/evil axis) or evil",
+            "neutral good (50%) or neutral evil (50%)",
+            "neutral evil or chaotic evil",
+            "neutral good or neutral evil",
+            "chaotic good or chaotic neutral",
+            "lawful neutral or lawful evil",
+            "lawful good or neutral or evil",
+            "any alignment (as its deity)",
+            "as the eidolon's alignment",
+            "chaotic evil or chaotic good",
+            "neutral evil (50%) or lawful evil (50%)",
+            "neutral (law/chaos axis) or lawful or good or neutral (good/evil axis) or evil",
+            "any alignment (as its creator deity)",
+            "neutral (law/chaos axis) chaotic good neutral (good/evil axis) evil",
+            "evil",
+            "typically  lawful evil",
+            "typically  chaotic neutral",
+            "typically  neutral evil",
+            "host's alignment",
+            "typically  neutral"
+          ],
+          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+          "derive": true
+        },
+        {
+          "type": 1,
+          "text": "Name",
+          "fields": [
+            "name"
+          ],
+          "options": [],
+          "id": "ID_DEFAULT_NAME_FILTER",
+          "derive": false
+        }
+      ],
+      "layout": [
+        {
+          "nested": [
+            {
+              "id": "ID_DEFAULT_CR_FILTER",
+              "type": "filter"
+            }
+          ],
+          "id": "ID_DEFAULT_NESTED_CR",
+          "type": "nested"
+        },
+        {
+          "id": "ID_DEFAULT_NESTED_LAYOUT",
+          "type": "nested",
+          "nested": [
+            {
+              "id": "ID_DEFAULT_SIZE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_TYPE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+              "type": "filter"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rollPlayerInitiatives": 1
+}

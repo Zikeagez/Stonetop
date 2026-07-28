@@ -1,0 +1,82 @@
+---
+action_type: Main action
+class: talent
+cost: 9 Clarity
+cost_amount: 9
+cost_resource: Clarity
+distance: Melee 2
+feature_type: ability
+file_basename: Fate
+file_dpath: Abilities/Talent/6th-Level Features
+flavor: Your foe gets a glimpse of how it will end for them.
+item_id: fate-9-clarity
+item_index: '05'
+item_name: Fate (9 Clarity)
+keywords:
+- Chronopathy
+- Psionic
+- Melee
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate
+scdc:
+- 1.1.1:11.3.1.3:05
+source: mcdm.heroes.v1
+subclass: Chronopathy
+target: One enemy
+type: feature/ability/talent/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Fate
+cost: 9 Clarity
+flavor: Your foe gets a glimpse of how it will end for them.
+keywords:
+  - Chronopathy
+  - Psionic
+  - Melee
+usage: Main action
+distance: Melee 2
+target: One enemy
+metadata:
+  action_type: Main action
+  class: talent
+  cost: 9 Clarity
+  cost_amount: 9
+  cost_resource: Clarity
+  distance: Melee 2
+  feature_type: ability
+  file_basename: Fate
+  file_dpath: Abilities/Talent/6th-Level Features
+  flavor: Your foe gets a glimpse of how it will end for them.
+  item_id: fate-9-clarity
+  item_index: "05"
+  item_name: Fate (9 Clarity)
+  keywords:
+    - Chronopathy
+    - Psionic
+    - Melee
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate
+  scdc:
+    - 1.1.1:11.3.1.3:05
+  source: mcdm.heroes.v1
+  subclass: Chronopathy
+  target: One enemy
+  type: feature/ability/talent/6th-level-feature
+effects:
+  - name: Effect
+    effect: The target has damage weakness 5 until the end of your next turn.
+      Whenever the target takes damage while they have this weakness, they are
+      knocked prone.
+  - name: Strained
+    effect: This ability gains the Strike keyword as the vision hurts the target's
+      psyche. You make a power roll, then are weakened (save ends).
+  - roll: Power Roll + Presence
+    tier1: 8 + P psychic damage
+    tier2: 13 + P psychic damage
+    tier3: 17 + P psychic damage
+```

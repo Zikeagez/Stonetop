@@ -1,0 +1,78 @@
+---
+action_type: Main action
+class: 'null'
+cost: 5 Discipline
+cost_amount: 5
+cost_resource: Discipline
+distance: Melee 3
+feature_type: ability
+file_basename: Force Redirected
+file_dpath: Abilities/Null/2nd-Level Features
+flavor: The force of your strike moves your target in a surprising direction.
+item_id: force-redirected-5-discipline
+item_index: '06'
+item_name: Force Redirected (5 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected
+scdc:
+- 1.1.1:11.3.6.5:06
+source: mcdm.heroes.v1
+subclass: Chronokinetic
+target: One creature
+type: feature/ability/null/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Force Redirected
+cost: 5 Discipline
+flavor: The force of your strike moves your target in a surprising direction.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 3
+target: One creature
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 5 Discipline
+  cost_amount: 5
+  cost_resource: Discipline
+  distance: Melee 3
+  feature_type: ability
+  file_basename: Force Redirected
+  file_dpath: Abilities/Null/2nd-Level Features
+  flavor: The force of your strike moves your target in a surprising direction.
+  item_id: force-redirected-5-discipline
+  item_index: "06"
+  item_name: Force Redirected (5 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected
+  scdc:
+    - 1.1.1:11.3.6.5:06
+  source: mcdm.heroes.v1
+  subclass: Chronokinetic
+  target: One creature
+  type: feature/ability/null/2nd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 8 + A damage; slide 1
+    tier2: 12 + A damage; slide 3
+    tier3: 16 + A damage; slide 5
+```

@@ -1,0 +1,1 @@
+You have 3 ancestry points to spend on the following traits. (_Quick Build:_ High Senses, Otherworldly Grace.)

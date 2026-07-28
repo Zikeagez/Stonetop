@@ -1,0 +1,72 @@
+---
+ability_type: Signature
+action_type: Main action
+class: troubadour
+distance: Melee 1
+feature_type: ability
+file_basename: Artful Flourish
+file_dpath: Abilities/Troubadour/1st-Level Features
+flavor: And they said practicing fencing was a waste!
+item_id: artful-flourish
+item_index: '11'
+item_name: Artful Flourish
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:artful-flourish
+scdc:
+- 1.1.1:11.3.3.1:11
+source: mcdm.heroes.v1
+target: Two creatures or objects
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Artful Flourish
+flavor: And they said practicing fencing was a waste!
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: Two creatures or objects
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: troubadour
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Artful Flourish
+  file_dpath: Abilities/Troubadour/1st-Level Features
+  flavor: And they said practicing fencing was a waste!
+  item_id: artful-flourish
+  item_index: "11"
+  item_name: Artful Flourish
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:artful-flourish
+  scdc:
+    - 1.1.1:11.3.3.1:11
+  source: mcdm.heroes.v1
+  target: Two creatures or objects
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 2 damage
+    tier2: 5 damage
+    tier3: 7 damage
+  - name: Effect
+    effect: You can shift up to 3 squares.
+  - cost: Spend 2+ Drama
+    effect: You can target one additional creature or object for every 2 drama spent.
+```

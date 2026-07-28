@@ -1,0 +1,79 @@
+---
+action_type: Main action
+class: shadow
+cost: 7 Insight
+cost_amount: 7
+cost_resource: Insight
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: Misdirecting Strike
+file_dpath: Abilities/Shadow/3rd-Level Features
+flavor: '"Why are you looking at ME?!"'
+item_id: misdirecting-strike-7-insight
+item_index: '03'
+item_name: Misdirecting Strike (7 Insight)
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:misdirecting-strike
+scdc:
+- 1.1.1:11.3.2.6:03
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Misdirecting Strike
+cost: 7 Insight
+flavor: '"Why are you looking at ME?!"'
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 7 Insight
+  cost_amount: 7
+  cost_resource: Insight
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Misdirecting Strike
+  file_dpath: Abilities/Shadow/3rd-Level Features
+  flavor: '"Why are you looking at ME?!"'
+  item_id: misdirecting-strike-7-insight
+  item_index: "03"
+  item_name: Misdirecting Strike (7 Insight)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:misdirecting-strike
+  scdc:
+    - 1.1.1:11.3.2.6:03
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/3rd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 9 + A damage
+    tier2: 13 + A damage
+    tier3: 18 + A damage
+  - name: Effect
+    effect: The target is taunted by a willing ally within 5 squares of you until
+      the end of the target's next turn.
+```

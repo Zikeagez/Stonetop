@@ -1,0 +1,68 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1
+file_basename: Devastating Rush
+file_dpath: Abilities/Kits/Panther
+flavor: The faster you move, the harder you hit.
+item_id: devastating-rush
+item_index: '01'
+item_name: Devastating Rush
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.panther:devastating-rush
+scdc:
+- 1.1.1:14.14:01
+source: mcdm.heroes.v1
+target: One creature or object
+type: kit-ability/panther
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Devastating Rush
+flavor: The faster you move, the harder you hit.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1
+  file_basename: Devastating Rush
+  file_dpath: Abilities/Kits/Panther
+  flavor: The faster you move, the harder you hit.
+  item_id: devastating-rush
+  item_index: "01"
+  item_name: Devastating Rush
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.panther:devastating-rush
+  scdc:
+    - 1.1.1:14.14:01
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: kit-ability/panther
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage
+    tier3: 13 + M or A damage
+  - name: Effect
+    effect: You can move up to 3 squares straight toward the target before this
+      strike, which deals extra damage equal to the number of squares you move
+      this way.
+```

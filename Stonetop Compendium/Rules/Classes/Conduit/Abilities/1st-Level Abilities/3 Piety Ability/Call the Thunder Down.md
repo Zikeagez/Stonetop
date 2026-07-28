@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: conduit
+cost: 3 Piety
+cost_amount: 3
+cost_resource: Piety
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Call the Thunder Down
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: You ask your saint for thunder and your prayer is answered.
+item_id: call-the-thunder-down-3-piety
+item_index: 08
+item_name: Call the Thunder Down (3 Piety)
+keywords:
+- Area
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down
+scdc:
+- 1.1.1:11.3.8.1:08
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Call the Thunder Down
+cost: 3 Piety
+flavor: You ask your saint for thunder and your prayer is answered.
+keywords:
+  - Area
+  - Magic
+  - Ranged
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: conduit
+  cost: 3 Piety
+  cost_amount: 3
+  cost_resource: Piety
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Call the Thunder Down
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: You ask your saint for thunder and your prayer is answered.
+  item_id: call-the-thunder-down-3-piety
+  item_index: 8
+  item_name: Call the Thunder Down (3 Piety)
+  keywords:
+    - Area
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down
+  scdc:
+    - 1.1.1:11.3.8.1:08
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 2 sonic damage; push 1
+    tier2: 3 sonic damage; push 2
+    tier3: 5 sonic damage; push 3
+  - name: Effect
+    effect: You can push each willing ally in the area the same distance, ignoring
+      stability.
+```

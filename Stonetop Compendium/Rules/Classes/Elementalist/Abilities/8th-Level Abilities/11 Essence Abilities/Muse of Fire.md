@@ -1,0 +1,79 @@
+---
+action_type: Main action
+class: elementalist
+cost: 11 Essence
+cost_amount: 11
+cost_resource: Essence
+distance: 5 cube within 10
+feature_type: ability
+file_basename: Muse of Fire
+file_dpath: Abilities/Elementalist/8th-Level Features
+flavor: The fire burns hot enough to sear the face of any god watching.
+item_id: muse-of-fire-11-essence
+item_index: '01'
+item_name: Muse of Fire (11 Essence)
+keywords:
+- Area
+- Fire
+- Magic
+- Ranged
+level: 8
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:muse-of-fire
+scdc:
+- 1.1.1:11.3.9.2:01
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/8th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Muse of Fire
+cost: 11 Essence
+flavor: The fire burns hot enough to sear the face of any god watching.
+keywords:
+  - Area
+  - Fire
+  - Magic
+  - Ranged
+usage: Main action
+distance: 5 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 11 Essence
+  cost_amount: 11
+  cost_resource: Essence
+  distance: 5 cube within 10
+  feature_type: ability
+  file_basename: Muse of Fire
+  file_dpath: Abilities/Elementalist/8th-Level Features
+  flavor: The fire burns hot enough to sear the face of any god watching.
+  item_id: muse-of-fire-11-essence
+  item_index: "01"
+  item_name: Muse of Fire (11 Essence)
+  keywords:
+    - Area
+    - Fire
+    - Magic
+    - Ranged
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:muse-of-fire
+  scdc:
+    - 1.1.1:11.3.9.2:01
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/8th-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: "7 fire damage; the Director loses 2 Malice (see *[Draw Steel:
+      Monsters](https://mcdm.gg/DS-Monsters)*)"
+    tier2: 10 fire damage; the Director loses 3 Malice
+    tier3: 15 fire damage; the Director loses 4 Malice
+  - name: Effect
+    effect: The Director's Malice can become negative as a result of this ability.
+```

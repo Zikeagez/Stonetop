@@ -1,0 +1,69 @@
+---
+action_type: Free triggered
+class: 'null'
+cost: 11 Discipline
+cost_amount: 11
+cost_resource: Discipline
+distance: Self
+feature_type: ability
+file_basename: Inertial Absorption
+file_dpath: Abilities/Null/9th-Level Features
+flavor: You absorb an attack to empower your body.
+item_id: inertial-absorption-11-discipline
+item_index: '02'
+item_name: Inertial Absorption (11 Discipline)
+keywords:
+- Psionic
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption
+scdc:
+- 1.1.1:11.3.6.7:02
+source: mcdm.heroes.v1
+subclass: Metakinetic
+target: Self
+type: feature/ability/null/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Inertial Absorption
+cost: 11 Discipline
+flavor: You absorb an attack to empower your body.
+keywords:
+  - Psionic
+usage: Free triggered
+distance: Self
+target: Self
+trigger: Another creature damages you using an ability.
+metadata:
+  action_type: Free triggered
+  class: "null"
+  cost: 11 Discipline
+  cost_amount: 11
+  cost_resource: Discipline
+  distance: Self
+  feature_type: ability
+  file_basename: Inertial Absorption
+  file_dpath: Abilities/Null/9th-Level Features
+  flavor: You absorb an attack to empower your body.
+  item_id: inertial-absorption-11-discipline
+  item_index: "02"
+  item_name: Inertial Absorption (11 Discipline)
+  keywords:
+    - Psionic
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption
+  scdc:
+    - 1.1.1:11.3.6.7:02
+  source: mcdm.heroes.v1
+  subclass: Metakinetic
+  target: Self
+  type: feature/ability/null/9th-level-feature
+effects:
+  - name: Effect
+    effect: You take half the damage, negate any effects associated with the damage
+      for you, and gain 3 surges.
+```

@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: fury
+cost: 9 Ferocity
+cost_amount: 9
+cost_resource: Ferocity
+distance: Melee 1
+feature_type: ability
+file_basename: Debilitating Strike
+file_dpath: Abilities/Fury/5th-Level Features
+flavor: You need just one blow to sabotage your target.
+item_id: debilitating-strike-9-ferocity
+item_index: '01'
+item_name: Debilitating Strike (9 Ferocity)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.fury.5th-level-feature:debilitating-strike
+scdc:
+- 1.1.1:11.3.5.4:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/fury/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Debilitating Strike
+cost: 9 Ferocity
+flavor: You need just one blow to sabotage your target.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 9 Ferocity
+  cost_amount: 9
+  cost_resource: Ferocity
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Debilitating Strike
+  file_dpath: Abilities/Fury/5th-Level Features
+  flavor: You need just one blow to sabotage your target.
+  item_id: debilitating-strike-9-ferocity
+  item_index: "01"
+  item_name: Debilitating Strike (9 Ferocity)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:debilitating-strike
+  scdc:
+    - 1.1.1:11.3.5.4:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/fury/5th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 10 + M damage; M < WEAK, slowed (save ends)
+    tier2: 14 + M damage; M < AVERAGE, slowed (save ends)
+    tier3: 20 + M damage; M < STRONG, slowed (save ends)
+  - name: Effect
+    effect: While slowed this way, the target takes 1 damage for every square they
+      move, including from forced movement.
+```

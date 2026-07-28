@@ -1,0 +1,70 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1
+file_basename: Weakening Brand
+file_dpath: Abilities/Kits/Warrior Priest
+flavor: The impact of your weapon brands your target for destruction.
+item_id: weakening-brand
+item_index: '01'
+item_name: Weakening Brand
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand
+scdc:
+- 1.1.1:14.11:01
+source: mcdm.heroes.v1
+target: One creature or object
+type: kit-ability/warrior-priest
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Weakening Brand
+flavor: The impact of your weapon brands your target for destruction.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1
+  file_basename: Weakening Brand
+  file_dpath: Abilities/Kits/Warrior Priest
+  flavor: The impact of your weapon brands your target for destruction.
+  item_id: weakening-brand
+  item_index: "01"
+  item_name: Weakening Brand
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand
+  scdc:
+    - 1.1.1:14.11:01
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: kit-ability/warrior-priest
+effects:
+  - roll: Power Roll + Might, Reason, Intuition, or Presence
+    tier1: 3 + M, R, I, or P holy damage
+    tier2: 5 + M, R, I, or P holy damage
+    tier3: 8 + M, R, I, or P holy damage
+  - name: Effect
+    effect: Until the end of the target's next turn, they have damage weakness equal
+      to the characteristic score used for this ability's power roll.
+```

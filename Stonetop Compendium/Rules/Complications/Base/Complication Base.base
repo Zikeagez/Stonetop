@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Complications")
+views:
+  - type: list
+    name: Table
+    filters:
+      and:
+        - type == "complication"
+    order:
+      - file.name
+      - description
+      - benefit
+      - drawback
+    sort:
+      - property: drawback
+        direction: ASC
+    columnSize:
+      note.benefit: 203
+    indentProperties: false

@@ -1,0 +1,64 @@
+---
+ability_type: Signature
+action_type: Main action
+class: ignored
+distance: Melee 1
+file_basename: Shield Bash
+file_dpath: Abilities/Kits/Sword and Board
+flavor: In your hands, a shield isn't just for protection.
+item_id: shield-bash
+item_index: '01'
+item_name: Shield Bash
+keywords:
+- Melee
+- Strike
+- Weapon
+scc:
+- mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash
+scdc:
+- 1.1.1:14.4:01
+source: mcdm.heroes.v1
+target: One creature
+type: kit-ability/sword-and-board
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Shield Bash
+flavor: In your hands, a shield isn't just for protection.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: ignored
+  distance: Melee 1
+  file_basename: Shield Bash
+  file_dpath: Abilities/Kits/Sword and Board
+  flavor: In your hands, a shield isn't just for protection.
+  item_id: shield-bash
+  item_index: "01"
+  item_name: Shield Bash
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  scc:
+    - mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash
+  scdc:
+    - 1.1.1:14.4:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: kit-ability/sword-and-board
+effects:
+  - roll: Power Roll + Might or Agility
+    tier1: 4 + M or A damage; push 1
+    tier2: 7 + M or A damage; push 2
+    tier3: 9 + M or A damage; push 3; M < STRONG, prone
+```

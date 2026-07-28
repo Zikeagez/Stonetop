@@ -1,0 +1,77 @@
+---
+action_type: Main action
+class: troubadour
+cost: 9 Drama
+cost_amount: 9
+cost_resource: Drama
+distance: Three 3 cubes within 1
+feature_type: ability
+file_basename: Feedback
+file_dpath: Abilities/Troubadour/6th-Level Features
+flavor: Your music pounds the crowd to the beat until their hearts can't stand it
+  anymore.
+item_id: feedback-9-drama
+item_index: '02'
+item_name: Feedback (9 Drama)
+keywords:
+- Area
+- Magic
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback
+scdc:
+- 1.1.1:11.3.3.3:02
+source: mcdm.heroes.v1
+subclass: Virtuoso
+target: Each enemy in the area
+type: feature/ability/troubadour/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Feedback
+cost: 9 Drama
+flavor: Your music pounds the crowd to the beat until their hearts can't stand
+  it anymore.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: Three 3 cubes within 1
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 9 Drama
+  cost_amount: 9
+  cost_resource: Drama
+  distance: Three 3 cubes within 1
+  feature_type: ability
+  file_basename: Feedback
+  file_dpath: Abilities/Troubadour/6th-Level Features
+  flavor: Your music pounds the crowd to the beat until their hearts can't stand
+    it anymore.
+  item_id: feedback-9-drama
+  item_index: "02"
+  item_name: Feedback (9 Drama)
+  keywords:
+    - Area
+    - Magic
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback
+  scdc:
+    - 1.1.1:11.3.3.3:02
+  source: mcdm.heroes.v1
+  subclass: Virtuoso
+  target: Each enemy in the area
+  type: feature/ability/troubadour/6th-level-feature
+effects:
+  - name: Effect
+    effect: A prone target ignores this ability.
+  - roll: Power Roll + Presence
+    tier1: 7 sonic damage; P < WEAK, prone
+    tier2: 10 sonic damage; P < AVERAGE, prone
+    tier3: 13 sonic damage; P < STRONG, prone
+```

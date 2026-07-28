@@ -1,0 +1,86 @@
+---
+action_type: Main action
+class: elementalist
+cost: 7 Essence
+cost_amount: 7
+cost_resource: Essence
+distance: Ranged 10
+feature_type: ability
+file_basename: Erase
+file_dpath: Abilities/Elementalist/3rd-Level Features
+flavor: With a flick of the wrist, you phase creatures out of existence.
+item_id: erase-7-essence
+item_index: '06'
+item_name: Erase (7 Essence)
+keywords:
+- Magic
+- Ranged
+- Strike
+- Void
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:erase
+scdc:
+- 1.1.1:11.3.9.6:06
+source: mcdm.heroes.v1
+target: Special
+type: feature/ability/elementalist/3rd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Erase
+cost: 7 Essence
+flavor: With a flick of the wrist, you phase creatures out of existence.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+  - Void
+usage: Main action
+distance: Ranged 10
+target: Special
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 7 Essence
+  cost_amount: 7
+  cost_resource: Essence
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Erase
+  file_dpath: Abilities/Elementalist/3rd-Level Features
+  flavor: With a flick of the wrist, you phase creatures out of existence.
+  item_id: erase-7-essence
+  item_index: "06"
+  item_name: Erase (7 Essence)
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+    - Void
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:erase
+  scdc:
+    - 1.1.1:11.3.9.6:06
+  source: mcdm.heroes.v1
+  target: Special
+  type: feature/ability/elementalist/3rd-level-feature
+effects:
+  - name: Special
+    effect: The number of creatures you target with this ability is determined by
+      your power roll.
+  - roll: Power Roll + Reason
+    tier1: One creature
+    tier2: Two creatures
+    tier3: Three creatures
+  - name: Effect
+    effect: Each target begins to fade from existence (save ends). On their first
+      turn while fading from existence, a target takes a bane on power rolls. At
+      the end of their first turn, they have a double bane on power rolls. At
+      the end of their second turn, they fade from existence for 1 hour, after
+      which they reappear in their original space or the nearest unoccupied
+      space.
+```

@@ -1,0 +1,49 @@
+---
+action_type: feature
+class: elementalist
+feature_type: subtrait
+file_basename: Pierce the Veil of Substance
+file_dpath: Features/Elementalist/5th-Level Features/5th-Level Specialization Feature
+item_id: pierce-the-veil-of-substance
+item_index: '04'
+item_name: Pierce the Veil of Substance
+level: 5
+scc:
+- mcdm.heroes.v1:feature.subtrait.elementalist.5th-level-feature:pierce-the-veil-of-substance
+scdc:
+- 1.1.1:11.2.9.4:04
+source: mcdm.heroes.v1
+type: feature/subtrait/elementalist/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Pierce the Veil of Substance
+metadata:
+  action_type: feature
+  class: elementalist
+  feature_type: subtrait
+  file_basename: Pierce the Veil of Substance
+  file_dpath: Features/Elementalist/5th-Level Features/5th-Level Specialization Feature
+  item_id: pierce-the-veil-of-substance
+  item_index: "04"
+  item_name: Pierce the Veil of Substance
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.elementalist.5th-level-feature:pierce-the-veil-of-substance
+  scdc:
+    - 1.1.1:11.2.9.4:04
+  source: mcdm.heroes.v1
+  type: feature/subtrait/elementalist/5th-level-feature
+effects:
+  - effect: >-
+      Solidity is merely a suggestion to you. Mundane barriers that are 1 square
+      thick or less do not block your senses or line of effect. You can only
+      sense or have line of effect past one such barrier at a time.
+
+
+      Additionally, whenever you use a void ability, you or one ally within
+      distance of the ability can teleport a number of squares equal to your
+      Reason score.
+```

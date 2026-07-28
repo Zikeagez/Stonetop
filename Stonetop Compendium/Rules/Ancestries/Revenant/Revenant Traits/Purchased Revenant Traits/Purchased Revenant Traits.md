@@ -1,0 +1,1 @@
+You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your size is 1S. (_Quick Build:_ Bloodless, plus Undead Influence if size 1S.)

@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.path.contains("DS Compendium/Rules/Classes")
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - type == "class"
+    image: note.image
+    cardSize: 290

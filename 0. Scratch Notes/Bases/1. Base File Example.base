@@ -1,0 +1,58 @@
+filters:
+  and:
+    - '!file.name.contains("Party")'
+    - '!file.name.contains("session")'
+    - not:
+        - file.name.contains("travel")
+formulas:
+  Custom Property: ""
+views:
+  - type: cards
+    name: Party 1
+    filters:
+      or:
+        - and:
+            - file.inFolder("0. The Party")
+        - or:
+            - file.folder == "0. The Party/The Rough-hewn Rangers"
+            - file.folder == "0. The Party/Warden of Iron"
+    order:
+      - file.name
+      - Race
+      - Gender
+      - Class
+    sort:
+      - property: file.folder
+        direction: DESC
+    image: note.image
+    cardSize: 120
+    imageAspectRatio: 1.5
+  - type: cards
+    name: Cards View
+    limit: 10
+    cardSize: 210
+    imageAspectRatio: 1
+    image: note.image
+  - type: table
+    name: Table
+    order:
+      - file.basename
+      - file.ctime
+      - file.mtime
+      - Race
+      - Gender
+      - Class
+      - Player
+      - file.folder
+    sort:
+      - property: Player
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.basename: 212
+      file.ctime: 205
+      file.mtime: 217
+  - type: table
+    name: Third View
+    rowHeight: tall

@@ -1,0 +1,73 @@
+---
+action_type: Maneuver
+class: troubadour
+cost: 9 Drama
+cost_amount: 9
+cost_resource: Drama
+distance: Ranged 10
+feature_type: ability
+file_basename: Patter Song
+file_dpath: Abilities/Troubadour/5th-Level Features
+flavor: Dazzle them with your fancy patter and they forget where they were.
+item_id: patter-song-9-drama
+item_index: '02'
+item_name: Patter Song (9 Drama)
+keywords:
+- Magic
+- Ranged
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song
+scdc:
+- 1.1.1:11.3.3.4:02
+source: mcdm.heroes.v1
+target: Special
+type: feature/ability/troubadour/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Patter Song
+cost: 9 Drama
+flavor: Dazzle them with your fancy patter and they forget where they were.
+keywords:
+  - Magic
+  - Ranged
+usage: Maneuver
+distance: Ranged 10
+target: Special
+metadata:
+  action_type: Maneuver
+  class: troubadour
+  cost: 9 Drama
+  cost_amount: 9
+  cost_resource: Drama
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Patter Song
+  file_dpath: Abilities/Troubadour/5th-Level Features
+  flavor: Dazzle them with your fancy patter and they forget where they were.
+  item_id: patter-song-9-drama
+  item_index: "02"
+  item_name: Patter Song (9 Drama)
+  keywords:
+    - Magic
+    - Ranged
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song
+  scdc:
+    - 1.1.1:11.3.3.4:02
+  source: mcdm.heroes.v1
+  target: Special
+  type: feature/ability/troubadour/5th-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: One ally within distance can take their turn immediately after yours.
+    tier2: Two allies within distance can take their turns immediately after yours
+      in any order.
+    tier3: Three allies within distance can take their turns immediately after yours
+      in any order. One of those allies can have already taken a turn this
+      combat round.
+```

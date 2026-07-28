@@ -1,0 +1,41 @@
+---
+action_type: feature
+class: elementalist
+feature_type: subtrait
+file_basename: Veiling Bed
+file_dpath: Features/Elementalist/4th-Level Features/Mantle Of Essence
+item_id: veiling-bed
+item_index: '04'
+item_name: Veiling Bed
+level: 4
+scc:
+- mcdm.heroes.v1:feature.subtrait.elementalist.4th-level-feature:veiling-bed
+scdc:
+- 1.1.1:11.2.9.1:04
+source: mcdm.heroes.v1
+type: feature/subtrait/elementalist/4th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Veiling Bed
+metadata:
+  action_type: feature
+  class: elementalist
+  feature_type: subtrait
+  file_basename: Veiling Bed
+  file_dpath: Features/Elementalist/4th-Level Features/Mantle Of Essence
+  item_id: veiling-bed
+  item_index: "04"
+  item_name: Veiling Bed
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.elementalist.4th-level-feature:veiling-bed
+  scdc:
+    - 1.1.1:11.2.9.1:04
+  source: mcdm.heroes.v1
+  type: feature/subtrait/elementalist/4th-level-feature
+effects:
+  - effect: The area provides concealment for you and your allies.
+```

@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.inFolder("0. Session Journals")
+properties:
+  note.session:Date:
+    displayName: SessionDate
+  note.OneLiner:
+    displayName: Description
+views:
+  - type: table
+    name: Table
+    filters:
+      not:
+        - file.name.contains("chart")
+    order:
+      - file.name
+      - session:Date
+      - Adventure
+      - OneLiner
+    limit: 10

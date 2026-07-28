@@ -1,0 +1,68 @@
+---
+action_type: Maneuver
+class: tactician
+cost: 9 Focus
+cost_amount: 9
+cost_resource: Focus
+distance: 2 burst
+feature_type: ability
+file_basename: Hustle
+file_dpath: Abilities/Tactician/6th-Level Features
+flavor: You and your allies coordinate to form a new battle line.
+item_id: hustle-9-focus
+item_index: '02'
+item_name: Hustle! (9 Focus)
+keywords:
+- Area
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle
+scdc:
+- 1.1.1:11.3.4.3:02
+source: mcdm.heroes.v1
+subclass: Mastermind
+target: Self and each ally in the area
+type: feature/ability/tactician/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Hustle!
+cost: 9 Focus
+flavor: You and your allies coordinate to form a new battle line.
+keywords:
+  - Area
+usage: Maneuver
+distance: 2 burst
+target: Self and each ally in the area
+metadata:
+  action_type: Maneuver
+  class: tactician
+  cost: 9 Focus
+  cost_amount: 9
+  cost_resource: Focus
+  distance: 2 burst
+  feature_type: ability
+  file_basename: Hustle
+  file_dpath: Abilities/Tactician/6th-Level Features
+  flavor: You and your allies coordinate to form a new battle line.
+  item_id: hustle-9-focus
+  item_index: "02"
+  item_name: Hustle! (9 Focus)
+  keywords:
+    - Area
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle
+  scdc:
+    - 1.1.1:11.3.4.3:02
+  source: mcdm.heroes.v1
+  subclass: Mastermind
+  target: Self and each ally in the area
+  type: feature/ability/tactician/6th-level-feature
+effects:
+  - name: Effect
+    effect: You mark two enemies within 10 squares of you. Each target can shift up
+      to their speed. You and each target gain 2 surges.
+```

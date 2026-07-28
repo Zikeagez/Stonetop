@@ -1,0 +1,70 @@
+---
+ability_type: Free Strike
+action_type: Main action
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Ray of Wrath
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: You unleash a blast of holy light upon your foe.
+item_id: ray-of-wrath
+item_index: '22'
+item_name: Ray of Wrath
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:ray-of-wrath
+scdc:
+- 1.1.1:11.3.8.1:22
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Ray of Wrath
+flavor: You unleash a blast of holy light upon your foe.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature or object
+metadata:
+  ability_type: Free Strike
+  action_type: Main action
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Ray of Wrath
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: You unleash a blast of holy light upon your foe.
+  item_id: ray-of-wrath
+  item_index: "22"
+  item_name: Ray of Wrath
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:ray-of-wrath
+  scdc:
+    - 1.1.1:11.3.8.1:22
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 2 + I damage
+    tier2: 4 + I damage
+    tier3: 6 + I damage
+  - name: Effect
+    effect: You can have this ability deal holy damage.
+```

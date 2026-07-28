@@ -1,0 +1,58 @@
+---
+action_type: feature
+class: talent
+feature_type: subtrait
+file_basename: Again
+file_dpath: Features/Talent/1st-Level Features/1st-Level Tradition Features
+item_id: again
+item_index: '05'
+item_name: Again
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:again
+scdc:
+- 1.1.1:11.2.1.6:05
+source: mcdm.heroes.v1
+type: feature/subtrait/talent/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Again
+metadata:
+  action_type: feature
+  class: talent
+  feature_type: subtrait
+  file_basename: Again
+  file_dpath: Features/Talent/1st-Level Features/1st-Level Tradition Features
+  item_id: again
+  item_index: "05"
+  item_name: Again
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:again
+  scdc:
+    - 1.1.1:11.2.1.6:05
+  source: mcdm.heroes.v1
+  type: feature/subtrait/talent/1st-level-feature
+effects:
+  - effect: You have the following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Again
+        flavor: You step back a split second to see if things play out a little
+          differently.
+        keywords:
+          - Psionic
+          - Ranged
+        usage: Triggered
+        distance: Ranged 10
+        target: Self or one creature
+        trigger: The target makes an ability roll.
+        effects:
+          - name: Effect
+            effect: You can use this ability after seeing the result of the triggering roll.
+              The target must reroll the power roll and use the new roll.
+```

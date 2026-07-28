@@ -1,0 +1,10 @@
+body {
+    --font-text-theme: "Adobe Caslon Pro", Georgia, serif;
+}
+
+.markdown-rendered,
+.markdown-source-view,
+.cm-content,
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-text-theme);
+}

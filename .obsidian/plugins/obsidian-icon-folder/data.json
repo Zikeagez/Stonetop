@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiMapLine",
+      "RaPlayer"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": true,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "0. The Party/The Rough-hewn Rangers/Ayla.md": "RaPlayer",
+  "0. The Party/The Rough-hewn Rangers/Drath'kar.md": "RaPlayer",
+  "0. The Party/The Rough-hewn Rangers/Gatem.md": "RaPlayer",
+  "0. The Party/The Rough-hewn Rangers/Nigel.md": "RaPlayer",
+  "0. The Party/The Rough-hewn Rangers/Nym.md": "RaPlayer",
+  "0. The Party/The Rough-hewn Rangers/Ochi.md": "RaPlayer",
+  "1. World/Forgotten Realms": "RiMapLine"
+}

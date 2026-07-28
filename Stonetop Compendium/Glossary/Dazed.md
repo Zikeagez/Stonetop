@@ -1,0 +1,1 @@
+**Dazed:** out of it, befuddled, not thinking clearly. Take disadvantage when rolling +INT or +WIS.

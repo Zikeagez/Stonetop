@@ -1,0 +1,73 @@
+---
+action_type: Maneuver
+class: shadow
+cost: 11 Insight
+cost_amount: 11
+cost_resource: Insight
+distance: Ranged 10
+feature_type: ability
+file_basename: I Am You
+file_dpath: Abilities/Shadow/9th-Level Features
+flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
+item_id: i-am-you-11-insight
+item_index: '01'
+item_name: I Am You (11 Insight)
+keywords:
+- Magic
+- Ranged
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you
+scdc:
+- 1.1.1:11.3.2.7:01
+source: mcdm.heroes.v1
+subclass: Harlequin Mask
+target: One creature
+type: feature/ability/shadow/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: I Am You
+cost: 11 Insight
+flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
+keywords:
+  - Magic
+  - Ranged
+usage: Maneuver
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Maneuver
+  class: shadow
+  cost: 11 Insight
+  cost_amount: 11
+  cost_resource: Insight
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: I Am You
+  file_dpath: Abilities/Shadow/9th-Level Features
+  flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
+  item_id: i-am-you-11-insight
+  item_index: "01"
+  item_name: I Am You (11 Insight)
+  keywords:
+    - Magic
+    - Ranged
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you
+  scdc:
+    - 1.1.1:11.3.2.7:01
+  source: mcdm.heroes.v1
+  subclass: Harlequin Mask
+  target: One creature
+  type: feature/ability/shadow/9th-level-feature
+effects:
+  - name: Effect
+    effect: Until the end of the encounter, you gain the target's damage immunities
+      and speed (if they are better than yours), and can use any types of
+      movement they can use. You can also use the target's signature ability,
+      using their bonus for the power roll.
+```

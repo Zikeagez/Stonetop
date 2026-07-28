@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: fury
+cost: 11 Ferocity
+cost_amount: 11
+cost_resource: Ferocity
+distance: 3 burst
+feature_type: ability
+file_basename: Death Comes for You All
+file_dpath: Abilities/Fury/9th-Level Features
+flavor: You use your weapon to create a destructive shockwave.
+item_id: death-comes-for-you-all-11-ferocity
+item_index: '02'
+item_name: Death Comes for You All! (11 Ferocity)
+keywords:
+- Area
+- Magic
+- Melee
+- Weapon
+level: 9
+scc:
+- mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all
+scdc:
+- 1.1.1:11.3.5.7:02
+source: mcdm.heroes.v1
+subclass: Berserker
+target: Each enemy in the area
+type: feature/ability/fury/9th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Death Comes for You All!
+cost: 11 Ferocity
+flavor: You use your weapon to create a destructive shockwave.
+keywords:
+  - Area
+  - Magic
+  - Melee
+  - Weapon
+usage: Main action
+distance: 3 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: 3 burst
+  feature_type: ability
+  file_basename: Death Comes for You All
+  file_dpath: Abilities/Fury/9th-Level Features
+  flavor: You use your weapon to create a destructive shockwave.
+  item_id: death-comes-for-you-all-11-ferocity
+  item_index: "02"
+  item_name: Death Comes for You All! (11 Ferocity)
+  keywords:
+    - Area
+    - Magic
+    - Melee
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all
+  scdc:
+    - 1.1.1:11.3.5.7:02
+  source: mcdm.heroes.v1
+  subclass: Berserker
+  target: Each enemy in the area
+  type: feature/ability/fury/9th-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 7 damage; push 3
+    tier2: 10 damage; push 5
+    tier3: 15 damage; push 7
+  - name: Effect
+    effect: If this forced movement causes a target to be hurled through an object,
+      that target takes an extra 10 damage.
+```

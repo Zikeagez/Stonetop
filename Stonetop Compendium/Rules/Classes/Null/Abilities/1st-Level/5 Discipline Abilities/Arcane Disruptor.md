@@ -1,0 +1,81 @@
+---
+action_type: Main action
+class: 'null'
+cost: 5 Discipline
+cost_amount: 5
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Arcane Disruptor
+file_dpath: Abilities/Null/1st-Level Features
+flavor: Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.
+item_id: arcane-disruptor-5-discipline
+item_index: '15'
+item_name: Arcane Disruptor (5 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.null.1st-level-feature:arcane-disruptor
+scdc:
+- 1.1.1:11.3.6.1:15
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/null/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Arcane Disruptor
+cost: 5 Discipline
+flavor: Your blow reorders a foe's body, causing pain if they attempt to channel
+  sorcery.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 5 Discipline
+  cost_amount: 5
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Arcane Disruptor
+  file_dpath: Abilities/Null/1st-Level Features
+  flavor: Your blow reorders a foe's body, causing pain if they attempt to channel
+    sorcery.
+  item_id: arcane-disruptor-5-discipline
+  item_index: "15"
+  item_name: Arcane Disruptor (5 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.1st-level-feature:arcane-disruptor
+  scdc:
+    - 1.1.1:11.3.6.1:15
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/null/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 8 + **A** psychic damage; M < WEAK, weakened (save ends)
+    tier2: 12 + **A** psychic damage; M < AVERAGE, weakened (save ends)
+    tier3: 16 + **A** psychic damage; M < STRONG, weakened (save ends)
+  - name: Effect
+    effect: While weakened this way, the target takes damage equal to your Intuition
+      score whenever they use a supernatural ability that costs Malice.
+```

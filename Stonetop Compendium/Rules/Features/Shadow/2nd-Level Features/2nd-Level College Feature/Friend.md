@@ -1,0 +1,49 @@
+---
+action_type: feature
+class: shadow
+feature_type: subtrait
+file_basename: Friend
+file_dpath: Features/Shadow/2nd-Level Features/2nd-Level College Feature
+item_id: friend
+item_index: '04'
+item_name: Friend!
+level: 2
+scc:
+- mcdm.heroes.v1:feature.subtrait.shadow.2nd-level-feature:friend
+scdc:
+- 1.1.1:11.2.2.2:04
+source: mcdm.heroes.v1
+type: feature/subtrait/shadow/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Friend!
+metadata:
+  action_type: feature
+  class: shadow
+  feature_type: subtrait
+  file_basename: Friend
+  file_dpath: Features/Shadow/2nd-Level Features/2nd-Level College Feature
+  item_id: friend
+  item_index: "04"
+  item_name: Friend!
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.shadow.2nd-level-feature:friend
+  scdc:
+    - 1.1.1:11.2.2.2:04
+  source: mcdm.heroes.v1
+  type: feature/subtrait/shadow/2nd-level-feature
+effects:
+  - effect: >-
+      Your illusions make your enemies believe you are their friend in critical
+      moments. Whenever an enemy uses an ability or trait that targets multiple
+      allies and you are within distance of the effect, you can choose to be a
+      target of the effect as well.
+
+
+      Additionally, when you use your I'm No Threat ability, you can take the
+      Disengage move action as part of that ability.
+```

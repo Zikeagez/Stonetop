@@ -1,0 +1,72 @@
+---
+action_type: Main action
+class: troubadour
+cost: 9 Drama
+cost_amount: 9
+cost_resource: Drama
+distance: 5 burst
+feature_type: ability
+file_basename: Heres How Your Story Ends
+file_dpath: Abilities/Troubadour/6th-Level Features
+flavor: You give away the ending of this battle, and it's not great for them.
+item_id: heres-how-your-story-ends-9-drama
+item_index: '05'
+item_name: Here's How Your Story Ends (9 Drama)
+keywords:
+- Area
+- Magic
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends
+scdc:
+- 1.1.1:11.3.3.3:05
+source: mcdm.heroes.v1
+subclass: Auteur
+target: Each enemy in the area
+type: feature/ability/troubadour/6th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Here's How Your Story Ends
+cost: 9 Drama
+flavor: You give away the ending of this battle, and it's not great for them.
+keywords:
+  - Area
+  - Magic
+usage: Main action
+distance: 5 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 9 Drama
+  cost_amount: 9
+  cost_resource: Drama
+  distance: 5 burst
+  feature_type: ability
+  file_basename: Heres How Your Story Ends
+  file_dpath: Abilities/Troubadour/6th-Level Features
+  flavor: You give away the ending of this battle, and it's not great for them.
+  item_id: heres-how-your-story-ends-9-drama
+  item_index: "05"
+  item_name: Here's How Your Story Ends (9 Drama)
+  keywords:
+    - Area
+    - Magic
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends
+  scdc:
+    - 1.1.1:11.3.3.3:05
+  source: mcdm.heroes.v1
+  subclass: Auteur
+  target: Each enemy in the area
+  type: feature/ability/troubadour/6th-level-feature
+effects:
+  - roll: Power Roll + Presence
+    tier1: 2 psychic damage; P < WEAK, frightened (save ends)
+    tier2: 5 psychic damage; P < AVERAGE, frightened (save ends)
+    tier3: 7 psychic damage; P < STRONG, frightened (save ends)
+```

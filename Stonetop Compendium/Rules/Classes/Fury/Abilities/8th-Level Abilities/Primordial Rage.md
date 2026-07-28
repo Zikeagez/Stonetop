@@ -1,0 +1,69 @@
+---
+action_type: Maneuver
+class: fury
+cost: 11 Ferocity
+cost_amount: 11
+cost_resource: Ferocity
+distance: Self
+feature_type: ability
+file_basename: Primordial Rage
+file_dpath: Abilities/Fury/8th-Level Features
+flavor: Your ferocity manifests into primordial power.
+item_id: primordial-rage-11-ferocity
+item_index: '03'
+item_name: Primordial Rage (11 Ferocity)
+keywords:
+- Magic
+level: 8
+scc:
+- mcdm.heroes.v1:feature.ability.fury.8th-level-feature:primordial-rage
+scdc:
+- 1.1.1:11.3.5.2:03
+source: mcdm.heroes.v1
+target: Self
+type: feature/ability/fury/8th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Primordial Rage
+cost: 11 Ferocity
+flavor: Your ferocity manifests into primordial power.
+keywords:
+  - Magic
+usage: Maneuver
+distance: Self
+target: Self
+metadata:
+  action_type: Maneuver
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: Self
+  feature_type: ability
+  file_basename: Primordial Rage
+  file_dpath: Abilities/Fury/8th-Level Features
+  flavor: Your ferocity manifests into primordial power.
+  item_id: primordial-rage-11-ferocity
+  item_index: "03"
+  item_name: Primordial Rage (11 Ferocity)
+  keywords:
+    - Magic
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:primordial-rage
+  scdc:
+    - 1.1.1:11.3.5.2:03
+  source: mcdm.heroes.v1
+  target: Self
+  type: feature/ability/fury/8th-level-feature
+effects:
+  - name: Effect
+    effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
+      Until the end of the encounter or until you are dying, you can choose one
+      target of any ability you use, with that target taking an extra 15 damage
+      of the chosen type. Additionally, whenever you gain ferocity from taking
+      damage, the source of the damage takes 5 damage of the chosen type.
+```

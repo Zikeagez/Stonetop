@@ -1,0 +1,279 @@
+---
+agility: 4
+ancestry:
+- Dragon
+- Elemental
+ev: '120'
+file_basename: Omen Dragon
+file_dpath: Monsters/Dragons/Statblocks
+free_strike: 9
+intuition: 3
+item_id: omen-dragon
+item_index: '01'
+item_name: Omen Dragon
+level: 8
+might: 3
+presence: 5
+reason: 2
+roles:
+- Solo
+scc:
+- mcdm.monsters.v1:monster.dragons.statblock:omen-dragon
+scdc:
+- 1.1.1:2.47.1:01
+size: '5'
+source: mcdm.monsters.v1
+speed: 10
+stability: 6
+stamina: '550'
+type: monster/dragons/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Omen Dragon
+level: 8
+roles:
+  - Solo
+ancestry:
+  - Dragon
+  - Elemental
+ev: "120"
+stamina: "550"
+immunities:
+  - Corruption 6
+speed: 10
+movement: Fly
+size: "5"
+stability: 6
+free_strike: 9
+might: 3
+agility: 4
+reason: 2
+intuition: 3
+presence: 5
+features:
+  - type: feature
+    feature_type: trait
+    name: Solo Monster
+    icon: ☠️
+    effects:
+      - name: End Effect
+        effect: At the end of each of their turns, the dragon can take 15 damage to end
+          one effect on them that can be ended by a saving throw. This damage
+          can't be reduced in any way.
+      - name: Solo Turns
+        effect: The dragon can take two turns each round. They can't take turns
+          consecutively.
+  - type: feature
+    feature_type: trait
+    name: Deathcount
+    icon: ⭐️
+    effects:
+      - effect: Several of the dragon's abilities impose a Deathcount on a target. At
+          the end of every turn, a creature with a Deathcount who is within the
+          area of the dragon's Stagnant Wyrmscale Aura has that Deathcount
+          reduced by 1. When a creature's Deathcount hits 0, they die. If
+          multiple Deathcounts are imposed on a creature, they don't stack. Only
+          the lowest Deathcount takes effect. All Deathcounts are lost when the
+          dragon is reduced to 0 Stamina.
+  - type: feature
+    feature_type: trait
+    name: Stagnant Wyrmscale Aura
+    icon: ❇️
+    effects:
+      - effect: The dragon's scales create a 4 aura of supernatural stagnancy around
+          them. The area is difficult terrain for enemies, and no creature
+          except the omen dragon can regain Stamina while in the area. Any
+          creature dragonsealed by the omen dragon who starts their turn in the
+          dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
+  - type: feature
+    feature_type: ability
+    name: Corroding Breath
+    icon: 🔳
+    ability_type: Signature Ability
+    keywords:
+      - Area
+      - Magic
+      - Ranged
+    usage: Main action
+    distance: 5 cube within 10
+    target: Each creature and object in the area
+    effects:
+      - name: Effect
+        effect: Each target makes an **Agility test**.
+        tier1: 18 corruption damage; the target is dragonsealed (save ends)
+        tier2: 14 corruption damage; the target is dragonsealed (save ends)
+        tier3: 9 corruption damage
+      - effect: Only creatures with souls can be dragonsealed by the omen dragon. A
+          dragonsealed creature appears ghastly and pale, their Presence score
+          is treated as 1 lower for the purpose of resisting potencies, and they
+          can't treat other creatures as allies.
+  - type: feature
+    feature_type: ability
+    name: Barbed Tail Swing
+    icon: 🗡
+    keywords:
+      - Charge
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 4
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 5
+        tier1: 14 damage; M < 3 bleeding (save ends)
+        tier2: 19 damage; M < 4 bleeding (save ends)
+        tier3: 23 damage; M < 5 bleeding (save ends)
+      - cost: 3 Malice
+        effect: The potency increases by 2, and each target is also pulled up to 5
+          squares.
+  - type: feature
+    feature_type: trait
+    name: Death or Victory
+    icon: ⭐️
+    effects:
+      - effect: Once per turn, the dragon chooses one creature with a Deathcount within
+          line of effect. That creature can choose to take 1d6 damage and lose a
+          recovery to increase their Deathcount by 5.
+  - type: feature
+    feature_type: ability
+    name: Detonation
+    icon: ❇️
+    cost: 5 Malice
+    keywords:
+      - Area
+    usage: Maneuver
+    distance: 10 burst
+    target: Each enemy in the area
+    effects:
+      - name: Effect
+        effect: Each target must be dragonsealed. Each target takes 9 corruption damage,
+          and the omen dragon regains Stamina equal to half the total damage
+          dealt. The target then loses their dragonseal.
+  - type: feature
+    feature_type: ability
+    name: Don't Turn Away
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - "-"
+    usage: Free triggered action
+    distance: Self
+    target: Self
+    trigger: A creature leaves the area of the dragon's Stagnant Wyrmscale Aura trait.
+    effects:
+      - name: Effect
+        effect: The dragon shifts up to their speed, and the Deathcount of each
+          dragonsealed creature who comes adjacent to the dragon during this
+          shift is reduced by 1.
+  - type: feature
+    feature_type: ability
+    name: Repent!
+    icon: ❗️
+    cost: 2 Malice
+    keywords:
+      - Ranged
+    usage: Free triggered action
+    distance: Ranged 5
+    target: The triggering creature
+    trigger: A dragonsealed creature within distance deals damage to the dragon.
+    effects:
+      - name: Effect
+        effect: The target must choose between making a free strike against themself or
+          gaining a Deathcount of 5.
+  - type: feature
+    feature_type: ability
+    name: What You Deserve
+    icon: ☠️
+    ability_type: Villain Action 1
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 5
+        tier1: Pull 1; the target has a Deathcount of 10
+        tier2: Pull 2; the target has a Deathcount of 8
+        tier3: Pull 3; the target has a Deathcount of 6
+      - name: Effect
+        effect: Each target receives a premonition of their imminent death.
+  - type: feature
+    feature_type: ability
+    name: Souls of the Broken
+    icon: ☠️
+    ability_type: Villain Action 2
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    usage: "-"
+    distance: Ranged 10
+    target: Five creatures
+    effects:
+      - name: Effect
+        effect: The dragon spits fragments of souls to attempt to possess the targets,
+          making a separate power roll for each target.
+      - roll: Power Roll + 5
+        tier1: P < 5 frightened (save ends)
+        tier2: P < 5 the target moves up to their speed toward the dragon
+        tier3: P < 5 the target makes a free strike against the nearest ally
+  - type: feature
+    feature_type: ability
+    name: So Long and Goodnight
+    icon: ☠️
+    ability_type: Villain Action 3
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 6 burst
+    target: Each creature in the area
+    effects:
+      - name: Effect
+        effect: Each target must be dragonsealed. The dragon's eyes glow with unequalled
+          malevolence, and any target who has a Deathcount has that Deathcount
+          reduced to 1.
+  - type: feature
+    feature_type: trait
+    name: Black Skies
+    icon: ⭐️
+    cost: 3 Malice
+    effects:
+      - effect: The dragon expands their wings to create a shroud of shadow. Until the
+          start of the dragon's next turn, any strike made against them takes a
+          bane.
+  - type: feature
+    feature_type: trait
+    name: Rise and Fall
+    icon: ❇️
+    cost: 5 Malice
+    effects:
+      - effect: The dragon flies up to 10 squares and carries fated souls with them.
+          Each creature in the area of the dragon's Stagnant Wyrmscale Aura
+          trait makes a **Presence test**.
+        tier1: Vertical pull 10
+        tier2: Vertical pull 6
+        tier3: Vertical pull 4
+  - type: feature
+    feature_type: trait
+    name: Solo Action
+    icon: ☠️
+    cost: 5 Malice
+    effects:
+      - effect: The dragon takes an additional main action on their turn. They can use
+          this feature even if they are dazed.
+  - type: feature
+    feature_type: trait
+    name: Burn It Right Down
+    icon: 🌀
+    cost: 10 Malice
+    effects:
+      - effect: Each edge of the encounter map burns with intangible purple flames until
+          the end of the encounter. The flames expand by 1 square at the end of
+          every turn. Any enemy takes 5 corruption damage for each square of
+          flames they enter.
+~~~

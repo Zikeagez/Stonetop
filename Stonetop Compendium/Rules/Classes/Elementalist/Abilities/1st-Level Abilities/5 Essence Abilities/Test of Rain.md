@@ -1,0 +1,80 @@
+---
+action_type: Main action
+class: elementalist
+cost: 5 Essence
+cost_amount: 5
+cost_resource: Essence
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Test of Rain
+file_dpath: Abilities/Elementalist/1st-Level Features
+flavor: You call down a rain that burns your enemies and restores your allies.
+item_id: test-of-rain-5-essence
+item_index: '15'
+item_name: Test of Rain (5 Essence)
+keywords:
+- Area
+- Green
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:test-of-rain
+scdc:
+- 1.1.1:11.3.9.1:15
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Test of Rain
+cost: 5 Essence
+flavor: You call down a rain that burns your enemies and restores your allies.
+keywords:
+  - Area
+  - Green
+  - Magic
+  - Ranged
+usage: Main action
+distance: 3 cube within 10
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 5 Essence
+  cost_amount: 5
+  cost_resource: Essence
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Test of Rain
+  file_dpath: Abilities/Elementalist/1st-Level Features
+  flavor: You call down a rain that burns your enemies and restores your allies.
+  item_id: test-of-rain-5-essence
+  item_index: "15"
+  item_name: Test of Rain (5 Essence)
+  keywords:
+    - Area
+    - Green
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:test-of-rain
+  scdc:
+    - 1.1.1:11.3.9.1:15
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    tier1: 4 acid damage
+    tier2: 6 acid damage
+    tier3: 10 acid damage
+  - name: Effect
+    effect: You can end one effect on yourself that is ended by a saving throw or
+      that ends at the end of your turn. Each ally in the area also gains this
+      benefit.
+```

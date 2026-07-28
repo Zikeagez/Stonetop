@@ -1,0 +1,1 @@
+ **Strength (STR):** your physical power and your ability to use it. Roll +STR to Clash, or to Defy Danger with raw might or power.

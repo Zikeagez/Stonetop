@@ -1,0 +1,23 @@
+{
+  "version": "1.10.0",
+  "limitHeadingFrom": 1,
+  "overrideTab": false,
+  "styleToRemove": {
+    "beginning": {
+      "ul": true,
+      "ol": true,
+      "userDefined": []
+    },
+    "surrounding": {
+      "bold": false,
+      "italic": false,
+      "userDefined": []
+    }
+  },
+  "list": {
+    "childrenBehavior": "outdent to zero"
+  },
+  "editor": {
+    "tabSize": 4
+  }
+}

@@ -1,0 +1,97 @@
+---
+agility: 1
+ancestry:
+- Abyssal
+- Gnoll
+ev: '4'
+file_basename: Gnoll Bonesplitter
+file_dpath: Monsters/Gnolls/Statblocks
+free_strike: 3
+intuition: 0
+item_id: gnoll-bonesplitter
+item_index: '06'
+item_name: Gnoll Bonesplitter
+level: 2
+might: 2
+presence: 1
+reason: 0
+roles:
+- Horde Brute
+scc:
+- mcdm.monsters.v1:monster.gnolls.statblock:gnoll-bonesplitter
+scdc:
+- 1.1.1:2.6.1:06
+size: 1L
+source: mcdm.monsters.v1
+speed: 5
+stability: 1
+stamina: '25'
+type: monster/gnolls/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Gnoll Bonesplitter
+level: 2
+roles:
+  - Horde Brute
+ancestry:
+  - Abyssal
+  - Gnoll
+ev: "4"
+stamina: "25"
+speed: 5
+size: 1L
+stability: 1
+free_strike: 3
+might: 2
+agility: 1
+reason: 0
+intuition: 0
+presence: 1
+features:
+  - type: feature
+    feature_type: ability
+    name: Three-Tail Flail
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        tier1: 5 damage; push 2
+        tier2: 6 damage; push 2
+        tier3: 8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab
+          maneuver
+      - name: Effect
+        effect: While the bonesplitter has a target grabbed, they can't use Three-Tail
+          Flail against another target.
+  - type: feature
+    feature_type: ability
+    name: Bonesplitter's Cackletongue
+    icon: ❇️
+    cost: 4 Malice
+    keywords:
+      - Area
+    usage: Maneuver
+    distance: 2 burst
+    target: Self and each ally in the area
+    effects:
+      - name: Effect
+        effect: Up to three targets can make a free strike. If any target hasn't used
+          their own Cackletongue maneuver on this turn, they can use it
+          immediately at no cost.
+  - type: feature
+    feature_type: trait
+    name: Death Frenzy
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 5 squares of the bonesplitter is
+          reduced to 0 Stamina, the bonesplitter moves up to their speed and can
+          make a melee free strike.
+~~~

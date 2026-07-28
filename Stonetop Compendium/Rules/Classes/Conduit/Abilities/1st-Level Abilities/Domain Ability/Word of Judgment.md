@@ -1,0 +1,64 @@
+---
+action_type: Triggered
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Word of Judgment
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: Your holy word saps an attacking enemy's strength.
+item_id: word-of-judgment
+item_index: '16'
+item_name: Word of Judgment
+keywords:
+- Magic
+- Ranged
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-judgment
+scdc:
+- 1.1.1:11.3.8.1:16
+source: mcdm.heroes.v1
+target: One ally
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Word of Judgment
+flavor: Your holy word saps an attacking enemy's strength.
+keywords:
+  - Magic
+  - Ranged
+usage: Triggered
+distance: Ranged 10
+target: One ally
+trigger: The target would take damage from an ability that uses a power roll.
+metadata:
+  action_type: Triggered
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Word of Judgment
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: Your holy word saps an attacking enemy's strength.
+  item_id: word-of-judgment
+  item_index: "16"
+  item_name: Word of Judgment
+  keywords:
+    - Magic
+    - Ranged
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-judgment
+  scdc:
+    - 1.1.1:11.3.8.1:16
+  source: mcdm.heroes.v1
+  target: One ally
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - name: Effect
+    effect: The power roll takes a bane against the target.
+  - cost: Spend 1 Piety
+    effect: The power roll has a double bane against the target.
+```

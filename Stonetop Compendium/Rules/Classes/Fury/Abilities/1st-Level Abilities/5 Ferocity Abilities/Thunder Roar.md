@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: fury
+cost: 5 Ferocity
+cost_amount: 5
+cost_resource: Ferocity
+distance: 5 x 1 line within 1
+feature_type: ability
+file_basename: Thunder Roar
+file_dpath: Abilities/Fury/1st-Level Features
+flavor: You unleash a howl that hurls your enemies back.
+item_id: thunder-roar-5-ferocity
+item_index: 09
+item_name: Thunder Roar (5 Ferocity)
+keywords:
+- Area
+- Melee
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.fury.1st-level-feature:thunder-roar
+scdc:
+- 1.1.1:11.3.5.1:09
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/fury/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Thunder Roar
+cost: 5 Ferocity
+flavor: You unleash a howl that hurls your enemies back.
+keywords:
+  - Area
+  - Melee
+  - Weapon
+usage: Main action
+distance: 5 x 1 line within 1
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 5 Ferocity
+  cost_amount: 5
+  cost_resource: Ferocity
+  distance: 5 x 1 line within 1
+  feature_type: ability
+  file_basename: Thunder Roar
+  file_dpath: Abilities/Fury/1st-Level Features
+  flavor: You unleash a howl that hurls your enemies back.
+  item_id: thunder-roar-5-ferocity
+  item_index: 9
+  item_name: Thunder Roar (5 Ferocity)
+  keywords:
+    - Area
+    - Melee
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:thunder-roar
+  scdc:
+    - 1.1.1:11.3.5.1:09
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/fury/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    tier1: 6 damage; push 2
+    tier2: 9 damage; push 4
+    tier3: 13 damage; push 6
+  - name: Effect
+    effect: The targets are force moved one at a time, starting with the target
+      nearest to you, and can be pushed into other targets in the same line.
+```

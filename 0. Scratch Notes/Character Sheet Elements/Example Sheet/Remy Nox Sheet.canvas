@@ -1,0 +1,94 @@
+{
+	"nodes":[
+		{
+			"id":"1a12d72a267b9cd3",
+			"type":"text",
+			"text":"```ds-counter\nmax_value: 20\ncurrent_value: 0\nmin_value: 0\nname: Victories\nvalue_height: 3\nname_height: 1\n```",
+			"styleAttributes":{},
+			"x":-960,
+			"y":-720,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"e1c2ea4037e349f8",
+			"type":"text",
+			"text":"```ds-counter\nmax_value: 20\ncurrent_value: 7\nmin_value: 0\nname: Insight\nvalue_height: 3\nname_height: 1\n```",
+			"styleAttributes":{},
+			"x":-1240,
+			"y":-720,
+			"width":240,
+			"height":120
+		},
+		{
+			"id":"118b7f1d63c461c7",
+			"type":"text",
+			"text":"~~~ds-values-row\nvalues:\n  - Size: 1\n  - Speed: 8\n  - Stability: 0\nvalue_height: 3\nname_height: 1\n~~~",
+			"styleAttributes":{},
+			"x":-1880,
+			"y":-580,
+			"width":370,
+			"height":120
+		},
+		{
+			"id":"27d99389c2580252",
+			"type":"text",
+			"text":"~~~ds-characteristics\nmight: +2\nagility: +1\nreason: -1\nintuition: +3\npresence: +0\n~~~",
+			"styleAttributes":{},
+			"x":-1480,
+			"y":-580,
+			"width":780,
+			"height":120
+		},
+		{
+			"id":"bc2b04f5c9610f7e",
+			"type":"text",
+			"text":"```ds-stamina\ncollapsible: true\ncollapse_default: false\nmax_stamina: 20\ncurrent_stamina: 20\ntemp_stamina: 0\nheight: 2\nstyle: default\n```",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1900,
+			"y":-460,
+			"width":1240,
+			"height":60
+		},
+		{"id":"a03d92028839e5b6","type":"file","file":"Stonetop Compendium/Rules/Classes/Shadow/Abilities/1st-Level Features/Black Ash/In All This Confusion.md","x":-1880,"y":-380,"width":580,"height":460},
+		{"id":"a65d9ba688b0e580","type":"file","file":"Stonetop Compendium/Rules/Classes/Shadow/Abilities/1st-Level Features/Hesitation Is Weakness.md","x":-1280,"y":-380,"width":580,"height":460},
+		{
+			"id":"11a01acf5dd8cb4b",
+			"type":"text",
+			"text":"~~~ds-skills\nskills:\n  - Heal\n  - Sneak\ncustom_skills:\n  - name: Dance\n    has_skill: true\n    skill_group: Interpersonal\n    description: Moving and groovin' to the beat.\n~~~",
+			"styleAttributes":{},
+			"x":-2280,
+			"y":-380,
+			"width":380,
+			"height":1680
+		},
+		{
+			"id":"cc78763ce1d10718",
+			"type":"text",
+			"text":"![[Image - Remy.webp]]",
+			"styleAttributes":{"border":"invisible","shape":"document"},
+			"x":-2301,
+			"y":-664,
+			"width":423,
+			"height":288
+		},
+		{
+			"id":"8b4724649451e694",
+			"type":"text",
+			"text":"<span style=\"font-size: 32px;\">**Remy Nox**</span>\n*Shadow - College of Black Ash*",
+			"styleAttributes":{
+				"border":"invisible",
+				"shape":null
+			},
+			"x":-1890,
+			"y":-720,
+			"width":380,
+			"height":120
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

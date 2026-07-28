@@ -1,0 +1,72 @@
+---
+ability_type: Signature
+action_type: Main action
+class: conduit
+distance: Ranged 10
+feature_type: ability
+file_basename: Sacrificial Offer
+file_dpath: Abilities/Conduit/1st-Level Features
+flavor: Divine magic tears at your foe and defends a nearby friend.
+item_id: sacrificial-offer
+item_index: '05'
+item_name: Sacrificial Offer
+keywords:
+- Magic
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sacrificial-offer
+scdc:
+- 1.1.1:11.3.8.1:05
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/conduit/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Sacrificial Offer
+flavor: Divine magic tears at your foe and defends a nearby friend.
+keywords:
+  - Magic
+  - Ranged
+  - Strike
+usage: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  ability_type: Signature
+  action_type: Main action
+  class: conduit
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Sacrificial Offer
+  file_dpath: Abilities/Conduit/1st-Level Features
+  flavor: Divine magic tears at your foe and defends a nearby friend.
+  item_id: sacrificial-offer
+  item_index: "05"
+  item_name: Sacrificial Offer
+  keywords:
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sacrificial-offer
+  scdc:
+    - 1.1.1:11.3.8.1:05
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/conduit/1st-level-feature
+effects:
+  - roll: Power Roll + Intuition
+    tier1: 2 + I corruption damage
+    tier2: 4 + I corruption damage
+    tier3: 6 + I corruption damage
+  - name: Effect
+    effect: Choose yourself or one ally within distance. That character can impose a
+      bane on one power roll made against them before the end of their next
+      turn.
+```

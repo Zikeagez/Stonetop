@@ -1,0 +1,69 @@
+---
+action_type: feature
+class: troubadour
+feature_type: subtrait
+file_basename: Dramatic Monologue
+file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+item_id: dramatic-monologue
+item_index: '05'
+item_name: Dramatic Monologue
+level: 1
+scc:
+- mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:dramatic-monologue
+scdc:
+- 1.1.1:11.2.3.8:05
+source: mcdm.heroes.v1
+type: feature/subtrait/troubadour/1st-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: trait
+name: Dramatic Monologue
+metadata:
+  action_type: feature
+  class: troubadour
+  feature_type: subtrait
+  file_basename: Dramatic Monologue
+  file_dpath: Features/Troubadour/1st-Level Features/1st-Level Class Act Features
+  item_id: dramatic-monologue
+  item_index: "05"
+  item_name: Dramatic Monologue
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:dramatic-monologue
+  scdc:
+    - 1.1.1:11.2.3.8:05
+  source: mcdm.heroes.v1
+  type: feature/subtrait/troubadour/1st-level-feature
+effects:
+  - effect: You have the following ability.
+    features:
+      - type: feature
+        feature_type: ability
+        name: Dramatic Monologue
+        flavor: It doesn't need to make sense. Just say it with emotion.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: Special
+        effects:
+          - name: Effect
+            effect: >-
+              Choose one of the following effects:
+
+              - You orate a rousing tale of victory. One ally within distance
+              gains an edge on the next power roll they make before the start of
+              your next turn.
+
+              - You weave a tale of high-stakes heroics. One ally within
+              distance gains 1 surge.
+
+              - You insult a foe where they're most vulnerable. One enemy within
+              distance takes a bane on the next power roll they make before the
+              end of their next turn.
+          - cost: Spend 1 Drama
+            effect: You can choose two targets for the chosen effect.
+```

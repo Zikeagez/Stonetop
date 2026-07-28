@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: 'null'
+cost: 5 Discipline
+cost_amount: 5
+cost_resource: Discipline
+distance: 3 cube within 1
+feature_type: ability
+file_basename: Entropic Field
+file_dpath: Abilities/Null/2nd-Level Features
+flavor: You drastically increase the local entropy.
+item_id: entropic-field-5-discipline
+item_index: '02'
+item_name: Entropic Field (5 Discipline)
+keywords:
+- Area
+- Psionic
+- Weapon
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field
+scdc:
+- 1.1.1:11.3.6.5:02
+source: mcdm.heroes.v1
+subclass: Cryokinetic
+target: Each enemy in the area
+type: feature/ability/null/2nd-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Entropic Field
+cost: 5 Discipline
+flavor: You drastically increase the local entropy.
+keywords:
+  - Area
+  - Psionic
+  - Weapon
+usage: Main action
+distance: 3 cube within 1
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 5 Discipline
+  cost_amount: 5
+  cost_resource: Discipline
+  distance: 3 cube within 1
+  feature_type: ability
+  file_basename: Entropic Field
+  file_dpath: Abilities/Null/2nd-Level Features
+  flavor: You drastically increase the local entropy.
+  item_id: entropic-field-5-discipline
+  item_index: "02"
+  item_name: Entropic Field (5 Discipline)
+  keywords:
+    - Area
+    - Psionic
+    - Weapon
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field
+  scdc:
+    - 1.1.1:11.3.6.5:02
+  source: mcdm.heroes.v1
+  subclass: Cryokinetic
+  target: Each enemy in the area
+  type: feature/ability/null/2nd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 6 cold damage; A < WEAK, slowed (save ends)
+    tier2: 9 cold damage; A < AVERAGE, slowed (save ends)
+    tier3: 13 cold damage; A < STRONG, slowed (save ends)
+```

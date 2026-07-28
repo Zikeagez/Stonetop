@@ -1,0 +1,78 @@
+.mb-button.button-74 > button {
+  background-color: #c;
+  border: 2px solid #6721a9;
+  border-radius: 30px;
+  box-shadow: #6721a9 4px 4px 0 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 18px;
+  line-height: 0px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mb-button.button-74 > button:hover {
+  background-color: #76726A;
+}
+
+.mb-button.button-74 > button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .mb-button.button-74 > button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.mb-button.button1 > button {
+  background-color: initial;
+background-image: linear-gradient(-180deg, #6721a9, #1d0a2e);
+
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+}
+
+.mb-button.button1 > button:hover {
+  box-shadow: rgba(255, 255, 255, 0.5) 0 3px 8px;
+  
+  
+}

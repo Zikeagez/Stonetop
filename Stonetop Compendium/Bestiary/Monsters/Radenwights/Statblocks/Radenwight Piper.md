@@ -1,0 +1,112 @@
+---
+agility: 0
+ancestry:
+- Humanoid
+- Radenwight
+ev: '6'
+file_basename: Radenwight Piper
+file_dpath: Monsters/Radenwights/Statblocks
+free_strike: 3
+intuition: 2
+item_id: radenwight-piper
+item_index: '02'
+item_name: Radenwight Piper
+level: 1
+might: 0
+presence: 1
+reason: 0
+roles:
+- Platoon Support
+scc:
+- mcdm.monsters.v1:monster.radenwights.statblock:radenwight-piper
+scdc:
+- 1.1.1:2.19.1:02
+size: 1S
+source: mcdm.monsters.v1
+speed: 5
+stability: 0
+stamina: '30'
+type: monster/radenwights/statblock
+---
+
+~~~ds-statblock
+type: statblock
+name: Radenwight Piper
+level: 1
+roles:
+  - Platoon Support
+ancestry:
+  - Humanoid
+  - Radenwight
+ev: "6"
+stamina: "30"
+speed: 5
+movement: Climb
+size: 1S
+stability: 0
+free_strike: 3
+might: 0
+agility: 0
+reason: 0
+intuition: 2
+presence: 1
+features:
+  - type: feature
+    feature_type: ability
+    name: Piercing Trill
+    icon: ⚔️
+    ability_type: Signature Ability
+    keywords:
+      - Magic
+      - Melee
+      - Ranged
+      - Strike
+    usage: Main action
+    distance: Melee 1 or ranged 10
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        tier1: 5 sonic damage; push 1
+        tier2: 7 sonic damage; push 3
+        tier3: 9 sonic damage; push 4
+      - name: Effect
+        effect: The piper or one ally within distance regains Stamina equal to the
+          damage dealt.
+  - type: feature
+    feature_type: ability
+    name: Vivace Vivace!
+    icon: ❇️
+    keywords:
+      - Area
+      - Magic
+    usage: Maneuver
+    distance: 3 burst
+    target: Each ally in the area
+    effects:
+      - name: Effect
+        effect: Each target who has used their Ready Rodent ability this round regains
+          the use of their triggered action.
+      - cost: 2 Malice
+        effect: The area increases to a 6 burst.
+  - type: feature
+    feature_type: ability
+    name: Ready Rodent
+    icon: ❗️
+    keywords:
+      - Melee
+      - Weapon
+    usage: Triggered action
+    distance: Melee 1
+    target: One creature
+    trigger: An ally deals damage to the target.
+    effects:
+      - name: Effect
+        effect: The piper makes a free strike against the target.
+  - type: feature
+    feature_type: trait
+    name: Musical Suggestion
+    icon: ⭐️
+    effects:
+      - effect: At the end of the piper's turn, they can slide one adjacent creature up
+          to 2 squares, ignoring stability.
+~~~

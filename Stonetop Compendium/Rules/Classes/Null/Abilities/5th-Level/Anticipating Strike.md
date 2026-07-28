@@ -1,0 +1,79 @@
+---
+action_type: Free triggered
+class: 'null'
+cost: 9 Discipline
+cost_amount: 9
+cost_resource: Discipline
+distance: Melee 1
+feature_type: ability
+file_basename: Anticipating Strike
+file_dpath: Abilities/Null/5th-Level Features
+flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
+item_id: anticipating-strike-9-discipline
+item_index: '01'
+item_name: Anticipating Strike (9 Discipline)
+keywords:
+- Melee
+- Psionic
+- Strike
+- Weapon
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike
+scdc:
+- 1.1.1:11.3.6.4:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/null/5th-level-feature
+---
+
+```ds-feature
+type: feature
+feature_type: ability
+name: Anticipating Strike
+cost: 9 Discipline
+flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+usage: Free triggered
+distance: Melee 1
+target: One creature
+trigger: The target moves or uses a main action.
+metadata:
+  action_type: Free triggered
+  class: "null"
+  cost: 9 Discipline
+  cost_amount: 9
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Anticipating Strike
+  file_dpath: Abilities/Null/5th-Level Features
+  flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
+  item_id: anticipating-strike-9-discipline
+  item_index: "01"
+  item_name: Anticipating Strike (9 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike
+  scdc:
+    - 1.1.1:11.3.6.4:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/null/5th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    tier1: 7 + A damage; I < WEAK, restrained (save ends)
+    tier2: 10 + A damage; I < AVERAGE, restrained (save ends)
+    tier3: 13 + A damage; I < STRONG, restrained (save ends)
+  - name: Effect
+    effect: This strike resolves before the triggering movement or main action.
+```

@@ -1,0 +1,10 @@
+{
+  "acknowledgedWebUse": true,
+  "includeObsidianHelp": true,
+  "obsidianHelpUrl": "https://help.obsidian.md",
+  "includeObsidianDevHelp": true,
+  "obsidianDevHelpUrl": "https://docs.obsidian.md/Home",
+  "includeHelpMateHelp": true,
+  "userResources": "Initiative Tracker|https://plugins.javalent.com/it\nMusic|https://sync-tube.de/room/afISD-ja\nDark Sun Timeline|https://athas.org/events",
+  "forceIframe": false
+}
