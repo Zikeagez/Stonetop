@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. The Party/Travel Calculator.md",
+                "file": "0. Dashboard/0. Dashboard.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Travel Calculator"
+              "title": "0. Dashboard"
+            }
+          },
+          {
+            "id": "9891b7dc9b395253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Dashboard/0. Dashboard.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "0. Dashboard"
+            }
+          },
+          {
+            "id": "106be013ec550e3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Dashboard/0. Dashboard.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "0. Dashboard"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,10 +256,25 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "8ff18bc6400dac8d",
+  "active": "106be013ec550e3d",
   "lastOpenFiles": [
-    "0. The Party/Reyson.md",
+    "0. Session Journals/Session X.md",
+    "0. Dashboard/0. Dashboard.md",
+    "2. Mechanics/Classes/Magus.md",
+    "2. Mechanics/Classes",
+    "2. Mechanics/Guides/When and What Gear Do I Buy.md",
+    "2. Mechanics/Guides",
+    "2. Mechanics/Basics/Leveling Up.md",
+    "2. Mechanics/Basics/Character Creation.md",
+    "2. Mechanics/Basics",
+    "0. Dm Screen/Conditions Table.md",
+    "0. Dm Screen/Weapon Traits and Effects Kanban.md",
+    "0. Dm Screen/All Actions Table.md",
+    "0. Dm Screen/Skill Actions Board.md",
+    "0. Dm Screen/DM Mechanics Board.md",
+    "0. Dm Screen/DM Screen someone else posted.md",
     "0. The Party/Travel Calculator.md",
+    "0. The Party/Reyson.md",
     "0. The Party/Party Configuration.md",
     "0. The Party/Warden of Iron/Leilatha.md",
     "0. The Party/Warden of Iron/Luceran.md",
@@ -243,21 +287,9 @@
     "0. Scratch Notes/Stone Top To do.md",
     "0. Scratch Notes/Character Ideas.md",
     "0. Scratch Notes/Character Sheet Elements/Stamina Bar.md",
-    "0. Scratch Notes/Character Sheet Elements/Skills Element.md",
-    "0. Scratch Notes/Character Sheet Elements/Counter Element.md",
-    "0. Scratch Notes/Character Sheet Elements/Characteristics Element.md",
     "0. Scratch Notes/Bases/Session Journal Base.base",
     "0. Scratch Notes/Bases/Party View.base",
     "0. Scratch Notes/Bases/1. Base File Example.base",
-    "0. Scratch Notes/Bases/2. Example Embedded Basefile.md",
-    "0. Scratch Notes/Bases/3. Another Example.md",
-    "0. Dm Screen/DM Screen someone else posted.md",
-    "0. Dm Screen/DM Mechanics Board.md",
-    "0. Dm Screen/DM Note Generation.md",
-    "0. Dm Screen/Conditions Table.md",
-    "0. Dm Screen/Actions and Conditions.md",
-    "0. Dm Screen/Actions/Actions.md",
-    "0. Dashboard/Varkhesh Actions.md",
     "z_Assets/image-2.webp",
     "z_Assets/image-1.webp",
     "z_Assets/image.webp",
@@ -270,11 +302,8 @@
     "z_Assets/Images/Image - roll example.webp",
     "Stonetop Compendium/Moves",
     "Markwhen/Markwhen 7-27-2026 12.33.20.mw",
-    "Markwhen",
-    "z_Templates/Bases - Recently Modified Template Content.base",
     "z_Assets/Images/Image - Getting Started.webp",
     "z_Assets/Images/Image - The Would Be Hero Icon.webp",
-    "Stonetop Compendium/Glossary",
     "DS Compendium/Rules/Ancestries/Polder/Untitled.canvas",
     "0. Scratch Notes/Character Sheet Elements/Example Sheet/Remy Nox Sheet.canvas",
     "0. Scratch Notes/Character Sheet Elements/Untitled.canvas"
