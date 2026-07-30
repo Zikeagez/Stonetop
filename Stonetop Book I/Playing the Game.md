@@ -153,7 +153,7 @@ Whatever the results of a move, work together to **figure out what it looks like
 title: 
 color: 200, 200, 200
 collapse: open
-You and your fellow Pcs have entered the cave bears' den, hoping to harvest some much-needed meat during a long, hard winter. You're playing Caradoc (the Would-be Hero).
+You and your fellow PCs have entered the cave bears' den, hoping to harvest some much-needed meat during a long, hard winter. You're playing Caradoc (the Would-be Hero).
 
 "Caradoc," says the GM, "your eyes are adjusting to the gloom when you hear snuffling, and the sound of something moving, something big. At the edge of the light, a huge form rears up and ROARS. It's a bear, what do you do?"
 
@@ -623,22 +623,357 @@ Meet the requirements, and you unlock its mysteries. You gain whatever move and/
 
 You can share a minor arcanum with another PC or even an NPC, as long as it makes sense to do so. Work with the GM to identify how the requirements change for them unlocking the arcanum's mysteries.
 
+![[image.webp|left|200]]For example, if you mastered Laoj Davith's Galvanic Infusion (using up both of the aetherium ingots in the process) and gave the old scroll case to another PC, then...
 
+... they'd need to acquire a couple pieces of aetherium before trying to unlock its mysteries themsevles;
+... you might **Aid** (page 212) them by sharing your notes and coaching them, granting advantage when they Defy Danger to avoid the risk; and/or...
+... they might need only a few days of dedicated study, rather than a few weeks, as long as you show them the ropes.
 
+If they complete all the requirements, then they can cast Laoj Davith's Galvanic Infusion, too!
 
+Remember, though, that every arcanum is different. A magic spear that you bind to yourself with blood and fire isn't as easily shared as a spell written on a scroll.
 
+<br><br><br><br><br><br><br>
 
+## Major Arcana
+Each major arcanum is represented by a half-page insert. They are generally more potent than minor arcana, with the potential to provide multiple moves and powers. But they are also much more dangerous, and using their powers come at the risk of ever-greater consequences.
 
+Opposite and on the page following is "Noruba's Ice Sphere," an example of a major arcanum insert, included here for reference.
 
+### Front side
+The front side of each major arcanum shows what you can tell about it at first glance or with a bit of study.
 
+Most major arcana provide a move or some other mechanical benefit, even before you unlock their mysteries.
 
+The front of a major arcanum also says how to unlock its mysteries. This might involve meeting requirements (as with minor arcana) or using the arcanum's move(s) and getting certain results. Each major arcanum works differently.
 
+### Mysteries
+The back of each major arcanum shows its mysteries: additional moves or options that the arcanum can provide.
 
+When you unlock a major arcanum's mysteries, you get access to one or more of these moves or options (the front side will tell you which). You might be able to gain more, as detailed on the major arcanum itself.
 
+### Consequences
+![[Image - Noruba's Ice Sphere1.webp|left|400]]
+![[Image - Noruba's Ice Sphere2.webp|center|400]]
+The back of each major arcanum also lists its potential consequences. You mark a consequence when a move tells you to, or when you roll a 6- on a move and the GM tells you to mark one.
 
+You get to pick which consequence you mark. Whatever that consequence says, it happens. Don't mark a "nested" or indented consequence under which it is nested; beyond that restriction, you can mark them in any order. You'll probably want to start with the ones near the top, though.
 
+Consequences can be marked only once (or in a few cases, once per check box). There's no standard way to uncheck a consequence; they're a limited resource. Each time you mark a consequence, you must mark an empty checkbox.
+
+What happens if you mark all the consequences? That depends on the arcanum. Some include a consequence that has the object break or vanish, which makes the question moot. Others require you to mark a consequence in order to use one or more moves; and if you can't mark a consequence, you can't use such a move. But if an arcanum says to mark a consequence as a result of one of its moves, and you've already marked them all, then you and your group have to decide what happens. Maybe the item is safer to use now, since you can't suffer any more consequences. Or maybe the GM gets to make something up, on par with the consequences that we've already seen in play. Decide together, case by case.
+
+### Sharing Major Arcana
+You can share a major arcanum with another PC or even an NPC, as long as it makes sense to do so. In general:
+
+- Each character must unlock the mysteries of the major arcanum on their own.
+- Each character tracks their own consequences separately, which means that each of you can suffer the same consequence(s)
+
+With that said, each major arcanum is different and there will be exceptions. Talk it over with the GM and the other players to determine what makes sense.
+
+If you and another PC share a major arcanum over any extended period, you should probably each have your own copy of the insert to track your own progress, mysteries, and consequences. Just be clear on who is actually wielding the arcanum at any given time.
 # Followers
+A follower is a non-player character (NPC) who takes orders from you and generally follows your lead.
+
+Followers are NPCs, meaning the GM is ultimately responsible for what they do and say, but ...
+
+... they'll generally do as you say;
+... they can accumulate **Loyalty** (see below), which makes them easier to lead and manage; and
+... when you direct them to act, they can trigger moves on your behalf.
+
+Here's how you can get followers: 
+
+- The Marshal starts with a crew of followers, automatically. Track them on your Crew insert.
+- The Blessed starts with followers if you take the Initiate background. Track them on the Initiates of Danu insert.
+- The Ranger starts with a follower if you take the Beast-bonded background or the Animal Companion move. Track them on the Animal Companion insert.
+- You might pick one or more dogs as a Special Possession, who act as followers. Track them on the back of the standard Inventory insert.
+- The Seeker might start with an unlocked minor arcanum that acts as a follower. If so, track it on the arcanum card itself.
+- Any PC can gain followers over the course of play.
+
+Followers have the following stats:
+
+- **Tags** (like *warrior, stubborn, or tall*) that describe the follower; when you **Order Followers** (page 462), their tags affect what you roll.
+- **Damage, hit points, and armor** (page 53), which work the same for followers as they do for PCs.
+- An **instinct,** which describes how they tend to cause trouble for you.
+- **GM moves,** written as things that they can/will do (like "➤ Sniff out trouble on the wind"); not every follower has these.
+- A **cost**, which describes what keeps them following your lead.
+
+When you pay a follower's cost, they hold Loyalty towards you. You can then spend that Loyalty to have them overcome their fear, resist their instinct or tags, or do something they don't want to do (within reason). See **Strengthen Your Bond** (page 464) for details.
+
+A follower with the *group* tag represents multiple individuals who share stats and often act as one. Members of a group have the same tags, max HP, armor, damage, instinct, GM moves, and cost. They share a pool of Loyalty but each has their own current HP.
+
+You can direct a *group* follower to act as a unit, or give orders to individual members. When an individual member stands out, you or the GM might assign a tag or two just for them. For example, if you're the Marshal, everyone in your crew might have the *archer, observant, stealthy, and respected* tags, but your lieutenant Eira might also be *cynical.*
+
 # Your home
+
+
+Every PC lives in or near the village of Stonetop, it's the focal point of play.
+
+The village itself has its own playbook, a living document that changes as you play. Stonetop's **steading playbook** is reproduced starting on page 153.
+
+- The steading's size, stats, and current debilities
+- Its current Surplus
+- Its resources, fortifications, etc.
+- The places of interest in the village
+- Improvements that you're working on, and those that you've completed
+- The village's communal assets
+- A place to record important NPCs
+- Maps of the vicinity and the region
+## Size
+Size reflects the scale of the steading's infrastructure, its baseline population. The possible values for Size are:
+
+- hamlet (<50 people)
+- village (150-350 people)
+- town (500-1500 people)
+- city (2500+ people)
+
+Size affects how much **Surplus** (page 67) is consumed each winter. If the steading becomes a *town,*
+you'll have advantage to **Muster** (page 82), **Pull Together** (page 83), and **Trade & Barter** (page 83). If it becomes a *hamlet*, you'll have disadvantage on those moves.
+
+Stonetop starts as a *village*, home to about 300 souls. If things go poorly, it could shrink and become a *hamlet.* If you complete enough **steading improvements** (page 68), it can become a *town*.
+
+```ad-tip
+title: Content
+collapse: open
+icon: leaf
+At the beginning of your first session, you and the rest of the group will have a discussion about content. In particular, you'll have a chance to establish:
+
+- **Excluded content,** that won't be part of the game at all (on-camera or off)
+- **Veiled content**, that can be part of the game (but only off-camera)
+- **Special requests** for how certain cnotent gets handled (like, "spiders are okay, but please don't describe their legs" or "Let's say that gender norms in Stonetop are super fluid and accepting").
+  
+Record these content guidelines on the second page of the steading playbook. Review the guidelines at the start of each session. Call "time out" any time you realize that these guidelines have been broken or ignored, or if you feel that you need to add to or modify these guidelines.
+```
+
+## Steading Stats
+Stonetop has four stats, each of which ranges from -1 to +3. The four steading stats are:
+
+- **Fortunes:** morale, social cohesion, and just "how it's going." Roll +Fortunes when Seasons Change to see what happens in the coming months, or when you Requisition one of the village's assets.
+- **Population:** the number of able bodies in town, relative to its Size. Population is a double-edged sword; add it to rolls to Muster or Pull Together, but also add it to the amount of Surplus consumed each winter.
+- **Prosperity:** the quality and variety of services and household goods, tools and weapons, finery and little luxuries. Roll +Prosperity to Trade & Barter, and add it to the number of uses you get from supplies, the HP you regain when you Recover, and the piercing value of your iron weapons.
+- **Defenses:** the martial prowess and readiness of the steading; how well-trained and well-armed the inhabitants are. Roll +Defenses to Deploy.
+
+Fortunes start at +1 and change frequently during play. The other three stats start at +0. Population changes in response to the **Seasons Change** (page 84) and **Meet with Disaster** (page 82) moves. Prosperity and Defenses increase if you complete certain **improvements** (page 68), and decrease if you lose key resources in play.
+
+## Debilities
+During play, your steading can suffer debilities much like your PC can (page 52). There are three steading debilities:
+
+- ***Diminished***, by injury, sickness, doubt. Take disadvantage to **Deploy** (page 81), **Muster** (page 82), or **Pull Together** (page 83).
+- ***Lacking,*** due to shortages, hoarding, distrust. Treat Prosperity as if it's 1 lower than it is.
+- ***Malcontent,*** from fear, anger, and/or despair. Fortunes reset to +0 each season, instead of +1 (page 84), and folks need Persuading more often than usual.
+  
+  There's a space on the steading playbook to mark each debility.
+  
+  Debilities both reflect the fiction and dictate it. If something happens that results in the village's capacity being reduced by injury, sickness, or doubt, you'll mark *diminished* to reflect that. If you mark *diminished* because a move tells you to, then that means injury, sickness, and/or doubt plague the steading.
+  
+  Steading debilities last until a move like **Return Triumphant** (page 79) says to clear them, or until the GM tells you to.
+## Surplus
+Surplus represents food in the granary and in household larders, livestock ready to slaughter, whisky that's ready to drink, fur that's ready to trade or be fashioned into garments. It's a resource that you accumulate, consume, and spend.
+
+At the start of play, Stonetop holds 1 Surplus; there's no upper limit. The village generates Surplus each summer and autumn, and consumes Surplus each winter. You can gain more Surplus through trade, by going on an expedition to hunt big game, or as a good result when **Seasons Change** (page 84). You can spend Surplus to trade for other assets or have folks **Pull Together** (page 83) on a project.
+
+## Resources & Fortifications
+Next to the steading's Prosperity, you'll see a list of resources (farming, hunting/trapping, stone from the Old Wall, etc.).
+
+Next to the steading's Defense, you'll see a list of fortifications and other elements that help keep the village safe (the village militia, the Ringwall, etc.)
+
+As you establish new resources, fortifications, or other defensive elements, you'll add them here. Should the village lose these resources temporarily, it will suffer debilities. Should it lose them permanently, its Prosperity and/or Defenses will go down.
+
+## Places of interest
+The steading playbook includes a map of the village, noting key places like the Stone itself, the granary, the public house, and so forth.
+
+As part of introducing your PCs, you'll add their homes to this map. You'll also add any additional places of interest, such as the Chronicle (if someone plays the Judge) and the homes of notable NPCs.
+
+## Steading improvements
+The steading playbook includes a number of potential **improvements** (page 156) that you can pursue. There are also spots for new improvements, which the GM might reveal to you in play.
+
+Each steading improvement has a list of requirements, which you can complete in whatever order makes sense. You don't have to go in order unless an improvement specifically says you do.
+
+Once you meet all the requirements for an improvement, the steading gains the listed benefit(s). Some improvements increase steading stats (like Fortunes, Prosperity, or Defenses). Some provide new moves. Some do both.
+
+Some improvements incur ongoing costs. For example, the Weapons of War improvement requires 1 Surplus every spring to maintain. If you fail to pay that cost, you lose the improvement. **Make a Plan** (page 81) with the GM if you want to get it back.
+
+the GM can threaten or harm steading improvements the same way they can threaten anything else you care about. If you don't do something to save it, it will be lost and you'll lose its benefits. Again **Make a Plan** (page 81) if you want to get it back.
+
+## Assets
+After the improvements, the steading playbook has a section for recording **assets** (page 161) that are owned by the residents of Stonetop in common: a pair of draft horses, a couple iron plows, a couple carts, a horse-drawn wagon, and anything else the village gains in play.
+
+This section also includes boxes in which to record any silver or gold coins. These start blank, but should you acquire coins during play and turn them over to the village as a whole, you'd record them here. See page 93 for more on **coins.**
+
+If you want to take any of these assets on an expedition, you must first **Requisition** them (page 77).
+
+## NPCs
+Finally, the steading playbook has places to record notable non-player characters (NPCs). There's a section for **Residents of Stonetop** (page 162), and one for **Notable neighbors of Stonetop** (page 164).
+
+Each time you establish a new NPC (during character introductions or in the course of play), give them a name and note their pronouns. Pick a name from the appropriate list in the steading playbook, or pick an unused name from the front of your playbook.
+
+Note each NPC's occupation, and give each a notable, memorable trait. Pick one of the **NPC traits** (page 163) from the steading playbook, or make one up.
+
+Also note any relationships that are important to understanding the NPC, like "Nolwen's sister" or "Urgben's mother (hates Trystan)."
+
+```ad-warning
+title: Other ways to track NPCs
+collapse: open
+icon: lucide-book-open
+A game of **Stonetop* can easily involve dozens of NPCs, and space on the steading playbook is limited. Your group might opt to use a digital tool for tracking NPCs, such as:
+
+- A relationship map, to visually organize PCs, NPCs, and their relationships.
+- A matrix or spreadsheet with a row for each PC or NPC, and columns for traits and relations.
+- A wiki or database with an entry for each PC or NPC and links between them all to record relationships.
+```
+
+
+
+
 # The moves
+The following moves are available to all PCs. They're organized based on the context in which they apply.
+
+remember, if a move calls for a roll and doesn't say what happens on a 6-, **mark XP** (page 53) **and prepare for the worst.**
+
+## Basic Moves
+These are the most commonly triggered moves, the ones that can come up in many different contexts.
+
+---
+
+![[Aid]]
+
+---
+
+![[Clash]]
+
+---
+
+![[Defend]]
+
+---
+
+![[Defy Danger]]
+
+---
+
+![[Interfere]]
+
+---
+
+![[Know Things]]
+
+---
+
+![[Let Fly]]
+
+---
+
+![[Persuade (vs. NPCs)]]
+
+---
+
+![[Persuade (vs. PCs)]]
+
+---
+
+![[Seek Insight]]
+
+## Special Moves
+
+These moves are always in play, but they either affect other moves or are triggered by very specific circumstances.
+
+---
+
+![[Advantage - Disadvantage]]
+
+---
+
+![[Burn Brightly]]
+
+---
+
+![[End of Session]]
+
+---
+
+![[Death's Door]]
+
+## Follower Moves
+
+These moves apply when you interact with your **followers** (page 64).
+
+---
+
+![[Order Followers]]
+
+---
+
+![[Strengthen Your Bond]]
+
+## Expedition Moves
+These moves apply when you prepare for, undertake, or return from an expedition.
+
+---
+
+![[Chart a Course]]
+
+---
+
+![[Outfit]]
+
+---
+
+![[Requisition]]
+
+---
+
+![[Make Camp]]
+
+---
+
+![[Forage]]
+
+---
+
+![[Return Triumphant]]
+
+## Homefront Moves
+These moves apply during downtime, or when you're interacting with a steading's population and resources.
+
+---
+
+![[Bolster]]
+
+---
+
+![[Convalesce]]
+
+---
+
+![[Level Up]]
+
+---
+
+![[Make a Plan]]
+
+---
+
+![[Meet with Disaster]]
+
+---
+
+![[Muster]]
+
+---
+
+![[Pull Together]]
+
+---
+
+![[Trade & Barter]]
+
+---
+
+
+
+
+
+
+
 # Gear and possessions
 # If you want to...

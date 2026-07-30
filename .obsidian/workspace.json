@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ff18bc6400dac8d",
+            "id": "ddb7ef2830455cf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,35 +22,43 @@
             }
           },
           {
-            "id": "9891b7dc9b395253",
+            "id": "80c0a5bfacc6e1b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "0. Dashboard/0. Dashboard.md",
-                "mode": "preview",
-                "source": true
+                "file": "0. Dm Screen/Moves Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "0. Dashboard"
+              "icon": "lucide-trello",
+              "title": "Moves Kanban"
             }
           },
           {
-            "id": "106be013ec550e3d",
+            "id": "50c913d156eb1764",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Dashboard/0. Dashboard.md",
+                "file": "Stonetop Book I/Playing the Game.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "0. Dashboard"
+              "title": "Playing the Game"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 237.5
   },
   "right": {
     "id": "0d0b189d29a8932a",
@@ -256,54 +264,54 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "106be013ec550e3d",
+  "active": "80c0a5bfacc6e1b2",
   "lastOpenFiles": [
-    "0. Session Journals/Session X.md",
     "0. Dashboard/0. Dashboard.md",
-    "2. Mechanics/Classes/Magus.md",
-    "2. Mechanics/Classes",
-    "2. Mechanics/Guides/When and What Gear Do I Buy.md",
-    "2. Mechanics/Guides",
-    "2. Mechanics/Basics/Leveling Up.md",
-    "2. Mechanics/Basics/Character Creation.md",
-    "2. Mechanics/Basics",
-    "0. Dm Screen/Conditions Table.md",
-    "0. Dm Screen/Weapon Traits and Effects Kanban.md",
-    "0. Dm Screen/All Actions Table.md",
+    "0. Dm Screen/0. Dm Screen.md",
+    "Stonetop Compendium/Rules/Moves/Seasons Change/Seasonal Gains.md",
+    "Stonetop Book I/Playing the Game.md",
+    "0. Dm Screen/Moves Kanban.md",
+    "Stonetop Compendium/Rules/Moves/Seasons Change/Seasons Change.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter.md",
+    "Stonetop Compendium/Rules/Moves/Seasons Change",
+    "z_Assets/Images/Image - Winter Icon.webp",
+    "z_Assets/Images/Image - Autumn Icon.webp",
+    "z_Assets/Images/Image - Summer Icon.webp",
+    "z_Assets/Images/Image - Spring Icon.webp",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Homefront Moves.md",
+    "Stonetop Compendium/Rules/Moves/Follower Moves/Follower Moves.md",
+    "Stonetop Compendium/Rules/Moves/Follower Moves/Strengthen Your Bond.md",
+    "Stonetop Compendium/Rules/Moves/Special Moves/Advantage - Disadvantage.md",
+    "Stonetop Compendium/Rules/Moves/Basic Moves/Basic Moves.md",
+    "Stonetop Compendium/Rules/Moves/Special Moves/Special Moves.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Outfit.md",
+    "Stonetop Compendium/Rules/Moves/Moves.md",
     "0. Dm Screen/Skill Actions Board.md",
-    "0. Dm Screen/DM Mechanics Board.md",
-    "0. Dm Screen/DM Screen someone else posted.md",
-    "0. The Party/Travel Calculator.md",
-    "0. The Party/Reyson.md",
-    "0. The Party/Party Configuration.md",
-    "0. The Party/Warden of Iron/Leilatha.md",
-    "0. The Party/Warden of Iron/Luceran.md",
-    "0. The Party/Warden of Iron/Vharkesh.md",
-    "0. The Party/Warden of Iron/Warden of Iron.md",
-    "0. Session Journals/Warden of Iron/NPC Chart - Iron Warden.md",
-    "0. Session Journals/Cloud Empress/Session 1 11-12-25.md",
-    "0. Scratch Notes/Terms for Glossary.md",
-    "0. Scratch Notes/New Dashboard WIP.md",
-    "0. Scratch Notes/Stone Top To do.md",
-    "0. Scratch Notes/Character Ideas.md",
-    "0. Scratch Notes/Character Sheet Elements/Stamina Bar.md",
-    "0. Scratch Notes/Bases/Session Journal Base.base",
-    "0. Scratch Notes/Bases/Party View.base",
-    "0. Scratch Notes/Bases/1. Base File Example.base",
-    "z_Assets/image-2.webp",
-    "z_Assets/image-1.webp",
+    "0. Dm Screen/All Actions Table.md",
+    "Stonetop Compendium/Rules/Moves/Untitled.base",
+    "Stonetop Compendium/Rules/Moves/Basic Moves/Clash.md",
+    "Stonetop Compendium/Rules/Moves/Follower Moves/Order Followers.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Chart a Course.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Bolster.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Level Up.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves",
+    "Stonetop Compendium/Rules/Moves/Follower Moves",
+    "Stonetop Compendium/Rules/Moves/Special Moves",
+    "Stonetop Compendium/Rules/Moves/Basic Moves",
+    "z_Templates/Stonetop Organization",
+    "Stonetop Compendium/Rules/Moves",
+    "0. Musics/Campaign Begins",
+    "z_Assets/Images/Image - Noruba's Ice Sphere2.webp",
+    "z_Assets/Images/Image - Noruba's Ice Sphere1.webp",
     "z_Assets/image.webp",
-    "Stonetop",
+    "z_Assets/image-2.webp",
     "z_Assets/Images/Image - Minor Arcana Example.webp",
     "z_Assets/Images/Image - Mark XP.webp",
-    "Stonetop Compendium/Rules/Conditions/Base/Conditions Base.base",
-    "z_Assets/Images/Image - Disadvantage Example.webp",
-    "z_Assets/Images/Image - Advantage Example.webp",
-    "z_Assets/Images/Image - roll example.webp",
-    "Stonetop Compendium/Moves",
-    "Markwhen/Markwhen 7-27-2026 12.33.20.mw",
-    "z_Assets/Images/Image - Getting Started.webp",
-    "z_Assets/Images/Image - The Would Be Hero Icon.webp",
     "DS Compendium/Rules/Ancestries/Polder/Untitled.canvas",
     "0. Scratch Notes/Character Sheet Elements/Example Sheet/Remy Nox Sheet.canvas",
     "0. Scratch Notes/Character Sheet Elements/Untitled.canvas"

@@ -1,0 +1,1 @@
+These moves apply during downtime, or when you're interacting with a steading's population and resources.

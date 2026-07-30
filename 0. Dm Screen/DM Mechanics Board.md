@@ -72,7 +72,7 @@ kanban-plugin: board
 
 ## ![[RestTravelTitleBar.png]]
 
-- [ ] [[Stonetop Compendium/Rules/Classes/Troubadour/Abilities/1st-Level Features/Acrobatics]]
+- [ ] [[Acrobatics]]
 - [ ] [[0. Dm Screen/Resting & Traveling/Food and Water]]
 - [ ] [[0. Dm Screen/Resting & Traveling/Short Rest]]
 - [ ] [[0. Dm Screen/Resting & Traveling/Long Rest]]
