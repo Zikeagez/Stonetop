@@ -12,6 +12,12 @@ The layout of Stonetop (books I and II) is copyright Jason Lutes 2026, as are th
 
 The "Made by Humans" logo is by Olivier Revenu, who has indicated it is free to use by anyone.
 
+7/31
+
+- Fixed some formatting with moves
+- Added exchange rate to dashboard
+- about 100 pages through Book I @_@
+- purged some leftover Draw Steel stuff.. oops
 
 7/29 - Slowly working through Book I
 - Added Moves Kanban
