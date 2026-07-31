@@ -1,0 +1,1 @@
+The number of able bodies in town, relative to its Size. Population is a double-edged sword; add it to rolls to Muster or Pull Together, but also add it to the amount of Surplus consumed each winter.

@@ -1,0 +1,1 @@
+Embedded PDFs will be found within the vault's directory. If you are playing in person use these files to print hardcopies for play!

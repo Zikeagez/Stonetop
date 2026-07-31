@@ -37,6 +37,10 @@ kanban-plugin: board
 - [ ] [[Chart a Course]]
 - [ ] [[Outfit]]
 - [ ] [[Requisition]]
+- [ ] [[Have What You Need]]
+- [ ] [[Recover]]
+- [ ] [[Struggle As One]]
+- [ ] [[Keep Company]]
 - [ ] [[Make Camp]]
 - [ ] [[Forage]]
 - [ ] [[Return Triumphant]]
@@ -52,7 +56,7 @@ kanban-plugin: board
 - [ ] [[Meet with Disaster]]
 - [ ] [[Muster]]
 - [ ] [[Pull Together]]
-- [ ] [[Trade & Barter]]
+- [ ] [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]
 
 
 

@@ -922,6 +922,22 @@ These moves apply when you prepare for, undertake, or return from an expedition.
 
 ---
 
+![[Have What You Need]]
+
+---
+
+![[Recover]]
+
+---
+
+![[Struggle As One]]
+
+---
+
+![[Keep Company]]
+
+---
+
 ![[Make Camp]]
 
 ---
@@ -965,7 +981,7 @@ These moves apply during downtime, or when you're interacting with a steading's 
 
 ---
 
-![[Trade & Barter]]
+![[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]
 
 ---
 
@@ -976,4 +992,195 @@ These moves apply during downtime, or when you're interacting with a steading's 
 
 
 # Gear and possessions
+You don't keep track of every item or possession that your PC owns. You and your family have a whole house full of belongings, and you're part of a tight-knit community that freely shares, gifts, and trades goods with each other. In general, you'll track only:
+
+- Your current inventory (the stuff you have on your person right now)
+- Your special possessions (the ones you start play with, and those that you acquire in play)
+
+## Inventory
+
+When you [[Outfit]] for an expedition (page 77), you'll fill out your Inventory insert. Mark the ◇, ◇◇, or ▢ next to an item to indicate you are carrying it.
+
+Every PC has the same Inventory insert. Items that are printed on the insert are commonly available in Stonetop, things that any PC has access to if they need it.  You might not own a shovel yourself, but you know someone who does, someone willing to loan it to you or trade you for it. The GM might ask where you got it, but if it's printed on the insert, you can acquire it, no problem.
+
+The insert also has blank spaces, where you can write in other common items or **[[Special Possessions]]** (see page 90).
+
+*pg 86*
+## Load
+Items that have a ◇ or ◇◇ in front of them contribute to your load. Count the total number of ◇ that you have marked. If you have...
+
+... up to 3 🗹, then you have a **light load,** able to move quick and quiet;
+... 4 to 6 🗹, then you have **normal load;**
+... 7 to 9 🗹, then you have **heavy load-** you're noisy, slow, hot, and quick to tire.
+
+> *You (Caradoc, the apprentice tanner, impetuous youth, and Would-be Hero) Outfit for an expedition to the Ruined Tower, marking your Inventory as shown on the opposite page. You have 6🗹, which means that you're carrying a normal load. You are traveling with Vahid (the Seeker, a different PC); he's also carrying a normal load (6 🗹), but he's carrying different items (of course).*
+
+Your load has no specific effect, but it's part of your **[[Fictional Positioning]]** (page 42). For example, the GM might say, "Vahid, you're carrying a heavy load, right? That seems like [[Defy Danger|Defying Danger]]" to me, the danger being that you exhaust yourself in this head." Or, "Ooh, a 7? Well, you slip past without them getting spotted, but your gear jingles and one of them looks up, suspicious. She's coming to investigate. What do you do?"
+
+If you carry 10 🗹 or more, or something very heavy or awkward, then not only do you have a heavy load but you risk exhaustion, accident, and injury. The GM will tell you the consequences and/or requirements of being overloaded.
+
+If you use up or discard any items, or give them to someone else, then clear the 🗹 next to them. They no longer count towards your load.
+
+If you pick up any items in the field (like loot), or if an ally gives some of their gear to you, add it to your Inventory, marking the appropriate ◇. This might change your load!
+
+> *You and Vahid arrive at the Ruined Tower that night, and you use up your 🗹🗹 firewood. You're down to 4 🗹 total, which is still a normal load.*
+>
+> *The next morning, you leave your 🗹 shovel with Vahid at the campsite and explore the upper levels of the ruin. You're now carrying only 3 🗹 total, so you have a light load and you're able to move about quietly.*
+> 
+> *You discover a ◇◇ half-buried plaque in the courtyard, made of bronze and etched with Maker-runes. The coast appears to be clear, so you go get Vahid and your 🗹 shovel. You spend a few minutes digging the plaque out of the dirt. Vahid confirms that it's a valuable artifact, so you bring it with you. You add "🗹🗹 bronze plaque" to a blank line of your Inventory insert, and you're back up to 6 🗹 total.*
+>
+>*All that digging, though, draws the attention of a beznpol - a great big armored stoat! After a quick but bloody fight, you kill it! Its scales sure seem valuable, so you skin the beast and add "🗹 beznpol hide" to your Inventory. you're now at 7 🗹 total, which is a heavy load.*
+
+*pg 87*
+
+## Small items
+A small item is something that could fit in a pocket, pouch, or boot with room to spare. Small items do not contribute to your load. Track them on the right side of your Inventory insert, in the "Small items" section.
+
+When you [[Outfit]] (page 77), you can mark a number of small items equal to 4 plus Stonetop's current Prosperity (+0 by default). If you want more small items, then bring ◇ **supplies** (page 89).
+
+If you acquire a new small item on an expedition, add it to your [[Inventory]] in one of the blanks in the Small items section. There's no hard limit to the number of small items you can carry, but be reasonable. If you start stockpiling, the GM might say that your small items count as 🗹 or even 🗹🗹 in aggregate.
+
+> *When you [[Outfit|Outfitted]] for your trip to the Ruined Tower, you marked 4 small items (because Stonetop's Prosperity is currently +0).*
+> 
+> *As you explored the upper levels, you found a jagged shard of makerglass, sharp as anything and impossible to break. It's not much bigger than a coin,  a small item. You pack it into your tinder-box, and add "🗹 makerglass shard" to your Inventory insert.*
+
+*pg 87*
+
+## Supplies
+Near the top of your Inventory insert, you'll find "◇ Supplies" (and "◇ More supplies" and "◇ Even more supplies").
+
+"Supplies" represent the essentials that you might bring with you on expedition: food, water, bandages, salves, whisky, additional small items, etc.
+
+By default, one ◇ of supplies contains 4 uses, but you add Stonetop's current **[[Prosperity]]** (page 66) to that. So if Stonetop's Prosperity is currently +1, then each ◇ of supplies contains 5 uses instead of 4.
+
+Use supplies to:
+
+- Recover (page 78)
+- [[Make Camp]] (page 79)
+- Have What You Need (page 78) to produce additional small items
+- Feed yourself as you travel
+
+By default, each person on an expedition consumes 1 use of supplies per day. But, if you have a ◇ mess kit (which requires water and fire), then 1 use of supplies can cover up to four people.
+
+> *After your fight with the beznpol, you're bleeding from a few dozen cuts and scratches. You spend 1 use of supplies to Recover, regaining 4 HP. You've got 3 uses of supplies left.*
+> 
+> *"What's this look like?" asks the GM.*
+> 
+> *Vahid pipes in. "I'll clean your wounds with water and a little whisky, then wrap them up in bandages. And, here, drink what's left of the whisky. It will take the edge off the pain."*
+
+## Provisions
+If you're low on supplies, you can [[Forage]] (page 336) and acquire up to 2d6 uses of 🗹 provisions. You might also gain them incidentally (if, say, you fight an angry boar and harvest the meat).
+
+Expend provisions in place f supplies when you [[Make Camp]], or to feed yourself as you travel. Provisions, though, are more likely to spoil or attract beasts than supplies are.
+
+> *You've skinned the bznpol, and it seems wasteful to just leave the flesh. You [[Know Things]] (page 72) to see if they're good eating, and get a 7. "Well, you don't know about bzenpol," says the GM, "but hunters will often eat the liver or heart of a beast fresh after the kill. That'd count as, oh, 3 uses of provisions. But you'll have to roll the Die of Fate to see if it makes you sick."*
+> 
+>  *You're an impetuous youth, and Vahid is curious to a fault, so you each eat a use of provisions when you [[Make Camp]] rather than using up supplies. You get a 6 on the Die of Fate, so, yeah, it's rather tasty and neither of you gets ill.*
+>  
+>  *You've still got 1 use of provisions left, but it's not like raw liver or heart keeps well. You toss what's left to the crows instead of adding it to your Inventory.*
+
+## Back Home
+When you return home, clear the marks from your Inventory insert; it rarely matters what you're carrying while you're in town. If it does matter, assume that you have a light load (up to 3 🗹) and a handful of small items unless there's a good reason to think otherwise.
+
+## Special possessions
+
+Your special possessions are the things that you own or have access to, but which others do *not* A shield, spear, a cloak, a pair of snow shoes, a cookpot - every household has these, so they are common items.  But few (if any) folks in town possess a sword, a parchment and ink, or an anvil, tongs, and bellows. Any of those would be special possessions.
+
+You acquire special possessions by...
+
+... choosing them when you create your character;
+... naturally, through play (as loot, as a gift or reward, etc.); and
+... **[[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter|Trading & Bartering]]** (page 83).
+
+Track your special possessions on your Inventory insert, in an appropriate blank. You can [[Outfit]] (page 77) with them, or **[[Have What You Need]]** (page 78) to mark them once you're in the field. Like any item, they count against your load (if they have a ◇ or ◇◇ ) and your starting number of small items.
+
+If a special possession is something that you wouldn't carry on your person (like a herd of goats or an anvil), then record it at the bottom of your Inventory insert, under "Other things."
+
+### Initial special possessions
+When you make your character, you'll choose special possessions from your playbook. Most of these choices include a list of items, which you own or have ready access to. Assume that you're proficient with these items.
+
+Items listed in the plural ("thick gloves") or general ("lime") are things that you have a reasonable amount of, and can make or acquire more over time. An item listed in the singular (like "a ◇ boiled leather cuirass") is the only one you've got; if you lose it, it's gone until you replace it.
+
+A special possession with a number of uses is a finite resource. Once expended, those uses are gone (even if the item itself remains). If you want more uses, [[Make a Plan]] (page 81) with the GM.
+
+> One of Vahid's special possessions is "Books & Scrolls (○○○○ uses): expend a use to consult your collection and turn a [[Know Things]] roll you just made into a 10+." After Vahid marks the fifth circle, he can no longer use his collection to change the results of a [[Know Things]] roll. He still has the book and scrolls, but they no longer modify a move.
+
+If you're a Seeker, add your arcana to your Inventory sheet, too! If they have a ◇ or ◇◇ on the front side, they count towards your load, as always. Otherwise, they're small items, or something that you wouldn't carry around with you.
+
+### Possessions gained in play
+When you acquire a new item in play, add it to your Inventory insert in the appropriate spot. When you return home, leave it on your insert. It's now one of your special possessions; you can mark it when you [[Outfit]] or [[Have What You Need]].
+
+You can, of course, freely discard a new special possession, or give it away, or trade it to another PC. But if you want to sell it to an NPC, you must roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]] (page 83).
+
+
+> *You and Vahid trudge home. You've still got that makerglass shard, the 🗹🗹 bronze plaque, and the 🗹 beznpol hide.*
+> 
+> *You keep the makerglass shard on your Inventory sheet (it's neat!), but give the bronze plaque (a minor arcanum) to Vahid. You erase it from you Inventory sheet; he adds it to his. You keep the beznpol hide on your insert for now, but you might try to trade it away later.*
+
+## Trade & Barter
+Commonly available items - things on the Inventory insert, or that could be found in pretty much any Stonetop household - are readily available. Folks trade, loan, and gift these items all the time, and its not worth tracking them. See page 95 for a list of example **common items.**
+
+To acquire or sell a special item, though, you must roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]] (page 83). The result tells you whether you can make the trade easily and fairly (on a 10+), or if there's a catch (on a 7-9), or if the trade just isn't going to happen here and now.
+
+See page 96 for a list of **special items.** For items not on the list, the GM decides whether there's any chance of finding it (or finding a buyer for it). If not, don't roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]; [[Make a Plan]] (page 81) with the GM instead.
+
+## Value
+The world of *Stonetop*has no central government, no common currency, and no standard exchange rates. So, what constitutes a fair trade?
+
+To help answer that question, items and services are given a Value from 0 to 4. Value is more of a logarithmic scale than linear. A single Value 2 item is worth maybe a dozen or so Value 1 items. Three individual Value 1 items don't add up to Value 3; they're just three Value 1 items.
+
+When you roll a 10+ to [[Trade & Barter]], "a fair price" means you're trading within the same Value, but the exchange might not be 1:1. it might be 2:1 or even 3:1 if you're trading some common, local resource for a desirable or imported good (or vice versa).
+
+If you roll a 7-9 to [[Trade & Barter]], you might have to pay more or settle for less than usual. That often means a better or worse exchange rate (2:1 instead of 1:1, for example), but it could mean trading across Value tiers.
+
+Regardless: if you don't like the exchange rate that you're getting, you can try to Persuade the other party to change their minds. Good luck!
+
+> *Sawl the tanner (your boss) confirms that beznpol hide is indeed valuable. "It's Value 2," says the GM, "but with a pair of hides, Sawl could craft a suit of magnificent armor worth Value 3."*
+> 
+> *You've no desire to tangle with another beznpol, so you look to trade the hide away. This triggers Trade & Barters. On a 10+, the GM might say that there's a merchant in town who offers a pouch of silvers (also Value 2). On a 7-9, that same merchant might offer only a Value 1 item (like a fine steel spear), as beznpol hide isn't a hot commodity).*
+> 
+> *Alas, you roll a 6-, so the GM says "No one here is interested, and no merchants are due until autumn. But you could go out to Titan Bones and talk to the Hill-folk. Their heroes wear beznpol armor. They wouldn't give you a grown horse - that's Value 3 - but you could probably get a couple of Value 2 items.*"
+
+Exchange rates are far from standard, but...
+
+**A Value 0 item** is generally worth:
+
+- A ◇ purse of copper coins
+- A single silver coin
+- A favor
+- A few days of unskilled labor
+- A common, mundane item.
+
+**A value 1 item** is generally worth:
+- A handful of silver coins
+- A season (or so) of unskilled labor
+- A few days of skilled labor
+- A unit of trade goods* (sack of grain, ◇ pouch of salt, ◇◇ stacks of pelts, etc.)
+- A bit of finery (◇ richly embroidered cloak, a silk scarf, a silver comb, etc.)
+
+**A Value 2 item** is generally worth:
+- A ◇ purse of silver coins
+- A **Surplus** (page 67)
+- A single gold coin
+- A year (or so) of unskilled labor
+- A season (or so) of skilled labor
+- A cartload of trade goods*
+- An item of luxury or status (gold ring, artful silver torc, gemstones, etc.)
+  
+**A Value 3 item** is generally worth:
+- A handful of gold coins
+- a year (or so) of skilled labor
+- A good, trained horse or mule
+- A precious item (ruby ring, gold torc, etc.)
+
+**A Value 4 item** is generally worth:
+  - A ◇ purse of gold coins
+  - A dozen or so good horses
+  - A "priceless" item (huge flawless gemstone, ◇ gold statuette, ◇ bejeweled scepter, etc.)
+
+* Exotic trade goods (like silks, spices, and the like) are +1 Value
+  
+  
+  
+  
 # If you want to...

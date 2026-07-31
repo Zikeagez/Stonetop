@@ -1,0 +1,1 @@
+Morale, social cohesion, and just "how it's going." Roll +Fortunes when Seasons Change to see what happens in the coming months, or when you Requisition one of the village's assets.

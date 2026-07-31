@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ddb7ef2830455cf6",
+            "id": "50c913d156eb1764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stonetop Book I/Playing the Game.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Playing the Game"
+            }
+          },
+          {
+            "id": "17aedcbd5d3bfdbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,42 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "0. Dashboard"
-            }
-          },
-          {
-            "id": "80c0a5bfacc6e1b2",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "0. Dm Screen/Moves Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Moves Kanban"
-            }
-          },
-          {
-            "id": "50c913d156eb1764",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stonetop Book I/Playing the Game.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Playing the Game"
             }
           }
         ],
@@ -78,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "custom",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -264,48 +244,48 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "80c0a5bfacc6e1b2",
+  "active": "17aedcbd5d3bfdbc",
   "lastOpenFiles": [
-    "0. Dashboard/0. Dashboard.md",
-    "0. Dm Screen/0. Dm Screen.md",
-    "Stonetop Compendium/Rules/Moves/Seasons Change/Seasonal Gains.md",
     "Stonetop Book I/Playing the Game.md",
+    "0. Dashboard/0. Dashboard.md",
     "0. Dm Screen/Moves Kanban.md",
-    "Stonetop Compendium/Rules/Moves/Seasons Change/Seasons Change.md",
+    "0. Dm Screen/0. Dm Screen.md",
+    "Stonetop Compendium/Glossary/Trade & Barter gloss.md",
+    "Stonetop Compendium/Glossary/Possessions gained in play.md",
+    "Stonetop Compendium/Glossary/Provisions.md",
+    "Stonetop Compendium/Glossary/Supplies.md",
+    "Stonetop Compendium/Glossary/Fictional Positioning.md",
     "Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Muster.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Level Up.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Deploy.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Convalesce.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Bolster.md",
+    "Stonetop Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Recover.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Have What You Need.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Return Triumphant.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Forage.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Make Camp.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Requisition.md",
+    "Stonetop Compendium/Rules/Moves/Expedition Moves/Outfit.md",
+    "Stonetop Physical Handouts",
     "Stonetop Compendium/Rules/Moves/Seasons Change",
     "z_Assets/Images/Image - Winter Icon.webp",
     "z_Assets/Images/Image - Autumn Icon.webp",
     "z_Assets/Images/Image - Summer Icon.webp",
     "z_Assets/Images/Image - Spring Icon.webp",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Homefront Moves.md",
-    "Stonetop Compendium/Rules/Moves/Follower Moves/Follower Moves.md",
-    "Stonetop Compendium/Rules/Moves/Follower Moves/Strengthen Your Bond.md",
-    "Stonetop Compendium/Rules/Moves/Special Moves/Advantage - Disadvantage.md",
-    "Stonetop Compendium/Rules/Moves/Basic Moves/Basic Moves.md",
-    "Stonetop Compendium/Rules/Moves/Special Moves/Special Moves.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Outfit.md",
-    "Stonetop Compendium/Rules/Moves/Moves.md",
-    "0. Dm Screen/Skill Actions Board.md",
-    "0. Dm Screen/All Actions Table.md",
     "Stonetop Compendium/Rules/Moves/Untitled.base",
-    "Stonetop Compendium/Rules/Moves/Basic Moves/Clash.md",
-    "Stonetop Compendium/Rules/Moves/Follower Moves/Order Followers.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Chart a Course.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Bolster.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Level Up.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
     "Stonetop Compendium/Rules/Moves/Homefront Moves",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
     "Stonetop Compendium/Rules/Moves/Expedition Moves",
     "Stonetop Compendium/Rules/Moves/Follower Moves",
     "Stonetop Compendium/Rules/Moves/Special Moves",
     "Stonetop Compendium/Rules/Moves/Basic Moves",
     "z_Templates/Stonetop Organization",
     "Stonetop Compendium/Rules/Moves",
-    "0. Musics/Campaign Begins",
     "z_Assets/Images/Image - Noruba's Ice Sphere2.webp",
     "z_Assets/Images/Image - Noruba's Ice Sphere1.webp",
     "z_Assets/image.webp",

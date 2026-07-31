@@ -10,9 +10,9 @@
         "0. The Party",
         "1. Campaigns",
         "1. World",
-        "2. Mechanics",
         "Stonetop Book I",
         "Stonetop Compendium",
+        "Stonetop Physical Handouts",
         "Excalidraw",
         "Z_Archive",
         "z_Assets",
@@ -189,38 +189,9 @@
       "children": [],
       "sortOrder": "custom"
     },
-    "2. Mechanics": {
-      "children": [
-        "2. Mechanics/Basics",
-        "2. Mechanics/Classes",
-        "2. Mechanics/Guides"
-      ],
-      "sortOrder": "custom"
-    },
-    "2. Mechanics/Basics": {
-      "children": [
-        "2. Mechanics/Basics/Character Creation.md",
-        "2. Mechanics/Basics/Leveling Up.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "2. Mechanics/Classes": {
-      "children": [
-        "2. Mechanics/Classes/Magus.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "2. Mechanics/Guides": {
-      "children": [
-        "2. Mechanics/Guides/When and What Gear Do I Buy.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Excalidraw": {
       "children": [
         "Excalidraw/Scripts",
-        "Excalidraw/Varkhesh Flowchart.md",
-        "Excalidraw/Timeline.md",
         "Excalidraw/Chronos Cheatsheet.md"
       ],
       "sortOrder": "custom"
@@ -292,7 +263,18 @@
         "Stonetop Compendium/Glossary/Weakened.md",
         "Stonetop Compendium/Glossary/Wisdom.md",
         "Stonetop Compendium/Glossary/Your Agenda.md",
-        "Stonetop Compendium/Glossary/Followers.md"
+        "Stonetop Compendium/Glossary/Followers.md",
+        "Stonetop Compendium/Glossary/Inventory.md",
+        "Stonetop Compendium/Glossary/Load.md",
+        "Stonetop Compendium/Glossary/Small Items.md",
+        "Stonetop Compendium/Glossary/Prosperity.md",
+        "Stonetop Compendium/Glossary/Fortunes.md",
+        "Stonetop Compendium/Glossary/Population.md",
+        "Stonetop Compendium/Glossary/Defenses.md",
+        "Stonetop Compendium/Glossary/Supplies.md",
+        "Stonetop Compendium/Glossary/Provisions.md",
+        "Stonetop Compendium/Glossary/Possessions gained in play.md",
+        "Stonetop Compendium/Glossary/Trade & Barter gloss.md"
       ],
       "sortOrder": "custom"
     },
@@ -300,23 +282,9 @@
       "children": [
         "Stonetop Compendium/Rules/Playbooks",
         "Stonetop Compendium/Rules/Features",
-        "Stonetop Compendium/Rules/Complications",
         "Stonetop Compendium/Rules/Conditions",
-        "Stonetop Compendium/Rules/Cultures",
-        "Stonetop Compendium/Rules/Kits",
-        "Stonetop Compendium/Rules/Languages",
-        "Stonetop Compendium/Rules/Movement",
-        "Stonetop Compendium/Rules/Perks",
-        "Stonetop Compendium/Rules/Skills",
-        "Stonetop Compendium/Rules/Titles",
         "Stonetop Compendium/Rules/Treasures",
         "Stonetop Compendium/Rules/Moves"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Complications": {
-      "children": [
-        "Stonetop Compendium/Rules/Complications/Complications.md"
       ],
       "sortOrder": "custom"
     },
@@ -326,32 +294,8 @@
       ],
       "sortOrder": "custom"
     },
-    "Stonetop Compendium/Rules/Cultures": {
-      "children": [
-        "Stonetop Compendium/Rules/Cultures/Cultures.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Stonetop Compendium/Rules/Features": {
       "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Kits": {
-      "children": [
-        "Stonetop Compendium/Rules/Kits/Kits.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Languages": {
-      "children": [
-        "Stonetop Compendium/Rules/Languages/Languages.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Movement": {
-      "children": [
-        "Stonetop Compendium/Rules/Movement/Movement.md"
-      ],
       "sortOrder": "custom"
     },
     "Stonetop Compendium/Rules/Moves": {
@@ -390,7 +334,11 @@
         "Stonetop Compendium/Rules/Moves/Expedition Moves/Make Camp.md",
         "Stonetop Compendium/Rules/Moves/Expedition Moves/Forage.md",
         "Stonetop Compendium/Rules/Moves/Expedition Moves/Return Triumphant.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md"
+        "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
+        "Stonetop Compendium/Rules/Moves/Expedition Moves/Have What You Need.md",
+        "Stonetop Compendium/Rules/Moves/Expedition Moves/Recover.md",
+        "Stonetop Compendium/Rules/Moves/Expedition Moves/Struggle As One.md",
+        "Stonetop Compendium/Rules/Moves/Expedition Moves/Keep Company.md"
       ],
       "sortOrder": "custom"
     },
@@ -434,33 +382,21 @@
       ],
       "sortOrder": "custom"
     },
-    "Stonetop Compendium/Rules/Perks": {
-      "children": [
-        "Stonetop Compendium/Rules/Perks/Perks.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Stonetop Compendium/Rules/Playbooks": {
       "children": [
         "Stonetop Compendium/Rules/Playbooks/Playbooks.md"
       ],
       "sortOrder": "custom"
     },
-    "Stonetop Compendium/Rules/Skills": {
-      "children": [
-        "Stonetop Compendium/Rules/Skills/Skills.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Titles": {
-      "children": [
-        "Stonetop Compendium/Rules/Titles/Titles.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Stonetop Compendium/Rules/Treasures": {
       "children": [
         "Stonetop Compendium/Rules/Treasures/Treasures.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Physical Handouts": {
+      "children": [
+        "Stonetop Physical Handouts/Stonetop Physical Handouts.md"
       ],
       "sortOrder": "custom"
     },

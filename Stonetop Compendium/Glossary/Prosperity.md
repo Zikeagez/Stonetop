@@ -1,0 +1,1 @@
+The quality and variety of services and household goods, tools and weapons, finery and little luxuries. Roll +Prosperity to Trade & Barter, and add it to the number of uses you get from supplies, the HP you regain when you Recover, and the piercing value of your iron weapons.
