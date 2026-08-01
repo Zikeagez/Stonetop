@@ -12,6 +12,18 @@ The layout of Stonetop (books I and II) is copyright Jason Lutes 2026, as are th
 
 The "Made by Humans" logo is by Olivier Revenu, who has indicated it is free to use by anyone.
 
+To do/Thoughts:
+Remove/Replace references / tools pointing to notes for other games on dashboard
+Individual notes for Gear terms & tags
+
+
+8/1
+- Finished "Playing the Game" chapter
+- Created Value table on Dashboard
+- Created "... If you want to" reference on Dashboard
+- Attached Playbook PDFs for players
+- Completed The Blessing Playbook manual notation as a reference for other playbooks to follow
+
 7/31
 
 - Fixed some formatting with moves
