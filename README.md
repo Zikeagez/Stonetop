@@ -17,6 +17,7 @@ Additionally, Much of this vault was built using tools and strategies learned fr
 # To do and Thoughts:
 - Remove/Replace references / tools pointing to notes for other games on dashboard
 - Individual notes for Gear terms & tags
+- Add followers details to playbooks that apply
 
 # Updates
 8/1
