@@ -12,6 +12,8 @@ The layout of Stonetop (books I and II) is copyright Jason Lutes 2026, as are th
 
 The "Made by Humans" logo is by Olivier Revenu, who has indicated it is free to use by anyone.
 
+Additionally, Much of this vault was built using tools and strategies learned from Josh Plunkett, Obsidian TTRPG author (and his community). If you have a question about how something within the vault works, he probably has a video detailing it. Please visit his Youtube channel: https://www.youtube.com/@JoshPlunkett and consider joining the Obsidian TTRPG Community Discord Server!
+
 # To do and Thoughts:
 - Remove/Replace references / tools pointing to notes for other games on dashboard
 - Individual notes for Gear terms & tags
