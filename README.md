@@ -12,11 +12,11 @@ The layout of Stonetop (books I and II) is copyright Jason Lutes 2026, as are th
 
 The "Made by Humans" logo is by Olivier Revenu, who has indicated it is free to use by anyone.
 
-To do and Thoughts:
+# To do and Thoughts:
 - Remove/Replace references / tools pointing to notes for other games on dashboard
 - Individual notes for Gear terms & tags
 
-
+# Updates
 8/1
 - Finished "Playing the Game" chapter
 - Created Value table on Dashboard
