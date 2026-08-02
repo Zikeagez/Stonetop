@@ -1180,7 +1180,324 @@ Exchange rates are far from standard, but...
 
 * Exotic trade goods (like silks, spices, and the like) are +1 Value
   
-  
-  
-  
+  Commonly available items are Value 0, as are some special items like a bronze spear, a lantern, or a writing slate. Such special items aren't really valuable, but they aren't common, either, so you must still roll to [[Trade & Barter]] to see if you can acquire one. If you can, you can (likely) trade some commonly available item or a favor for it, or just borrow it.
+
+## Coins
+Stonetop doesn't mint coins, and folks don't use them day-to-day. The local economy runs on trade, gifts and favors, debt and honor. Coin is used almost exclusively when trading with outsiders.
+
+Even then, coin is worth only what folks will trade for it. There's no government to set or enforce prices or exchange rates. Coins vary greatly in size, weight, and purity. Coins minted in Gordin's Delve might be worth more to locals than to outsiders. A Lygosi merchant might prefer southern currency to old Maker coins, but an antiquarian might consider those ancient coins to be priceless.
+
+*Stonetop* abstracts coinage into individual coins, handfuls, and ◇ purses. Coins are most often copper, silver, or gold.
+
+- **An individual coin** is quite small, ranging in size from that of a modern penny to a silver dollar.
+- **A handful of coins** contains about 10 individual coins.
+- **A ◇ purse of coins** contains about 10 handfuls of coins, or around 100 individual coins.
+- **One silver coin** is roughly worth a ◇ purse of coppers (around 100 copper coins, value 0).
+- **One gold coin** is roughly worth a ◇ purse of silvers (around 100 silver coins, or an absolute pile of coppers, Value 2).
+
+## Gear terms & tags
+Many items appear with a list of terms after their name, in parentheses.
+
+Terms in *italic* typeface are **tags.** they have no specific mechanical effect, but they are part of **fictional positioning** (page 42). The most common tags are listed here, but others are certainly possible.
+
+Terms in regular typeface are mechanical, interacting with other rules or game elements. Again, the most common terms are listed below, but some items have unique rules associated with them.
+
+◇ or ◇◇: it takes up one of these slots on your Inventory insert, and counts against your load.
+***area***: affects everything in an area.
+**[n] armor:**: when you take damage, subtract n; doesn't stack.
+**+1 armor**: increases your armor value by 1; stacks.
+***awkward***: unwieldy, requires space, gets stuck.
+***crude***: prone to break, wear out, stop working, etc.
+***cumbersome:*** you're noisy, slow, hot, and quick to tire while carrying it, even without a heavy load (and if you have  a heavy load it's worse).
+**+[n] damage:** increase the damage you deal with that weapon by n.
+***dangerous:*** causes trouble and collateral damage if you aren't careful (and maybe if you are).
+***forceful:*** can knock someone around, maybe even off their feet.
+***fragile:*** easy to break/ruin; pack it carefully.
+**hours:** it lasts about an hour for each ○; mark ○ to track time used.
+***immobile:*** you can't really carry it on your person; you need a beast or vehicle to transport it.
+***messy:*** does particularly destructive damage, ripping people and things apart.
+  **[n] piercing:** when you deal damage, ignore n points of the target's armor. For "x piercing" items, x = the steading's current Prosperity.
+  ***reload:*** after it's used, it takes time/effort to reset.
+  **requires __:** if you don't meet the requirements, it works poorly or not at all.
+  ***slow:*** takes minutes or more to use; unlikely to be useful in a fight.
+  ***thrown:*** you can [[Let Fly]] with it (at *near*  range).
+  **uses:** mark a ○ each time you use it; it's gone/useless when they're all marked.
+  ***warm:*** will keep you warm in cold weather, but it's uncomfortable and exhausting (and possibly dangerous) in hot weather.
+
+### Range Tags
+These indicate the distance within which a weapon/light source is effective.
+
+***hand:*** tight quarters; up close and personal.
+***close:*** melee range, 1-2 steps away.
+***reach:*** 3-4 steps away.
+***near:*** up to 30 or so steps away.
+***far:*** quite the distance; up to 100 steps, maybe more.
+
+### Ammo
+Many ranged weapons have one or more of these statuses:
+
+○ plenty left, ○ low ammo, ○ all out
+
+When you deplete your ammo (because a move tells you to, or the GM says so), mark the next available status (left to right). When you mark "🗹 all out," you're out of ammo and can't use that weapon until you replenish your ammunition."
+
+## Common Items
+The following are commonly available, mundane items. You can [[Outfit]] (page 77) with them, or [[Have What You Need]] (page 78). You don't need to roll anything to acquire them, though the GM might ask where you got them.
+
+| Weapons                                                                  | Value |
+| ------------------------------------------------------------------------ | ----- |
+| ◇ **Bow** & iron arrows (*near, x* piercing,) ○ low ammo, ○ all out      | 0     |
+| ◇ **Extra arrows** (*x* piercing, ○ plenty left, ○ low ammo, ○ all out)  | 0     |
+| ◇ **Hatchet,** iron (*hand, thrown, x* piercing)                         | 0     |
+| ◇ **Javelins**, a few, iron (*thrown, x* piercing, +1 damage, ○ all out) | 0     |
+| **Knife or dagger,** iron (*hand*)                                       | 0     |
+| ◇◇ **Long Spear,** iron (*reach, x* piercing)                            | 0     |
+| ◇ **Mallet,** iron or wood (hand)                                        | 0     |
+| ◇ **Mattock,** iron (*close, messy, x* piercing, *awkward*)              | 0     |
+| ◇◇ **Maul,** iron (*close, forceful, awkward*)                           | 0     |
+| **Sling** (*near, reload, awkward*) ○ low ammo, ○ all out                | 0     |
+| ◇ **Spear,** iron (*close, thrown, x* piercing)                          | 0     |
+| ◇ **Staff** (close)                                                      | 0      |
+
+| Armor                                                    | Value |
+| -------------------------------------------------------- | ----- |
+| ◇◇ **Shield** (+1 armor, +1 Readiness on a 7+ to Defend) | 0     |
+| ◇◇ **Thick hides** (1 armor, *warm*)                     | 0     | 
+
+| Clothing                | Value |
+| ----------------------- | ----- |
+| ◇ **Change of clothes** | 0     |
+| ◇ **Cloak** (warm)      | 0     |
+| **Extra Socks**         | 0     |
+| **Gloves**              | 0     |
+| **Needle & Thread**     | 0     | 
+
+| Fire & Light Sources                                                 | Value |
+| -------------------------------------------------------------------- | ----- |
+| ◇ **Extra oil,** for lamp/lantern (○○○○○ hours, useless as a weapon) | 0     |
+| ◇◇ **Firewood** (enough for 1 full night, *reach, area*)             | 0     |
+| ◇ **Oil lamp** (○○○ hours, *close, area, crude*)                     | 0     |
+| **Rushlight** (lasts ~15-30 minutes, *hand, crude*)                  | 0     |
+| **Tinderbox** (*slow*)                                               | 0     |
+| ◇ **Torch** (lasts ~1 hour, *reach, area, dangerous*)                | 0     | 
+
+| Travel Gear                                                 | Value |
+| ----------------------------------------------------------- | ----- |
+| ◇ **Bedroll** (recover 1d6 extra HP when you [[Make Camp]]) | 0     |
+| ◇ **Blanket** (*warm*)                                      | 0     |
+| **Bowstring,** spare                                        | 0     |
+| **Handful of copper coins**                                 | 0     |
+| ◇ **Mess kit** (requires fire & water)                      | 0     |
+| ◇ **Rope,** ~25 feet                                        | 0     |
+| **Sack** (empty)                                            | 0     |
+| ◇◇ **Sledge/litter/travois,** roll-out                      | 0     |
+| ◇ **Snowshoes**                                             | 0     |
+| ◇ **[[Supplies]]** *see page 89*                            | 0     |
+| **Waterskin**                                               | 0     |
+| **Whetstone**                                               | 0     |
+| **Whisky, skin (○○ uses)                                    | 0     |
+| **Whistle**                                                 | 0      |
+
+| Household      | Goods |
+| -------------- | ----- |
+| **Awl**        | 0     |
+| **Chalk**      | 0     |
+| **Charcoal**   | 0     |
+| **Clay jar**   | 0     |
+| **Cloth/rag**  | 0     |
+| **Comb**       | 0     |
+| **Cup**        | 0     |
+| **Little box** | 0     |
+| **◇ Shovel**   | 0     |
+| **Tallow**     | 0     |
+| **Twine/cord** | 0     |
+| 
+
+## Special Items
+If you want to acquire any of these items, you must roll a [[Trade & Barter]] (page 83), and on a 7+, you must trad esomething of appropriate [[Value]] (which might be a favor or a debt). The GM will tell you what the other party wants.
+
+| Weapons of War                                                                 | Value |
+| ------------------------------------------------------------------------------ | ----- |
+| **◇ Mace or flail,** iron (*close, forceful*)                                  | 1     |
+| **◇ Battleaxe,** iron (*close, messy*)                                         | 1*    |
+| **◇Short sword,** iron (*close, +1 damage*)                                    | 1*    |
+| **◇ Sword,** iron (*close*, +1 damage)                                         | 1*    |
+| **◇ Warhammer,** iron (*close*, 2 piercing)                                    | 1     |
+| **◇ Crossbow** (*far,* +1 damage, x piercing, *reload*, ○ low ammo, ○ all out) | 1     |
+| **◇ Composite bow** (*far,* +1 damage, x piercing, ○ low ammo, ○ all out)      | 1*    | 
+
+\* Value 2 to get 1 piercing or (maybe) 2 piercing
+
+| Bronze Weapons **                          | Value |
+| ------------------------------------------ | ----- |
+| **Common Weapons** (spears, daggers, etc.) | 0     |
+| **Weapons of war** (see above)             | 1     | 
+
+\* Bronze weapons do not have "x piercing"
+
+| Armor                                                                      | Value |
+| -------------------------------------------------------------------------- | ----- |
+| **◇ Cuirass,** boiled leather (1 armor)                                    | 1     |
+| **◇◇ Hauberk/cuirass/scale,** iron or bronze (2 armor, *warm, cumbersome*) | 2     |
+| **◇ Vest,** brigandine, fancy (2 armor, *warm*)                            | 3     | 
+
+| Light Sources                                | Value |
+| -------------------------------------------- | ----- |
+| **Candle** (lasts ~1 hour, *close, area*)    | 0     |
+| **◇ Lantern** (○○○○○ hours, *close, area*)   | 0     |
+| **◇ Bullseye lantern** (○○○○○ hours, *near*) | 1     | 
+
+| Tools & Trades                                                                       | Value |
+| ------------------------------------------------------------------------------------ | ----- |
+| **Small metal tool** (chisel, file, shears, etc.)                                    | 0     |
+| **Glass vial** (fragile)                                                             | 0     |
+| **◇ Block & tackle**                                                                  | 0     |
+| **◇ Instrument** (harp, lute, fiddle, etc.)                                          | 1     |
+| **◇ Metal tools** (drill, prybar, saw, etc.)                                         | 0     |
+| **◇ Mirror,** hand-held, polished bronze                                             | 1     |
+| **Common trade tools** (for pottery, weaving, distilling, etc.; *immobile*)          | 1     |
+| **Uncommon trade tools** (for carpentry, chandlery, beekeeping, etc.; *immobile*)    | 2     |
+| **Specialized trade tools** (for smithing, glassblowing, scribing, etc.; *immobile*) | 3     | 
+
+| Writing Implements                        | Value |
+| ----------------------------------------- | ----- |
+| **◇ Slate and chalk**                     | 0     |
+| **◇ Wax tablet and stylus**               | 0     |
+| **Parchment,** a few sheets (*fragile*)   | 1     |
+| **Fine vellum,** a few sheets (*fragile*) | 2     |
+| **Ink, vial and quills**                  | 1     |
+| **◇ Empty book, parchment** (*fragile*)   | 1     |
+| **◇ Empty book, fine vellum** (*fragile*) | 2     | 
+
+| Transport                                                                         | Value |
+| --------------------------------------------------------------------------------- | ----- |
+| **Wheelbarrow**                                                                   | 1     |
+| **Cart or sleigh** (*requires* donkey/mule/horse)                                 | 2     |
+| **Wagon** (*requires* mule/horse)                                                 | 3     |
+| **Spare parts** for wagon/cart/sleigh (axles, wheels, etc.; ○○○ uses, *immobile*) | 2      |
+
+| Exotic Stuff                                                                                      | Value |
+| ------------------------------------------------------------------------------------------------- | ----- |
+| **Bendis root** (fumes repel perversions of nature; lasts ~1 hour, *reach, area*)                 | 1     |
+| **Bezoar** (swallow to cure any poison)                                                           | 1     |
+| **◇ Naphtha** (burns hot & sticky; damage d8; ○○○ uses, *thrown, area, dangerous,* ignores armor) | 1     |
+| **◇ Silver-alloy dagger** (*hand*)                                                                | 2     | 
+
+| Trade Goods                                                                               | Value |
+| ----------------------------------------------------------------------------------------- | ----- |
+| **Salt** (a little box)                                                                   | 0     |
+| **Skin of whisky,** fine (○○ uses; share a use with someone to get advantage on Persuade) | 0     |
+| **◇ Purse of coppers** (~10 handfuls)                                                     | 0     |
+| **◇◇ Firkin of whisky,** fine                                                             | 1     |
+| **Handful of silvers**                                                                    | 1     |
+| **Barrel of whisky,** common (*immobile*)                                                 | 1     |
+| **Barrel of whisky,** fine (*immobile*)                                                   | 2     |
+| **◇Purse of silvers** (~10 handfuls)                                                      | 2     |
+| **1 Surplus**of various trade goods (*immobile*)                                          | 2     | 
+
+
+
+| Livestock & other Beasts                                                         | Value |
+| -------------------------------------------------------------------------------- | ----- |
+| **Dog,** follower (*keen-nosed,* pick 2 more)                                    | 1     |
+| **HP** 5; **Damage** D6 (*hand, grabby*);                                        |       |
+| **Instinct** to get distracted;                                                  |       |
+| **Cost** training                                                                |       |
+|                                                                                  |       |
+| **Goat** (*sure-footed, curious, hungry*)                                        | 1     |
+| **HP** 3; **Damage** d4 (*hand*);                                                |       |
+| **Instinct** to explore; butcher for 🗹 provisions (○○○○○○ uses))                 |       |
+|                                                                                  |       |
+| **Sheep** (*timid, hardy, wooly*)                                                | 1     |
+| **HP** 3; **Damage** d4 (*hand*);                                                |       |
+| **Instinct** to follow the herd; butcher for 🗹 provisions (○○○○○○ uses)          |       |
+|                                                                                  |       |
+| **Pig** (*keen-nosed, stubborn, gluttonous, clever*)                             | 1     |
+| **HP** 6; **Damage** d4 (*hand*)                                                 |       |
+| **Instinct** to eat anything; butcher for 🗹 provisions (d6+10 uses)              |       |
+|                                                                                  |       |
+| **Donkey** (*hardy, sure-footed, cautious, slow*)                                | 2     |
+| **HP** 10; **Damage** d4+2 (*hand, forceful*);                                   |       |
+| **Instinct** to be stubborn                                                      |       |
+|                                                                                  |       |
+| **Mule,** follower? (*large, hardy, sure-footed, cautious, keen-nosed, sterile*) | 3     |
+| **HP** 14; **Damage** d6+1 (*hand, close*);                                      |       |
+| **Instinct** to avoid danger;                                                    |       |
+| **Cost** care & grooming                                                         |       |
+|                                                                                  |       |
+| **Horse,** follower? (*large, powerful, keen-nosed, swift or hardy*)             | 3     |
+| **HP** 10; **Damage** d6+3 (*hand, close, forceful*);                            |       |
+| **Instinct** to panic;                                                           |       |
+| **Cost** care & grooming                                                         |       |
+
+
 # If you want to...
+Here are some things you might want to do, and how you might go about them.
+
+## ... Increase Fortunes
+The main ways are:
+
+- Undertake an expedition on behalf of the village and **[[Return Triumphant]]** (page 79).
+- Complete a steading improvement that increases Fortunes.
+
+## ... gain Surplus
+The village generates Surplus each summer and at the end of autumn when the harvest is complete. If you want more:
+
+- Choose "unexpected bounty" when you get a [[Seasonal Gains|seasonal gain]] (page 85).
+- Choose "trade opportunity" when you get a [[Seasonal Gains|seasonal gain]], and suggest that you'd like to trade for extra Surplus.
+- Undertake an expedition to hunt big game: elk, wisents, cave bears, ceirwmawr, etc.
+- Buy some! Surplus isn't commonly available, so you'll need to [[Trade & Barter]] (page 83) to see if it's available from a passing merchant. If it's not, you'll need to travel to a neighboring steading. Surplus is Value 2, so expect to pay a purse of silvers, a donkey, a barrel of fine whisky, or so forth.
+
+If you want to increase the amount of Surplus that the village generates, look to the steading improvements.
+
+## ... improve Defenses
+You can temporarily boost Defenses via the [[Muster]] move (page 82), but it will usually cost you fortunes to do so. other options include:
+
+- Build a **Palisade** (page 158) or a **Stone Wall** (page 159). They grant advantage to [[Deploy]] rolls when you take advantage of them.
+- Establish a **Standing Watch** (page 159). They add +1 to your Defenses when they're involved.
+- Spend time drilling the villagers, turning them into a **Well-Trained Militia** (page 159). If you train the militia in 2 or more tactics, Defenses increases by 1.
+- Furnish the village with **Weapons of War** (page 159) and teach folks how to use them. This increases Defenses by 1 and gives PCs access to better weaponry.
+
+## ... increase Population
+Choose "population boom" when you get a **[[Seasonal Gains|seasonal gain]] (page 85).
+
+Alternatively, go out and save or recruit or capture a bunch of people and bring them back to live in your village.
+
+Careful: higher [[Population]] make it easier to [[Muster]] (page 82) and [[Pull Together]] (page 83), but it also means more mouths to feed in winter when [[Seasons Change]] (page 84).
+
+## ... improve Prosperity
+Persue the **Expanded Trades** (page 157) and/or the **Market** (page 158) improvement. Each of these increase Prosperity by 1, as long as they're maintained.
+
+also, the **Township** improvement (page 159) grants advantage when you [[Trade & Barter]] (page 83).
+
+## ... unlock a steading improvement
+Look at the requirements and choose one to pursue. If you don't know how to pursue it, [[Know Things]] (page 72) and/or [[Make a Plan]] (page 81).
+
+If you want to make an improvement to the steading that isn't listed, tell the GM what you have in mind. They'll either [[Make a Plan]] with you or add it to the list of Other Improvements (along with the requirements and potential benefits), whichever is more appropriate.
+
+## ... get some coin
+You can [[Outfit]] (page 77) or [[Have What You Need]] (page 78) to produce a handful of coppers, but if you want more significant quantities, or any quantity of silver or gold coins, then you'll need to roll [[Trade & Barter]] (page 83) to see if they're even available. Even if they are, you'll need to trade something of an appropriate Value.
+
+Other options include:
+
+- If you need more coin than what's available in town, you can undertake a trade mission. Take some of the steading's Surplus to Marshedge, Gordin's Delve, or maybe the Hillfolk, and find someone to buy it. A purse or two of silvers is a fair trade for 1 Surplus (Value 2).
+- Go explore the Ruined Tower or someplace like it and dig up some sweet loot. Then roll [[Trade & Barter]] to sell it to a passing merchant or head to Marshedge or Gordin's Delve and try to sell it there for more.
+
+## ... find new arcana
+[[Know Things]] (page 72)! Maybe you know where something like that might be found. If you don't, try something else:
+
+- Ask around, dig through the Chronicle (if there is one), consult the spirits (if you can), pray for guidance (if that's your thing), eat some mushrooms and hope for a vision, etc.
+- Explore dangerous, mysterious places: old Maker-ruins, barrow mounds, Fae circles, strange groves, caves, or lakes (if you dare).
+- Put the word out. Let merchants and other contacts know that you're interested in that sort of thing, then choose "trade opportunity" or "interesting news" when you get a [[Seasonal Gains|seasonal gain]] (page 85).
+
+## ... unlock the mysteries of an arcanum
+Do what the requirements say! If you're not sure how to meet a requirement, roll to [[Know Things]] (page 72) and/or talk to the GM and [[Make a Plan]] (page 81).
+
+## ... recruit followers
+If you have someone in mind, ask them to join you on an expedition. [[Persuade (vs. NPCs)]] them if necessary (page 73).
+
+If you don't have someone in mind, tell teh GM what sort of follower you're looking for ("a skilled tracker," "a knowledgeable guide," "someone who can handle themselves in a fight," etc.). They'll either tell you who in town fits the bill or ask you to make someone up, or suggest that you [[Know Things]] (page 72).
+
+Alternatively:
+
+- [[Muster]] (page 82) and pick "1 or 2 individuals show real potential." Let the GM know that you're hoping for a follower, and they'll probably work with you.
+- Go to a bigger town and find a public place, like the Swap in Gordin's Delve or Edgemarket in Marshedge. Announce that you're looking to hire help. Say what the job is and what you're offering. Those towns each have a special player move for Recruiting.

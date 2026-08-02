@@ -208,7 +208,8 @@
         "Stonetop Book I/Stonetop Book I.md",
         "Stonetop Book I/Welcome to Stonetop.md",
         "Stonetop Book I/Getting Started.md",
-        "Stonetop Book I/Playing the Game.md"
+        "Stonetop Book I/Playing the Game.md",
+        "Stonetop Book I/Playbooks & Inserts.md"
       ],
       "sortOrder": "custom"
     },
@@ -274,28 +275,19 @@
         "Stonetop Compendium/Glossary/Supplies.md",
         "Stonetop Compendium/Glossary/Provisions.md",
         "Stonetop Compendium/Glossary/Possessions gained in play.md",
-        "Stonetop Compendium/Glossary/Trade & Barter gloss.md"
+        "Stonetop Compendium/Glossary/Trade & Barter gloss.md",
+        "Stonetop Compendium/Glossary/Value.md",
+        "Stonetop Compendium/Glossary/Coins.md",
+        "Stonetop Compendium/Glossary/Cost Tables.md"
       ],
       "sortOrder": "custom"
     },
     "Stonetop Compendium/Rules": {
       "children": [
         "Stonetop Compendium/Rules/Playbooks",
-        "Stonetop Compendium/Rules/Features",
-        "Stonetop Compendium/Rules/Conditions",
         "Stonetop Compendium/Rules/Treasures",
         "Stonetop Compendium/Rules/Moves"
       ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Conditions": {
-      "children": [
-        "Stonetop Compendium/Rules/Conditions/Conditions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Features": {
-      "children": [],
       "sortOrder": "custom"
     },
     "Stonetop Compendium/Rules/Moves": {
@@ -384,8 +376,577 @@
     },
     "Stonetop Compendium/Rules/Playbooks": {
       "children": [
-        "Stonetop Compendium/Rules/Playbooks/Playbooks.md"
+        "Stonetop Compendium/Rules/Playbooks/Playbooks.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed",
+        "Stonetop Compendium/Rules/Playbooks/The Fox",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy",
+        "Stonetop Compendium/Rules/Playbooks/The Judge",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall"
       ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Special Possessions",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/The Blessed.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Appearance": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Appearance/Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Backgrounds": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Backgrounds/Initiate.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Backgrounds/Raised By Wolves.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Backgrounds/Vessel.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Instincts": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Instincts/Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Introductions": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Introductions/Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Amulets & Talismans.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Barkskin.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Big Magic.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Danu's Grasp.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Healer's Arts.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Heed My Words.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Improved Stat.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Into The Lion's Den.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Lightning Rod.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Rites of the Land.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Spirit Tongue.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Borrow Power.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Call The Spirits.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Trackless Step.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Veil.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Wards & Bindings.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Wild Soul.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Nature's Wrath.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Potent Workings.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Shared Souls.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Suck The Poison Out.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Superior Stat.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Voice of the Earth Mother.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Place of Origin and name": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Place of Origin and name/Place of Origin and name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Special Possessions": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Special Possessions/Sacred Pouch.md",
+        "Stonetop Compendium/Rules/Playbooks/The Blessed/Special Possessions/The Earth Mother.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/The Fox.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Appearance": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Appearance/Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Backgrounds": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Backgrounds/The Natural.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Backgrounds/A Life of Crime.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Backgrounds/The Prodigal Returned.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Instincts": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Instincts/Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/All In The Wrist.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Ambush.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Burgle.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Catlike.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Dabbler.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Danger Sense.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Free Running.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Improved Stat.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Irresistible.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Laugh At Danger.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Light Fingers.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Perceptive.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Rapier Wit.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Skill At Arms.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Parry & Riposte.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Silver Tongued.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Under Your Skin.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Battle Dancer.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Cheap Shot.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Eye On The Door.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Pants On Fire.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Second Intent.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Slippery.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Superior Stat.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions/Special Possessions.md",
+        "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions/Tall Tales.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Ghost/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ghost/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Heavy/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Heavy/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Judge/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Judge/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Lightbearer/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Marshal/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Marshal/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Ranger/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Ranger/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Revenant/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Revenant/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Seeker/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Seeker/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Thrall/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero": {
+      "children": [
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Appearance",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Backgrounds",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Instincts",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Introductions",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Moves",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Place of Origin and name",
+        "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Stonetop Compendium/Rules/Playbooks/The Would-be Hero/Special Possessions": {
+      "children": [],
       "sortOrder": "custom"
     },
     "Stonetop Compendium/Rules/Treasures": {
@@ -412,6 +973,7 @@
         "z_Assets/NPC",
         "z_Assets/PDFs",
         "z_Assets/Placeholder Images",
+        "z_Assets/Playbooks and Inserts",
         "z_Assets/image.webp"
       ],
       "sortOrder": "custom"
@@ -438,7 +1000,9 @@
         "z_Assets/Images/Image - Autumn Icon.webp",
         "z_Assets/Images/Image - Spring Icon.webp",
         "z_Assets/Images/Image - Summer Icon.webp",
-        "z_Assets/Images/Image - Winter Icon.webp"
+        "z_Assets/Images/Image - Winter Icon.webp",
+        "z_Assets/Images/Image - Stats The Blessed.webp",
+        "z_Assets/Images/Image - Stats The Fox.webp"
       ],
       "sortOrder": "custom"
     },
@@ -515,6 +1079,27 @@
         "z_Assets/Placeholder Images/Trained2.png",
         "z_Assets/Placeholder Images/WeaponsArmorItemsTitleBar.png",
         "z_Assets/Placeholder Images/weapontraits.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "z_Assets/Playbooks and Inserts": {
+      "children": [
+        "z_Assets/Playbooks and Inserts/Playbooks"
+      ],
+      "sortOrder": "custom"
+    },
+    "z_Assets/Playbooks and Inserts/Playbooks": {
+      "children": [
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Blessed (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Fox (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Heavy (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Judge (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Lightbearer (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Marshal (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Marshal (1-up) 1.pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Ranger (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Seeker (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Would-be Hero (1-up).pdf"
       ],
       "sortOrder": "custom"
     },

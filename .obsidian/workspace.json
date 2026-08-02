@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "2f8d5b117c560f16",
+        "id": "eb5d054275b49d5b",
         "type": "tabs",
         "children": [
           {
-            "id": "50c913d156eb1764",
+            "id": "4ffa7a767f5e7b65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stonetop Book I/Playing the Game.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Playing the Game"
-            }
-          },
-          {
-            "id": "17aedcbd5d3bfdbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0. Dashboard/0. Dashboard.md",
+                "file": "Stonetop Compendium/Rules/Playbooks/The Blessed/The Blessed.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "0. Dashboard"
+              "title": "The Blessed"
+            }
+          },
+          {
+            "id": "981141b0262dda39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stonetop Compendium/Rules/Playbooks/The Fox/The Fox.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "The Fox"
+            }
+          },
+          {
+            "id": "25d8fff294ee12fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Under Your Skin.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Under Your Skin"
             }
           }
         ],
@@ -70,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "potency",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 285.6725616455078
   },
   "right": {
     "id": "0d0b189d29a8932a",
@@ -244,54 +258,54 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "17aedcbd5d3bfdbc",
+  "active": "981141b0262dda39",
   "lastOpenFiles": [
-    "Stonetop Book I/Playing the Game.md",
-    "0. Dashboard/0. Dashboard.md",
-    "0. Dm Screen/Moves Kanban.md",
-    "0. Dm Screen/0. Dm Screen.md",
-    "Stonetop Compendium/Glossary/Trade & Barter gloss.md",
-    "Stonetop Compendium/Glossary/Possessions gained in play.md",
-    "Stonetop Compendium/Glossary/Provisions.md",
-    "Stonetop Compendium/Glossary/Supplies.md",
-    "Stonetop Compendium/Glossary/Fictional Positioning.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Muster.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Level Up.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Deploy.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Convalesce.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Bolster.md",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Recover.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Have What You Need.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Return Triumphant.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Forage.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Make Camp.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Requisition.md",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves/Outfit.md",
-    "Stonetop Physical Handouts",
-    "Stonetop Compendium/Rules/Moves/Seasons Change",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions/Tall Tales.md",
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/The Blessed.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/The Fox.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Introductions/Introductions.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Special Possessions/Special Possessions.md",
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Introductions/Introductions.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Under Your Skin.md",
+    "Stonetop Compendium/Rules/Playbooks/The Blessed/Moves/Voice of the Earth Mother.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Battle Dancer.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Cheap Shot.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Eye On The Door.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Pants On Fire.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Second Intent.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Slippery.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Superior Stat.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Untitled.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Silver Tongued.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Parry & Riposte.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Skill At Arms.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Rapier Wit.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Perceptive.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Light Fingers.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Laugh At Danger.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Irresistible.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Improved Stat.md",
+    "Stonetop Compendium/Rules/Playbooks/The Fox/Moves/Free Running.md",
+    "z_Assets/Images/Image - Stats The Fox.webp",
+    "z_Assets/Images/Image - Stats The Blessed.webp",
+    "z_Assets/image.webp",
+    "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Blessed (1-up).pdf",
+    "z_Assets/Playbooks and Inserts/Playbooks",
+    "z_Assets/Playbooks and Inserts",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Special Possessions",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Introductions",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Place of Origin and name",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Moves",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Instincts",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Backgrounds",
+    "Stonetop Compendium/Rules/Playbooks/The Thrall/Appearance",
     "z_Assets/Images/Image - Winter Icon.webp",
     "z_Assets/Images/Image - Autumn Icon.webp",
     "z_Assets/Images/Image - Summer Icon.webp",
     "z_Assets/Images/Image - Spring Icon.webp",
-    "Stonetop Compendium/Rules/Moves/Untitled.base",
-    "Stonetop Compendium/Rules/Moves/Homefront Moves",
-    "Stonetop Compendium/Rules/Moves/Expedition Moves",
-    "Stonetop Compendium/Rules/Moves/Follower Moves",
-    "Stonetop Compendium/Rules/Moves/Special Moves",
-    "Stonetop Compendium/Rules/Moves/Basic Moves",
-    "z_Templates/Stonetop Organization",
-    "Stonetop Compendium/Rules/Moves",
     "z_Assets/Images/Image - Noruba's Ice Sphere2.webp",
     "z_Assets/Images/Image - Noruba's Ice Sphere1.webp",
-    "z_Assets/image.webp",
     "z_Assets/image-2.webp",
-    "z_Assets/Images/Image - Minor Arcana Example.webp",
-    "z_Assets/Images/Image - Mark XP.webp",
     "DS Compendium/Rules/Ancestries/Polder/Untitled.canvas",
     "0. Scratch Notes/Character Sheet Elements/Example Sheet/Remy Nox Sheet.canvas",
     "0. Scratch Notes/Character Sheet Elements/Untitled.canvas"
