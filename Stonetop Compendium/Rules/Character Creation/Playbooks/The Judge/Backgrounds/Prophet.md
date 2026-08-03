@@ -1,0 +1,3 @@
+The line of Judges was broken long ago, the Chronicle lost or fallen into ruin. Aratis has called you personally to her service through dreams, omens, and visions. Some in town resent the authority you've assumed.
+
+When you ***spend a few days communing with Atatis about a threat facing Stonetop or civilization as a whole,*** roll +WIS: **on a 7+,** Aratis reveals the course of action she would have you take; **on a 10+,** you also hold 2 Sanction. While ***acting on her orders,*** spend 1 Sanction to add +1 to a roll you just made.

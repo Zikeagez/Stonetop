@@ -16,9 +16,9 @@ Instead of trying to remember this; make a template!
 
 # Example
 
-This will link to a pdf and skip to page 5. The ! tells Obsidian to display a preview in this note. Without the ! it will just display a link that you can hover/click.
-![[Monster Loot CoS.pdf#page=5]]
-[[Monster Loot CoS.pdf#page=5|Monster Loot Page 5]]
+This will link to a pdf and skip to page 3. The ! tells Obsidian to display a preview in this note. Without the ! it will just display a link that you can hover/click.
+![[Playbook - The Fox (1-up).pdf#page=3]]
+[[Playbook - The Fox (1-up).pdf#page=3]]
 
 # PDF Catalogue (Requires Dataview Plugin)
 

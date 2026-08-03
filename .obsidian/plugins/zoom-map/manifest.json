@@ -1,10 +1,1 @@
-{
-  "id": "zoom-map",
-  "name": "TTRPG Tools - Maps",
-  "version": "2.1.5",
-  "minAppVersion": "1.9.0",
-  "description": "A toolbox for interactive fantasy maps.",
-  "author": "Jareika",
-  "authorUrl": "",
-  "isDesktopOnly": false
-}
+{"id":"zoom-map","name":"TTRPG Tools - Maps","version":"2.1.9","minAppVersion":"1.9.0","description":"A toolbox for interactive fantasy maps.","author":"Jareika","authorUrl":"","isDesktopOnly":false}
