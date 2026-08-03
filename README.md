@@ -19,8 +19,13 @@ Additionally, Much of this vault was built using tools and strategies learned fr
 - Individual notes for Gear terms & tags
 - Add followers details to playbooks that apply
 - Add Invocations insert details
+- Edit Format of Playbook Moves to match general moves
 
 # Updates
+8/3
+- Finished Playbooks X.X
+
+
 8/1
 - Finished "Playing the Game" chapter
 - Created Value table on Dashboard
