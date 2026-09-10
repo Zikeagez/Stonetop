@@ -192,7 +192,8 @@
         "Stonetop Book I/Welcome to Stonetop.md",
         "Stonetop Book I/Getting Started.md",
         "Stonetop Book I/Playing the Game.md",
-        "Stonetop Book I/Playbooks & Inserts.md"
+        "Stonetop Book I/Playbooks & Inserts.md",
+        "Stonetop Book I/Running the Game.md"
       ],
       "sortOrder": "custom"
     },
@@ -266,7 +267,8 @@
     "Stonetop Compendium/Rules": {
       "children": [
         "Stonetop Compendium/Rules/Character Creation",
-        "Stonetop Compendium/Rules/Moves"
+        "Stonetop Compendium/Rules/Moves",
+        "Stonetop Compendium/Rules/GM Moves"
       ],
       "sortOrder": "custom"
     },
@@ -1144,6 +1146,24 @@
       ],
       "sortOrder": "custom"
     },
+    "Stonetop Compendium/Rules/GM Moves": {
+      "children": [
+        "Stonetop Compendium/Rules/GM Moves/Announce trouble (future or offscreen).md",
+        "Stonetop Compendium/Rules/GM Moves/Reveal an Unwelcome Truth.md",
+        "Stonetop Compendium/Rules/GM Moves/Ask a Provocative Question.md",
+        "Stonetop Compendium/Rules/GM Moves/Put Someone in a Spot.md",
+        "Stonetop Compendium/Rules/GM Moves/Use Up Their Resources.md",
+        "Stonetop Compendium/Rules/GM Moves/Demonstrate a Downside.md",
+        "Stonetop Compendium/Rules/GM Moves/Turn Their Move Back on Them.md",
+        "Stonetop Compendium/Rules/GM Moves/Hurt Someone.md",
+        "Stonetop Compendium/Rules/GM Moves/Separate Them.md",
+        "Stonetop Compendium/Rules/GM Moves/Capture Someone.md",
+        "Stonetop Compendium/Rules/GM Moves/Offer an Opportunity (With or Without a Cost).md",
+        "Stonetop Compendium/Rules/GM Moves/Tell Them the Consequences or Requirements (then ask).md",
+        "Stonetop Compendium/Rules/GM Moves/Advance Towards Impending Doom.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Stonetop Compendium/Rules/Moves": {
       "children": [
         "Stonetop Compendium/Rules/Moves/Moves.md",
@@ -1242,9 +1262,7 @@
         "z_Assets/NPC",
         "z_Assets/PDFs",
         "z_Assets/Placeholder Images",
-        "z_Assets/Playbooks and Inserts",
-        "z_Assets/Image - Seeker Stats.webp",
-        "z_Assets/Image - Would-Be Hero Stats.webp"
+        "z_Assets/Playbooks and Inserts"
       ],
       "sortOrder": "custom"
     },
@@ -1277,7 +1295,9 @@
         "z_Assets/Images/Image - Judge Stats.webp",
         "z_Assets/Images/Image - Lightbearer Stats.webp",
         "z_Assets/Images/Image - Marshal Stats.webp",
-        "z_Assets/Images/Image - Ranger Stats.webp"
+        "z_Assets/Images/Image - Ranger Stats.webp",
+        "z_Assets/Images/Image - Seeker Stats.webp",
+        "z_Assets/Images/Image - Would-Be Hero Stats.webp"
       ],
       "sortOrder": "custom"
     },
@@ -1367,7 +1387,9 @@
         "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Marshal (1-up) 1.pdf",
         "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Ranger (1-up).pdf",
         "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Seeker (1-up).pdf",
-        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Would-be Hero (1-up).pdf"
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Would-be Hero (1-up).pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook inserts.pdf",
+        "z_Assets/Playbooks and Inserts/Playbooks/Playbook - Steading (spreads).pdf"
       ],
       "sortOrder": "custom"
     },

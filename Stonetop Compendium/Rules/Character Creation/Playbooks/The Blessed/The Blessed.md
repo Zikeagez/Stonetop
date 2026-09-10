@@ -37,7 +37,7 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("Stonetop Compendium/Rules/Playbooks/The Lightbearer/Moves")
+        - file.inFolder("Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves")
     order:
       - mark
       - file.name
