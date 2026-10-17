@@ -27,7 +27,8 @@ I personally have not used any AI to input any data into this vault, though I ca
 
 # Updates
 10/17
-Been a while since I have pushed / posted an update. I have still been slowly working through Book I. Currently all chapters through "Threats" are transcribed, and I have begun developing some tools.
+
+- It's been a while since I have pushed / posted an update. I have still been slowly working through Book I. Currently all chapters through "Threats" are transcribed, and I have begun developing some tools.
 - Template for Threats drafted (may change in the future)
 - Template for session journals altered to fit some of the questions we want to ask when "Ending The Session" in Stonetop, again, subject to change.
 
