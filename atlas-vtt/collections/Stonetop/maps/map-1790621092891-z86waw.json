@@ -1,0 +1,21 @@
+{
+  "id": "map-1790621092891-z86waw",
+  "name": "Map 1   Stonetop   11 x 14",
+  "mapFilePath": "atlas-vtt/assets/Map_1___Stonetop___11_x_14_1790621092886_82dilb.webp",
+  "tags": [],
+  "collection": "Stonetop",
+  "createdAt": 1790621092891,
+  "modifiedAt": 1790621092891,
+  "atlasRecord": {
+    "format": 1,
+    "type": "map",
+    "name": "Map 1   Stonetop   11 x 14",
+    "mapFilePath": "atlas-vtt/assets/Map_1___Stonetop___11_x_14_1790621092886_82dilb.webp",
+    "collection": "Stonetop",
+    "tags": [],
+    "id": "map-1790621092891-z86waw",
+    "createdAt": 1790621092891,
+    "modifiedAt": 1790621092891,
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/Map_1___Stonetop___11_x_14_1790621092886_82dilb-5305956b.webp"
+  }
+}

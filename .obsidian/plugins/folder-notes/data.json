@@ -8,12 +8,12 @@
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
   "autoCreateForFiles": false,
-  "enableCollapsing": false,
+  "enableCollapsing": true,
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
   "underlineFolder": true,
-  "stopWhitespaceCollapsing": true,
+  "stopWhitespaceCollapsing": false,
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
@@ -63,7 +63,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "general",
+  "settingsTab": "file_explorer",
   "supportedFileTypes": [
     "md",
     "canvas"
@@ -118,5 +118,6 @@
   "fvGlobalSettings": {
     "autoUpdateLinks": false
   },
-  "hideFolderNoteNameInPath": false
+  "hideFolderNoteNameInPath": false,
+  "fileExplorerRevealMargin": 4
 }

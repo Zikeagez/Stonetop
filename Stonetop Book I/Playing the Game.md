@@ -887,7 +887,7 @@ These moves are always in play, but they either affect other moves or are trigge
 
 ---
 
-![[End of Session]]
+![[Stonetop Compendium/Rules/Moves/Special Moves/End of Session]]
 
 ---
 

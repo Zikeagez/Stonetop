@@ -429,12 +429,41 @@ function isFileInAttachmentFolder(plugin, file) {
   return file.path.startsWith(attachmentFolderPath + "/") || file.path.includes("/" + attachmentFolderPath + "/");
 }
 
+// src/functions/generateId.ts
+function generateId() {
+  const cryptoApi = typeof crypto === "undefined" ? void 0 : crypto;
+  if (typeof (cryptoApi == null ? void 0 : cryptoApi.randomUUID) === "function") {
+    try {
+      return cryptoApi.randomUUID();
+    } catch (e) {
+    }
+  }
+  const bytes = new Uint8Array(16);
+  if (typeof (cryptoApi == null ? void 0 : cryptoApi.getRandomValues) === "function") {
+    cryptoApi.getRandomValues(bytes);
+  } else {
+    for (let index = 0; index < bytes.length; index++) {
+      bytes[index] = Math.floor(Math.random() * 256);
+    }
+  }
+  bytes[6] = bytes[6] & 15 | 64;
+  bytes[8] = bytes[8] & 63 | 128;
+  const hex = Array.from(bytes, (value) => value.toString(16).padStart(2, "0"));
+  return [
+    hex.slice(0, 4).join(""),
+    hex.slice(4, 6).join(""),
+    hex.slice(6, 8).join(""),
+    hex.slice(8, 10).join(""),
+    hex.slice(10, 16).join("")
+  ].join("-");
+}
+
 // src/ExcludeFolders/ExcludePattern.ts
 var ExcludePattern = class {
   constructor(pattern, position, id, plugin) {
     this.detached = false;
     this.type = "pattern";
-    this.id = id || crypto.randomUUID();
+    this.id = id || generateId();
     this.string = pattern;
     this.position = position;
     this.subFolders = plugin.settings.excludePatternDefaultSettings.subFolders;
@@ -508,7 +537,7 @@ var ExcludedFolder = class {
   constructor(path, position, id, plugin) {
     this.detached = false;
     this.type = "folder";
-    this.id = id || crypto.randomUUID();
+    this.id = id || generateId();
     this.path = path;
     this.subFolders = plugin.settings.excludeFolderDefaultSettings.subFolders;
     this.disableSync = plugin.settings.excludeFolderDefaultSettings.disableSync;
@@ -945,7 +974,7 @@ var WhitelistedPattern = class {
     this.hideInFileExplorer = false;
     this.hideInSettings = false;
     this.type = "pattern";
-    this.id = id || crypto.randomUUID();
+    this.id = id || generateId();
     this.subFolders = plugin.settings.excludePatternDefaultSettings.subFolders;
     this.position = position;
     this.string = pattern;
@@ -1783,7 +1812,9 @@ async function turnIntoFolderNote(plugin, file, folder, folderNote, skipConfirma
   if (detachedExcludedFolder) {
     void deleteExcludedFolder(plugin, detachedExcludedFolder);
   }
-  await plugin.app.fileManager.renameFile(file, path);
+  if (file.path !== path) {
+    await plugin.app.fileManager.renameFile(file, path);
+  }
   void addCSSClassToFileExplorerEl(path, "is-folder-note", false, plugin, true);
   void addCSSClassToFileExplorerEl(folder.path, "has-folder-note", false, plugin);
   removeActiveFolder(plugin);
@@ -1875,19 +1906,19 @@ function findFolderNoteFile(plugin, path, primaryType) {
     return folderNote;
   }
   const supportedFileTypes = plugin.settings.supportedFileTypes.filter((type) => type !== primaryType.replace(".", ""));
-  for (let type of supportedFileTypes) {
-    if (type === "excalidraw" || type === ".excalidraw") {
-      type = ".md";
-    }
-    if (!type.startsWith(".")) {
-      type = "." + type;
-    }
-    folderNote = plugin.app.vault.getAbstractFileByPath(path + type);
-    if (folderNote instanceof import_obsidian16.TFile) {
-      return folderNote;
+  for (const type of supportedFileTypes) {
+    for (const extension of getLookupExtensions(type)) {
+      folderNote = plugin.app.vault.getAbstractFileByPath(path + extension);
+      if (folderNote instanceof import_obsidian16.TFile) {
+        return folderNote;
+      }
     }
   }
   return null;
+}
+function getLookupExtensions(type) {
+  const extension = type.startsWith(".") ? type : "." + type;
+  return extension === ".excalidraw" ? [".md", ".excalidraw"] : [extension];
 }
 function getFolderNote(plugin, folderPath, storageLocation, file, oldFolderNoteName) {
   const folder = getFolderInfo(folderPath);
@@ -2294,10 +2325,13 @@ var FrontMatterTitlePluginHandler = class {
     return (_d = resolver == null ? void 0 : resolver.resolve((_c = folderNote == null ? void 0 : folderNote.path) != null ? _c : "")) != null ? _d : null;
   }
   async getNewFileName(file) {
+    var _a;
+    return this.resolveTitle((_a = file == null ? void 0 : file.path) != null ? _a : "");
+  }
+  resolveTitle(path) {
     var _a, _b, _c;
     const resolver = (_b = (_a = this.api) == null ? void 0 : _a.getResolverFactory()) == null ? void 0 : _b.createResolver("#feature-id#");
-    const changedName = resolver == null ? void 0 : resolver.resolve((_c = file == null ? void 0 : file.path) != null ? _c : "");
-    return changedName != null ? changedName : null;
+    return (_c = resolver == null ? void 0 : resolver.resolve(path)) != null ? _c : null;
   }
 };
 
@@ -2819,6 +2853,7 @@ async function renderGeneral(settingsTab) {
 
 // src/settings/FileExplorerSettings.ts
 var import_obsidian24 = require("obsidian");
+var MAX_FILE_EXPLORER_REVEAL_MARGIN = 10;
 async function renderFileExplorer(settingsTab) {
   const containerEl = settingsTab.settingsPage;
   new import_obsidian24.Setting(containerEl).setName("Hide folder note").setDesc("Hide the folder note file from appearing in the file explorer").addToggle((toggle) => toggle.setValue(settingsTab.plugin.settings.hideFolderNote).onChange(async (value) => {
@@ -2943,6 +2978,14 @@ async function renderFileExplorer(settingsTab) {
     } else {
       activeDocument.body.classList.remove("folder-note-cursive");
     }
+    await settingsTab.plugin.saveSettings();
+  }));
+  const advancedSettings = containerEl.createEl("details", {
+    cls: "fn-advanced-settings"
+  });
+  advancedSettings.createEl("summary", { text: "Advanced" });
+  new import_obsidian24.Setting(advancedSettings).setName("File explorer reveal margin").setDesc("Controls the margin around a folder when revealing a hidden folder note in the file explorer. Increase this if the revealed folder is not shown correctly.").addSlider((slider) => slider.setLimits(0, MAX_FILE_EXPLORER_REVEAL_MARGIN, 1).setDynamicTooltip().setValue(settingsTab.plugin.settings.fileExplorerRevealMargin).onChange(async (value) => {
+    settingsTab.plugin.settings.fileExplorerRevealMargin = value;
     await settingsTab.plugin.saveSettings();
   }));
 }
@@ -3162,51 +3205,31 @@ async function updateAllOverviews(plugin) {
   const filePaths = await plugin.fvIndexDB.getAllNotes();
   if (filePaths.length === 0)
     return;
+  const defaultSettings = plugin instanceof FolderNotesPlugin ? plugin.settings.defaultOverview : plugin.settings.defaultOverviewSettings;
   filePaths.forEach(async (filePath) => {
     const file = plugin.app.vault.getAbstractFileByPath(filePath);
     if (!(file instanceof import_obsidian27.TFile)) {
       plugin.fvIndexDB.removeNote(filePath);
       return;
     }
-    if (!hasOverviewYaml(plugin, file)) {
+    if (!await hasOverviewYaml(plugin, file)) {
       plugin.fvIndexDB.removeNote(file.path);
       return;
     }
     const overviews = await getOverviews(plugin, file);
     overviews.forEach(async (overview) => {
-      if (!overview.useActualLinks)
+      const yaml = buildYamlConfig(overview, defaultSettings, { sourcePath: file.path }, overview.includeTypes || defaultSettings.includeTypes || ["folder", "markdown"]);
+      if (!yaml.useActualLinks)
         return;
-      let files = [];
-      let sourceFolderPath = overview.folderPath.trim();
-      if (!sourceFolderPath.includes("/")) {
-        sourceFolderPath = "/";
-      }
-      const sourceFolder = plugin.app.vault.getAbstractFileByPath(sourceFolderPath);
-      if (!(sourceFolder instanceof import_obsidian27.TFolder) && sourceFolderPath !== "/") {
+      const sourceFolder = resolveSourceFolder(plugin, yaml, file, file.path);
+      if (!sourceFolder)
         return;
+      let files = await filterFiles(getInitialFiles(plugin, sourceFolder), plugin, sourceFolder.path, yaml.depth, [], yaml, file);
+      if (!yaml.includeTypes.includes("folder")) {
+        files = getAllFiles(files, sourceFolder.path, yaml.depth);
       }
-      if ((sourceFolder == null ? void 0 : sourceFolder.path) === "/") {
-        const rootFiles = [];
-        plugin.app.vault.getAllLoadedFiles().filter((f) => {
-          var _a;
-          return ((_a = f.parent) == null ? void 0 : _a.path) === "/";
-        }).forEach((f) => {
-          if (!f.path.includes("/")) {
-            rootFiles.push(f);
-          }
-        });
-        files = rootFiles;
-      } else if (sourceFolder instanceof import_obsidian27.TFolder) {
-        files = sourceFolder.children;
-      }
-      files = getAllFiles(files, sourceFolderPath, overview.depth);
-      const filteredFiles = await filterFiles(files, plugin, sourceFolderPath, overview.depth, [], overview, file);
-      files = filteredFiles.filter((f) => f !== null);
-      if (!overview.includeTypes.includes("folder")) {
-        files = getAllFiles(files, sourceFolderPath, overview.depth);
-      }
-      files = sortFiles(files, overview, plugin);
-      updateLinkList(files, plugin, overview, [], file);
+      files = sortFiles(files, yaml, plugin);
+      updateLinkList(files, plugin, yaml, [], file);
     });
   });
 }
@@ -3479,8 +3502,8 @@ var FileExplorerOverview = class {
         }
       }
     });
-    const DEBOUNCE_DELAY_MS = 300;
-    const debouncedRenderFileExplorer = (0, import_obsidian29.debounce)(() => this.renderFileExplorer(), DEBOUNCE_DELAY_MS);
+    const DEBOUNCE_DELAY_MS2 = 300;
+    const debouncedRenderFileExplorer = (0, import_obsidian29.debounce)(() => this.renderFileExplorer(), DEBOUNCE_DELAY_MS2);
     const handleVaultChange = () => {
       debouncedRenderFileExplorer();
     };
@@ -4088,7 +4111,7 @@ var FolderOverview = class {
       this.addEditButton(this.root);
       return;
     }
-    let files = this.getInitialFiles(plugin, this.sourceFolder);
+    let files = getInitialFiles(plugin, this.sourceFolder);
     files = await this.filterAndProcessFiles(files, plugin, sourceFolderPath, this.yaml, this.sourceFile);
     if (files.length === 0) {
       updateLinkList(files, this.plugin, this.yaml, this.pathBlacklist, this.sourceFile);
@@ -4145,37 +4168,7 @@ var FolderOverview = class {
     this.eventListeners.push(() => plugin.app.vault.off("delete", handleDelete2));
   }
   setSourceFolder() {
-    var _a;
-    switch ((_a = this.yaml) == null ? void 0 : _a.folderPath.trim()) {
-      case "":
-      case "File\u2019s parent folder path": {
-        const folderPath = getFolderPathFromString(this.ctx.sourcePath);
-        const sourceFolder = this.plugin.app.vault.getAbstractFileByPath(folderPath);
-        if (sourceFolder instanceof import_obsidian32.TFolder) {
-          this.yaml.folderPath = sourceFolder.path;
-          this.sourceFolder = sourceFolder;
-        }
-        break;
-      }
-      case "Path of folder linked to the file": {
-        if (this.plugin instanceof FolderNotesPlugin && this.sourceFile instanceof import_obsidian32.TFile) {
-          const folderNoteFolder = getFolder(this.plugin, this.sourceFile);
-          if (folderNoteFolder instanceof import_obsidian32.TFolder) {
-            this.sourceFolder = folderNoteFolder;
-            this.yaml.folderPath = folderNoteFolder.path;
-          } else {
-            this.yaml.folderPath = "";
-          }
-        }
-        break;
-      }
-      default: {
-        const sourceFolder = this.plugin.app.vault.getAbstractFileByPath(this.yaml.folderPath);
-        if (sourceFolder instanceof import_obsidian32.TFolder) {
-          this.sourceFolder = sourceFolder;
-        }
-      }
-    }
+    this.sourceFolder = resolveSourceFolder(this.plugin, this.yaml, this.sourceFile, this.ctx.sourcePath);
   }
   async filterAndProcessFiles(files, plugin, sourceFolderPath, yaml, sourceFile) {
     let filteredFiles = await filterFiles(files, plugin, sourceFolderPath, yaml.depth, this.pathBlacklist, yaml, sourceFile);
@@ -4232,23 +4225,6 @@ var FolderOverview = class {
       return false;
     }
     return true;
-  }
-  getInitialFiles(plugin, sourceFolder) {
-    if ((sourceFolder == null ? void 0 : sourceFolder.path) === "/") {
-      const rootFiles = [];
-      plugin.app.vault.getAllLoadedFiles().filter((f) => {
-        var _a;
-        return ((_a = f.parent) == null ? void 0 : _a.path) === "/";
-      }).forEach((file) => {
-        if (!file.path.includes("/")) {
-          rootFiles.push(file);
-        }
-      });
-      return rootFiles;
-    } else if (sourceFolder instanceof import_obsidian32.TFolder) {
-      return sourceFolder.children;
-    }
-    return [];
   }
   renderOverviewStyle(plugin, ctx, root) {
     if (this.yaml.style === "grid") {
@@ -4428,6 +4404,52 @@ async function hasOverviewYaml(plugin, file) {
   const yamlBlocks = content.match(/```folder-overview\n([\s\S]*?)```/g);
   return !!yamlBlocks;
 }
+function resolveSourceFolder(plugin, yaml, sourceFile, sourcePath) {
+  switch (yaml.folderPath.trim()) {
+    case "":
+    case "File\u2019s parent folder path": {
+      const folderPath = getFolderPathFromString(sourcePath);
+      const sourceFolder = plugin.app.vault.getAbstractFileByPath(folderPath);
+      if (!(sourceFolder instanceof import_obsidian32.TFolder))
+        return void 0;
+      yaml.folderPath = sourceFolder.path;
+      return sourceFolder;
+    }
+    case "Path of folder linked to the file": {
+      if (!(plugin instanceof FolderNotesPlugin) || !(sourceFile instanceof import_obsidian32.TFile)) {
+        return void 0;
+      }
+      const folderNoteFolder = getFolder(plugin, sourceFile);
+      if (!(folderNoteFolder instanceof import_obsidian32.TFolder)) {
+        yaml.folderPath = "";
+        return void 0;
+      }
+      yaml.folderPath = folderNoteFolder.path;
+      return folderNoteFolder;
+    }
+    default: {
+      const sourceFolder = plugin.app.vault.getAbstractFileByPath(yaml.folderPath);
+      return sourceFolder instanceof import_obsidian32.TFolder ? sourceFolder : void 0;
+    }
+  }
+}
+function getInitialFiles(plugin, sourceFolder) {
+  if ((sourceFolder == null ? void 0 : sourceFolder.path) === "/") {
+    const rootFiles = [];
+    plugin.app.vault.getAllLoadedFiles().filter((f) => {
+      var _a;
+      return ((_a = f.parent) == null ? void 0 : _a.path) === "/";
+    }).forEach((file) => {
+      if (!file.path.includes("/")) {
+        rootFiles.push(file);
+      }
+    });
+    return rootFiles;
+  } else if (sourceFolder instanceof import_obsidian32.TFolder) {
+    return sourceFolder.children;
+  }
+  return [];
+}
 var CustomMarkdownRenderChild = class extends import_obsidian32.MarkdownRenderChild {
   constructor(el, folderOverview) {
     super(el);
@@ -4460,7 +4482,7 @@ function sortFiles(files, yaml, plugin) {
       return FILE_FIRST;
     }
     if (a_IsFolder && b_IsFolder) {
-      return yaml.sortByAsc ? collator.compare(a.name, b.name) : collator.compare(b.name, a.name);
+      return yaml.sortByAsc ? collator.compare(getSortName(a), getSortName(b)) : collator.compare(getSortName(b), getSortName(a));
     }
     if (a_IsFile && b_IsFile) {
       return compareFiles(a, b);
@@ -4473,9 +4495,27 @@ function sortFiles(files, yaml, plugin) {
     } else if (yaml.sortBy === "modified") {
       return yaml.sortByAsc ? a.stat.mtime - b.stat.mtime : b.stat.mtime - a.stat.mtime;
     } else if (yaml.sortBy === "name") {
-      return yaml.sortByAsc ? collator.compare(a.basename, b.basename) : collator.compare(b.basename, a.basename);
+      return yaml.sortByAsc ? collator.compare(getSortName(a), getSortName(b)) : collator.compare(getSortName(b), getSortName(a));
     }
     return 0;
+  }
+  function getSortName(file) {
+    var _a2, _b2;
+    const fallback = file instanceof import_obsidian32.TFile ? file.basename : file.name;
+    if (!yaml.fmtpIntegration) {
+      return fallback;
+    }
+    if (file instanceof import_obsidian32.TFile) {
+      return ((_a2 = plugin.fmtpHandler) == null ? void 0 : _a2.resolveTitle(file.path)) || fallback;
+    }
+    if (!(plugin instanceof FolderNotesPlugin)) {
+      return fallback;
+    }
+    const folderNote = getFolderNote(plugin, file.path);
+    if (!folderNote) {
+      return fallback;
+    }
+    return ((_b2 = plugin.fmtpHandler) == null ? void 0 : _b2.resolveTitle(folderNote.path)) || fallback;
   }
   files.sort(compareFilesAndFolders);
   return files;
@@ -5124,7 +5164,7 @@ var WhitelistedFolder = class {
     this.hideInFileExplorer = false;
     this.hideInSettings = false;
     this.type = "folder";
-    this.id = id || crypto.randomUUID();
+    this.id = id || generateId();
     this.path = path;
     this.subFolders = plugin.settings.excludeFolderDefaultSettings.subFolders;
     this.position = position;
@@ -5298,7 +5338,7 @@ var DEFAULT_SETTINGS2 = {
   excludeFolderDefaultSettings: {
     type: "folder",
     path: "",
-    id: crypto.randomUUID(),
+    id: generateId(),
     subFolders: true,
     disableSync: true,
     disableAutoCreate: true,
@@ -5314,7 +5354,7 @@ var DEFAULT_SETTINGS2 = {
   excludePatternDefaultSettings: {
     type: "pattern",
     path: "",
-    id: crypto.randomUUID(),
+    id: generateId(),
     subFolders: true,
     disableSync: true,
     disableAutoCreate: true,
@@ -5345,7 +5385,8 @@ var DEFAULT_SETTINGS2 = {
   fvGlobalSettings: {
     autoUpdateLinks: false
   },
-  hideFolderNoteNameInPath: false
+  hideFolderNoteNameInPath: false,
+  fileExplorerRevealMargin: 4
 };
 var SettingsTab2 = class extends import_obsidian39.PluginSettingTab {
   constructor(app, plugin) {
@@ -6100,15 +6141,30 @@ function observeFolderTitleMutations(plugin) {
     fileExplorerMutationObserver.disconnect();
   }
   fileExplorerMutationObserver = new MutationObserver((mutations) => {
+    const affectedFolderPaths = /* @__PURE__ */ new Set();
     for (const mutation of mutations) {
+      const folderPath = getAffectedFolderPath(mutation.target);
+      if (folderPath)
+        affectedFolderPaths.add(folderPath);
       for (const node of Array.from(mutation.addedNodes)) {
         if (!node.instanceOf(HTMLElement))
           continue;
         processAddedFolders(node, plugin);
       }
     }
+    affectedFolderPaths.forEach((folderPath) => {
+      void updateCSSClassesForFolder(folderPath, plugin);
+    });
   });
   fileExplorerMutationObserver.observe(document, { childList: true, subtree: true });
+}
+function getAffectedFolderPath(target) {
+  var _a;
+  if (!target.instanceOf(HTMLElement))
+    return null;
+  const folder = target.closest(".nav-folder");
+  const folderTitle = folder == null ? void 0 : folder.querySelector(".nav-folder-title");
+  return (_a = folderTitle == null ? void 0 : folderTitle.getAttribute("data-path")) != null ? _a : null;
 }
 function initializeAllFolderTitles(plugin) {
   const allTitles = activeDocument.querySelectorAll(".nav-folder-title-content");
@@ -6222,10 +6278,12 @@ async function updateFolderNamesInPath(plugin, titleContainer) {
         viewHeaderTitle.classList.remove("path-is-folder-note");
       }
     }
-    if (!folderNote)
-      return;
-    if (folderNote)
-      breadcrumb.classList.add("has-folder-note");
+    if (!folderNote) {
+      breadcrumb.classList.remove("has-folder-note");
+      breadcrumb.removeAttribute("data-path");
+      continue;
+    }
+    breadcrumb.classList.add("has-folder-note");
     breadcrumb == null ? void 0 : breadcrumb.setAttribute("data-path", path.slice(0, -TRAILING_SLASH_LENGTH));
     if (!breadcrumb.onclick) {
       breadcrumb.addEventListener("click", (e) => {
@@ -6270,6 +6328,9 @@ function handleRename(file, oldPath, plugin) {
     folder = file;
     plugin.tabManager.updateTab(folder.path);
     updateExcludedFolderPath(folder, oldPath, plugin);
+    window.setTimeout(() => {
+      void updateCSSClassesForFolder(file.path, plugin);
+    });
     if (isFolderRename(folder, oldPath)) {
       handleFolderRename(folder, oldPath, plugin);
       return;
@@ -6501,25 +6562,21 @@ async function renameFolderOnFileRename(file, oldPath, oldFolder, plugin) {
   plugin.app.fileManager.renameFile(oldFolder, newFolderPath);
 }
 function updateExcludedFolderPath(folder, oldPath, plugin) {
-  const excludedFolders = plugin.settings.excludeFolders.filter((excludedFolder) => {
-    var _a;
-    return (_a = excludedFolder.path) == null ? void 0 : _a.includes(oldPath);
-  });
-  excludedFolders.forEach((excludedFolder) => {
-    if (excludedFolder.path === oldPath) {
+  const oldPathPrefix = `${oldPath}/`;
+  let pathsChanged = false;
+  plugin.settings.excludeFolders.forEach((excludedFolder) => {
+    const { path } = excludedFolder;
+    if (path === oldPath) {
       excludedFolder.path = folder.path;
+    } else if (path == null ? void 0 : path.startsWith(oldPathPrefix)) {
+      excludedFolder.path = folder.path + path.slice(oldPath.length);
+    } else {
       return;
     }
-    if (!excludedFolder.path)
-      return;
-    const folders = excludedFolder.path.split("/");
-    if (folders.length < 1) {
-      folders.push(excludedFolder.path);
-    }
-    folders[folders.indexOf(folder.name)] = folder.name;
-    excludedFolder.path = folders.join("/");
+    pathsChanged = true;
   });
-  plugin.saveSettings();
+  if (pathsChanged)
+    void plugin.saveSettings(false);
 }
 function shouldCreateFolderNote(excludedFolder, folderName, newFolder, detachedExcludedFolder) {
   return !(excludedFolder == null ? void 0 : excludedFolder.disableFolderNote) && folderName === (newFolder == null ? void 0 : newFolder.name) && !detachedExcludedFolder;
@@ -6569,13 +6626,9 @@ async function handleCreate(file, plugin) {
 }
 async function handleFileCreation(file, plugin) {
   const folder = getFolder(plugin, file);
-  if (!(folder instanceof import_obsidian44.TFolder) && plugin.settings.autoCreateForFiles) {
-    if (!file.parent) {
-      return;
-    }
-    const newFolder = await plugin.app.fileManager.createNewFolder(file.parent);
-    turnIntoFolderNote(plugin, file, newFolder);
-  } else if (folder instanceof import_obsidian44.TFolder) {
+  if (!(folder instanceof import_obsidian44.TFolder)) {
+    await createFolderForFile(file, plugin);
+  } else {
     if (folder.children.length >= 1) {
       removeCSSClassFromFileExplorerEL(folder.path, "fn-empty-folder", false, plugin);
     }
@@ -6587,17 +6640,31 @@ async function handleFileCreation(file, plugin) {
     if (folderNote && folderNote.path === file.path) {
       addCSSClassToFileExplorerEl(folder.path, "has-folder-note", false, plugin);
       addCSSClassToFileExplorerEl(file.path, "is-folder-note", false, plugin);
-    } else if (plugin.settings.autoCreateForFiles && !isFileInAttachmentFolder(plugin, file)) {
-      if (!plugin.settings.supportedFileTypes.includes(file.extension)) {
-        return;
-      }
-      if (!file.parent) {
-        return;
-      }
-      const newFolder = await plugin.app.fileManager.createNewFolder(file.parent);
-      turnIntoFolderNote(plugin, file, newFolder);
+    } else {
+      await createFolderForFile(file, plugin);
     }
   }
+}
+async function createFolderForFile(file, plugin) {
+  if (!plugin.settings.autoCreateForFiles) {
+    return;
+  }
+  if (!plugin.settings.supportedFileTypes.includes(file.extension)) {
+    return;
+  }
+  if (isFileInAttachmentFolder(plugin, file)) {
+    return;
+  }
+  const { parent } = file;
+  if (!parent) {
+    return;
+  }
+  const folderPath = parent.isRoot() ? file.basename : `${parent.path}/${file.basename}`;
+  if (plugin.app.vault.getAbstractFileByPath(folderPath)) {
+    return;
+  }
+  const newFolder = await plugin.app.vault.createFolder(folderPath);
+  turnIntoFolderNote(plugin, file, newFolder);
 }
 async function handleFolderCreation(folder, plugin) {
   let openFile = plugin.settings.autoCreateFocusFiles;
@@ -6866,10 +6933,13 @@ var FrontMatterTitlePluginHandler2 = class {
     }
   }
   async getNewFileName(file) {
+    var _a;
+    return this.resolveTitle((_a = file == null ? void 0 : file.path) != null ? _a : "");
+  }
+  resolveTitle(path) {
     var _a, _b, _c;
     const resolver = (_b = (_a = this.api) == null ? void 0 : _a.getResolverFactory()) == null ? void 0 : _b.createResolver("#feature-id#");
-    const changedName = resolver == null ? void 0 : resolver.resolve((_c = file == null ? void 0 : file.path) != null ? _c : "");
-    return changedName != null ? changedName : null;
+    return (_c = resolver == null ? void 0 : resolver.resolve(path)) != null ? _c : null;
   }
 };
 
@@ -6999,12 +7069,17 @@ var FvIndexDB = class {
 };
 
 // src/obsidian-folder-overview/src/main.ts
+var DEBOUNCE_DELAY_MS = 2e3;
 var FolderOverviewPlugin = class extends import_obsidian49.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
     this.settingsTab = new SettingsTab(this);
     this.fvIndexDB = new FvIndexDB(this);
+    this.updateAllOverviewsDebounced = (0, import_obsidian49.debounce)(() => {
+      updateAllOverviews(this);
+    }, DEBOUNCE_DELAY_MS, true);
+    this.editButtonHandlers = /* @__PURE__ */ new WeakMap();
     this.updateOverviewView = updateOverviewView;
     this.updateViewDropdown = updateViewDropdown;
   }
@@ -7033,25 +7108,31 @@ var FolderOverviewPlugin = class extends import_obsidian49.Plugin {
     console.debug("loading Folder Overview plugin");
   }
   handleVaultChange() {
-    const DEBOUNCE_DELAY_MS = 2e3;
+    if (!this.app.workspace.layoutReady)
+      return;
     if (!this.settings.globalSettings.autoUpdateLinks)
       return;
-    (0, import_obsidian49.debounce)(() => {
-      updateAllOverviews(this);
-    }, DEBOUNCE_DELAY_MS, true)();
+    this.updateAllOverviewsDebounced();
   }
   async handleOverviewBlock(source, el, ctx) {
     const observer = new MutationObserver(() => {
       var _a;
       const editButton = (_a = el.parentElement) == null ? void 0 : _a.childNodes.item(1);
-      if (editButton) {
-        editButton.addEventListener("click", (e) => {
-          e.stopImmediatePropagation();
-          e.preventDefault();
-          e.stopPropagation();
-          new FolderOverviewSettings(this.app, this, (0, import_obsidian49.parseYaml)(source), ctx, el, this.settings.defaultOverviewSettings).open();
-        }, { capture: true });
-      }
+      if (!editButton)
+        return;
+      const hasListener = this.editButtonHandlers.has(editButton);
+      this.editButtonHandlers.set(editButton, () => {
+        new FolderOverviewSettings(this.app, this, (0, import_obsidian49.parseYaml)(source), ctx, el, this.settings.defaultOverviewSettings).open();
+      });
+      if (hasListener)
+        return;
+      editButton.addEventListener("click", (e) => {
+        var _a2;
+        e.stopImmediatePropagation();
+        e.preventDefault();
+        e.stopPropagation();
+        (_a2 = this.editButtonHandlers.get(editButton)) == null ? void 0 : _a2();
+      }, { capture: true });
     });
     observer.observe(el, {
       childList: true,
@@ -7229,6 +7310,7 @@ var FolderOverviewView = class extends import_obsidian50.ItemView {
 };
 
 // src/main.ts
+var OVERVIEW_UPDATE_DEBOUNCE_MS = 2e3;
 var FolderNotesPlugin = class extends import_obsidian51.Plugin {
   constructor() {
     super(...arguments);
@@ -7238,6 +7320,11 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
     this.hoverLinkTriggered = false;
     this.settingsOpened = false;
     this.askModalCurrentlyOpen = false;
+    this.overviewEditHandlers = /* @__PURE__ */ new WeakMap();
+    this.fileExplorerClickComponents = /* @__PURE__ */ new Map();
+    this.updateAllOverviewsDebounced = (0, import_obsidian51.debounce)(() => {
+      void updateAllOverviews(this);
+    }, OVERVIEW_UPDATE_DEBOUNCE_MS, true);
     this.updateOverviewView = updateOverviewView;
     this.updateViewDropdown = updateViewDropdown;
   }
@@ -7286,7 +7373,7 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
         return;
       }
       const folder = getFolder(this, openFile);
-      if (!folder) {
+      if (!(folder instanceof import_obsidian51.TFolder)) {
         return;
       }
       const excludedFolder = getExcludedFolder(this, folder.path, true);
@@ -7300,6 +7387,9 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
         return;
       }
       setActiveFolder(folder.path, this);
+      if (!(excludedFolder == null ? void 0 : excludedFolder.showFolderNote)) {
+        this.revealFolderNoteInExplorer(folder, folderNote.path);
+      }
     }));
     this.registerEvent(this.app.vault.on("create", (file) => {
       handleCreate(file, this).catch((err) => {
@@ -7320,56 +7410,74 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
       this.handleOverviewBlock(source, el, ctx);
     });
   }
-  addSettingCssClasses() {
-    activeDocument.body.classList.add("folder-notes-plugin");
-    if (this.settings.hideFolderNote) {
-      activeDocument.body.classList.add("hide-folder-note");
-    }
-    if (this.settings.hideCollapsingIconForEmptyFolders) {
-      activeDocument.body.classList.add("fn-hide-empty-collapse-icon");
-    }
-    if (this.settings.hideFolderNoteNameInPath) {
-      activeDocument.body.classList.add("folder-note-hide-name-path");
-    }
-    if (this.settings.underlineFolder) {
-      activeDocument.body.classList.add("folder-note-underline");
-    }
-    if (this.settings.boldName) {
-      activeDocument.body.classList.add("folder-note-bold");
-    }
-    if (this.settings.cursiveName) {
-      activeDocument.body.classList.add("folder-note-cursive");
-    }
-    if (this.settings.boldNameInPath) {
-      activeDocument.body.classList.add("folder-note-bold-path");
-    }
-    if (this.settings.cursiveNameInPath) {
-      activeDocument.body.classList.add("folder-note-cursive-path");
-    }
-    if (this.settings.underlineFolderInPath) {
-      activeDocument.body.classList.add("folder-note-underline-path");
-    }
-    if (this.settings.stopWhitespaceCollapsing) {
-      activeDocument.body.classList.add("fn-whitespace-stop-collapsing");
-    }
-    if (this.settings.hideCollapsingIcon) {
-      activeDocument.body.classList.add("fn-hide-collapse-icon");
-    }
-    if (this.settings.ignoreAttachmentFolder) {
-      activeDocument.body.classList.add("fn-ignore-attachment-folder");
-    }
-    if (!this.settings.highlightFolder) {
-      activeDocument.body.classList.add("disable-folder-highlight");
-    }
-    if ((0, import_obsidian51.requireApiVersion)("1.7.2")) {
-      activeDocument.body.classList.add("version-1-7-2");
-    }
+  getSettingCssClasses() {
+    return {
+      "folder-notes-plugin": true,
+      "hide-folder-note": this.settings.hideFolderNote,
+      "fn-hide-empty-collapse-icon": this.settings.hideCollapsingIconForEmptyFolders,
+      "folder-note-hide-name-path": this.settings.hideFolderNoteNameInPath,
+      "folder-note-underline": this.settings.underlineFolder,
+      "folder-note-bold": this.settings.boldName,
+      "folder-note-cursive": this.settings.cursiveName,
+      "folder-note-bold-path": this.settings.boldNameInPath,
+      "folder-note-cursive-path": this.settings.cursiveNameInPath,
+      "folder-note-underline-path": this.settings.underlineFolderInPath,
+      "fn-whitespace-stop-collapsing": this.settings.stopWhitespaceCollapsing,
+      "fn-hide-collapse-icon": this.settings.hideCollapsingIcon,
+      "fn-ignore-attachment-folder": this.settings.ignoreAttachmentFolder,
+      "disable-folder-highlight": !this.settings.highlightFolder,
+      "version-1-7-2": (0, import_obsidian51.requireApiVersion)("1.7.2")
+    };
+  }
+  addSettingCssClasses(doc = this.app.workspace.containerEl.ownerDocument) {
+    Object.entries(this.getSettingCssClasses()).forEach(([name, enabled]) => {
+      doc.body.classList.toggle(name, enabled);
+    });
+  }
+  removeSettingCssClasses(doc) {
+    doc.body.classList.remove(...Object.keys(this.getSettingCssClasses()));
+  }
+  registerFileExplorerClickEvents() {
+    const { workspace } = this.app;
+    this.registerEvent(workspace.on("window-open", (workspaceWindow) => {
+      this.registerFileExplorerDocument(workspaceWindow.doc);
+    }));
+    this.registerEvent(workspace.on("window-close", (workspaceWindow) => {
+      const component = this.fileExplorerClickComponents.get(workspaceWindow.doc);
+      if (component)
+        this.removeChild(component);
+    }));
+    this.registerFileExplorerDocument(workspace.containerEl.ownerDocument);
+    workspace.iterateAllLeaves((leaf) => {
+      this.registerFileExplorerDocument(leaf.view.containerEl.ownerDocument);
+    });
+  }
+  registerFileExplorerDocument(doc) {
+    if (this.fileExplorerClickComponents.has(doc))
+      return;
+    const component = this.addChild(new import_obsidian51.Component());
+    this.fileExplorerClickComponents.set(doc, component);
+    this.addSettingCssClasses(doc);
+    component.register(() => {
+      this.removeSettingCssClasses(doc);
+      this.fileExplorerClickComponents.delete(doc);
+    });
+    component.registerDomEvent(doc, "click", (evt) => {
+      this.handleFileExplorerClick(evt);
+    }, true);
+    component.registerDomEvent(doc, "auxclick", (evt) => {
+      const rightClick = 2;
+      if (evt.button === rightClick)
+        return;
+      this.handleFileExplorerClick(evt);
+    }, true);
   }
   onLayoutReady() {
     var _a, _b, _c, _d;
     if (!this._loaded) {
       return;
     }
+    this.registerFileExplorerClickEvents();
     registerFileExplorerObserver(this);
     const fileExplorer = getFileExplorer(this);
     const infinityScroll = (_b = (_a = fileExplorer == null ? void 0 : fileExplorer.view) == null ? void 0 : _a.tree) == null ? void 0 : _b.infinityScroll;
@@ -7387,20 +7495,11 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
     }
     this.tabManager = new TabManager(this);
     this.tabManager.updateTabs();
-    this.registerDomEvent(activeDocument, "click", (evt) => {
-      this.handleFileExplorerClick(evt);
-    }, true);
-    this.registerDomEvent(activeDocument, "auxclick", (evt) => {
-      const rightClick = 2;
-      if (evt.button === rightClick)
-        return;
-      this.handleFileExplorerClick(evt);
-    }, true);
     const fileExplorerPlugin = this.app.internalPlugins.getEnabledPluginById("file-explorer");
     if (fileExplorerPlugin) {
-      const fileExplorer2 = fileExplorerPlugin;
-      const originalRevealInFolder = fileExplorer2.revealInFolder.bind(fileExplorer2);
-      fileExplorer2.revealInFolder = (file) => {
+      const fileExplorerInstance = fileExplorerPlugin;
+      const originalRevealInFolder = fileExplorerInstance.revealInFolder.bind(fileExplorerInstance);
+      fileExplorerInstance.revealInFolder = (file) => {
         if (file instanceof import_obsidian51.TFile) {
           const folder = getFolder(this, file);
           if (folder instanceof import_obsidian51.TFolder) {
@@ -7409,12 +7508,12 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
               originalRevealInFolder(file);
               return;
             }
-            activeDocument.body.classList.remove("hide-folder-note");
+            const excludedFolder = getExcludedFolder(this, folder.path, true);
+            if (!this.settings.hideFolderNote || (excludedFolder == null ? void 0 : excludedFolder.showFolderNote) || (excludedFolder == null ? void 0 : excludedFolder.disableFolderNote)) {
+              originalRevealInFolder(file);
+              return;
+            }
             originalRevealInFolder(folder);
-            const FOLDER_REVEAL_DELAY = 100;
-            window.setTimeout(() => {
-              activeDocument.body.classList.add("hide-folder-note");
-            }, FOLDER_REVEAL_DELAY);
             return;
           }
         }
@@ -7468,13 +7567,50 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
       this.fvIndexDB.init(false);
     }
   }
+  revealFolderNoteInExplorer(folder, folderNotePath) {
+    var _a;
+    if (!this.settings.hideFolderNote)
+      return;
+    const fileExplorerView = (_a = getFileExplorer(this)) == null ? void 0 : _a.view;
+    if (!(fileExplorerView == null ? void 0 : fileExplorerView.autoRevealFile))
+      return;
+    const { defaultView } = fileExplorerView.containerEl.ownerDocument;
+    if (!defaultView)
+      return;
+    const folderNoteIsStillActive = () => {
+      var _a2;
+      return ((_a2 = this.app.workspace.getActiveFile()) == null ? void 0 : _a2.path) === folderNotePath;
+    };
+    defaultView.requestAnimationFrame(() => {
+      var _a2, _b, _c;
+      if (!folderNoteIsStillActive())
+        return;
+      const ancestors = [];
+      let { parent } = folder;
+      while (parent && !parent.isRoot()) {
+        ancestors.unshift(parent);
+        ({ parent } = parent);
+      }
+      for (const ancestor of ancestors) {
+        (_c = (_b = (_a2 = fileExplorerView.fileItems) == null ? void 0 : _a2[ancestor.path]) == null ? void 0 : _b.setCollapsed) == null ? void 0 : _c.call(_b, false);
+      }
+      defaultView.requestAnimationFrame(() => {
+        var _a3, _b2;
+        if (!folderNoteIsStillActive())
+          return;
+        const folderItem = (_a3 = fileExplorerView.fileItems) == null ? void 0 : _a3[folder.path];
+        if (!folderItem)
+          return;
+        (_b2 = fileExplorerView.tree.infinityScroll) == null ? void 0 : _b2.scrollIntoView(folderItem, this.settings.fileExplorerRevealMargin);
+      });
+    });
+  }
   handleVaultChange() {
+    if (!this.app.workspace.layoutReady)
+      return;
     if (!this.settings.fvGlobalSettings.autoUpdateLinks)
       return;
-    const DEBOUNCE_DELAY = 2e3;
-    (0, import_obsidian51.debounce)(() => {
-      void updateAllOverviews(this);
-    }, DEBOUNCE_DELAY, true)();
+    this.updateAllOverviewsDebounced();
   }
   handleFileExplorerClick(evt) {
     const target = evt.target;
@@ -7513,7 +7649,7 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
     const folderTitleEl = target.closest(".nav-folder-title");
     const onlyClickedOnFolderTitle = !!target.closest(".nav-folder-title-content");
     return {
-      folderTitleEl: folderTitleEl instanceof HTMLElement ? folderTitleEl : null,
+      folderTitleEl: (folderTitleEl == null ? void 0 : folderTitleEl.instanceOf(HTMLElement)) ? folderTitleEl : null,
       onlyClickedOnFolderTitle
     };
   }
@@ -7558,14 +7694,21 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
     const observer = new MutationObserver(() => {
       var _a;
       const editButton = (_a = el.parentElement) == null ? void 0 : _a.childNodes.item(1);
-      if (editButton) {
-        editButton.addEventListener("click", (e) => {
-          e.stopImmediatePropagation();
-          e.preventDefault();
-          e.stopPropagation();
-          new FolderOverviewSettings(this.app, this, (0, import_obsidian51.parseYaml)(source), ctx, el, this.settings.defaultOverview).open();
-        }, { capture: true });
-      }
+      if (!editButton)
+        return;
+      const hasListener = this.overviewEditHandlers.has(editButton);
+      this.overviewEditHandlers.set(editButton, () => {
+        new FolderOverviewSettings(this.app, this, (0, import_obsidian51.parseYaml)(source), ctx, el, this.settings.defaultOverview).open();
+      });
+      if (hasListener)
+        return;
+      editButton.addEventListener("click", (e) => {
+        var _a2;
+        e.stopImmediatePropagation();
+        e.preventDefault();
+        e.stopPropagation();
+        (_a2 = this.overviewEditHandlers.get(editButton)) == null ? void 0 : _a2();
+      }, { capture: true });
     });
     observer.observe(el, {
       childList: true,
@@ -7689,10 +7832,7 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
   }
   onunload() {
     unregisterFileExplorerObserver();
-    activeDocument.body.classList.remove("folder-notes-plugin");
-    activeDocument.body.classList.remove("folder-note-underline");
-    activeDocument.body.classList.remove("hide-folder-note");
-    activeDocument.body.classList.remove("fn-whitespace-stop-collapsing");
+    this.removeSettingCssClasses(this.app.workspace.containerEl.ownerDocument);
     removeActiveFolder(this);
     if (this.fmtpHandler) {
       this.fmtpHandler.deleteEvent();
@@ -7729,5 +7869,3 @@ var FolderNotesPlugin = class extends import_obsidian51.Plugin {
     }
   }
 };
-
-/* nosourcemap */

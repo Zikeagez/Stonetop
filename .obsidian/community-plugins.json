@@ -6,7 +6,6 @@
   "obsidian-dice-roller",
   "obsidian-excalidraw-plugin",
   "obsidian-excel-to-markdown-table",
-  "folder-notes",
   "highlightr-plugin",
   "image-converter",
   "obsidian-link-embed",
@@ -36,7 +35,6 @@
   "obsidian-charts",
   "zoom-map",
   "advanced-canvas",
-  "manual-sorting",
   "auto-note-mover",
   "helpmate",
   "obsidian-heading-shifter",
@@ -46,5 +44,10 @@
   "solo-rpg-toolkit",
   "excalidraw-extras",
   "chronos",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "atlas-vtt",
+  "obsidian-5e-statblocks",
+  "manual-sorting",
+  "folder-notes",
+  "substitutions"
 ]

@@ -1,8 +1,13 @@
 {
   "pluginList": [
+    "LostPaul/obsidian-folder-notes",
     "Jareika/zoom-map"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "LostPaul/obsidian-folder-notes",
+      "version": "1.8.27-2-beta"
+    },
     {
       "repo": "Jareika/zoom-map",
       "version": ""
@@ -17,6 +22,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
+  "globalTokenName": "",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": false,
   "allowIncompatiblePlugins": false

@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "id": "7a71a098-663c-4eff-be50-dde553be7393",
+  "name": "Stonetop",
+  "builtIn": false,
+  "rules": {
+    "gridDefaults": {
+      "unitType": "feet",
+      "unitDistance": 5,
+      "measurementMode": "metric",
+      "abstractRangeBands": [],
+      "diagonalRule": "equidistant"
+    },
+    "conditions": [
+      {
+        "id": "69081e7b-246f-499f-ae38-1b97802bbe2d",
+        "name": "",
+        "color": "#a3d416"
+      }
+    ],
+    "defaultWidgets": {
+      "hpBar": true
+    }
+  }
+}

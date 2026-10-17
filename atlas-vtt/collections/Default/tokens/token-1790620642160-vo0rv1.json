@@ -1,0 +1,17 @@
+{
+  "atlasRecord": {
+    "format": 1,
+    "name": "Rogue",
+    "imagePath": "atlas-vtt/assets/Rogue_1790620642158_ucw5tv.webp",
+    "collection": "Default",
+    "tags": [
+      "Class"
+    ],
+    "showRing": true,
+    "type": "token",
+    "id": "token-1790620642160-vo0rv1",
+    "createdAt": 1790620642160,
+    "modifiedAt": 1790620642160,
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/Rogue_1790620642158_ucw5tv-d038242f.webp"
+  }
+}

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb5d054275b49d5b",
+        "id": "604933ec860de2ac",
         "type": "tabs",
         "children": [
           {
-            "id": "d6a0cf73c3f8be30",
+            "id": "e06045f8c2558d44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stonetop Book I/Running the Game.md",
+                "file": "Stonetop Book I/Expeditions.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Running the Game"
+              "title": "Expeditions"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "recover",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.6725616455078
+    "width": 264.85911560058594
   },
   "right": {
     "id": "0d0b189d29a8932a",
@@ -89,6 +89,7 @@
       {
         "id": "6876e32d39beed37",
         "type": "tabs",
+        "dimension": 43.898305084745765,
         "children": [
           {
             "id": "1c5354805a5d85b3",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stonetop Book I/Playing the Game.md",
+                "file": "Stonetop Compendium/Bestiary/The Gwraig Wen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Playing the Game"
+              "title": "Backlinks"
             }
           },
           {
@@ -115,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stonetop Book I/Playing the Game.md",
+                "file": "Stonetop Compendium/Bestiary/The Gwraig Wen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Playing the Game"
+              "title": "Outgoing links"
             }
           },
           {
@@ -144,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stonetop Book I/Playing the Game.md",
+                "file": "Stonetop Compendium/Bestiary/The Gwraig Wen.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Playing the Game"
+              "title": "Outline"
             }
           },
           {
@@ -173,11 +174,13 @@
               "title": "Initiative Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "9ae0d93bf33af6e6",
         "type": "tabs",
+        "dimension": 56.101694915254235,
         "children": [
           {
             "id": "b9fb158d2e4127c3",
@@ -185,8 +188,8 @@
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {
-                "creatureId": null,
-                "creatureName": null
+                "creatureId": "ID_3ae9e869cbdb",
+                "creatureName": "The Gwraig Wen"
               },
               "icon": "initiative-tracker-creature-view",
               "title": "Combatant"
@@ -196,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.5,
+    "width": 471.0958251953125,
     "collapsed": true
   },
   "left-ribbon": {
@@ -225,57 +228,59 @@
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "helpmate:HelpMate": false,
       "relations:Open Relations graph": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false
+      "solo-rpg-toolkit:Solo RPG Toolkit": false,
+      "atlas-vtt:Display image on player view": false,
+      "obsidian-5e-statblocks:Open Creature pane": false
     }
   },
-  "active": "d6a0cf73c3f8be30",
+  "active": "e06045f8c2558d44",
   "lastOpenFiles": [
-    "Stonetop Compendium/Rules/GM Moves/Announce trouble (future or offscreen).md",
-    "Stonetop Compendium/Rules/GM Moves/Reveal an Unwelcome Truth.md",
-    "Stonetop Compendium/Rules/GM Moves/Ask a Provocative Question.md",
-    "Stonetop Compendium/Rules/GM Moves/Put Someone in a Spot.md",
-    "Stonetop Compendium/Rules/GM Moves/Use Up Their Resources.md",
-    "Stonetop Compendium/Rules/GM Moves/Demonstrate a Downside.md",
-    "Stonetop Compendium/Rules/GM Moves/Turn Their Move Back on Them.md",
-    "Stonetop Compendium/Rules/GM Moves/Hurt Someone.md",
-    "Stonetop Compendium/Rules/GM Moves/Separate Them.md",
-    "Stonetop Compendium/Rules/GM Moves/Capture Someone.md",
-    "Stonetop Compendium/Rules/GM Moves/Offer an Opportunity (With or Without a Cost).md",
-    "Stonetop Compendium/Rules/GM Moves/Tell Them the Consequences or Requirements (then ask).md",
-    "Stonetop Compendium/Rules/GM Moves/Advance Towards Impending Doom.md",
-    "Stonetop Compendium/Rules/Moves/Basic Moves/Aid.md",
     "0. Dashboard/0. Dashboard.md",
-    "Stonetop Book I/Running the Game.md",
-    "Stonetop Book I/Untitled.md",
-    "Stonetop Compendium/Rules/GM Moves",
-    "Stonetop Book I/Stonetop Book I.md",
-    "Stonetop Book I/Playbooks & Inserts.md",
-    "Stonetop Book I/Welcome to Stonetop.md",
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/The Ranger.md",
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/The Blessed.md",
-    "Stonetop Book I/Getting Started.md",
+    "Stonetop Book I/Expeditions.md",
     "Stonetop Book I/Playing the Game.md",
-    "z_Assets/Playbooks and Inserts/Playbooks/Playbook - Steading (spreads).pdf",
-    "z_Assets/Playbooks and Inserts/Playbooks/Playbook inserts.pdf",
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/The Lightbearer.md",
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/A Candle Against the Dark.md",
-    "z_Assets/Images/Image - Would-Be Hero Stats.webp",
-    "z_Assets/Images/Image - Seeker Stats.webp",
-    "Stonetop Compendium/Rules/Character Creation",
-    "0. Scratch Notes/Bases/1. Base File Example.base",
-    "0. Scratch Notes/Bases/Party View.base",
-    "0. Scratch Notes/Bases/Session Journal Base.base",
-    "z_Assets/Images/Image - Ranger Stats.webp",
-    "z_Assets/image-1.webp",
-    "z_Assets/Images/Image - Marshal Stats.webp",
-    "z_Assets/Images/Image - Lightbearer Stats.webp",
-    "z_Assets/Images/Image - Judge Stats.webp",
-    "0. Musics/Theme",
-    "z_Assets/Images/Image - Stats The Heavy.webp",
-    "z_Assets/Images/Image - Stats The Fox.webp",
-    "z_Assets/Images/Image - Stats The Blessed.webp",
-    "z_Assets/Playbooks and Inserts/Playbooks/Playbook - The Blessed (1-up).pdf",
-    "z_Assets/Playbooks and Inserts/Playbooks",
+    "Stonetop Book I/Playbooks & Inserts.md",
+    "Stonetop Book I/Running the Game.md",
+    "Stonetop Compendium/Rules/Character Creation/Playbooks/Playbooks.md",
+    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/The Blessed.md",
+    "Stonetop Book II/Stonetop Book II.md",
+    "z_Templates/4_Dataview Templates/Query Outgoing Links.md",
+    "Stonetop Book I/Threats.md",
+    "z_Templates/Stonetop Organization/Move.md",
+    "Stonetop Compendium/Rules/Threat Types/Wildcard.md",
+    "Stonetop Compendium/Rules/Threat Types/Villain.md",
+    "Stonetop Compendium/Rules/Threat Types/Rabble.md",
+    "Stonetop Compendium/Rules/Moves/Special Moves/End of Session.md",
+    "z_Templates/World Builder Templates/Template-Journal.md",
+    "z_Templates/3_Markdown/Call Out Boxes/Call Out Boxes.md",
+    "z_Templates/End of Session.md",
+    "Stonetop Compendium/Rules/Threat Types/Affliction.md",
+    "Stonetop Compendium/Rules/Threat Types/Magical Entity.md",
+    "Stonetop Compendium/Rules/Threat Types/MacGuffin.md",
+    "Stonetop Compendium/Rules/Threat Types/Institution.md",
+    "Stonetop Compendium/Rules/Threat Types/Beast.md",
+    "Stonetop Book I/affl.md",
+    "Stonetop Book I/aff.md",
+    "Stonetop Compendium/Rules/Threat Types",
+    "z_Templates/3_Markdown/Drop the Hook.md",
+    "atlas-vtt/library.json",
+    "atlas-vtt/collections/Stonetop/collection.json",
+    "atlas-vtt/collections/Default/collection.json",
+    "atlas-vtt/collections/Stonetop/tokens/token-1790621472103-cj7ib1.json",
+    "atlas-vtt/collections/Default/tokens/token-1790620642196-utbdcs.json",
+    "atlas-vtt/collections/Default/tokens/token-1790620642184-oikny6.json",
+    "atlas-vtt/collections/Default/tokens/token-1790620642174-l71gn0.json",
+    "atlas-vtt/collections/Default/tokens/token-1790620642168-redu98.json",
+    "atlas-vtt/collections/Default/tokens/token-1790620642164-i5ein0.json",
+    "z_Assets/Icon - Undead.webp",
+    "atlas-vtt/collections/Stonetop/scenes/Map 1   Stonetop   11 x 14.thumb.jpg",
+    "atlas-vtt/assets/Map_1___Stonetop___11_x_14_1790621092886_82dilb.webp",
+    "atlas-vtt/assets/thumbnails/EliasReed_1790621472032_qv994n-6d43d0d1.webp",
+    "atlas-vtt/collections/Stonetop/tokens/EliasReed_1790621472032_qv994n.webp",
+    "atlas-vtt/assets/thumbnails/Map_1___Stonetop___11_x_14_1790621092886_82dilb-5305956b.webp",
+    "atlas-vtt/assets/thumbnails/Occultist_1790620642194_cptxy0-d1081d5b.webp",
+    "atlas-vtt/assets/thumbnails/Assassin_1790620642182_fbld18-c28a5bba.webp",
+    "atlas-vtt/assets/thumbnails/Knight_1790620642172_8h6p7x-9e995585.webp",
+    "atlas-vtt/assets/thumbnails/Wizard_1790620642166_e6tapj-64166e0f.webp",
     "DS Compendium/Rules/Ancestries/Polder/Untitled.canvas",
     "0. Scratch Notes/Character Sheet Elements/Example Sheet/Remy Nox Sheet.canvas",
     "0. Scratch Notes/Character Sheet Elements/Untitled.canvas"

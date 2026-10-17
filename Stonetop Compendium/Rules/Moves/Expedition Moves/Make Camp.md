@@ -11,4 +11,12 @@ subtype: expeditionmove
 >- Clear a debility
 >If ***your rest was particularly peaceful, comfortable, or enjoyable***, you also gain advantage on your next roll.
 
-For more information, see page 248 and page 334.
+When the PCs are beaten up or exhausted, they'll want to Make Camp. If they have time, a ◇ mess kit, fire, and water, they can regain a lot of HP and/or clear some debilities with just 1-2 uses of supplies.
+
+To make a choice, they need all three: food, drink, and sleep. Anyone who also uses a ◇ bedroll regains +1d6 HP, regardless of which choice they make.
+
+Regaining HP or clearing a debility doesn't make problematic wounds go away. PCs must treat them with the [[Recover]] move, and such wounds take time to fully heal.
+
+To get advantage on their next roll, things need to be *great*, not merely adequate. This should be the exception, not the rule.
+
+For more about Making Camp, and how to decide on what (if anything) happens during the night, see page 334.

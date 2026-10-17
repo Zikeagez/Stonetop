@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "uid": "feb33d8f-40eb-4874-b641-bf6b644d161e",
+  "version": 1,
+  "tags": {},
+  "settings": {
+    "conditions": [
+      {
+        "id": "69081e7b-246f-499f-ae38-1b97802bbe2d",
+        "name": "",
+        "color": "#a3d416"
+      }
+    ],
+    "gridDefaults": {
+      "unitType": "feet",
+      "unitDistance": 5,
+      "measurementMode": "metric",
+      "abstractRangeBands": [],
+      "diagonalRule": "equidistant"
+    },
+    "defaultWidgets": {
+      "hpBar": true
+    },
+    "systemPresetId": "7a71a098-663c-4eff-be50-dde553be7393",
+    "resources": [
+      {
+        "key": "hp",
+        "name": "HP",
+        "field": "hp",
+        "direction": "drains",
+        "color": "#22c55e",
+        "defeatedWhenSpent": true,
+        "visibleToPlayers": false
+      }
+    ]
+  },
+  "createdAt": 1790620945933,
+  "modifiedAt": 1791262782343,
+  "publisherId": "5ba42874-a3b0-4ada-9759-1541b030c74e"
+}

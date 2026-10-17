@@ -1,0 +1,63 @@
+{
+  "showChangelogOnUpdate": true,
+  "changelogMajorUpdatesOnly": false,
+  "hotkeys": {},
+  "onboarding": {
+    "enabled": true,
+    "completed": {
+      "assets": true,
+      "palette": true,
+      "tokenStatblocks": true
+    },
+    "tokenImported": true
+  },
+  "starterTokensAdded": true,
+  "navigation": {
+    "inputMode": "mouse"
+  },
+  "laserPointer": {
+    "color": "#ff0059",
+    "size": 16
+  },
+  "systemPresets": [
+    {
+      "id": "7a71a098-663c-4eff-be50-dde553be7393",
+      "name": "Stonetop",
+      "builtIn": false,
+      "rules": {
+        "gridDefaults": {
+          "unitType": "feet",
+          "unitDistance": 5,
+          "measurementMode": "metric",
+          "abstractRangeBands": [],
+          "diagonalRule": "equidistant"
+        },
+        "conditions": [
+          {
+            "id": "69081e7b-246f-499f-ae38-1b97802bbe2d",
+            "name": "",
+            "color": "#a3d416"
+          }
+        ],
+        "defaultWidgets": {
+          "hpBar": true
+        }
+      }
+    }
+  ],
+  "localPlayerView": {
+    "showToolbar": false,
+    "showTokenHP": false,
+    "showTokenStress": false,
+    "showTokenNameplates": false,
+    "showNotePreviews": false,
+    "showGrid": true,
+    "showWidgets": true,
+    "showInitiative": true,
+    "showDiceRolls": false,
+    "showCommandPalette": false
+  },
+  "systemPresetsMovedIds": [
+    "7a71a098-663c-4eff-be50-dde553be7393"
+  ]
+}

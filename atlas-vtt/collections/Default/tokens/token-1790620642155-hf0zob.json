@@ -1,0 +1,17 @@
+{
+  "atlasRecord": {
+    "format": 1,
+    "name": "Ranger",
+    "imagePath": "atlas-vtt/assets/Ranger_1790620642153_83j71v.webp",
+    "collection": "Default",
+    "tags": [
+      "Class"
+    ],
+    "showRing": true,
+    "type": "token",
+    "id": "token-1790620642155-hf0zob",
+    "createdAt": 1790620642155,
+    "modifiedAt": 1790620642155,
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/Ranger_1790620642153_83j71v-e5fb33dc.webp"
+  }
+}

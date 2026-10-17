@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "uid": "76f3f9bb-05ed-4c36-a28f-ff25613b770f",
+  "version": 1,
+  "description": "Default collection",
+  "tags": {
+    "tokens:class": {
+      "id": "class",
+      "name": "Class",
+      "group": "tokens"
+    }
+  },
+  "settings": {
+    "conditions": [],
+    "resources": [
+      {
+        "key": "hp",
+        "name": "HP",
+        "field": "hp",
+        "direction": "drains",
+        "color": "#22c55e",
+        "defeatedWhenSpent": true,
+        "visibleToPlayers": false
+      }
+    ]
+  },
+  "createdAt": 1790620641975,
+  "modifiedAt": 1791262782329
+}

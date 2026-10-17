@@ -327,7 +327,7 @@ Along the same lines, **your moves should reflect the specifics of the situation
 
 ![[Advance Towards Impending Doom]]
 
-## Example of Play
+# Example of Play
 Everyone's arrived. We've chatted, gotten comfortable, and we're ready to get started. The session starts in **loose play.** I ask if anyone wants to recap. Rhianna's player does.
 
 "We sent a logging crew to the Foothills. But some sort of goat-demon spooked them, and it  - or something - wounded Andras. They sent him back. We've gone up to investigate. Did we get anything useful out of Andras before we left?"
@@ -409,3 +409,295 @@ I need to make a hard move, and the obvious thing is to hurt him. "I guess it se
 And we go from there.
 
 # Your Principles
+These principles are your guidelines, your best practices, your rules of behavior for running *Stonetop.* Strive to follow them. They are the surest way to achieve your agenda.
+
+- Follow the rules
+- Begin and end with the fiction
+- Address the characters, not the players
+- Ask questions and build on the answers
+- Be a fan of the player characters
+- Embrace the fantastic and the mundane
+- Exploit the setting guide
+- Respect your prep
+- Give your characters life
+- Think offscreen, too
+- Bring it home
+- Let things breathe
+- Let things burn
+
+Following your principles isn't always easy. Sometimes it's unclear what a given principle looks like in the moment. Sometimes, the principles will conflict. A big part of your job is to interpret these principles and apply them as you think best. You'll often do this instinctively, and how exactly you follow your principles is a big part of your own personal style of GMing.
+
+## Follow the rules
+There are many rules, especially in the form of player moves: basic moves and follower moves, special moves, exploration moves, and steading moves. Each playbook has moves. Inserts have moves, Arcana have moves. Dangers, discoveries, threats, and locations can all have player-facing moves.
+
+Hopefully this is obvious, but: **when a move is triggered, follow procedures in the move and say what the move requires of you.** The rules are there to push the conversation and the fiction in certain directions, and to clarify what happens in moments of uncertainty.
+
+Give the players the full benefits of their moves and their rolls. Challenge their ability to trigger those moves, sure, and temper the results based on the established fiction and your prep. But don't fudge the results of a move because you think things should go a particular way, or because you're worried that things will be "too easy" or "too hard." That's not your job. You're **playing to find out what happens,** right?
+
+You don't get to invoke a player move unless its trigger is actually met. You *don't* get to say, "The crinwin attacks you, roll +DEX to [[Defy Danger]]!" gods, no. You say that the crinwin leaps at them and ask, "What do you do?" If they do something that triggers a move, *then* you do *that.*
+
+It's okay if, in service of your other principles, you suggest something in the spirit of the rules instead of following their exact letter, but be up front about it and get consent. "You got a 7-9 [[Clash]]? Roll you damage. 9?! Yikes. So, I know it says you expose yourself to your enemy's attack but I'm thinking the 'attack' in this case is that your axe gets wedged into his skull and it's gonna take a bit to get it free. That okay with you?"
+
+## Begin and end with the fiction
+Remember: "the fiction" is the shared, imagined space that you and the players establish through conversation, and the various characters' actions and relative positions within that imaginary space.
+
+When rules are invoked - when a player triggers a move or rolls damage or spends a resource or whatever - ground the rules in the fiction. If you can't picture what the character is actually doing or how they're going it, then ask questions and clarify the fiction before going to the dice. After the dice are rolled, and the rules say what happens, describe what that looks like in the fiction (or ask the player to). **Fiction, then rules, then back to fiction.** Always.
+
+Likewise, when you make a GM move, make a move that flows from the fiction as established. Don't say the name of the move - keep that to yourself - but describe how it manifests in the fiction. Show, don't tell.
+
+Beginning and ending with the fiction is a crucial part of **portraying a rich and mysterious world.** If you skimp on the fiction and just focus on the mechanics, you'll find that your world is bland, boring, and anemic.
+
+> **Bad:** "You attack the hagr? Cool, roll to [[Clash]] A 10? Do you evade its attack or deal extra damage? Okay, roll your damage +1d6. 7 damage? It's still up and hits you back for 1d10+3 forceful, knocking you down. It's coming at you again, what do you do?"
+> 
+> **Good:** "You attack the hagr? Cool, what's that look like? Stabbing up into its gut? Yeah, sure, roll [[Clash]]. A 10? Do you evade its attack or deal extra damage? Okay, roll your damage +1d6. 7 damage? So like you said, you stab it in its gut and the hagr doubles over, howling in pain, but before you can get away it just uncoils and backhands you across the face. Take d10+3 damage as you go flying and land in a heap, head spinning. You hear it lumbering towards you, grunting in pain and anger. What do you do?"
+
+## Address the characters, not the players
+Ask the *characters* what they do. Tell the *characters* what they see and hear. Don't say, "Brian, what is Vahid doing to keep awake?" Say instead: "Vahid, what are you doing to keep awake?" Don't tell Jamie, "Rhianna can tell that he's lying." Say (in Iwan's whiny voice) "No way, Rhianna, you know I'd never do that," and then (in your own voice), "But he looks away and you can tell he's full of crap."
+
+By speaking this way, you keep the game focused on the fiction. You push the players to think, speak, and respond as their characters. You establish fiction as the characters perceive it, because that's who you're addressing.
+
+## Ask questions and build on the answers
+Ask questions all the time, all over the place.
+
+Ask questions **to establish intent.** "Before you all head out in the morning, is there anything else anyone wants to do?"
+
+Ask questions **to clarify intent** and get yourself on the same page as the players. "Yeah, I guess you can get around him. But what are you hoping to accomplish here?"
+
+Ask questions **to clarify the fiction,** "Sure, you can [[Seek Insight]]. What does that look like?
+
+Ask the characters **what they're thinking or feeling.** "Caradoc, you're standing there, bleeding from where Wynfor stabbed you, and the look in his eye - you barely recognize him. What's going through your head right now?"
+
+Ask the characters **about their past or their day-to-day lives.** "Rhianna, who taught you how to hunt and track?" "Boldwen, you live with your mother, right? Any other siblings? What's the place look like inside?"
+
+Ask the characters **about things they would know.** "Rhianna, you've met Brennan before. What's his most distinguishing feature?"
+
+Ask the characters **about things they've heard or what they believe,** where their answers might not be entirely true. "Blodwen, what stories have you heard about the Quiet Twins and how they came to haunt the Stream? What do you think the truth is?"
+
+Ask questions **that assert details while asking for input.** "Vahid, what have you noticed that all the missing children have in common?" "Rhianna, what little ritual do folks always do when crossing the Stream?"
+
+Ask the characters to **paint the scene for you,** by asking them for details on a theme. "What here tells each of you that this is a place touched by the Fae?" "What do you see here that you've seen a thousand times before?" "What's the most striking thing about the Flats in early spring?"
+
+Ask questions **that do more than one of the above.** "Caradoc, when you all got back to town, whose reaction surprised you the most? How did they react, and how did you feel about it?"
+
+Reincorporate their answers into the fiction, right away or later on. Don't shut down their answers unless it's to point out a contradiction. Ask follow-up questions. Think about what what their answers imply and extrapolate from there.  Their answers might surprise you - that's part of the fun - but carry on as if that answer has always been a true and obvious part of the established world.
+
+When you ask your players to contribute to the fiction, it helps you **play to find out what happens.** Your players will always come up with details that you wouldn't, and that makes the world you're all creating a little more surprising. When you build on the details that players have established, it helps you **portray a rich and mysterious world.** People are often more invested in things they helped created, and when you bring up a character or a detail that they introduced four sessions back, and it matters, that really brings the world to life.
+
+## Be a fan of the player characters
+The PCs are the protagonists of the story. Keep the focus of the game on them. Root for them. celebrate their victories. Lament their losses. Let yourself wonder things about them, and then find ways to get the answers through play.  Care about them. Be their fans.
+
+Being a fan of the players doesn't mean letting them do whatever they want. You're the author of their adversity. You need to **punctuate their lives with adventure.** Threaten them. Hurt them. Go after the things they care about. Give them all sorts of difficult choices. 
+
+But also: give them opportunities, both to shine in the moment and to make things better in the long run. Let them enjoy the things they work for.
+
+*Stonetop*gives the player characters lots of agency. Respect that. Don't shortchange them out of their moves or their rolls. See what they do with their powers, status, and competence. **Play to find out what happens.**
+
+> **The Line**
+> 
+> In *Stonetop* and games like it, there's a line between what the players are responsible for and what you as the GM are responsible for. The players are in charge of their characters: what they do and say; what they feel and think; how they live; their past experiences. As the GM, you're in charge of the world: the environment, the NPCs, the dangers and the discoveries.
+> 
+> Some of the questions described here blur the Line. When you ask Vahid what the missing children all have in common, you're really asking Vahid's player to do something that's generally the responsibility of the GM: make up details about the world.
+> 
+> The trick is to **address the characters, not the players.** Don't ask the player to make up what they find in the next room or how an NPC reacts or how the trap hurts them. Ask the *character* about something they know, something they have experienced. This puts the request back on their side of the Line. It's a sleight of mind, but it's an effective one.
+> 
+> Even so, blurring the Line can be uncomfortable or off-putting for some players. Some players are totally fine with making up details about the world, but others will find that it takes away from their sense of immersion or makes the world feel hollow and made up. Adjust the questions you ask, and how you ask them, to fit your and your players' preferences.
+
+
+## Embrace the fantastic and the mundane
+The world is filled with fantastic elements: spirits, monsters, fickle Fae, the ancient works of the Makers, the darkness of the Things Below. Play up these elements. Use them to make the world mysterious.
+
+But at the same time, ground the game in human concerns: the turn of seasons, the coming harvest, friends and neighbors. Threaten the PCs with real-world dangers: harsh weather, wild beasts, starvation, exposure. Ask about the provisions they brought or how they got that cloak. Make the world rich with mundane detail.
+
+**Contrast the fantastic and the mundane against each other.** If an adventure revolves around a supernatural threat or opportunity, then be sure to include perfectly mundane challenges, dangers, and discoveries. If a session involves mostly mundane concerns (like a trade mission to Marshedge or an aurochs hunt), sprinkle in some fantastic elements.  The interplay between the two makes the world that much richer and more mysterious.
+
+## Exploit the setting Guide
+*Stonetop*comes with a lot of established setting, but it leaves a lot of blanks for you and your players to fill in during play. The setting is intended to serve as a springboard for your creativity. It helps set a tone and gives you all a common starting point. It provides details to riff on. It hints at answers but doesn't always give them. Use the established setting to **portray a rich and mysterious world.**
+
+Use the setting guide to inspire, but don't feel beholden to it. If your players give you something that contradicts the established setting, don't negate their input just because the book says so. The book isn't the authority, it's a resource for you to exploit.
+
+With that said: **be thoughtful about what you change or discard.** It's safer to change specific details than to change broad themes. If the Fox says that Brennan used to run a gang in Marshedge and killed his way to power (as opposed to the setting guide's story about how he was a bandit who the council hired as heir marshal), then no big deal. But if you and the Seeker decide that the Makers were gnome-sized tinkers instead of inscrutable titans, then you'll need to rethink all sorts of setting details (the size of the roads, the scale of the Ruined Tower, the themes associated with each type of Maker, and so forth).
+
+## Respect Your Prep
+Between sessions, you'll make preparations (i.e. "prep"). You'll write up threats and NPCs. You'll create or choose dangers and discoveries. You'll think of encounters and design locations to explore.
+
+Some prep involves possibilities: things that the PCs *might* discover, dangers that they *could* face, problems that *might* arise. This sort of prep lives in a quantum state; until you actually use these ideas and introduce them to the fiction, these ideas aren't true. They're just ideas - ideas that help you **punctuate the characters' lives with adventure.**
+
+**A lot of your prep, though, involves making decisions** - real, binding decisions about how the world *is*. This includes stuff like a monster's instinct, moves, and HP, or how a location got to be the way that it is, or who killed the widow Maire. It might include decisions about what *will* happen if the Pcs don't intervene, or how an NPC would react to X or Y. This type of prep is part of the fiction already, even if you haven't yet revealed it to the players.
+
+Make these decisions carefully and thoughtfully. Take your time. Follow the guidelines in the upcoming chapters.
+
+Then, during play, **respect your prep.** Treat it as a fictional truth. Describe the world, portray your characters, and make GM moves with these decisions in mind. If you've done your prep well, you'll find that sticking to it not only helps you **portray a rich and mysterious world,** it also (paradoxically) helps you **play to find out what happens.**
+
+See page 204 for more on **prep.**
+
+## Give your characters life
+Name your NPCs. Give them distinct personalities. Wants, needs, and quirks. Opinions and beliefs. If you can manage it, portray them with distinct voices or mannerisms. Bring them to life and play them as if they were real people.
+
+Describe your NPCs with memorable traits. Players often have a hard time remembering that the smith is named Taliesen, but they'll remember that the smith is a big loud guy with a shock of white hair.
+
+Don't let PCs walk all over your NPCs. **Be a fan of the player characters,** sure, but that doesn't mean you should have your NPCs just do whatever the PCs want. If it feels like the PCs want. If it feels like the PCs are pressuring or enticing your NPCs into doing something that they wouldn't want to do, well that's what the [[Persuade (vs. NPCs)]] move is for.
+
+Give your non-human characters life, too. Describe how they look, of course, but also how they move, what they sound and smell like, how they act. 
+
+Beast's spirits, even the utterly alien Things Below - they've all got personalities. Develop a sense of their motives and how they act under pressure. For beasts, think about their ecologies. For the undead, what keeps them from passing through the Last Door? For magical entities, think about the strange rules they follow. For all of the above: put those details on screen, or at least hint at them. It goes a long way towards **portraying a rich and mysterious world.**
+
+## Think offscreen, too
+When you establish the situation, answer questions, or make moves, think about events off-screen. What are your NPCs and monsters doing? What have they done? What traces did they leave? What have they been up to that becomes evident? What are they doing now that might become relevant later? Weave the answers into what you say.
+
+Think, too, about what the PCs are doing and how it would shape off-screen events. If they make a lot of noise moving through the Great Wood, who hears them coming and how do they react? If they make an alliance with Gordin's Delve, how do the Hillfolk - who have a beef with the Delvers - respond? If they told the town that they'd be gone for five days and they're gone for two weeks, who assumes that they're dead? Who steps up and tries to take charge? Who takes the opportunity to do what they want?
+
+Thinking offscreen helps you **portray a rich and mysterious world,** because the world will feel larger than the PCs. It helps you **punctuate the characters' lives with adventure,** because off-screen threats and opportunities quickly become things for the PCs to deal with. And it helps you **play to find out what happens,** because it gets you thinking about consequences and cause/effect on a broader scale.
+
+## Bring it home
+Make the village of Stonetop itself the foundation of your game, the beginning and end of the PCs' adventures. Threaten the town, its livelihood, or its citizens. Give them chances to make progress towards improvements, or to finally put down lingering threats.
+
+When the Pcs set off on an adventure, show how their neighbors react. Who turns out to see them off? Who is sick with worry that they won't return? Who grumbles that this is folly? Who gives them something to take, because it's dangerous to go alone?
+
+During adventures, ask questions that tie back to the PCs' live in Stonetop. Who taught you how to hunt? Who came here with you all those years back, and what happened to them? Which old-timer once had a run-in with these creatures? Whose life would be most changed by this treasure? Whose smile do you find yourself thinking about, out here, under the stars?
+
+When the PCs return home, consider what has happened while they were gone and describe how the townsfolk greet them. Who is happiest? Who resents their return? Who blames them for stirring up all this trouble anyhow, never mind that they've put things right?
+
+Between adventures, ask the characters about their day-to-day lives and relationships. Show how the town changes in response to its troubles and the opportunities the PCs have seized. Describe NPCs growing older, having children, aspiring to more, settling for less. Show how they've been affected by the PCs' adventurers. Bring it home.
+
+## Let things breathe
+Allow stretches of time to pass between adventures, or even between individual moves. It's a big world out there, and the PCs have mundane, daily tasks to attend to. Avoid the temptation to follow the PCs lives from day to day, hour to hour. Have weeks or months go by with a single statement: "The next three weeks keep you all occupied with the harvest, and then..."
+
+When a threat looms, it need not be immediate and dire. You can show signs of it stirring but keep it distant and remote. Ask the PCs what they do about it, but you can resolve their response over days or weeks. Zoom in and frame a scene only when the fiction calls for immediate, specific action; zoom back out as soon as that's over. Let the threat simmer until it boils over and becomes something the PCs have to deal with.
+
+## Let things burn
+As much as you like your plans, as much as you come to love some of your NPCs, as much as the players will grow attached: protect no one and nothing.
+
+Many GMs have a tendency, a very natural tendency, to coddle the PCs and to shield the NPCs that they care about. To preserve the status quo. To save their villains for a future confrontation, even when the PCs' moves and rolls and bold action should rightly put them in the ground.
+
+That tendency? Burn it away. Then let everything else burn, too. You're not playing to preserve your darlings. You're **playing to find out what happens.**
+
+This doesn't mean that you should go out of your way to destroy the things that the characters love. It does mean that you should threaten those things, and that if the characters fail to save them, you should follow through. Be okay with hard, irrevocable consequences. Play with fire. Let things burn.
+
+# Other Things to do
+**Take notes.** You'll end up generating lots of details, and it can be hard to keep track of it all. You'll need to figure out the best tool and the level of detail that works for you, but things you might want to write down include: 
+
+- NPC names (and traits, and relevant relationship)
+- Historical events that you and players establish (and when/where/who)
+- Interesting details that you don't want to forget
+- A summary of events each session
+
+You can write up formal session recaps to share with your players, but mostly these notes are for you. Write only as much as you'll find useful.
+
+**Draw maps.** Lots of maps. Not just as part of your prep, but as a prop or a point of reference during play. When a fight breaks out and there's a lot going on, throw a quick sketch of the terrain on a whiteboard or a piece of paper (or throw out some minis if you have them). When they explore a ruin, draw a rough map (or encourage them to) to help establish the physical space. When they go to a new steading, give them a map of the different districts and parts of town.
+
+Add to existing maps, too. Put the Pcs' homes on the steading map. Add points of interest that come up during play. Draw the course of their journey on the Vicinity or World's End maps.
+
+**Leave blanks** in your maps and in your prep, to be filled in during play or at a later time. Leave yourself things to wonder about. If a question occurs to you, you don't have to answer it (or ask the players to answer it) right now. Leave it as a blank, maybe jot it down in your notes, and come back to it in a future session.
+
+**Keep things moving.** Don't let the momentum of the game sputter out. Frame scenes aggressively, zooming in and out to match the level of interest (yours and the players'). When nothing's happening, either make a GM move or skip ahead in time to where something interesting *is* happening.
+
+**Involve everyone.** Keep moving the spotlight around the table. Make sure everyone gets some good screen time. Be explicit about who you're addressing, and don't be afraid to make interrupting players wait. "Blodwen, you see... Brian hold on, I'm talking to Hobbes."
+
+**Take breaks.** They let everyone reflect on what's happened and think about what they want to do next. They let you - the real-world people hanging out - get to know each other better or catch up on real-world stuff or just joke around. That stuff's important, too.
+
+**Engage your players in world-building,** and make sure they realize the setting is theirs as much as it is yours. When they ask you something about the world, and you don't have an answer at the ready, turn it back on them. "Good question. Blodwhen, what DO the people of Stonetop do with their dead?"
+
+**Sometimes, disclaim decision making.** Put an outcome in the character's hands. ("He's a bloody mess, but not dead. You can still save him. Do you?"). Discuss an outcome with the players ("What do you think? Is Andras alive or dead?). Let the dice decide ("You know what, roll Death's Door for him."). Let your NPCs decide, based on their instincts, their wants and needs, your notes, and your own sense of their internal logic. ("No, he's not the type to come back as a ghost, so... yeah, he's dead.")
+
+> **The Die of Fate**
+> 
+> One way to disclaim decision making is to let the dice decide. Often, that means letting the results of a player's move determine what happens. But you can also use the Die of Fate. 
+> 
+> The Die of Fate is just a die roll, usually a d6, with a lower result meaning bad and a higher result meaning good. Have a player roll the Die of Fate when you don't have a particular opinion on what should happen or how something should go, and/or when it's just a matter of luck. How's the weather today? What do they encounter en route? How many uses of supplies can they loot? In general, a 1-2 is bad, a 3-4 is neutral of mixed, and 5-6 is pretty good.
+> 
+> Sometimes, you'll prep a set of results for the Die of Fate. For example, what happens when they make camp?
+> 
+> 1 Crinwin attack camp!
+> 2-3 Crinwin try to lure someone out of camp
+> 4-5 They're out there, just watching you
+> 6 You avoid their notice
+> 
+> Don't feel limited to a d6, especially not when you've got a table of results set up in advance. If you've got 12 interesting outcomes, have them roll a d12.
+
+## What not to do
+**Don't plan a storyline or plot.** Don't plan the PCs' character arcs. Don't plan dramatic moments, where the PCs arrive *just* as this particular thing happens (regardless of how long they took to get there or what they did before). Don't assume the PCs will take a certain course of action, or that they'll succeed or fail at a particular tasks. All of that flies in the face of **playing to find out what happens.** That's you deciding what will happen, in advance, by yourself. Absolutely not what you're here to do.
+
+Instead: prep situations, and possible encounters, and places to explore. Prep threats and NPCs with good actionable instincts, maybe some grim portents and impending dooms. See the **Prep** section (page 204) for how to do this.
+
+**Don't tell them what to roll before they've told you what they're doing.** You do *not* get to say crap like "the bandit attacks, [[Defy Danger]] with DEX." Because 1) That's not how it works and 2) What if they don't act quickly or with finesse (the trigger for [[Defy Danger]] with DEX)? What if they knock his attack aside and bash him with their shield? What if they take the blow and run him through? What if they toss dirt in his eyes and kick his groin? When you tell the players to make a move, without them first telling you that they've done something to trigger the move, you're taking control of their characters and dictating what they do. You're breaking the rules of the game.
+
+Instead: make your soft GM move and ask, "What do you do?" Then, based on the answer, decide together whether they triggered a move and which move they triggered. Then they roll that move, and you resolve it from there.
+
+**Don't make them roll "just because,"** or because "maybe they won't notice," or any of that garbage. Like, you know how in other games, you'll decide that a monster is sneaking up on camp and ask the PC for a perception check? That's not a thing in *Stonetop.*
+
+Instead, you just make a soft GM move, like **announce trouble,** that hints at the monster's presence. "You realize that the crickets have all gone quiet. And then, maybe it's just your imagination. But you thought you heard something... laughing? Out in the woods. What do you do?" And maybe they wake the others or maybe they call out or maybe they peer carefully out into the woods and cock their head, triggering [[Seek Insight]]. However they respond, you run the game from there.
+
+**Don't stop making GM moves,** especially when the players roll 10+. You'll describe what happens, yeah, and you'll give them the success that they earned. Sometimes a player will just grab the initiative and follow up (and that's cool, run with it). But usually, the players will still be looking at you to see what happens. The fiction churns along and bad guys keep doing bad things.
+
+So when the Heavy rolls a 10+ to [[Clash]] and deals her damage and the foe's still standing and there are like two other baddies nearby, don't just go," Cool, he's still standing, what do you do?"
+
+Instead: think about how the first foe responds to getting hit, and what the other two foes are doing. Make a move that takes all that into account, and *then* ask "What do you do?"
+
+# GMing is a Practice
+
+Running any RPG is a practice, like yoga or music or martial arts. It's not something that you master. There's always room for improvement, always something to learn.
+
+running *Stonetop* specifically is its own skill, its own practice. Even if you've got experience running similar games (like *Dungeon World or Apocalypse World*), there's a learning curve. Stonetop is easier to pick up if you've run other games, but that experience can work against you, too! You'll have to unlearn habits and adjust to new approaches, and that can be hard.
+
+The point is: running *Stonetop* isn't exactly easy, but **you get better at it by doing it, by reflecting on how things went, and by trying to do better next time.**
+
+During the first adventure, focus on your **agenda** (page 168),  on following the **core loop**(page 169), and on recognizing the triggers of the **basic player moves** (page 208). Lean on your prep - that's what it's for - and take your time. Expect things to be a little rocky as you and your players learn the rules. Don't worry about punchy descriptions or voicing NPCs or sticking to every single principle.
+
+After the first "in character" session, ask your players for feedback. What did they enjoy? What felt rocky? What do they want to see more of in future sessions? Ask for clarification if you need it, but don't get defensive and don't try to explain yourself. Try to be humble and receptive.
+
+When you've got some time, review the session in light of your agenda. Did you **portray a rich and mysterious world,** or did the world feel flat, hollow, arbitrary? Did you **punctuate their lives with adventure,** or did you let things drag? Did you **play to find out what happens,** or did you force things down the path that you thought they should go? If you didn't pursue your agenda, ask yourself: "What would pursuing my agenda have looked like?" Next time,  do *that.*
+
+Look over your principles. Did you ever fail to follow them? How did it impact the game? What would following the principle have looked like instead?
+
+Think about moments where you were stumped, unsure what to do. Then look at the core loop. Where were you in the loop when you got stuck? What could you have done differently? What sort of prep might have helped? Maybe prep something like that before next session.
+
+Review the player moves (basic, special, expedition, etc.) Did you miss any moves getting triggered? Did you call for a player move, even though its trigger wasn't really met? For moves that were used, did you follow their procedures correctly?
+
+Next session, try to do better. Write down 2-3 things you want to do or focus on. Put them somewhere you can see them. During the session, try to do them.
+
+repeat the process. Ask for feedback. Review the session in light of your agenda, your principles, the rules, and the core loop. Prep to shore up your weaknesses. Set goals. Try again. Repeat.
+
+Get good. Then get better. Then get great.
+
+
+# Prep
+Prep is what you do between sessions, the lonely fun (or for some, the stressful work) of getting ready for the next game. Prep involves reviewing your notes from previous sessions, thinking about what might happen in the next session, and doing stuff that you don't want to do during play.
+
+Why prep? A few reasons:
+
+To give you **interesting stuff** to say.
+
+To **speed up play,** and not make everyone wait while you decide what happens, or stat up a monster, or draw a map.
+
+To **shore up your weaknesses.** If you, say, always forget about the PCs' followers and let them fade into the background, maybe prep some interesting things for those followers to say or do.
+
+To **hone your craft.** Some stuff is better when you have time to think about it - it's more consistent or thematic, it flows better, it builds on stuff that came up earlier, etc.
+
+To **give yourself permission** to play hard and inflict badness on the PCs. If you've got a tendency to pull punches (and don't we all?), it can really help to have an impending doom established or to give your bad guys a move like "tear an arm off."
+
+Prep only as much as you find useful and valuable. Unless you're making something for other GMs to use, there's no point in writing down details that are self-evident to you. Don't write down what Nia looks like unless you think you'll forget or it's something you specifically want to call attention to in play.
+
+Consider prepping some or all of the following:
+
+## Threats
+The ongoing, recurring problems that cause trouble for the PCs. Things are going to get worse if left unchecked, or complicated relationship that you want to explore more in play. There's a whole chapter on prepping and using **threats**(page 277).
+
+## Hooks
+When you want to push the PCs into the field with a threat or an opportunity, it pays to prepare a hook. A hook involves: setup questions, a plan for framing initial scenes, some specific GM moves you plan to make, and some possible reactions. See the **First Adventure** chapter (page 251) for guidelines on preparing a hook.
+
+## Expeditions
+If you know (or suspect) that the Pcs will leave town, you might prepare your choices for the **Chart a Course** move (page 302). Consider drawing a map, prepping points of interest, and roughly imagining a few encounters that they might have en route. See the "**What to Prep**" section of the Expeditions chapter (page 340) for details.
+
+## Sites
+Think about each important place you expect the Pcs to explore or encounter during a session. What's it like? How will you describe it? What questions will you ask about it? What's its story? Do you need a map or a visual aid? Are there dangers or discoveries within? See page 345 for ideas.
+
+## Dangers
+The hazards and monsters and hostile NPCs that the PCs might encounter. Find entries in the setting guide to use, or make your own. You can do this on the fly, of course, but it takes up table time and it's best to have it done in advance. See the chapter on **Dangers** (page 379) for guidelines.
+
+## Discoveries
+Puzzles, clues, mysteries, treasures, arcana... these are all discoveries. Some of them you'll just wing on the fly. Some you'll want to make a few notes on. Some (especially arcana) you'll want to write up in detail. See page 421 for more.
+
+## NPCs
+If there are NPCs that you expect they'll encounter in play, think about their names, the questions you'll ask about them, their defining traits, how you'll describe them and portray them. Maybe give them an instinct, connections, and motivations. If an NPC might end up as a follower, consider writing down their stats, tags, moves, cost, and instinct before play. See page 449 for guidelines.
+
+All this prep might seem like it goes against **playing to find out what happens,** but it really doesn't. You're not prepping a story, or a plot, or an inevitable series of scenes that follow one after the other. You're prepping things that give you interesting stuff to say, that speed up play, that shore up your weaknesses and hone your craft, and that give you permission to play hard. Good prep doesn't involve scripting everything out; it involves laying a groundwork to help you improvise.

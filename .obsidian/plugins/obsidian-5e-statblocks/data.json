@@ -1,113 +1,18 @@
 {
   "monsters": [
     [
-      "Elite Aapoph Serpentfolk",
+      "The Gwraig Wen",
       {
-        "columns": 2,
-        "forcecolumns": true,
-        "layout": "Basic Pathfinder 2e Layout",
-        "token": "<STATBLOCK-WIKI-LINK>modules/pf2e-tokens-bestiaries/portraits/humanoid/darklands/aapoph-serpentfolk.webp| <STATBLOCK-WIKI-LINK>",
-        "source": "Pathfinder Monster Core",
-        "name": "Elite Aapoph Serpentfolk",
-        "level": "Creature 4",
-        "rare_03": "<STATBLOCK-WIKI-LINK>Uncommon<STATBLOCK-WIKI-LINK>",
-        "alignment": "",
-        "size": "Medium",
-        "trait_01": "<STATBLOCK-WIKI-LINK>humanoid<STATBLOCK-WIKI-LINK>",
-        "trait_02": "<STATBLOCK-WIKI-LINK>mutant<STATBLOCK-WIKI-LINK>",
-        "trait_03": "<STATBLOCK-WIKI-LINK>serpentfolk<STATBLOCK-WIKI-LINK>",
-        "modifier": 8,
-        "perception": [
-          {
-            "name": "Perception",
-            "desc": "+10; Darkvision, Scent (Imprecise) 30 Feet"
-          }
-        ],
-        "languages": "Aklo, Sakvroth; Telepathy 100 feet",
-        "skills": [
-          {
-            "name": "Skills",
-            "desc": "Acrobatics: +9, Athletics: +13, Intimidation: +8"
-          }
-        ],
-        "abilityMods": [
-          4,
-          2,
-          3,
-          -1,
-          1,
-          -1
-        ],
-        "speed": "25 feet",
-        "sourcebook": "_Pathfinder Monster Core_",
-        "ac": 20,
-        "armorclass": [
-          {
-            "name": "AC",
-            "desc": "20; __Fort__ +12, __Ref__ +9, __Will__ +8; +2 status to will saves vs. mental"
-          }
-        ],
-        "hp": 75,
-        "health": [
-          {
-            "name": ""
-          },
-          {
-            "name": "HP",
-            "desc": "75; __Resistances__ poison 5"
-          }
-        ],
-        "abilities_top": [
-          {
-            "name": ""
-          },
-          {
-            "name": "Items",
-            "desc": "<STATBLOCK-WIKI-LINK>Equipment/Scimitar|Scimitar<STATBLOCK-WIKI-LINK>"
-          },
-          {
-            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Telepathy|Telepathy 100 feet<STATBLOCK-WIKI-LINK>",
-            "desc": " (aura,magical,mental) A monster with telepathy can communicate mentally with any creatures within the listed radius, as long as they share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would."
-          }
-        ],
-        "abilities_mid": [
-          {
-            "name": ""
-          },
-          {
-            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Reactive Strike|Reactive Strike<STATBLOCK-WIKI-LINK>",
-            "desc": "`pf2:r`  **Trigger** A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.\n* * *\n\n**Effect** The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike."
-          }
-        ],
-        "attacks": [
-          {
-            "name": ""
-          },
-          {
-            "name": "**Melee** `pf2:1` Scimitar",
-            "desc": "+11 (forceful, sweep)\n__Damage__  1d6 + 8 slashing"
-          },
-          {
-            "name": "**Melee** `pf2:1` Fangs",
-            "desc": "+11 ()\n__Damage__  1d8 + 8 piercing plus *serpentfolk-venom*"
-          },
-          {
-            "name": "**Melee** `pf2:1` Tail",
-            "desc": "+11 (agile)\n__Damage__  1d6 + 8 bludgeoning plus *Knockdown*"
-          },
-          {
-            "name": "Serpentfolk Venom",
-            "desc": " (poison) **Saving Throw** `DC 22 Fortitude check`\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 + 2 poison damage and <STATBLOCK-WIKI-LINK>Conditions/Enfeebled|Enfeebled 1<STATBLOCK-WIKI-LINK> (1 round)\n\n**Stage 2** 2d4 + 2 poison damage and enfeebled 1 (1 round)"
-          },
-          {
-            "name": "Slithering Attack",
-            "desc": "`pf2:1`  The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
-          },
-          {
-            "name": "<STATBLOCK-WIKI-LINK>Bestiary Ability Glossary/Knockdown|Knockdown<STATBLOCK-WIKI-LINK>",
-            "desc": "`pf2:1`  **Requirements** The monster's last action was a successful Strike that lists Knockdown in its damage entry\n* * *\n\n**Effect** The monster attempts to <STATBLOCK-WIKI-LINK>Actions/trip|trip<STATBLOCK-WIKI-LINK> the creature. This attempt neither applies nor counts toward the monster's multiple attack penalty."
-          }
-        ]
+        "icon": "Icon - Undead.webp",
+        "name": "The Gwraig Wen",
+        "tag": "Solitary, spirit, undead, forlorn",
+        "HP": 19,
+        "Armor": "1 (lacks organs)",
+        "special_qualities": "bound to within a few miles of her bones; can't form new memories; leaves no footprints",
+        "instinct": "To drag others into her search <br>\n- Manifest in moonlight as a pale, bedraggled woman\n- Ask for help, insist on it\n- Grow ever more agitated, flickering and vibrating as she does\n- Vent her rage with a deafening wail,  10 (1d10)  damage (*near, area, loud, reload*, ignores armor)\n- Vanish when no one's looking\n",
+        "description": "Those who ply the **Great Wood** (page 200) tell an old tale of a bride, newly married to a handsome trapper. He failed to come home one night, and she unwisely entered the forest to find him, falling into a deep pond and drowning. Ever since, her ghost has roamed the woods on moonlit nights: wet and shivering, desperate and pleading, certain that her husband is still out there.\n",
+        "source": "Homebrew",
+        "layout": "Stonetop"
       }
     ]
   ],
@@ -1750,13 +1655,137 @@
       ],
       "name": "Pathfinder 2e Creature Layout Copy",
       "id": "69ea4b288b78"
+    },
+    {
+      "name": "Stonetop",
+      "blocks": [
+        {
+          "type": "group",
+          "id": "dbbabb39385a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "9b2b1a391b6a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "f9c9f9096b2b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "image",
+                      "id": "7bb848bbd8c9",
+                      "properties": [
+                        "icon"
+                      ],
+                      "fallback": ""
+                    },
+                    {
+                      "type": "heading",
+                      "id": "69190baaeb59",
+                      "properties": [
+                        "name"
+                      ],
+                      "size": 1,
+                      "fallback": "-"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "subheading",
+              "id": "691bbbb88868",
+              "properties": [
+                "tag"
+              ],
+              "fallback": "-"
+            },
+            {
+              "type": "inline",
+              "id": "29b98b6b0828",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "98daf8a88bc9",
+                  "properties": [
+                    "HP"
+                  ],
+                  "fallback": "-"
+                },
+                {
+                  "type": "property",
+                  "id": "3829e8fb5949",
+                  "properties": [
+                    "Armor"
+                  ],
+                  "fallback": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "ca1aa8eb1a0a",
+          "properties": [],
+          "nested": [
+            {
+              "type": "text",
+              "id": "fb399848ca4a",
+              "properties": [
+                "special_qualities"
+              ],
+              "text": null,
+              "fallback": "-",
+              "headingProp": false,
+              "heading": "Special Qualities",
+              "conditioned": true
+            },
+            {
+              "type": "text",
+              "id": "2a7bc82ad86a",
+              "properties": [
+                "instinct"
+              ],
+              "text": null,
+              "fallback": "-",
+              "heading": "Instinct",
+              "conditioned": true,
+              "dice": true
+            },
+            {
+              "type": "text",
+              "id": "987a2afa99e9",
+              "properties": [
+                "description"
+              ],
+              "text": null,
+              "fallback": "-"
+            }
+          ]
+        }
+      ],
+      "id": "7b2998d8797a",
+      "forceColumns": false,
+      "columns": 1,
+      "cssProperties": {
+        "backgroundColor": "#fcfcfc",
+        "primaryColor": "#060404",
+        "barColor": "#404040",
+        "imageWidth": "37px",
+        "imageHeight": "37px"
+      }
     }
   ],
-  "default": "b8ab3ae89a0a",
+  "default": "7b2998d8797a",
   "useDice": true,
   "renderDice": false,
   "export": true,
-  "showAdvanced": true,
+  "showAdvanced": false,
   "version": {
     "major": 4,
     "minor": 10,
@@ -1767,7 +1796,7 @@
   ],
   "autoParse": true,
   "disableSRD": true,
-  "tryToRenderLinks": true,
+  "tryToRenderLinks": false,
   "debug": false,
   "notifiedOfFantasy": false,
   "hideConditionHelp": false,

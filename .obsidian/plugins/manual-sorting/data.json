@@ -11,13 +11,15 @@
         "1. Campaigns",
         "1. World",
         "Stonetop Book I",
+        "Stonetop Book II",
         "Stonetop Compendium",
         "Stonetop Physical Handouts",
         "Excalidraw",
         "z_Assets",
         "z_Templates",
         "z_Tutorial examples",
-        "README.md"
+        "README.md",
+        "atlas-vtt"
       ],
       "sortOrder": "custom"
     },
@@ -80,7 +82,8 @@
       "children": [
         "0. Scratch Notes/Bases",
         "0. Scratch Notes/DM Notes",
-        "0. Scratch Notes/Stone Top To do.md"
+        "0. Scratch Notes/Stone Top To do.md",
+        "0. Scratch Notes/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -101,7 +104,14 @@
     "0. Session Journals": {
       "children": [
         "0. Session Journals/Warden of Iron",
-        "0. Session Journals/Session X.md"
+        "0. Session Journals/Session X.md",
+        "0. Session Journals/Session GM Review"
+      ],
+      "sortOrder": "custom"
+    },
+    "0. Session Journals/Session GM Review": {
+      "children": [
+        "0. Session Journals/Session GM Review/Example of Session Review.md"
       ],
       "sortOrder": "custom"
     },
@@ -169,7 +179,177 @@
       "sortOrder": "custom"
     },
     "1. World/Regions": {
+      "children": [
+        "1. World/Regions/Stonetop.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt": {
+      "children": [
+        "atlas-vtt/assets",
+        "atlas-vtt/collections",
+        "atlas-vtt/system-presets",
+        "atlas-vtt/library.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/assets": {
+      "children": [
+        "atlas-vtt/assets/Cleric_1790620642128_izocyl.webp",
+        "atlas-vtt/assets/Fighter_1790620642134_9w7288.webp",
+        "atlas-vtt/assets/Paladin_1790620642142_dgxepy.webp",
+        "atlas-vtt/assets/Ranger_1790620642153_83j71v.webp",
+        "atlas-vtt/assets/Rogue_1790620642158_ucw5tv.webp",
+        "atlas-vtt/assets/Warlock_1790620642162_tzkrtr.webp",
+        "atlas-vtt/assets/Wizard_1790620642166_e6tapj.webp",
+        "atlas-vtt/assets/Knight_1790620642172_8h6p7x.webp",
+        "atlas-vtt/assets/Assassin_1790620642182_fbld18.webp",
+        "atlas-vtt/assets/Occultist_1790620642194_cptxy0.webp",
+        "atlas-vtt/assets/thumbnails",
+        "atlas-vtt/assets/Map_1___Stonetop___11_x_14_1790621092886_82dilb.webp"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/assets/thumbnails": {
+      "children": [
+        "atlas-vtt/assets/thumbnails/Assassin_1790620642182_fbld18-c28a5bba.webp",
+        "atlas-vtt/assets/thumbnails/Cleric_1790620642128_izocyl-fe22a3fc.webp",
+        "atlas-vtt/assets/thumbnails/EliasReed_1790621472032_qv994n-6d43d0d1.webp",
+        "atlas-vtt/assets/thumbnails/Fighter_1790620642134_9w7288-c0ab91d7.webp",
+        "atlas-vtt/assets/thumbnails/Knight_1790620642172_8h6p7x-9e995585.webp",
+        "atlas-vtt/assets/thumbnails/Map_1___Stonetop___11_x_14_1790621092886_82dilb-5305956b.webp",
+        "atlas-vtt/assets/thumbnails/Occultist_1790620642194_cptxy0-d1081d5b.webp",
+        "atlas-vtt/assets/thumbnails/Paladin_1790620642142_dgxepy-1ecceafc.webp",
+        "atlas-vtt/assets/thumbnails/Ranger_1790620642153_83j71v-e5fb33dc.webp",
+        "atlas-vtt/assets/thumbnails/Rogue_1790620642158_ucw5tv-d038242f.webp",
+        "atlas-vtt/assets/thumbnails/Warlock_1790620642162_tzkrtr-b7d0edf8.webp",
+        "atlas-vtt/assets/thumbnails/Wizard_1790620642166_e6tapj-64166e0f.webp"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections": {
+      "children": [
+        "atlas-vtt/collections/Default",
+        "atlas-vtt/collections/Stonetop"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default": {
+      "children": [
+        "atlas-vtt/collections/Default/tokens",
+        "atlas-vtt/collections/Default/notes",
+        "atlas-vtt/collections/Default/statblocks",
+        "atlas-vtt/collections/Default/maps",
+        "atlas-vtt/collections/Default/characters",
+        "atlas-vtt/collections/Default/scenes",
+        "atlas-vtt/collections/Default/encounters",
+        "atlas-vtt/collections/Default/players",
+        "atlas-vtt/collections/Default/collection.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/characters": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/encounters": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/maps": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/notes": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/players": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/scenes": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/statblocks": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Default/tokens": {
+      "children": [
+        "atlas-vtt/collections/Default/tokens/token-1790620642131-2xqa8d.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642136-eq2tvj.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642144-x1hxan.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642155-hf0zob.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642160-vo0rv1.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642164-i5ein0.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642168-redu98.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642174-l71gn0.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642184-oikny6.json",
+        "atlas-vtt/collections/Default/tokens/token-1790620642196-utbdcs.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop": {
+      "children": [
+        "atlas-vtt/collections/Stonetop/characters",
+        "atlas-vtt/collections/Stonetop/encounters",
+        "atlas-vtt/collections/Stonetop/maps",
+        "atlas-vtt/collections/Stonetop/notes",
+        "atlas-vtt/collections/Stonetop/players",
+        "atlas-vtt/collections/Stonetop/scenes",
+        "atlas-vtt/collections/Stonetop/statblocks",
+        "atlas-vtt/collections/Stonetop/tokens",
+        "atlas-vtt/collections/Stonetop/collection.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/characters": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/encounters": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/maps": {
+      "children": [
+        "atlas-vtt/collections/Stonetop/maps/map-1790621092891-z86waw.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/notes": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/players": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/scenes": {
+      "children": [
+        "atlas-vtt/collections/Stonetop/scenes/Map 1   Stonetop   11 x 14.atlasmap",
+        "atlas-vtt/collections/Stonetop/scenes/Map 1   Stonetop   11 x 14.thumb.jpg",
+        "atlas-vtt/collections/Stonetop/scenes/scene-1790621572103-y92u6o.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/statblocks": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/collections/Stonetop/tokens": {
+      "children": [
+        "atlas-vtt/collections/Stonetop/tokens/EliasReed_1790621472032_qv994n.webp",
+        "atlas-vtt/collections/Stonetop/tokens/token-1790621472103-cj7ib1.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "atlas-vtt/system-presets": {
+      "children": [
+        "atlas-vtt/system-presets/Stonetop (be7393).json"
+      ],
       "sortOrder": "custom"
     },
     "Excalidraw": {
@@ -193,7 +373,28 @@
         "Stonetop Book I/Getting Started.md",
         "Stonetop Book I/Playing the Game.md",
         "Stonetop Book I/Playbooks & Inserts.md",
-        "Stonetop Book I/Running the Game.md"
+        "Stonetop Book I/Running the Game.md",
+        "Stonetop Book I/Player Moves",
+        "Stonetop Book I/Harm & Healing.md",
+        "Stonetop Book I/First Adventure.md",
+        "Stonetop Book I/Threats.md",
+        "Stonetop Book I/Expeditions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Book I/Player Moves": {
+      "children": [
+        "Stonetop Book I/Player Moves/Basic Moves.md",
+        "Stonetop Book I/Player Moves/Player Moves.md",
+        "Stonetop Book I/Player Moves/Special Moves.md",
+        "Stonetop Book I/Player Moves/Custom Moves.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Stonetop Book II": {
+      "children": [
+        "Stonetop Book II/Stonetop Book II.md",
+        "Stonetop Book II/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -208,17 +409,8 @@
     },
     "Stonetop Compendium/Bestiary": {
       "children": [
-        "Stonetop Compendium/Bestiary/Chapters",
-        "Stonetop Compendium/Bestiary/Basics"
+        "Stonetop Compendium/Bestiary/The Gwraig Wen.md"
       ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Bestiary/Basics": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Bestiary/Chapters": {
-      "children": [],
       "sortOrder": "custom"
     },
     "Stonetop Compendium/Glossary": {
@@ -235,6 +427,7 @@
         "Stonetop Compendium/Glossary/Dexterity.md",
         "Stonetop Compendium/Glossary/Disadvantage.md",
         "Stonetop Compendium/Glossary/Fictional Positioning.md",
+        "Stonetop Compendium/Glossary/Followers.md",
         "Stonetop Compendium/Glossary/Hit Points (HP).md",
         "Stonetop Compendium/Glossary/Instinct.md",
         "Stonetop Compendium/Glossary/Intelligence.md",
@@ -246,7 +439,6 @@
         "Stonetop Compendium/Glossary/Weakened.md",
         "Stonetop Compendium/Glossary/Wisdom.md",
         "Stonetop Compendium/Glossary/Your Agenda.md",
-        "Stonetop Compendium/Glossary/Followers.md",
         "Stonetop Compendium/Glossary/Inventory.md",
         "Stonetop Compendium/Glossary/Load.md",
         "Stonetop Compendium/Glossary/Small Items.md",
@@ -268,7 +460,8 @@
       "children": [
         "Stonetop Compendium/Rules/Character Creation",
         "Stonetop Compendium/Rules/Moves",
-        "Stonetop Compendium/Rules/GM Moves"
+        "Stonetop Compendium/Rules/GM Moves",
+        "Stonetop Compendium/Rules/Threat Types"
       ],
       "sortOrder": "custom"
     },
@@ -1248,9 +1441,23 @@
       ],
       "sortOrder": "custom"
     },
+    "Stonetop Compendium/Rules/Threat Types": {
+      "children": [
+        "Stonetop Compendium/Rules/Threat Types/Affliction.md",
+        "Stonetop Compendium/Rules/Threat Types/Beast.md",
+        "Stonetop Compendium/Rules/Threat Types/Institution.md",
+        "Stonetop Compendium/Rules/Threat Types/MacGuffin.md",
+        "Stonetop Compendium/Rules/Threat Types/Magical Entity.md",
+        "Stonetop Compendium/Rules/Threat Types/Rabble.md",
+        "Stonetop Compendium/Rules/Threat Types/Villain.md",
+        "Stonetop Compendium/Rules/Threat Types/Wildcard.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Stonetop Physical Handouts": {
       "children": [
-        "Stonetop Physical Handouts/Stonetop Physical Handouts.md"
+        "Stonetop Physical Handouts/Stonetop Physical Handouts.md",
+        "Stonetop Physical Handouts/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -1262,7 +1469,10 @@
         "z_Assets/NPC",
         "z_Assets/PDFs",
         "z_Assets/Placeholder Images",
-        "z_Assets/Playbooks and Inserts"
+        "z_Assets/Playbooks and Inserts",
+        "z_Assets/image.webp",
+        "z_Assets/Map 1 - Stonetop - 11 x 14.webp",
+        "z_Assets/Icon - Undead.webp"
       ],
       "sortOrder": "custom"
     },
@@ -1303,7 +1513,8 @@
     },
     "z_Assets/Maps": {
       "children": [
-        "z_Assets/Maps/Map - The Setting.webp"
+        "z_Assets/Maps/Map - The Setting.webp",
+        "z_Assets/Maps/Map - Stonetop.webp"
       ],
       "sortOrder": "custom"
     },
@@ -1416,7 +1627,9 @@
         "z_Templates/3_Markdown/Handlebar Template - Spell.md",
         "z_Templates/3_Markdown/Handlebar Template (5eTools Monster).md",
         "z_Templates/3_Markdown/Insert Banner (ITS).md",
-        "z_Templates/3_Markdown/Insert Checkbox.md"
+        "z_Templates/3_Markdown/Insert Checkbox.md",
+        "z_Templates/3_Markdown/Drop the Hook.md",
+        "z_Templates/3_Markdown/Threat.md"
       ],
       "sortOrder": "custom"
     },

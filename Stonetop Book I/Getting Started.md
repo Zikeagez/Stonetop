@@ -607,7 +607,3 @@ Refer to this list **during your sessions,** when you need something interesting
 Look at your notes, your threats, your "I wonder..." list, and the results of that fire Seasons Change roll, and use them to prepare your first adventure. See page 251 for guidance.
 
 If you haven't already done so, read the rest of this book before the next session.
-
-
-># You can use headings within a code block
->as shown above
