@@ -21,12 +21,15 @@ Additionally, Much of this vault was built using tools and strategies learned fr
 - Add Invocations insert details
 - Edit Format of Playbook Moves to match general moves
 
+# Note on AI Usage
+I personally have not used any AI to input any data into this vault, though I cannot say for certain that all of my tools / plugins are completely free of its usage. It is a very difficult factor to avoid these days, especially when considering the coding involved in many programs and apps. There is one plugin currently installed called Atlas VTT that I was exploring included in this vault. Upon doing more research, I did confirm that it was coded with AI. I am still unsure if I plan to personally use it, but you can simply uninstall the plugin if desired.
+
+
 # Updates
 10/17
 Been a while since I have pushed / posted an update. I have still been slowly working through Book I. Currently all chapters through "Threats" are transcribed, and I have begun developing some tools.
 - Template for Threats drafted (may change in the future)
 - Template for session journals altered to fit some of the questions we want to ask when "Ending The Session" in Stonetop, again, subject to change.
-
 
 8/3
 - Finished Playbooks X.X
