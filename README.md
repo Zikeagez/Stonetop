@@ -22,6 +22,12 @@ Additionally, Much of this vault was built using tools and strategies learned fr
 - Edit Format of Playbook Moves to match general moves
 
 # Updates
+10/17
+Been a while since I have pushed / posted an update. I have still been slowly working through Book I. Currently all chapters through "Threats" are transcribed, and I have begun developing some tools.
+- Template for Threats drafted (may change in the future)
+- Template for session journals altered to fit some of the questions we want to ask when "Ending The Session" in Stonetop, again, subject to change.
+
+
 8/3
 - Finished Playbooks X.X
 
