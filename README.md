@@ -14,6 +14,10 @@ The "Made by Humans" logo is by Olivier Revenu, who has indicated it is free to 
 
 Additionally, Much of this vault was built using tools and strategies learned from Josh Plunkett, Obsidian TTRPG author (and his community). If you have a question about how something within the vault works, he probably has a video detailing it. Please visit his Youtube channel: https://www.youtube.com/@JoshPlunkett and consider joining the Obsidian TTRPG Community Discord Server!
 
+# Note on AI Usage
+I personally have not used any AI to input any data into this vault, though I cannot say for certain that all of my tools / plugins are completely free of its usage. It is a very difficult factor to avoid these days, especially when considering the coding involved in many programs and apps. There is one plugin currently installed called Atlas VTT that I was exploring included in this vault. Upon doing more research, I did confirm that it was coded with AI. I am still unsure if I plan to personally use it, but you can simply uninstall the plugin if desired.
+
+
 # To do and Thoughts:
 - Remove/Replace references / tools pointing to notes for other games on dashboard
 - Individual notes for Gear terms & tags
@@ -21,9 +25,6 @@ Additionally, Much of this vault was built using tools and strategies learned fr
 - Add Invocations insert details
 - Edit Format of Playbook Moves to match general moves
 - Go back and edit any "see page X" entries and change them to inline links
-
-# Note on AI Usage
-I personally have not used any AI to input any data into this vault, though I cannot say for certain that all of my tools / plugins are completely free of its usage. It is a very difficult factor to avoid these days, especially when considering the coding involved in many programs and apps. There is one plugin currently installed called Atlas VTT that I was exploring included in this vault. Upon doing more research, I did confirm that it was coded with AI. I am still unsure if I plan to personally use it, but you can simply uninstall the plugin if desired.
 
 
 # Updates
