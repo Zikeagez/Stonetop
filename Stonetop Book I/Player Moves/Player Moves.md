@@ -12,7 +12,7 @@
 **Special Moves**
 [[Advantage - Disadvantage]]
 [[Burn Brightly]]
-[[Stonetop Compendium/Rules/Moves/Special Moves/End of Session]]
+[[End of Session]]
 [[Death's Door]]
 
 # Basic Moves

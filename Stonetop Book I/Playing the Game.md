@@ -887,7 +887,7 @@ These moves are always in play, but they either affect other moves or are trigge
 
 ---
 
-![[Stonetop Compendium/Rules/Moves/Special Moves/End of Session]]
+![[End of Session]]
 
 ---
 
@@ -981,7 +981,7 @@ These moves apply during downtime, or when you're interacting with a steading's 
 
 ---
 
-![[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]
+![[Trade & Barter]]
 
 ---
 
@@ -1003,7 +1003,7 @@ When you [[Outfit]] for an expedition (page 77), you'll fill out your Inventory 
 
 Every PC has the same Inventory insert. Items that are printed on the insert are commonly available in Stonetop, things that any PC has access to if they need it.  You might not own a shovel yourself, but you know someone who does, someone willing to loan it to you or trade you for it. The GM might ask where you got it, but if it's printed on the insert, you can acquire it, no problem.
 
-The insert also has blank spaces, where you can write in other common items or **[[Stonetop Compendium/Glossary/Special Possessions]]** (see page 90).
+The insert also has blank spaces, where you can write in other common items or **[[Compendium/Glossary/Special Possessions]]** (see page 90).
 
 *pg 86*
 ## Load
@@ -1090,7 +1090,7 @@ You acquire special possessions by...
 
 ... choosing them when you create your character;
 ... naturally, through play (as loot, as a gift or reward, etc.); and
-... **[[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter|Trading & Bartering]]** (page 83).
+... **[[Trade & Barter|Trading & Bartering]]** (page 83).
 
 Track your special possessions on your Inventory insert, in an appropriate blank. You can [[Outfit]] (page 77) with them, or **[[Have What You Need]]** (page 78) to mark them once you're in the field. Like any item, they count against your load (if they have a ◇ or ◇◇ ) and your starting number of small items.
 
@@ -1110,7 +1110,7 @@ If you're a Seeker, add your arcana to your Inventory sheet, too! If they have a
 ### Possessions gained in play
 When you acquire a new item in play, add it to your Inventory insert in the appropriate spot. When you return home, leave it on your insert. It's now one of your special possessions; you can mark it when you [[Outfit]] or [[Have What You Need]].
 
-You can, of course, freely discard a new special possession, or give it away, or trade it to another PC. But if you want to sell it to an NPC, you must roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]] (page 83).
+You can, of course, freely discard a new special possession, or give it away, or trade it to another PC. But if you want to sell it to an NPC, you must roll to [[Trade & Barter]] (page 83).
 
 
 > *You and Vahid trudge home. You've still got that makerglass shard, the 🗹🗹 bronze plaque, and the 🗹 beznpol hide.*
@@ -1120,9 +1120,9 @@ You can, of course, freely discard a new special possession, or give it away, or
 ## Trade & Barter
 Commonly available items - things on the Inventory insert, or that could be found in pretty much any Stonetop household - are readily available. Folks trade, loan, and gift these items all the time, and its not worth tracking them. See page 95 for a list of example **common items.**
 
-To acquire or sell a special item, though, you must roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]] (page 83). The result tells you whether you can make the trade easily and fairly (on a 10+), or if there's a catch (on a 7-9), or if the trade just isn't going to happen here and now.
+To acquire or sell a special item, though, you must roll to [[Trade & Barter]] (page 83). The result tells you whether you can make the trade easily and fairly (on a 10+), or if there's a catch (on a 7-9), or if the trade just isn't going to happen here and now.
 
-See page 96 for a list of **special items.** For items not on the list, the GM decides whether there's any chance of finding it (or finding a buyer for it). If not, don't roll to [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]; [[Make a Plan]] (page 81) with the GM instead.
+See page 96 for a list of **special items.** For items not on the list, the GM decides whether there's any chance of finding it (or finding a buyer for it). If not, don't roll to [[Trade & Barter]]; [[Make a Plan]] (page 81) with the GM instead.
 
 ## Value
 The world of *Stonetop*has no central government, no common currency, and no standard exchange rates. So, what constitutes a fair trade?

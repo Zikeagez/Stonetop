@@ -99,5 +99,6 @@
   "ITS@@h1-border-line-height": 4,
   "ITS@@writing-document": false,
   "ITS@@font": "\"Avara Black\"",
-  "ITS@@h1-font": "\"Avara Black\""
+  "ITS@@h1-font": "\"Avara Black\"",
+  "ITS@@embed-mini-headers": false
 }

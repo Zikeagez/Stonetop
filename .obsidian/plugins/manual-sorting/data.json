@@ -12,7 +12,7 @@
         "1. World",
         "Stonetop Book I",
         "Stonetop Book II",
-        "Stonetop Compendium",
+        "Compendium",
         "Stonetop Physical Handouts",
         "Excalidraw",
         "z_Assets",
@@ -83,7 +83,8 @@
         "0. Scratch Notes/Bases",
         "0. Scratch Notes/DM Notes",
         "0. Scratch Notes/Stone Top To do.md",
-        "0. Scratch Notes/Untitled.md"
+        "0. Scratch Notes/Untitled.md",
+        "0. Scratch Notes/Stonetop Map MASTER.md"
       ],
       "sortOrder": "custom"
     },
@@ -352,10 +353,1087 @@
       ],
       "sortOrder": "custom"
     },
+    "Compendium": {
+      "children": [
+        "Compendium/Bestiary",
+        "Compendium/Rules",
+        "Compendium/LICENSE",
+        "Compendium/Glossary"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Bestiary": {
+      "children": [
+        "Compendium/Bestiary/The Gwraig Wen.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Glossary": {
+      "children": [
+        "Compendium/Glossary/Advantage.md",
+        "Compendium/Glossary/Arcana.md",
+        "Compendium/Glossary/Armor.md",
+        "Compendium/Glossary/Background.md",
+        "Compendium/Glossary/Charisma.md",
+        "Compendium/Glossary/Constitution.md",
+        "Compendium/Glossary/Damage.md",
+        "Compendium/Glossary/Dazed.md",
+        "Compendium/Glossary/Debilities.md",
+        "Compendium/Glossary/Dexterity.md",
+        "Compendium/Glossary/Disadvantage.md",
+        "Compendium/Glossary/Fictional Positioning.md",
+        "Compendium/Glossary/Followers.md",
+        "Compendium/Glossary/Hit Points (HP).md",
+        "Compendium/Glossary/Instinct.md",
+        "Compendium/Glossary/Intelligence.md",
+        "Compendium/Glossary/Miserable.md",
+        "Compendium/Glossary/PC vs. PC.md",
+        "Compendium/Glossary/Roll.md",
+        "Compendium/Glossary/Special Possessions.md",
+        "Compendium/Glossary/Strength.md",
+        "Compendium/Glossary/Weakened.md",
+        "Compendium/Glossary/Wisdom.md",
+        "Compendium/Glossary/Your Agenda.md",
+        "Compendium/Glossary/Inventory.md",
+        "Compendium/Glossary/Load.md",
+        "Compendium/Glossary/Small Items.md",
+        "Compendium/Glossary/Prosperity.md",
+        "Compendium/Glossary/Fortunes.md",
+        "Compendium/Glossary/Population.md",
+        "Compendium/Glossary/Defenses.md",
+        "Compendium/Glossary/Supplies.md",
+        "Compendium/Glossary/Provisions.md",
+        "Compendium/Glossary/Possessions gained in play.md",
+        "Compendium/Glossary/Trade & Barter gloss.md",
+        "Compendium/Glossary/Value.md",
+        "Compendium/Glossary/Coins.md",
+        "Compendium/Glossary/Cost Tables.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules": {
+      "children": [
+        "Compendium/Rules/Character Creation",
+        "Compendium/Rules/Moves",
+        "Compendium/Rules/GM Moves",
+        "Compendium/Rules/Threat Types"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/Playbooks.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/The Blessed.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance/Blessed Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Initiate.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Raised By Wolves.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Vessel.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts/Blessed Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions/Blessed Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Amulets & Talismans.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Barkskin.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Big Magic.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Danu's Grasp.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Healer's Arts.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Heed My Words.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Into The Lion's Den.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Lightning Rod.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Rites of the Land.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Spirit Tongue.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Borrow Power.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Call The Spirits.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Trackless Step.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Veil.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Wards & Bindings.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Wild Soul.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Nature's Wrath.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Potent Workings.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Shared Souls.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Suck The Poison Out.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Voice of the Earth Mother.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name/Blessed Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions/Sacred Pouch.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions/The Earth Mother.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/The Fox.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance/Fox Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/The Natural.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/A Life of Crime.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/The Prodigal Returned.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts/Fox Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions/Fox Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/All In The Wrist.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Ambush.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Burgle.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Catlike.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Dabbler.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Danger Sense.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Free Running.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Irresistible.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Laugh At Danger.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Light Fingers.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Perceptive.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Rapier Wit.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Skill At Arms.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Parry & Riposte.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Silver Tongued.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Under Your Skin.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Battle Dancer.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Cheap Shot.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Eye On The Door.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Pants On Fire.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Second Intent.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Slippery.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Superior Stat.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name/Fox Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions/Special Possessions.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions/Tall Tales.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Ghost/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ghost/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/The Heavy.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance/Heavy Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Sheriff.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Blood-Soaked Past.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Storm-Marked.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts/Heavy Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions/Heavy Introduction.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Armored.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Battle Joy.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Berserker.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Carved Out of Wood.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Dangerous.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Formidable.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Frosty.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Guardian.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Intimidating.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Hard to Kill.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Unstoppable.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Musclebound.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Payback.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Relentless.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Seasoned Warrior.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Situational Awareness.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Uncanny Reflexes.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Infettered.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Terror on the Field.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Bringer of Ruin.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Cut from Granite.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Mighty Thews.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Nemesis.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Steadfast Guardian.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Stone Cold.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Superior Stat.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name/Heavy Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions/A History of Violence.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/The Judge.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance/Judge Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Legacy.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Missionary.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Prophet.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts/Judge Instinct.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions/Judge Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Aegis of Faith.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Armored.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Bear Witness.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Break Bread.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Bulwark.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Censure.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Castigate.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Chronicler of Stonetop.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/For The Greater Good.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Hounds of Aratis.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Like a Dog With a Bone.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Knowledge is Power.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Many Hands Make Light Work.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/A Bundle of Sticks Unbroken.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/The Hammer and the Book.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Truth or Consequences.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Binding Arbitration.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Vision Unclouded.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Well-Read.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/A Mighty Rampart.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Armistice.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Condemn.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Proclomation.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Mirrorshield.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/The Tower Eternal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name/Judge Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions/The Chronicle.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions/The Lawkeeper.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/The Lightbearer.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance/Lightbearer Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Auspicious Birth.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Itinerant Mystic.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Soul on Fire.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts/Lightbearer Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions/Lightbearer Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/A Candle Against the Dark.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Luminous Shield.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/All is Illuminated.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/And Behold a Pale Horse.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Consecrated Flame.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Fire Within.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Guiding Light.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Helior's Unblinking Eye.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Invoke the Sun God.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Keep The Home-Fires Burning.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Lamplighter.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Piety.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Purifying Flames.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Radiant Countenance.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Rise Like the Sun.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Spring's First Thaw.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Burn Twice as Bright.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Empowered Invocations.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Glorious Servant.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Hungry Flames.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Light, More Light.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Wielder of the White Flame.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name/Lightbearer Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions/Praise The Day.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/The Marshal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance/Marshal Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Scion.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Penitent.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Luminary.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts/Marshal Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions/Marshal Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Armored.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Arts of War.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Crew.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Veteran Crew.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Front Line Leader.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Logistics.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Read The Land.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Prepare a Welcome.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Set-Up Strike.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Shield Wall.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Sir, Permission To Die, Sir.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Speak Softly.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Stentorian.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Take The Measure.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/We Happy Few.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Battlefield Grace.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Heroes To The Last.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Like An Open Book.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Focus Fire.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Noble Mien.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Peace Through Strength.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Superior Stat.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name/Marshal Place or Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions/War Stories.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/The Ranger.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance/Ranger Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Mighty Hunter.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Wide Wanderer.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Beast-Bonded.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts/Ranger Instinct.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions/Ranger Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/A Safe Place.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Animal Companion.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Magnificent Specimen.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Big Game Hunter.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Blot Out The Sun.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Call The Shot.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Expert Tracker.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Home On The Range.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Mental Map.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Naturalist.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/On the Hoof.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Pack Horse.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Pathfinder.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Predator.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Sniff Out Corruption.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Stalker.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Survivalist.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Warden of the Wild.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Wild Speech.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Worldly.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Alpha.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Beast of Legend.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Constant Vigilance.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Giant Slayer.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Trailblazer.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Walk It Off.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name/Ranger Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions/Something Wicked This Way Comes.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Revenant/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Revenant/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/The Seeker.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance/Seeker Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Patriot.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Antiquarian.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Witch Hunter.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts/Seeker Instinct.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions/Seeker Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Attuned.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Conduit Of Power.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Countermeasures.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Everything Bleeds.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Everything Burns.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Initiate of the Secret Arts.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Let's Make a Deal.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Logbook.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Magpie.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Never At A Loss.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Polyglot.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Cryptologist.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Quick Study.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Safety First.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Sage Advice.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Well Versed.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Work With What You've Got.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Arcane Adept.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Deep Insight.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Improvise.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Mind Over Magic.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Overchannel.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Proof Against Detection.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name/Seeker Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions/Collection.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Thrall/Special Possessions"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Appearance": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Backgrounds": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Instincts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Introductions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Moves": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Place of Origin and name": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Thrall/Special Possessions": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/The Would-be Hero.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance/Would-Be Hero Appearance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Impetuous Youth.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Driven.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Destined.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts/Would-Be Hero Instincts.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions/Would-be Hero Introductions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Anger Is A Gift.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Speak Truth To Power.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Better Part of Valor.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/I Get Knocked Down.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/But I Get Up Again.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Improved Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/In Over Your HEad.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Iron Will.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Inquiring Minds.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Never Gonna Keep Me Down.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Potential For Greatness.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Resourceful.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Something To Remember Me By.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Tough Love.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Underestimated.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Up With People.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Versatile.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/A Force To Be Reckoned With.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Big Damn Hero.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Superior Stat.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Undaunted.md",
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Voice of Experience.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name/Would-Be Hero Place of Origin and Name.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions": {
+      "children": [
+        "Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions/Fear & Anger.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/GM Moves": {
+      "children": [
+        "Compendium/Rules/GM Moves/Exploration Moves",
+        "Compendium/Rules/GM Moves/Announce trouble (future or offscreen).md",
+        "Compendium/Rules/GM Moves/Reveal an Unwelcome Truth.md",
+        "Compendium/Rules/GM Moves/Ask a Provocative Question.md",
+        "Compendium/Rules/GM Moves/Put Someone in a Spot.md",
+        "Compendium/Rules/GM Moves/Use Up Their Resources.md",
+        "Compendium/Rules/GM Moves/Demonstrate a Downside.md",
+        "Compendium/Rules/GM Moves/Turn Their Move Back on Them.md",
+        "Compendium/Rules/GM Moves/Hurt Someone.md",
+        "Compendium/Rules/GM Moves/Separate Them.md",
+        "Compendium/Rules/GM Moves/Capture Someone.md",
+        "Compendium/Rules/GM Moves/Offer an Opportunity (With or Without a Cost).md",
+        "Compendium/Rules/GM Moves/Tell Them the Consequences or Requirements (then ask).md",
+        "Compendium/Rules/GM Moves/Advance Towards Impending Doom.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/GM Moves/Exploration Moves": {
+      "children": [
+        "Compendium/Rules/GM Moves/Exploration Moves/Provide a Choice of Paths.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Hint at More Than Meets the Eye.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Offer Riches at a Price.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Present a Discovery.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Point to a Looming Danger.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Introduce a Danger, Person, or Faction.md",
+        "Compendium/Rules/GM Moves/Exploration Moves/Bar the Way.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Moves.md",
+        "Compendium/Rules/Moves/Basic Moves",
+        "Compendium/Rules/Moves/Special Moves",
+        "Compendium/Rules/Moves/Follower Moves",
+        "Compendium/Rules/Moves/Expedition Moves",
+        "Compendium/Rules/Moves/Homefront Moves",
+        "Compendium/Rules/Moves/Seasons Change"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Basic Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Basic Moves/Aid.md",
+        "Compendium/Rules/Moves/Basic Moves/Clash.md",
+        "Compendium/Rules/Moves/Basic Moves/Defend.md",
+        "Compendium/Rules/Moves/Basic Moves/Defy Danger.md",
+        "Compendium/Rules/Moves/Basic Moves/Interfere.md",
+        "Compendium/Rules/Moves/Basic Moves/Know Things.md",
+        "Compendium/Rules/Moves/Basic Moves/Let Fly.md",
+        "Compendium/Rules/Moves/Basic Moves/Persuade (vs. NPCs).md",
+        "Compendium/Rules/Moves/Basic Moves/Persuade (vs. PCs).md",
+        "Compendium/Rules/Moves/Basic Moves/Seek Insight.md",
+        "Compendium/Rules/Moves/Basic Moves/Basic Moves.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Expedition Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Expedition Moves/Chart a Course.md",
+        "Compendium/Rules/Moves/Expedition Moves/Outfit.md",
+        "Compendium/Rules/Moves/Expedition Moves/Requisition.md",
+        "Compendium/Rules/Moves/Expedition Moves/Make Camp.md",
+        "Compendium/Rules/Moves/Expedition Moves/Forage.md",
+        "Compendium/Rules/Moves/Expedition Moves/Return Triumphant.md",
+        "Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
+        "Compendium/Rules/Moves/Expedition Moves/Have What You Need.md",
+        "Compendium/Rules/Moves/Expedition Moves/Recover.md",
+        "Compendium/Rules/Moves/Expedition Moves/Struggle As One.md",
+        "Compendium/Rules/Moves/Expedition Moves/Keep Company.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Follower Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Follower Moves/Order Followers.md",
+        "Compendium/Rules/Moves/Follower Moves/Strengthen Your Bond.md",
+        "Compendium/Rules/Moves/Follower Moves/Follower Moves.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Homefront Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
+        "Compendium/Rules/Moves/Homefront Moves/Bolster.md",
+        "Compendium/Rules/Moves/Homefront Moves/Convalesce.md",
+        "Compendium/Rules/Moves/Homefront Moves/Deploy.md",
+        "Compendium/Rules/Moves/Homefront Moves/Level Up.md",
+        "Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
+        "Compendium/Rules/Moves/Homefront Moves/Muster.md",
+        "Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
+        "Compendium/Rules/Moves/Homefront Moves/Trade & Barter.md",
+        "Compendium/Rules/Moves/Homefront Moves/Homefront Moves.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Seasons Change": {
+      "children": [
+        "Compendium/Rules/Moves/Seasons Change/Seasons Change.md",
+        "Compendium/Rules/Moves/Seasons Change/Seasonal Gains.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Moves/Special Moves": {
+      "children": [
+        "Compendium/Rules/Moves/Special Moves/Advantage - Disadvantage.md",
+        "Compendium/Rules/Moves/Special Moves/Burn Brightly.md",
+        "Compendium/Rules/Moves/Special Moves/End of Session.md",
+        "Compendium/Rules/Moves/Special Moves/Death's Door.md",
+        "Compendium/Rules/Moves/Special Moves/Special Moves.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Compendium/Rules/Threat Types": {
+      "children": [
+        "Compendium/Rules/Threat Types/Affliction.md",
+        "Compendium/Rules/Threat Types/Beast.md",
+        "Compendium/Rules/Threat Types/Institution.md",
+        "Compendium/Rules/Threat Types/MacGuffin.md",
+        "Compendium/Rules/Threat Types/Magical Entity.md",
+        "Compendium/Rules/Threat Types/Rabble.md",
+        "Compendium/Rules/Threat Types/Villain.md",
+        "Compendium/Rules/Threat Types/Wildcard.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Excalidraw": {
       "children": [
         "Excalidraw/Scripts",
-        "Excalidraw/Chronos Cheatsheet.md"
+        "Excalidraw/Chronos Cheatsheet.md",
+        "Excalidraw/Drawing 2026-10-20 12.17.46.excalidraw.md",
+        "Excalidraw/Libraries"
+      ],
+      "sortOrder": "custom"
+    },
+    "Excalidraw/Libraries": {
+      "children": [
+        "Excalidraw/Libraries/local-library.excalidrawlib"
       ],
       "sortOrder": "custom"
     },
@@ -378,7 +1456,8 @@
         "Stonetop Book I/Harm & Healing.md",
         "Stonetop Book I/First Adventure.md",
         "Stonetop Book I/Threats.md",
-        "Stonetop Book I/Expeditions.md"
+        "Stonetop Book I/Expeditions.md",
+        "Stonetop Book I/Sites.md"
       ],
       "sortOrder": "custom"
     },
@@ -395,1062 +1474,6 @@
       "children": [
         "Stonetop Book II/Stonetop Book II.md",
         "Stonetop Book II/Untitled.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium": {
-      "children": [
-        "Stonetop Compendium/Bestiary",
-        "Stonetop Compendium/Rules",
-        "Stonetop Compendium/LICENSE",
-        "Stonetop Compendium/Glossary"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Bestiary": {
-      "children": [
-        "Stonetop Compendium/Bestiary/The Gwraig Wen.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Glossary": {
-      "children": [
-        "Stonetop Compendium/Glossary/Advantage.md",
-        "Stonetop Compendium/Glossary/Arcana.md",
-        "Stonetop Compendium/Glossary/Armor.md",
-        "Stonetop Compendium/Glossary/Background.md",
-        "Stonetop Compendium/Glossary/Charisma.md",
-        "Stonetop Compendium/Glossary/Constitution.md",
-        "Stonetop Compendium/Glossary/Damage.md",
-        "Stonetop Compendium/Glossary/Dazed.md",
-        "Stonetop Compendium/Glossary/Debilities.md",
-        "Stonetop Compendium/Glossary/Dexterity.md",
-        "Stonetop Compendium/Glossary/Disadvantage.md",
-        "Stonetop Compendium/Glossary/Fictional Positioning.md",
-        "Stonetop Compendium/Glossary/Followers.md",
-        "Stonetop Compendium/Glossary/Hit Points (HP).md",
-        "Stonetop Compendium/Glossary/Instinct.md",
-        "Stonetop Compendium/Glossary/Intelligence.md",
-        "Stonetop Compendium/Glossary/Miserable.md",
-        "Stonetop Compendium/Glossary/PC vs. PC.md",
-        "Stonetop Compendium/Glossary/Roll.md",
-        "Stonetop Compendium/Glossary/Special Possessions.md",
-        "Stonetop Compendium/Glossary/Strength.md",
-        "Stonetop Compendium/Glossary/Weakened.md",
-        "Stonetop Compendium/Glossary/Wisdom.md",
-        "Stonetop Compendium/Glossary/Your Agenda.md",
-        "Stonetop Compendium/Glossary/Inventory.md",
-        "Stonetop Compendium/Glossary/Load.md",
-        "Stonetop Compendium/Glossary/Small Items.md",
-        "Stonetop Compendium/Glossary/Prosperity.md",
-        "Stonetop Compendium/Glossary/Fortunes.md",
-        "Stonetop Compendium/Glossary/Population.md",
-        "Stonetop Compendium/Glossary/Defenses.md",
-        "Stonetop Compendium/Glossary/Supplies.md",
-        "Stonetop Compendium/Glossary/Provisions.md",
-        "Stonetop Compendium/Glossary/Possessions gained in play.md",
-        "Stonetop Compendium/Glossary/Trade & Barter gloss.md",
-        "Stonetop Compendium/Glossary/Value.md",
-        "Stonetop Compendium/Glossary/Coins.md",
-        "Stonetop Compendium/Glossary/Cost Tables.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation",
-        "Stonetop Compendium/Rules/Moves",
-        "Stonetop Compendium/Rules/GM Moves",
-        "Stonetop Compendium/Rules/Threat Types"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/Playbooks.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/The Blessed.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Appearance/Blessed Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Initiate.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Raised By Wolves.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Backgrounds/Vessel.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Instincts/Blessed Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Introductions/Blessed Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Amulets & Talismans.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Barkskin.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Big Magic.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Danu's Grasp.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Healer's Arts.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Heed My Words.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Into The Lion's Den.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Lightning Rod.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Rites of the Land.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Spirit Tongue.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Borrow Power.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Call The Spirits.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Trackless Step.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Veil.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Wards & Bindings.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Wild Soul.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Nature's Wrath.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Potent Workings.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Shared Souls.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Suck The Poison Out.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Moves/Voice of the Earth Mother.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Place of Origin and name/Blessed Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions/Sacred Pouch.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Blessed/Special Possessions/The Earth Mother.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/The Fox.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Appearance/Fox Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/The Natural.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/A Life of Crime.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Backgrounds/The Prodigal Returned.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Instincts/Fox Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Introductions/Fox Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/All In The Wrist.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Ambush.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Burgle.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Catlike.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Dabbler.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Danger Sense.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Free Running.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Irresistible.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Laugh At Danger.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Light Fingers.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Perceptive.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Rapier Wit.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Skill At Arms.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Parry & Riposte.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Silver Tongued.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Under Your Skin.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Battle Dancer.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Cheap Shot.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Eye On The Door.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Pants On Fire.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Second Intent.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Slippery.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Moves/Superior Stat.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Place of Origin and name/Fox Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions/Special Possessions.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Fox/Special Possessions/Tall Tales.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Special Possessions"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Appearance": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Backgrounds": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Instincts": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Introductions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Moves": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Place of Origin and name": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ghost/Special Possessions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/The Heavy.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Appearance/Heavy Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Sheriff.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Blood-Soaked Past.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Backgrounds/Storm-Marked.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Instincts/Heavy Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Introductions/Heavy Introduction.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Armored.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Battle Joy.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Berserker.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Carved Out of Wood.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Dangerous.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Formidable.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Frosty.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Guardian.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Intimidating.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Hard to Kill.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Unstoppable.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Musclebound.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Payback.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Relentless.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Seasoned Warrior.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Situational Awareness.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Uncanny Reflexes.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Infettered.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Terror on the Field.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Bringer of Ruin.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Cut from Granite.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Mighty Thews.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Nemesis.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Steadfast Guardian.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Stone Cold.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Moves/Superior Stat.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Place of Origin and name/Heavy Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Heavy/Special Possessions/A History of Violence.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/The Judge.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Appearance/Judge Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Legacy.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Missionary.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Backgrounds/Prophet.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Instincts/Judge Instinct.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Introductions/Judge Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Aegis of Faith.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Armored.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Bear Witness.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Break Bread.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Bulwark.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Censure.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Castigate.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Chronicler of Stonetop.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/For The Greater Good.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Hounds of Aratis.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Like a Dog With a Bone.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Knowledge is Power.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Many Hands Make Light Work.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/A Bundle of Sticks Unbroken.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/The Hammer and the Book.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Truth or Consequences.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Binding Arbitration.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Vision Unclouded.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Well-Read.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/A Mighty Rampart.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Armistice.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Condemn.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Proclomation.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Mirrorshield.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Moves/The Tower Eternal.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Place of Origin and name/Judge Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions/The Chronicle.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Judge/Special Possessions/The Lawkeeper.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/The Lightbearer.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Appearance/Lightbearer Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Auspicious Birth.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Itinerant Mystic.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Backgrounds/Soul on Fire.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Instincts/Lightbearer Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Introductions/Lightbearer Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/A Candle Against the Dark.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Luminous Shield.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/All is Illuminated.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/And Behold a Pale Horse.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Consecrated Flame.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Fire Within.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Guiding Light.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Helior's Unblinking Eye.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Invoke the Sun God.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Keep The Home-Fires Burning.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Lamplighter.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Piety.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Purifying Flames.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Radiant Countenance.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Rise Like the Sun.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Spring's First Thaw.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Burn Twice as Bright.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Empowered Invocations.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Glorious Servant.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Hungry Flames.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Light, More Light.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Moves/Wielder of the White Flame.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Place of Origin and name/Lightbearer Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Lightbearer/Special Possessions/Praise The Day.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/The Marshal.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Appearance/Marshal Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Scion.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Penitent.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Backgrounds/Luminary.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Instincts/Marshal Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Introductions/Marshal Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Armored.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Arts of War.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Crew.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Veteran Crew.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Front Line Leader.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Logistics.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Read The Land.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Prepare a Welcome.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Set-Up Strike.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Shield Wall.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Sir, Permission To Die, Sir.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Speak Softly.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Stentorian.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Take The Measure.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/We Happy Few.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Battlefield Grace.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Heroes To The Last.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Like An Open Book.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Focus Fire.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Noble Mien.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Peace Through Strength.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Moves/Superior Stat.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Place of Origin and name/Marshal Place or Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Marshal/Special Possessions/War Stories.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/The Ranger.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Appearance/Ranger Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Mighty Hunter.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Wide Wanderer.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Backgrounds/Beast-Bonded.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Instincts/Ranger Instinct.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Introductions/Ranger Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/A Safe Place.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Animal Companion.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Magnificent Specimen.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Big Game Hunter.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Blot Out The Sun.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Call The Shot.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Expert Tracker.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Home On The Range.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Mental Map.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Naturalist.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/On the Hoof.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Pack Horse.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Pathfinder.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Predator.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Sniff Out Corruption.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Stalker.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Survivalist.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Warden of the Wild.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Wild Speech.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Worldly.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Alpha.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Beast of Legend.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Constant Vigilance.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Giant Slayer.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Trailblazer.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Moves/Walk It Off.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Place of Origin and name/Ranger Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Ranger/Special Possessions/Something Wicked This Way Comes.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Special Possessions"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Appearance": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Backgrounds": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Instincts": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Introductions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Moves": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Place of Origin and name": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Revenant/Special Possessions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/The Seeker.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Appearance/Seeker Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Patriot.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Antiquarian.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Backgrounds/Witch Hunter.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Instincts/Seeker Instinct.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Introductions/Seeker Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Attuned.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Conduit Of Power.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Countermeasures.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Everything Bleeds.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Everything Burns.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Initiate of the Secret Arts.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Let's Make a Deal.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Logbook.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Magpie.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Never At A Loss.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Polyglot.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Cryptologist.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Quick Study.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Safety First.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Sage Advice.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Well Versed.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Work With What You've Got.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Arcane Adept.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Deep Insight.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Improvise.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Mind Over Magic.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Overchannel.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Moves/Proof Against Detection.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Place of Origin and name/Seeker Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Seeker/Special Possessions/Collection.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Special Possessions"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Appearance": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Backgrounds": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Instincts": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Introductions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Moves": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Place of Origin and name": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Thrall/Special Possessions": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/The Would-be Hero.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Appearance/Would-Be Hero Appearance.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Impetuous Youth.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Driven.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Backgrounds/Destined.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Instincts/Would-Be Hero Instincts.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Introductions/Would-be Hero Introductions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Anger Is A Gift.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Speak Truth To Power.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Better Part of Valor.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/I Get Knocked Down.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/But I Get Up Again.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Improved Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/In Over Your HEad.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Iron Will.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Inquiring Minds.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Never Gonna Keep Me Down.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Potential For Greatness.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Resourceful.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Something To Remember Me By.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Tough Love.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Underestimated.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Up With People.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Versatile.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/A Force To Be Reckoned With.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Big Damn Hero.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Superior Stat.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Undaunted.md",
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Moves/Voice of Experience.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Place of Origin and name/Would-Be Hero Place of Origin and Name.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions": {
-      "children": [
-        "Stonetop Compendium/Rules/Character Creation/Playbooks/The Would-be Hero/Special Possessions/Fear & Anger.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/GM Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/GM Moves/Announce trouble (future or offscreen).md",
-        "Stonetop Compendium/Rules/GM Moves/Reveal an Unwelcome Truth.md",
-        "Stonetop Compendium/Rules/GM Moves/Ask a Provocative Question.md",
-        "Stonetop Compendium/Rules/GM Moves/Put Someone in a Spot.md",
-        "Stonetop Compendium/Rules/GM Moves/Use Up Their Resources.md",
-        "Stonetop Compendium/Rules/GM Moves/Demonstrate a Downside.md",
-        "Stonetop Compendium/Rules/GM Moves/Turn Their Move Back on Them.md",
-        "Stonetop Compendium/Rules/GM Moves/Hurt Someone.md",
-        "Stonetop Compendium/Rules/GM Moves/Separate Them.md",
-        "Stonetop Compendium/Rules/GM Moves/Capture Someone.md",
-        "Stonetop Compendium/Rules/GM Moves/Offer an Opportunity (With or Without a Cost).md",
-        "Stonetop Compendium/Rules/GM Moves/Tell Them the Consequences or Requirements (then ask).md",
-        "Stonetop Compendium/Rules/GM Moves/Advance Towards Impending Doom.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Moves.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves",
-        "Stonetop Compendium/Rules/Moves/Special Moves",
-        "Stonetop Compendium/Rules/Moves/Follower Moves",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves",
-        "Stonetop Compendium/Rules/Moves/Seasons Change"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Basic Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Aid.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Clash.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Defend.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Defy Danger.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Interfere.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Know Things.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Let Fly.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Persuade (vs. NPCs).md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Persuade (vs. PCs).md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Seek Insight.md",
-        "Stonetop Compendium/Rules/Moves/Basic Moves/Basic Moves.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Expedition Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Chart a Course.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Outfit.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Requisition.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Make Camp.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Forage.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Return Triumphant.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Expedition Moves.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Have What You Need.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Recover.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Struggle As One.md",
-        "Stonetop Compendium/Rules/Moves/Expedition Moves/Keep Company.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Follower Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Follower Moves/Order Followers.md",
-        "Stonetop Compendium/Rules/Moves/Follower Moves/Strengthen Your Bond.md",
-        "Stonetop Compendium/Rules/Moves/Follower Moves/Follower Moves.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Homefront Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Make a Plan.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Bolster.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Convalesce.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Deploy.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Level Up.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Meet with Disaster.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Muster.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Pull Together.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter.md",
-        "Stonetop Compendium/Rules/Moves/Homefront Moves/Homefront Moves.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Seasons Change": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Seasons Change/Seasons Change.md",
-        "Stonetop Compendium/Rules/Moves/Seasons Change/Seasonal Gains.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Moves/Special Moves": {
-      "children": [
-        "Stonetop Compendium/Rules/Moves/Special Moves/Advantage - Disadvantage.md",
-        "Stonetop Compendium/Rules/Moves/Special Moves/Burn Brightly.md",
-        "Stonetop Compendium/Rules/Moves/Special Moves/End of Session.md",
-        "Stonetop Compendium/Rules/Moves/Special Moves/Death's Door.md",
-        "Stonetop Compendium/Rules/Moves/Special Moves/Special Moves.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Stonetop Compendium/Rules/Threat Types": {
-      "children": [
-        "Stonetop Compendium/Rules/Threat Types/Affliction.md",
-        "Stonetop Compendium/Rules/Threat Types/Beast.md",
-        "Stonetop Compendium/Rules/Threat Types/Institution.md",
-        "Stonetop Compendium/Rules/Threat Types/MacGuffin.md",
-        "Stonetop Compendium/Rules/Threat Types/Magical Entity.md",
-        "Stonetop Compendium/Rules/Threat Types/Rabble.md",
-        "Stonetop Compendium/Rules/Threat Types/Villain.md",
-        "Stonetop Compendium/Rules/Threat Types/Wildcard.md"
       ],
       "sortOrder": "custom"
     },
@@ -1472,7 +1495,8 @@
         "z_Assets/Playbooks and Inserts",
         "z_Assets/image.webp",
         "z_Assets/Map 1 - Stonetop - 11 x 14.webp",
-        "z_Assets/Icon - Undead.webp"
+        "z_Assets/Icon - Undead.webp",
+        "z_Assets/Image - Vicinity Map.webp"
       ],
       "sortOrder": "custom"
     },
@@ -1514,7 +1538,8 @@
     "z_Assets/Maps": {
       "children": [
         "z_Assets/Maps/Map - The Setting.webp",
-        "z_Assets/Maps/Map - Stonetop.webp"
+        "z_Assets/Maps/Map - Stonetop.webp",
+        "z_Assets/Maps/Map - The Setting.webp.markers.json"
       ],
       "sortOrder": "custom"
     },
@@ -1611,7 +1636,8 @@
         "z_Templates/Bases Templates",
         "z_Templates/World Builder Templates",
         "z_Templates/Bases - Recently Modified Template Content.base",
-        "z_Templates/Stonetop Organization"
+        "z_Templates/Stonetop Organization",
+        "z_Templates/Zoom Map.md"
       ],
       "sortOrder": "custom"
     },

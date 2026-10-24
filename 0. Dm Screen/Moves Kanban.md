@@ -4,7 +4,7 @@ kanban-plugin: board
 
 ---
 
-## [[Stonetop Compendium/Rules/Moves/Basic Moves/Basic Moves|Basic Moves]]
+## [[Compendium/Rules/Moves/Basic Moves/Basic Moves|Basic Moves]]
 
 - [ ] [[Aid]]
 - [ ] [[Clash]]
@@ -18,11 +18,11 @@ kanban-plugin: board
 - [ ] [[Seek Insight]]
 
 
-## [[Stonetop Compendium/Rules/Moves/Special Moves/Special Moves]]
+## [[Compendium/Rules/Moves/Special Moves/Special Moves|Special Moves]]
 
 - [ ] [[Advantage - Disadvantage]]
 - [ ] [[Burn Brightly]]
-- [ ] [[Stonetop Compendium/Rules/Moves/Special Moves/End of Session]]
+- [ ] [[End of Session]]
 - [ ] [[Death's Door]]
 
 
@@ -56,7 +56,7 @@ kanban-plugin: board
 - [ ] [[Meet with Disaster]]
 - [ ] [[Muster]]
 - [ ] [[Pull Together]]
-- [ ] [[Stonetop Compendium/Rules/Moves/Homefront Moves/Trade & Barter]]
+- [ ] [[Trade & Barter]]
 
 
 

@@ -113,9 +113,9 @@ Each threat type comes with a series of GM moves, which reflect how that type of
 > Sajra the Swyn is a big, hypnotic, monkey-headed snake, narcissistic, a collector with exacting tastes, capable of turning the weak-willed into fawning servants. Looking at the list of threat types, I briefly consider making it a magical entity, but that doesn't feel right. No, it's pretty clearly a villain.
 
 #### Affliction
-![[Affliction]]
+![[Affliction|no-title]]
 #### Beast
-![[Beast]]
+![[Beast|no-title]]
 #### Institution
 ![[Institution]]
 #### MacGuffin

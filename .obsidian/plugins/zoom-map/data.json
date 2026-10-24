@@ -1,0 +1,79 @@
+{
+  "icons": [
+    {
+      "key": "pinRed",
+      "pathOrDataUrl": "data:image/svg+xml;charset=UTF-8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%3Cpath%20fill%3D%22%23d23c3c%22%20d%3D%22M12%202a7%207%200%200%200-7%207c0%205.25%207%2013%207%2013s7-7.75%207-13a7%207%200%200%200-7-7m0%209.5A2.5%202.5%200%201%201%2012%206.5a2.5%202.5%200%200%201%200%205Z%22%2F%3E%0A%3C%2Fsvg%3E",
+      "size": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "inCollections": true
+    },
+    {
+      "key": "pinBlue",
+      "pathOrDataUrl": "data:image/svg+xml;charset=UTF-8,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%3Cpath%20fill%3D%22%233c62d2%22%20d%3D%22M12%202a7%207%200%200%200-7%207c0%205.25%207%2013%207%2013s7-7.75%207-13a7%207%200%200%200-7-7m0%209.5A2.5%202.5%200%201%201%2012%206.5a2.5%202.5%200%200%201%200%205Z%22%2F%3E%0A%3C%2Fsvg%3E",
+      "size": 24,
+      "anchorX": 0,
+      "anchorY": 0,
+      "inCollections": true
+    }
+  ],
+  "defaultIconKey": "pinRed",
+  "wheelZoomFactor": 1.1,
+  "panMouseButton": "left",
+  "hoverMaxWidth": 360,
+  "applyHoverPopoverSizeGlobally": false,
+  "hoverMaxHeight": 260,
+  "showLinkFileNameInTooltip": false,
+  "presets": [],
+  "stickerPresets": [],
+  "defaultWidth": "100%",
+  "defaultHeight": "480px",
+  "defaultResizable": false,
+  "defaultResizeHandle": "right",
+  "forcePopoverWithoutModKey": true,
+  "measureLineColor": "var(--text-accent)",
+  "measureLineWidth": 2,
+  "storageDefault": "json",
+  "defaultWidthWrapped": "50%",
+  "baseCollections": [],
+  "pinPlaceOpensEditor": true,
+  "libraryFilePath": "ZoomMap/library.json",
+  "faFolderPath": "ZoomMap/SVGs",
+  "customUnits": [],
+  "travelTimePresets": [],
+  "travelPerDay": {
+    "value": 8,
+    "unit": "h"
+  },
+  "travelRulesPacks": [
+    {
+      "id": "trp-h1kuo9",
+      "name": "Default travel rules",
+      "enabled": true,
+      "customUnits": [],
+      "terrains": [],
+      "travelTimePresets": [],
+      "travelPerDay": {
+        "value": 8,
+        "unit": "h"
+      }
+    }
+  ],
+  "defaultScaleLikeSticker": true,
+  "enableDrawing": true,
+  "preferActiveLayerInEditor": true,
+  "enableTextLayers": false,
+  "enableMeasurePro": false,
+  "enableSessionImageCache": false,
+  "showZoomButtonsHud": false,
+  "sessionImageCacheMb": 512,
+  "keepOverlaysLoaded": false,
+  "preferCanvasImagesWhenCaching": false,
+  "svgRasterMaxScale": 8,
+  "showImageIconPreviewInSettings": false,
+  "enableGrid": false,
+  "middleClickOpensLinkInNewTab": false,
+  "enableSecondScreen": false,
+  "secondScreenFolder": "ZoomMap/SecondScreen",
+  "openZoomMapNotesInReadingMode": false
+}
